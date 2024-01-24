@@ -1,0 +1,6 @@
+contractions
+numpy
+matplotlib
+pandas
+scipy
+nltk
