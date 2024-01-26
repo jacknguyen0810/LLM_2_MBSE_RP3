@@ -18,7 +18,7 @@ class RawData2Python:
 
         Args:
             filepath (str): Filepath to .txt file.
-            filename (str): Name of output file. Defaults to None.
+            filename (str, optional): Name of output file. Defaults to None.
             output_path (str, optional): If not None, then will output a .json file to specified output path. Defaults to None.
 
         Returns:
@@ -26,21 +26,16 @@ class RawData2Python:
         """
         data = {}
         with open(filepath) as fh:
-            for number, line in enumerate(fh):s
+            for number, line in enumerate(fh):
                 data[number] = line.strip()         
         out_path = os.path.join(output_path, filename)
         out_file = open(out_path, 'w')
         json.dump(data, out_file, indent = 4, sort_keys = False)    
-        return data
-    
-        
-    
-    
+        return data 
 
 if __name__ == "__main__":
     name = r"C:\Users\Jack\OneDrive\Documents\Python Scripts\LLM_2_MBSE_RP3\data\test_data.txt"
     output = r"C:\Users\Jack\OneDrive\Documents\Python Scripts\LLM_2_MBSE_RP3\data"
     preprocessing = RawData2Python()
     preprocessing.txt_to_dict(name, r"test_data.json", output)
-    
     
