@@ -1,5 +1,4 @@
 import json
-from pathlib import Path
 import os
 
 
@@ -25,11 +24,11 @@ class RawData2Python:
             _type_: _description_
         """
         data = {}
-        with open(filepath) as fh:
+        with open(filepath, encoding="utf-8") as fh:
             for number, line in enumerate(fh):
                 data[number] = line.strip()         
         out_path = os.path.join(output_path, filename)
-        out_file = open(out_path, 'w')
+        out_file = open(out_path, 'w', encoding="utf-8")
         json.dump(data, out_file, indent = 4, sort_keys = False)    
         return data 
 

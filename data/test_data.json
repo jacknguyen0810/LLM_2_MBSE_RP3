@@ -10,7 +10,7 @@
     "8": "- Maintain a minimum elevation angle of 30 degrees for target observations.",
     "9": "- Provide narrow-angle IR and VIS images for scientific observations.",
     "10": "- Ensure a minimum swath width of 80km at nadir for scientific images.",
-    "11": "- Maintain alignment of imager field of views within 12\u00c2\u00b0.",
+    "11": "- Maintain alignment of imager field of views within 12\u00b0.",
     "12": "",
     "13": "3. **Image Specifications**:",
     "14": "- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m.",
