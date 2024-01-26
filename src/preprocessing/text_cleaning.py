@@ -9,26 +9,26 @@ import json
 
 class TextCleaning:
     """
-    This class class is to be used as a tool to clean raw LLM text output to prepare transformation into 
+    This class class is to be used as a tool to clean raw LLM text output to prepare transformation into
     machine readable vectors.
     """
-    
+
     def __init__(self, text_dict: dict = None, json_fp: str = None):
-        """
-        """
+        """ """
         self.raw_data = None
         self.clean_text = {}
-        
+
         if text_dict is None and json_fp is None:
-            raise ValueError('Please input either a dictionary or a filepath to a .json file containing the uncleaned text data.')
+            raise ValueError(
+                "Please input either a dictionary or a filepath to a .json file containing the uncleaned text data."
+            )
         elif text_dict is dict and json_fp is None:
             self.raw_data = text_dict
         elif json_fp is str and text_dict is None:
             self.raw_data = json.load(json_fp)
         else:
-            raise ValueError('Incorrect combination of inputs received.')
-        
-    
+            raise ValueError("Incorrect combination of inputs received.")
+
     def clean(self):
         """
 
@@ -42,7 +42,7 @@ class TextCleaning:
             # Make the text lowercase
             text = text.lower()
             # Expand the contractions in the text
-            text = self.remove_symbols(text)        
+            text = self.remove_symbols(text)
             # Remove symbols and ascii characters
             text = self.remove_symbols(text)
             # Tokenize the text data
@@ -56,7 +56,7 @@ class TextCleaning:
             cleaned_text = self.remove_stopwords(lemmatized)
             self.clean_text[key] = cleaned_text
         return self.clean_text
-    
+
     def expand_contractions(self, text: str):
         expanded_words = []
         for word in text.split():
@@ -64,26 +64,26 @@ class TextCleaning:
         # Rejoin the sentence together
         expanded_text = " ".join(expanded_words)
         return expanded_text
-  
+
     def remove_symbols(self, text: str):
         # Using regular expressions to remove no-ASCII characters
-        text = re.sub(r'[^\x00-\x7F]+', '', text)
+        text = re.sub(r"[^\x00-\x7F]+", "", text)
         cleaned = text.translate(str.maketrans(" ", " ", string.punctuation))
         return cleaned
 
     def remove_stopwords(self, tokenized_text: list):
         """
-        Function to remove stopwords from a tokenized list 
+        Function to remove stopwords from a tokenized list
 
         Args:
-            tokenized_text (list): Tokenized text data. 
+            tokenized_text (list): Tokenized text data.
 
         Returns:
-            list: Input string with stopwords and punctuation removed. 
+            list: Input string with stopwords and punctuation removed.
         """
         # Get list of english stop words
-        stop_words = stopwords.words('english') + list(string.punctuation)      
-        filtered_words = []   
+        stop_words = stopwords.words("english") + list(string.punctuation)
+        filtered_words = []
         # Loop through tokenized text and remove stop words
         for word in tokenized_text:
             if word not in stop_words:
