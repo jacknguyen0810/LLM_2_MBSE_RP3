@@ -3,38 +3,34 @@ from pathlib import Path
 import os
 
 
-class RawData2Python: 
-    def __init__(self, filepath: str, output_path: str):
+class RawData2Python:
+    """
+    Class that contains functions for turning raw text data into python code. 
+    """
+    def __init__(self):
         """
-        A file to turn a .txt file into a useable json for data.
-
-        Args:
-       :filename : str: The path to the .txt file that contains the data that needs to be processed. 
+        Initialise the class to hold the ra and output data.
         """
-        self.filepath = filepath
-        self.raw_data = {}
-        self.output_path = output
-        return
+        self.output_dict = None     
      
-    def turn_full_text_to_json(self, filename):
-        """
+    def txt_to_dict(self, filepath: str, filename: str = None, output_path: str = None):
+        """Turns .txt file into a dictionary, and output to a 
 
         Args:
-            filename (str): Filename of the .txt file to convert. 
-            output_path (str): Output path for the json file. 
+            filepath (str): Filepath to .txt file.
+            filename (str): Name of output file. Defaults to None.
+            output_path (str, optional): If not None, then will output a .json file to specified output path. Defaults to None.
 
         Returns:
-            _type_: The text data is in a dictionary, (for our project, it is each of the sentences.)
+            _type_: _description_
         """
         data = {}
-        with open(self.filepath) as fh:
-            for number, line in enumerate(fh):
-                data[number] = line.strip()
-                
-        out_path = os.path.join(self.output, filename)
+        with open(filepath) as fh:
+            for number, line in enumerate(fh):s
+                data[number] = line.strip()         
+        out_path = os.path.join(output_path, filename)
         out_file = open(out_path, 'w')
-        json.dump(data, out_file, indent = 4, sort_keys = False)
-                
+        json.dump(data, out_file, indent = 4, sort_keys = False)    
         return data
     
         
@@ -42,9 +38,9 @@ class RawData2Python:
     
 
 if __name__ == "__main__":
-    filename = r"C:\Users\Jack\OneDrive\Documents\Python Scripts\LLM_2_MBSE_RP3\data\test_data.txt"
+    name = r"C:\Users\Jack\OneDrive\Documents\Python Scripts\LLM_2_MBSE_RP3\data\test_data.txt"
     output = r"C:\Users\Jack\OneDrive\Documents\Python Scripts\LLM_2_MBSE_RP3\data"
-    preprocessing = RawData2Python(filename, output)
-    preprocessing.turn_full_text_to_json(r"test_data.json")
+    preprocessing = RawData2Python()
+    preprocessing.txt_to_dict(name, r"test_data.json", output)
     
     
