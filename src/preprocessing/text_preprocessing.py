@@ -3,19 +3,19 @@ from pathlib import Path
 import os
 
 
-class TextPreprocessing:
-    
-    def __init__(self, filepath: str, output: str):
+class RawData2Python: 
+    def __init__(self, filepath: str, output_path: str):
         """
         A file to turn a .txt file into a useable json for data.
 
         Args:
-        :filename : str: The path to the .txt file that contains the data that needs to be processed. 
+       :filename : str: The path to the .txt file that contains the data that needs to be processed. 
         """
         self.filepath = filepath
-        self.output = output
+        self.raw_data = {}
+        self.output_path = output
         return
-    
+     
     def turn_full_text_to_json(self, filename):
         """
 
@@ -44,7 +44,7 @@ class TextPreprocessing:
 if __name__ == "__main__":
     filename = r"C:\Users\Jack\OneDrive\Documents\Python Scripts\LLM_2_MBSE_RP3\data\test_data.txt"
     output = r"C:\Users\Jack\OneDrive\Documents\Python Scripts\LLM_2_MBSE_RP3\data"
-    preprocessing = TextPreprocessing(filename, output)
+    preprocessing = RawData2Python(filename, output)
     preprocessing.turn_full_text_to_json(r"test_data.json")
     
     

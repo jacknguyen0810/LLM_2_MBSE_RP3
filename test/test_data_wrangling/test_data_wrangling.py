@@ -1,5 +1,5 @@
 import unittest
-from src.data_wrangling.data_wrangling
+from src.preprocessing.data_wrangling
 
 class TestDataWrangling(unittest.TestCase):
     
