@@ -35,7 +35,7 @@ class TextCleaning:
         Returns:
             _type_: _description_
         """
-        if self.text_dict is None:
+        if self.raw_data is None:
             raise ValueError("No text data loaded")
         # Loop through the input dictionary and clean the text data
         for key, text in self.raw_data.items():
