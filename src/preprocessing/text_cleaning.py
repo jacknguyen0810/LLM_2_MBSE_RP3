@@ -4,6 +4,7 @@ from nltk.tokenize import word_tokenize
 import string
 import contractions
 import re
+import json
 
 
 class TextCleaning:
@@ -12,13 +13,21 @@ class TextCleaning:
     machine readable vectors.
     """
     
-    def __init__(self, filepath: str, output_path: str = None):
+    def __init__(self, text_dict: dict = None, json_fp: str = None):
         """
         """
-        self.filepath = filepath
-        self.output_path = output_path
-        self.raw_data = {}
+        self.raw_data = None
         self.clean_text = {}
+        
+        if text_dict is None and json_fp is None:
+            raise ValueError('Please input either a dictionary or a filepath to a .json file containing the uncleaned text data.')
+        elif text_dict is dict and json_fp is None:
+            self.raw_data = text_dict
+        elif json_fp is str and text_dict is None:
+            self.raw_data = json.load(json_fp)
+        else:
+            raise ValueError('Incorrect combination of inputs received.')
+        
     
     def clean(self):
         """
@@ -26,8 +35,10 @@ class TextCleaning:
         Returns:
             _type_: _description_
         """
+        if self.text_dict is None:
+            raise ValueError("No text data loaded")
         # Loop through the input dictionary and clean the text data
-        for key, text in self.text_dict.items():
+        for key, text in self.raw_data.items():
             # Make the text lowercase
             text = text.lower()
             # Expand the contractions in the text
