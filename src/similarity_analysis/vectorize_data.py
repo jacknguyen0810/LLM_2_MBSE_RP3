@@ -1,14 +1,5 @@
-"""import numpy for array processing"""
-
-import numpy as np
-
-"""matplotlib.pyplot for plotting"""
-import matplotlib.pyplot as plt  #
-
-"""gensim.word2vec for feature extraction"""
+import matplotlib.pyplot as plt
 from gensim.models.word2vec import Word2Vec
-
-"""sklearn.metrics.pairwise for the comparison of the """
 from sklearn.metrics.pairwise import (
     cosine_similarity,
     euclidean_distances,
@@ -63,12 +54,19 @@ class SentenceSimilarityAnalysis:
         # Compare the two vectors using the specified similarity method
         self.output = comp_metric(self.vectors1, self.vectors2)
 
-    def plot(self, title: str, xlabel: str, ylabel: str) -> None:
+    def plot(
+        self,
+        title: str,
+        xlabel: str = "Dataset 1 Sentence IDs",
+        ylabel: str = "Dataset 2 Sentence IDs",
+    ) -> None:
         # Plotting pairwise comparison of each of the requirements
-        plt.imshow(self.output)
+        plt.imshow(self.output, "Greens")
         plt.title(title)
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
+        plt.xticks(self.text_tokens1.keys())
+        plt.yticks(self.text_tokens2.keys())
 
     @staticmethod
     def metric_error(*args) -> None:
