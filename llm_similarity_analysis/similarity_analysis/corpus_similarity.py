@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 from llm_similarity_analysis.similarity_analysis import similarity_metrics
-from llm_similarity_analysis.utilities.utility_functions import vectorise_dataset, combine_into_corpus
+from llm_similarity_analysis.utilities.utility_functions import (
+    vectorise_dataset,
+    combine_into_corpus,
+)
 
 
 class CorpusSimilarityAnalysis:

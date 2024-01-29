@@ -7,7 +7,6 @@ from nltk.tokenize import word_tokenize
 import spacy
 
 
-
 class TextCleaning:
     """
     This class class is to be used as a tool to clean raw LLM text output to prepare transformation into
@@ -23,7 +22,7 @@ class TextCleaning:
             raise ValueError(
                 "Please input either a dictionary or a filepath to a .json file containing the uncleaned text data."
             )
-        
+
         if isinstance(text_dict, dict) and json_fp is None:
             self.raw_data = text_dict
         elif isinstance(json_fp, str) and text_dict is None:
@@ -91,28 +90,30 @@ class TextCleaning:
             if word not in stop_words:
                 filtered_words.append(word)
         return filtered_words
-    
+
     @staticmethod
     def lemmatize_text(text: str):
-        doc_inst = spacy.load('en_core_web_sm')
+        doc_inst = spacy.load("en_core_web_sm")
         doc = doc_inst(text)
         tokens = []
         for token in doc:
             tokens.append(token)
         lemmatized_sentence = " ".join([token.lemma_ for token in doc])
         return lemmatized_sentence
-    
-    
-if __name__ == '__main__':
+
+
+if __name__ == "__main__":
     test_dict = {
         "1": "I can't understand what's going on + - & .",
-        "2": "The following sentence: is GIBBerish 482 ;']'"
+        "2": "The following sentence: is GIBBerish 482 ;']'",
     }
-    
+
     cleaner = TextCleaning(text_dict=test_dict)
     expanded = cleaner.expand_contractions(test_dict["1"])
     no_symbols = cleaner.remove_symbols(test_dict["1"])
-    no_stop = cleaner.remove_stopwords(['why', 'does', 'Jack', 'the', 'dog', 'understand', 'English'])
+    no_stop = cleaner.remove_stopwords(
+        ["why", "does", "Jack", "the", "dog", "understand", "English"]
+    )
     print(expanded)
     print(no_symbols)
     print(no_stop)
