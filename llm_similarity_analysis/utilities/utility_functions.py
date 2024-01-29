@@ -14,7 +14,7 @@ def vectorise_dataset(
     elif vector_type == "skip gram":
         sg = 1
     else:
-        raise ValueError("Not a valid vectorization method was chosen. ")
+        raise ValueError("Not a valid vectorization method was chosen.")
 
     for req_num, sentence in tokens.items():
         vector = Word2Vec(

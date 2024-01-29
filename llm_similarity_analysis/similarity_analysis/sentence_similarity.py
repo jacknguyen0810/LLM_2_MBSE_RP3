@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
-from src.similarity_analysis.similarity_metrics import *
-from src.utilities.utility_functions import vectorise_dataset, combine_into_corpus
+from llm_similarity_analysis.similarity_analysis import similarity_metrics
+from llm_similarity_analysis.utilities.utility_functions import vectorise_dataset
 
 
-class CorpusSimilarityAnalysis:
+class SentenceSimilarityAnalysis:
     """Class for the similarity analysis using a range of similarity metrics"""
 
     def __init__(
@@ -30,17 +30,13 @@ class CorpusSimilarityAnalysis:
         self.output = None
 
         self.similarity_metric_functions = {
-            "cosine": cosine_sim,
-            "rbf": rbf,
-            "euclidean": euclidean_dist,
-            "manhattan": manhattan_dist,
+            "cosine": similarity_metrics.cosine_sim,
+            "rbf": similarity_metrics.rbf,
+            "euclidean": similarity_metrics.euclidean_dist,
+            "manhattan": similarity_metrics.manhattan_dist,
         }
 
     def run(self) -> None:
-        # Combine the sentences into a text corpus
-        self.text_tokens1 = combine_into_corpus(self.text_tokens1)
-        self.text_tokens2 = combine_into_corpus(self.text_tokens2)
-
         # Turn the text token datasets into vectors using Word2Vec
         self.vectors1 = vectorise_dataset(self.text_tokens1)
         self.vectors2 = vectorise_dataset(self.text_tokens2)
@@ -70,5 +66,3 @@ class CorpusSimilarityAnalysis:
     @staticmethod
     def metric_error(*args) -> None:
         raise ValueError("Invalid Similarity Metric")
-
-    # TODO: Research appropriate vector size for full corpus

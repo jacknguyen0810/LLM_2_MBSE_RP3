@@ -57,7 +57,8 @@ class TextCleaning:
             self.clean_text[key] = cleaned_text
         return self.clean_text
 
-    def expand_contractions(self, text: str):
+    @staticmethod
+    def expand_contractions(text: str):
         expanded_words = []
         for word in text.split():
             expanded_words.append(contractions.fix(word))
@@ -65,13 +66,15 @@ class TextCleaning:
         expanded_text = " ".join(expanded_words)
         return expanded_text
 
-    def remove_symbols(self, text: str):
+    @staticmethod
+    def remove_symbols(text: str):
         # Using regular expressions to remove no-ASCII characters
         text = re.sub(r"[^\x00-\x7F]+", "", text)
         cleaned = text.translate(str.maketrans(" ", " ", string.punctuation))
         return cleaned
 
-    def remove_stopwords(self, tokenized_text: list):
+    @staticmethod
+    def remove_stopwords(tokenized_text: list):
         """
         Function to remove stopwords from a tokenized list
 
