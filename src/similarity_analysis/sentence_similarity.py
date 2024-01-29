@@ -1,11 +1,6 @@
 import matplotlib.pyplot as plt
-from gensim.models.word2vec import Word2Vec
-from sklearn.metrics.pairwise import (
-    cosine_similarity,
-    euclidean_distances,
-    manhattan_distances,
-    rbf_kernel,
-)
+from src.similarity_analysis.similarity_metrics import *
+from src.utilities.utility_functions import vectorise_dataset
 
 
 class SentenceSimilarityAnalysis:
@@ -35,16 +30,16 @@ class SentenceSimilarityAnalysis:
         self.output = None
 
         self.similarity_metric_functions = {
-            "cosine": self.cosine_sim,
-            "rbf": self.rbf,
-            "euclidean": self.euclidean_dist,
-            "manhattan": self.manhattan_distances,
+            "cosine": cosine_sim,
+            "rbf": rbf,
+            "euclidean": euclidean_dist,
+            "manhattan": manhattan_dist,
         }
 
     def run(self) -> None:
         # Turn the text token datasets into vectors using Word2Vec
-        self.vectors1 = self.vectorise_dataset(self.text_tokens1)
-        self.vectors2 = self.vectorise_dataset(self.text_tokens2)
+        self.vectors1 = vectorise_dataset(self.text_tokens1)
+        self.vectors2 = vectorise_dataset(self.text_tokens2)
 
         # Extract the similarity
         comp_metric = self.similarity_metric_functions.get(
@@ -71,33 +66,3 @@ class SentenceSimilarityAnalysis:
     @staticmethod
     def metric_error(*args) -> None:
         raise ValueError("Invalid Similarity Metric")
-
-    def vectorise_dataset(self, tokens: dict) -> dict:
-        vectors = {}
-        if self.vector_type == "cbow":
-            sg = 0
-        elif self.vector_type == "skip gram":
-            sg = 1
-        else:
-            raise ValueError("Not a valid vectorization method was chosen. ")
-
-        for req_num, sentence in tokens.items():
-            vector = Word2Vec(sentence, min_count=1, vector_size=100, window=5, sg=sg)
-            vectors[req_num] = vector
-        return vectors
-
-    @staticmethod
-    def cosine_sim(data1, data2):
-        return cosine_similarity(data1, data2)
-
-    @staticmethod
-    def rbf(data1, data2):
-        return rbf_kernel(data1, data2)
-
-    @staticmethod
-    def euclidean_dist(data1, data2):
-        return euclidean_distances(data1, data2)
-
-    @staticmethod
-    def manhattan_distances(data1, data2):
-        return manhattan_distances(data1, data2)
