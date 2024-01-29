@@ -18,7 +18,7 @@ def vectorise_dataset(
 
     for req_num, sentence in tokens.items():
         vector = Word2Vec(
-            sentence, min_count=1, vector_size=vector_size, window=5, sg=sg
+            sentence, min_count=min_count, vector_size=vector_size, window=window, sg=sg
         )
         vectors[req_num] = vector
     return vectors
