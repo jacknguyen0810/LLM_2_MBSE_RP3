@@ -7,3 +7,4 @@ nltk
 black
 flake8
 gensim
+unittest

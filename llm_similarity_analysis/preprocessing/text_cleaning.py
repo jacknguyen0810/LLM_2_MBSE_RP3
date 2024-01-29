@@ -22,9 +22,9 @@ class TextCleaning:
             raise ValueError(
                 "Please input either a dictionary or a filepath to a .json file containing the uncleaned text data."
             )
-        elif text_dict is dict and json_fp is None:
+        elif isinstance(text_dict, dict) and json_fp is None:
             self.raw_data = text_dict
-        elif json_fp is str and text_dict is None:
+        elif isinstance(json_fp, str) and text_dict is None:
             self.raw_data = json.load(json_fp)
         else:
             raise ValueError("Incorrect combination of inputs received.")
@@ -92,3 +92,14 @@ class TextCleaning:
             if word not in stop_words:
                 filtered_words.append(word)
         return filtered_words
+    
+    
+if __name__ == '__main__':
+    test_dict = {
+        "1": "I can't understand what's going on + - & .",
+        "2": "The following sentence: is GIBBerish 482 ;']'"
+    }
+    
+    cleaner = TextCleaning(text_dict=test_dict)
+    expanded = cleaner.expand_contractions(test_dict["1"])
+    print(expanded)
