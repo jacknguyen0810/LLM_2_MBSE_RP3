@@ -100,23 +100,3 @@ class TextCleaning:
             tokens.append(token)
         lemmatized_sentence = " ".join([token.lemma_ for token in doc])
         return lemmatized_sentence
-
-
-if __name__ == "__main__":
-    test_dict = {
-        "1": "I can't understand what's going on + - & .",
-        "2": "The following sentence: is GIBBerish 482 ;']'",
-    }
-
-    cleaner = TextCleaning(text_dict=test_dict)
-    expanded = cleaner.expand_contractions(test_dict["1"])
-    no_symbols = cleaner.remove_symbols(test_dict["1"])
-    no_stop = cleaner.remove_stopwords(
-        ["why", "does", "Jack", "the", "dog", "understand", "English"]
-    )
-    print(expanded)
-    print(no_symbols)
-    print(no_stop)
-    cleaner.clean()
-    for sentence in cleaner.clean_text.values():
-        print(sentence)
