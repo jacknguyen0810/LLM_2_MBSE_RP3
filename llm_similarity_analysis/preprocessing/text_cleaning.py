@@ -22,7 +22,8 @@ class TextCleaning:
             raise ValueError(
                 "Please input either a dictionary or a filepath to a .json file containing the uncleaned text data."
             )
-        elif isinstance(text_dict, dict) and json_fp is None:
+        
+        if isinstance(text_dict, dict) and json_fp is None:
             self.raw_data = text_dict
         elif isinstance(json_fp, str) and text_dict is None:
             self.raw_data = json.load(json_fp)
@@ -102,4 +103,8 @@ if __name__ == '__main__':
     
     cleaner = TextCleaning(text_dict=test_dict)
     expanded = cleaner.expand_contractions(test_dict["1"])
+    no_symbols = cleaner.remove_symbols(test_dict["1"])
+    no_stop = cleaner.remove_stopwords(['why', 'does', 'Jack', 'the', 'dog', 'understand', 'English'])
     print(expanded)
+    print(no_symbols)
+    print(no_stop)

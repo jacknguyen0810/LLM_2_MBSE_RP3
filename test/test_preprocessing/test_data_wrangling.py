@@ -8,9 +8,9 @@ class test_TextCleaning(unittest.TestCase):
             "1": "I can't understand what's going on + - & .",
             "2": "The following sentence: is GIBBerish 482 ;']'"
         }
-        cleaner = TextCleaning(text_dict=test_dict)
+        cleaner = TextCleaning(text_dict = test_dict)
         expanded = cleaner.expand_contractions(test_dict["1"])
-        test = "I cannot understand what is going on + - % ."
+        test = "I cannot understand what is going on + - & ."
         self.assertEqual(expanded, test)
         
         
