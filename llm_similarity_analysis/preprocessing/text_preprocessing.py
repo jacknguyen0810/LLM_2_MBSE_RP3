@@ -27,7 +27,7 @@ class RawData2Python:
         data = {}
         with open(filepath, encoding="utf-8") as fh:
             for number, line in enumerate(fh):
-                data[number] = line.strip()
+                data[str(number + 1)] = line.strip()
         out_path = os.path.join(output_path, filename)
         out_file = open(out_path, "w", encoding="utf-8")
         json.dump(data, out_file, indent=4, sort_keys=False)
