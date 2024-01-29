@@ -2,7 +2,7 @@ import unittest
 from llm_similarity_analysis.preprocessing.text_cleaning import TextCleaning
 
 
-class test_TextCleaning(unittest.TestCase):
+class TestTextCleaning(unittest.TestCase):
 
     def test_expand_contractions(self):
         test_dict = {
