@@ -1,8 +1,6 @@
 import matplotlib.pyplot as plt
-from gensim.models.word2vec import Word2Vec
 from src.similarity_analysis.similarity_metrics import *
 from src.utilities.utility_functions import vectorise_dataset, combine_into_corpus
-
 
 
 class CorpusSimilarityAnalysis:
