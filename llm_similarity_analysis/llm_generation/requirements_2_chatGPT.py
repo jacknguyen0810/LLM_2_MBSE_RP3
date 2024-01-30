@@ -4,6 +4,3 @@ class RequirementsToChatGPT:
     functions, subsystems (if system requirements are given), or components (if subsystem
     requirements are given
     """
-
-    def __init__(self, input, objective, manual_input):
-        return

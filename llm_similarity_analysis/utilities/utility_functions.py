@@ -10,11 +10,13 @@ def vectorise_dataset(
 ) -> dict:
     vectors = {}
     if vector_type == "cbow":
+        # Better for longer texts.
         sg = 0
-    elif vector_type == "skip gram":
+    elif vector_type == "sg":
+        #  Better for shorter texts.
         sg = 1
     else:
-        raise ValueError("Not a valid vectorization method was chosen.")
+        raise ValueError("Not a valid vectorization method was chosen, please choose cbow or sg")
 
     for req_num, sentence in tokens.items():
         vector = Word2Vec(

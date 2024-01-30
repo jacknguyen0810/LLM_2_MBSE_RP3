@@ -12,6 +12,7 @@ class SentenceSimilarityAnalysis:
         text_tokens2: dict,
         metric: str = None,
         vector_type: str = None,
+        vector_size: int = 100,
     ) -> None:
         self.text_tokens1 = text_tokens1
         self.text_tokens2 = text_tokens2
@@ -21,9 +22,10 @@ class SentenceSimilarityAnalysis:
         else:
             self.metric = metric
         if vector_type is None:
-            self.vector_type = "cbow"
+            self.vector_type = "sg"
         else:
             self.vector_type = vector_type
+        self.vector_size = vector_size
 
         self.vectors1 = None
         self.vectors2 = None
@@ -37,9 +39,9 @@ class SentenceSimilarityAnalysis:
         }
 
     def run(self) -> None:
-        # Turn the text token datasets into vectors using Word2Vec
-        self.vectors1 = vectorise_dataset(self.text_tokens1)
-        self.vectors2 = vectorise_dataset(self.text_tokens2)
+        # Turn the text token datasets into vectors using Word2Vec, and skip-grams defaulted for shorter texts 
+        self.vectors1 = vectorise_dataset(self.text_tokens1, self.vector_type, self.vector_size)
+        self.vectors2 = vectorise_dataset(self.text_tokens2, self.vector_type, self.vector_size)
 
         # Extract the similarity
         comp_metric = self.similarity_metric_functions.get(
