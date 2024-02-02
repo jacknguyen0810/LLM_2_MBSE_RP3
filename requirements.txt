@@ -9,3 +9,4 @@ flake8
 gensim
 unittest
 spacy
+sentence-transformers
