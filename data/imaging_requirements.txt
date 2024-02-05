@@ -1,0 +1,5 @@
+- Capture multiple IR and VIS images of a primary target during a single primary observation pass.
+- Capture IR images of secondary targets during a single secondary observation pass.
+- Capture multiple VIS images of a tertiary target during a single tertiary observation pass.
+- Distribute images over the observation window for MIS-001 and MIS-003, providing various viewing angles.
+- Perform automated observations based on a pre-determined schedule for standard targets and allow uplinking priority observation scenarios.

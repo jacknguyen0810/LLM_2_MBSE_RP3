@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import numpy as np
 from llm_similarity_analysis.similarity_analysis import similarity_metrics
 from llm_similarity_analysis.utilities.utility_functions import vectorise_dataset
 
@@ -11,8 +12,7 @@ class SentenceSimilarityAnalysis:
         text_tokens1: dict,
         text_tokens2: dict,
         metric: str = None,
-        vector_type: str = None,
-        vector_size: int = 100,
+        vector_model: str = None,
     ) -> None:
         self.text_tokens1 = text_tokens1
         self.text_tokens2 = text_tokens2
@@ -21,11 +21,10 @@ class SentenceSimilarityAnalysis:
             self.metric = "cosine"
         else:
             self.metric = metric
-        if vector_type is None:
-            self.vector_type = "sg"
+        if vector_model is None:
+            self.vector_model = "all-mpnet-base-V2"
         else:
-            self.vector_type = vector_type
-        self.vector_size = vector_size
+            self.vector_model = vector_model
 
         self.vectors1 = None
         self.vectors2 = None
@@ -39,9 +38,9 @@ class SentenceSimilarityAnalysis:
         }
 
     def run(self) -> None:
-        # Turn the text token datasets into vectors using Word2Vec, and skip-grams defaulted for shorter texts 
-        self.vectors1 = vectorise_dataset(self.text_tokens1, self.vector_type, self.vector_size)
-        self.vectors2 = vectorise_dataset(self.text_tokens2, self.vector_type, self.vector_size)
+        # Turn the text token datasets into vectors
+        self.vectors1 = vectorise_dataset(self.text_tokens1, self.vector_model)
+        self.vectors2 = vectorise_dataset(self.text_tokens2, self.vector_model)
 
         # Extract the similarity
         comp_metric = self.similarity_metric_functions.get(
@@ -49,7 +48,7 @@ class SentenceSimilarityAnalysis:
         )
 
         # Compare the two vectors using the specified similarity method
-        self.output = comp_metric(self.vectors1, self.vectors2)
+        self.output = comp_metric(list(self.vectors1.values()), list(self.vectors2.values()))
 
     def plot(
         self,
@@ -62,9 +61,19 @@ class SentenceSimilarityAnalysis:
         plt.title(title)
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
-        plt.xticks(self.text_tokens1.keys())
-        plt.yticks(self.text_tokens2.keys())
+        plt.colorbar()
+        for (j, i), label in np.ndenumerate(self.output):
+            plt.text(i, j, round(label, 4), ha='center', va='center')
+        # plt.xticks(list(self.text_tokens1.keys()))
+        # plt.yticks(list(self.text_tokens2.keys()))
+        
+        plt.show()
 
     @staticmethod
     def metric_error(*args) -> None:
+        """Generic error for incorrect similarity metric
+
+        Raises:
+            ValueError: Generic error for incorrect similarity metric
+        """
         raise ValueError("Invalid Similarity Metric")

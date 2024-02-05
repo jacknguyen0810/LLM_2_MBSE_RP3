@@ -44,7 +44,7 @@ class CorpusSimilarityAnalysis:
         self.text_tokens1 = combine_into_corpus(self.text_tokens1)
         self.text_tokens2 = combine_into_corpus(self.text_tokens2)
 
-        # Turn the text token datasets into vectors using Word2Vec
+        # Turn the text token datasets into vectors
         self.vectors1 = vectorise_dataset(self.text_tokens1)
         self.vectors2 = vectorise_dataset(self.text_tokens2)
 
