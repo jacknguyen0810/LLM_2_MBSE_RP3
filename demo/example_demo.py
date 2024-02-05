@@ -7,7 +7,7 @@ from llm_similarity_analysis.preprocessing.text_cleaning import TextCleaning
 
 def main():
     # Get the filepath to the .txt file containing the raw text data
-    corpus_fp = r"data\imaging_requirements.txt"
+    corpus_fp = r"data\imaging_functions_test.txt"
 
     # Create preprocessor object
     preprocessor = RawData2Python()

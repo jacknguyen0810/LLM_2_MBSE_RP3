@@ -9,8 +9,8 @@ import spacy
 
 class TextCleaning:
     """
-    This class class is to be used as a tool to clean raw LLM text output to prepare transformation into
-    machine readable vectors.
+    This class class is to be used as a tool to clean raw LLM text output to prepare transformation 
+    into machine readable vectors.
     """
 
     def __init__(self, text_dict: dict = None, json_fp: str = None):
