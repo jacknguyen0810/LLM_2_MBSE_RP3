@@ -42,7 +42,7 @@ def main():
     }
 
     # This is running the analysis
-    for name, model in models.items():
+    for model in models.values():
         start = time.process_time()
         embeddings_full = model.encode(full_req)
         embeddings_simple = model.encode(list(simplified_dict.values()))
