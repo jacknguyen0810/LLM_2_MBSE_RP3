@@ -66,7 +66,7 @@ def main():
     x = np.arange(len(model_names))
     multiplier = 0
 
-    fig, ax = plt.subplots()
+    _, ax = plt.subplots()
 
     for model_type, result in results.items():
         # Round values in results
