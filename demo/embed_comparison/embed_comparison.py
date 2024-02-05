@@ -3,8 +3,6 @@ import torch
 import matplotlib.pyplot as plt
 import numpy as np
 from sentence_transformers import SentenceTransformer, util
-from llm_similarity_analysis.utilities.utility_functions import vectorise_dataset
-from llm_similarity_analysis.preprocessing.text_cleaning import TextCleaning
 
 
 
