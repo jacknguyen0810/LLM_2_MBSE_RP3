@@ -48,7 +48,9 @@ class SentenceSimilarityAnalysis:
         )
 
         # Compare the two vectors using the specified similarity method
-        self.output = comp_metric(list(self.vectors1.values()), list(self.vectors2.values()))
+        self.output = comp_metric(
+            list(self.vectors1.values()), list(self.vectors2.values())
+        )
 
     def plot(
         self,
@@ -63,10 +65,10 @@ class SentenceSimilarityAnalysis:
         plt.ylabel(ylabel)
         plt.colorbar()
         for (j, i), label in np.ndenumerate(self.output):
-            plt.text(i, j, round(label, 4), ha='center', va='center')
+            plt.text(i, j, round(label, 4), ha="center", va="center")
         # plt.xticks(list(self.text_tokens1.keys()))
         # plt.yticks(list(self.text_tokens2.keys()))
-        
+
         plt.show()
 
     @staticmethod

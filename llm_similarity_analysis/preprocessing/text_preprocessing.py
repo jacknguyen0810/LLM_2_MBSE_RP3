@@ -13,7 +13,13 @@ class RawData2Python:
         """
         self.output_dict = None
 
-    def txt_to_dict(self, filepath: str, output_to_json: bool = False, filename: str = None, output_path: str = None):
+    def txt_to_dict(
+        self,
+        filepath: str,
+        output_to_json: bool = False,
+        filename: str = None,
+        output_path: str = None,
+    ):
         """Turns .txt file into a dictionary, and output to a .json file if output = True
 
         Args:
@@ -30,13 +36,13 @@ class RawData2Python:
         with open(filepath, encoding="utf-8") as fh:
             for number, line in enumerate(fh):
                 data[str(number + 1)] = line.strip()
-        
+
         # Output to .json if requested.
         if output_to_json:
             out_path = os.path.join(output_path, filename)
             out_file = open(out_path, "w", encoding="utf-8")
             json.dump(data, out_file, indent=4, sort_keys=False)
-        
+
         return data
 
 
