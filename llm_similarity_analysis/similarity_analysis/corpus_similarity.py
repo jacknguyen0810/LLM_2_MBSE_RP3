@@ -14,7 +14,7 @@ class CorpusSimilarityAnalysis:
         text_tokens1: dict,
         text_tokens2: dict,
         metric: str = None,
-        vector_type: str = None,
+        vector_model: str = None,
     ) -> None:
         self.text_tokens1 = text_tokens1
         self.text_tokens2 = text_tokens2
@@ -23,10 +23,10 @@ class CorpusSimilarityAnalysis:
             self.metric = "cosine"
         else:
             self.metric = metric
-        if vector_type is None:
-            self.vector_type = "cbow"
+        if vector_model is None:
+            self.vector_model = "all-mpnet-base-V2"
         else:
-            self.vector_type = vector_type
+            self.vector_model = vector_model
 
         self.vectors1 = None
         self.vectors2 = None
@@ -54,24 +54,11 @@ class CorpusSimilarityAnalysis:
         )
 
         # Compare the two vectors using the specified similarity method
-        self.output = comp_metric(self.vectors1, self.vectors2)
-
-    def plot(
-        self,
-        title: str,
-        xlabel: str = "Dataset 1 Sentence IDs",
-        ylabel: str = "Dataset 2 Sentence IDs",
-    ) -> None:
-        # Plotting pairwise comparison of each of the requirements
-        plt.imshow(self.output, "Greens")
-        plt.title(title)
-        plt.xlabel(xlabel)
-        plt.ylabel(ylabel)
-        plt.xticks(self.text_tokens1.keys())
-        plt.yticks(self.text_tokens2.keys())
-
+        self.output = comp_metric(
+            list(self.vectors1.values()), list(self.vectors2.values())
+        )
     @staticmethod
-    def metric_error(*args) -> None:
+    def metric_error() -> None:
         raise ValueError("Invalid Similarity Metric")
 
-    # TODO: Research appropriate vector size for full corpus
+    
