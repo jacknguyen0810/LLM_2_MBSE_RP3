@@ -1,0 +1,53 @@
+Based on the provided mission requirements, the following set of system functions can be defined:
+
+1. **Observation Pass Management:**
+   - Subfunction 1: Execute primary observation pass with multiple IR and VIS images of the primary target.
+   - Subfunction 2: Execute secondary observation pass with IR images of secondary targets.
+   - Subfunction 3: Execute tertiary observation pass with multiple VIS images of the tertiary target.
+   - Subfunction 4: Distribute images over the observation window to provide varied viewing angles.
+
+2. **Observation Automation:**
+   - Subfunction 1: Automate observations based on a pre-determined schedule for standard targets.
+   - Subfunction 2: Allow uplinking priority observation scenarios.
+
+3. **Observation Constraints:**
+   - Subfunction 1: Enforce a minimum elevation angle of 30 degrees for target observations.
+   - Subfunction 2: Maintain payload structure alignment within 12 degrees.
+
+4. **Science Imaging:**
+   - Subfunction 1: Provide narrow-angle IR and VIS images for scientific observations.
+   - Subfunction 2: Ensure a minimum swath width of 80km at nadir for scientific images.
+
+5. **Spatial Sampling Distance (SSD) Management:**
+   - Subfunction 1: Provide IR images with a nadir SSD of 300m (threshold), with a goal of 90m.
+   - Subfunction 2: Provide narrow-angle VIS images with a nadir SSD of 50m (threshold), with a goal of 15m.
+
+6. **Science Image Quantity:**
+   - Subfunction 1: Provide a minimum of 10 science images (goal of 50) per primary or tertiary observation pass.
+   - Subfunction 2: Provide a minimum of 1 science image per target per secondary observation pass.
+
+7. **Temporal Resolution Management:**
+   - Subfunction 1: Achieve a minimum temporal resolution of 16 days (goal of 5 days) for primary target observations.
+
+8. **Infrared Camera Performance:**
+   - Subfunction 1: Maintain a minimum NedT of 0.5K with a goal of 0.05K for the uncooled IR camera.
+   - Subfunction 2: Perform radiometric calibration a minimum of once per target capture.
+
+9. **Geolocation and Pointing Accuracy:**
+   - Subfunction 1: Provide geolocation of the target to within one SSD over land.
+   - Subfunction 2: Achieve a pointing accuracy of 1 degree.
+   - Subfunction 3: Achieve a pointing knowledge of 0.1 degrees.
+
+10. **Data Handling and Downlink:**
+    - Subfunction 1: Downlink image data within a threshold of 1 month (goal of 7 days).
+    - Subfunction 2: Size onboard storage for a threshold of one primary target image set (goal of 10 sets).
+    - Subfunction 3: Transfer data to the bus for downlink or additional storage.
+
+11. **Payload Constraints:**
+    - Subfunction 1: Ensure the total payload mass does not exceed 2.66kg.
+    - Subfunction 2: Ensure the total payload power usage does not exceed 14W.
+    - Subfunction 3: Ensure the total payload volume does not exceed 2U.
+
+12. **Mission Modes and Hardware Qualification:**
+    - Subfunction 1: Implement imaging, standby, safe, and other TBD non-nominal modes.
+    - Subfunction 2: Qualify mission hardware to the levels and durations specified in GSFC-STD-7000B.

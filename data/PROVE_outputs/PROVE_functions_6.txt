@@ -1,0 +1,61 @@
+Certainly! Here is the set of system functions without the numbering:
+
+**Primary Target Observation Pass:**
+   - Acquire and provide multiple Infrared (IR) images of the primary target during a single observation pass.
+   - Acquire and provide multiple Visible (VIS) images of the primary target during a single observation pass.
+   - Distribute images over the observation window to provide a range of viewing angles.
+
+**Secondary Target Observation Pass:**
+   - Acquire and provide IR images of given secondary targets during a single observation pass.
+
+**Tertiary Target Observation Pass:**
+   - Acquire and provide multiple VIS images of a given tertiary target during a single observation pass.
+
+**Observation Scheduling:**
+   - Perform automated observations based on a predetermined schedule for standard targets.
+   - Allow uplinking of priority observation scenarios.
+
+**Observation Parameters:**
+   - Enforce a minimum elevation angle of 30 degrees for target observations.
+   - Ensure alignment of imager field of views within 12°.
+
+**Science Observations:**
+   - Provide narrow-angle IR and VIS images for scientific observations.
+   - Maintain a minimum swath width of 80km at nadir for scientific images.
+
+**Spatial Sampling Distance (SSD) Requirements:**
+   - Provide IR images with an SSD at nadir of 300m (threshold), with a goal of 90m.
+   - Provide narrow-angle VIS images with an SSD at nadir of 50m (threshold), with a goal of 15m.
+
+**Science Image Goals:**
+   - Provide a minimum of 10 science images, with a goal of 50, per primary or tertiary observation pass.
+   - Provide a minimum of 1 science image per target per secondary observation pass.
+
+**Temporal Resolution:**
+   - Achieve a temporal resolution for primary target observations of a minimum of 16 days, with a goal of 5 days.
+
+**Infrared Camera Requirements:**
+   - Ensure the NedT of the IR camera is a minimum of 0.5K with a goal of 0.05 K.
+   - Use an uncooled IR camera.
+   - Perform radiometric calibration of the IR camera a minimum of once per target (ideally before target capture begins).
+
+**Geolocation and Pointing:**
+   - Provide geolocation of the target to within one SSD over land.
+   - Achieve a pointing accuracy of 1 degree.
+   - Achieve a pointing knowledge of 0.1 degrees.
+
+**Data Handling and Downlink:**
+   - Downlink image data within a threshold of 1 month, with a goal of 7 days.
+   - Size onboard storage for a threshold of one primary target image set, with a goal of 10 primary target image sets.
+   - Transfer data to the bus for downlink or additional storage.
+
+**Payload Constraints:**
+   - Ensure total payload mass does not exceed 2.66kg.
+   - Ensure total payload power usage does not exceed 14W.
+   - Ensure total payload volume does not exceed 2U.
+
+**Mission Modes:**
+   - Implement imaging, standby, safe, and other TBD non-nominal modes as needed.
+
+**Hardware Qualification:**
+   - Qualify mission hardware to the levels and durations specified in GSFC-STD-7000B.
