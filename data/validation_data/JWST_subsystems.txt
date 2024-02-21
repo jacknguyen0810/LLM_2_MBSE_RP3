@@ -1,0 +1,8 @@
+Observatory Telescope Element
+Integrated scientific instrument module
+Sunshield
+Attitude Control Subsystem
+Electrical Power Subsystem
+Command and Data Handling Subsystem
+Propulsion
+Communication Subsystem

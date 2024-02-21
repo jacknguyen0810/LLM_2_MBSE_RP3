@@ -1,0 +1,9 @@
+MIRI: Mid Infrared Instrument
+NIR Spec: Near Infrared Spectograph
+Near Infrared Camera
+FGS: Fine Guidance System
+Compressor Assembly
+Cooling Lines
+Command and Data Handling
+
+
