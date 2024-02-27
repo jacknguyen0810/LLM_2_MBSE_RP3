@@ -35,7 +35,7 @@ class LLMRepeatabilityAnalysis:
                 # Clean the data and add to a dictionary
                 raw_output = preprocessor.txt_to_dict(file)
                 # Filter out the terms text that aren't requirements
-                raw_output = {k: v for k, v in raw_output.items() if v[0:4] == '   -'}
+                raw_output = {k: v for k, v in raw_output.items() if v[0:4] == ' '}
                 cleaner = TextCleaning(text_dict=raw_output)
                 cleaned_data = cleaner.clean()
                 self.number_of_requirements[str(corpus_no)] = len(cleaned_data)
@@ -54,3 +54,6 @@ class LLMRepeatabilityAnalysis:
             analysis = CorpusSimilarityAnalysis(validation_data, list(corpus.values()[str(corpus_no)]))
             analysis.run()
             self.similarities[str(corpus_no)] = analysis.output()
+            
+        
+            
