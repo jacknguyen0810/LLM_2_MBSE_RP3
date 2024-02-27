@@ -8,7 +8,7 @@ class PromptChatGPT2Text:
     functions, subsystems (if system requirements are given), or components (if subsystem
     requirements are given
     """
-    def __init__(self, input_fp: str, prompt: str = None, output_fp: str = None, filename: str = "llm_output.txt", runs: int = 1, model: str = 'gpt-3.5-turbo-0125') -> None:
+    def __init__(self, input_fp: str, prompt: str = None, output_fp: str = None, filename: str = "llm_output.txt", runs: int = 1, model: str = 'gpt-3.5-turbo-0125', output_start_number = 129) -> None:
         # Self variables
         self.client = OpenAI()
         self.runs = runs
@@ -16,6 +16,7 @@ class PromptChatGPT2Text:
         self.input_tokens = None
         self.output_tokens = None
         self.filename = filename
+        self.output_counter = output_start_number
         
         # Raise errors for incorrect values. 
         if output_fp is None:
@@ -68,16 +69,18 @@ class PromptChatGPT2Text:
                 {"role": "user", "content": self.prompt + str(self.requirements)}
             ],
             n=self.runs,
+            temperature=0.7
         )
         self.input_tokens = response.usage.prompt_tokens
         self.output_tokens = response.usage.completion_tokens
         
-        for i, choice in enumerate(response.choices):
-            output_name = self.filename + "_" + str(i) + ".txt"
+        for choice in response.choices:
+            output_name = self.filename + "_" + str(self.output_counter) + ".txt"
             # Export the response as a .txt file
             path = os.path.join(self.output_fp, output_name)
             with open(path, 'w', encoding='utf8') as text_file:
                 print(choice.message.content, file=text_file)
+            self.output_counter += 1
             
         # Print a completion messsgae
         print("\n The functions have been generated. \n")
@@ -85,6 +88,6 @@ class PromptChatGPT2Text:
         
 if __name__ == '__main__':
     function_prompt = "Please generate a set of system functions, in bullet points without numbering, from the following set of equations:"
-    llm = PromptChatGPT2Text(prompt=function_prompt, input_fp=r"data\validation_data\PROVE_requirements.txt", output_fp=r"data\PROVE_outputs\PROVE_functions", runs=2)
+    llm = PromptChatGPT2Text(prompt=function_prompt, input_fp=r"data\validation_data\PROVE_requirements.txt", output_fp=r"data\PROVE_outputs\PROVE_functions", runs=128)
         
     

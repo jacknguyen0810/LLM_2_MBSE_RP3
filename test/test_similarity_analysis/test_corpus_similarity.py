@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from llm_similarity_analysis.similarity_analysis.corpus_similarity import CorpusSimilarityAnalysis
+from llm_similarity_analysis.similarity.corpus_similarity import CorpusSimilarityAnalysis
 
 
 class TestCorpusSimilarityAnalysis(unittest.TestCase):

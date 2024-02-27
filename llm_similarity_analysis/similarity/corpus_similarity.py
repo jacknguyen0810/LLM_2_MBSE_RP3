@@ -1,10 +1,11 @@
-import matplotlib.pyplot as plt
-import numpy as np
-from llm_similarity_analysis.similarity_analysis import similarity_metrics
-from llm_similarity_analysis.utilities.utility_functions import vectorise_dataset
+from llm_similarity_analysis.similarity import similarity_metrics
+from llm_similarity_analysis.utilities.utility_functions import (
+    vectorise_dataset,
+    combine_into_corpus,
+)
 
 
-class SentenceSimilarityAnalysis:
+class CorpusSimilarityAnalysis:
     """Class for the similarity analysis using a range of similarity metrics"""
 
     def __init__(
@@ -38,9 +39,13 @@ class SentenceSimilarityAnalysis:
         }
 
     def run(self) -> None:
+        # Combine the sentences into a text corpus
+        self.text_tokens1 = combine_into_corpus(self.text_tokens1)
+        self.text_tokens2 = combine_into_corpus(self.text_tokens2)
+
         # Turn the text token datasets into vectors
-        self.vectors1 = vectorise_dataset(self.text_tokens1, self.vector_model)
-        self.vectors2 = vectorise_dataset(self.text_tokens2, self.vector_model)
+        self.vectors1 = vectorise_dataset(self.text_tokens1)
+        self.vectors2 = vectorise_dataset(self.text_tokens2)
 
         # Extract the similarity
         comp_metric = self.similarity_metric_functions.get(
@@ -51,31 +56,8 @@ class SentenceSimilarityAnalysis:
         self.output = comp_metric(
             list(self.vectors1.values()), list(self.vectors2.values())
         )
-
-    def plot(
-        self,
-        title: str,
-        xlabel: str = "Dataset 1 Sentence IDs",
-        ylabel: str = "Dataset 2 Sentence IDs",
-    ) -> None:
-        # Plotting pairwise comparison of each of the requirements
-        plt.imshow(self.output, "Greens")
-        plt.title(title)
-        plt.xlabel(xlabel)
-        plt.ylabel(ylabel)
-        plt.colorbar()
-        for (j, i), label in np.ndenumerate(self.output):
-            plt.text(i, j, round(label, 4), ha="center", va="center")
-        # plt.xticks(list(self.text_tokens1.keys()))
-        # plt.yticks(list(self.text_tokens2.keys()))
-
-        plt.show()
-
     @staticmethod
-    def metric_error(*args) -> None:
-        """Generic error for incorrect similarity metric
-
-        Raises:
-            ValueError: Generic error for incorrect similarity metric
-        """
+    def metric_error() -> None:
         raise ValueError("Invalid Similarity Metric")
+
+    

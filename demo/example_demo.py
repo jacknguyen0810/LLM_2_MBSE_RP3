@@ -1,4 +1,4 @@
-from llm_similarity_analysis.similarity_analysis.sentence_similarity import (
+from llm_similarity_analysis.similarity.sentence_similarity import (
     SentenceSimilarityAnalysis,
 )
 from llm_similarity_analysis.preprocessing.text_preprocessing import RawData2Python

@@ -1,7 +1,9 @@
 import os
+import matplotlib.pyplot as plt
+import seaborn as sns
 from llm_similarity_analysis.preprocessing.text_preprocessing import RawData2Python
 from llm_similarity_analysis.preprocessing.text_cleaning import TextCleaning
-from llm_similarity_analysis.similarity_analysis.corpus_similarity import CorpusSimilarityAnalysis
+from llm_similarity_analysis.similarity.corpus_similarity import CorpusSimilarityAnalysis
 
 
 class LLMRepeatabilityAnalysis:
@@ -15,7 +17,7 @@ class LLMRepeatabilityAnalysis:
         
         # Empty dictionaries to hold the processed data
         self.clean_data = {}
-        self.number_of_requirements = {}
+        self.output_num = {}
         self.similarities = {}
         
     
@@ -38,10 +40,11 @@ class LLMRepeatabilityAnalysis:
                 raw_output = {k: v for k, v in raw_output.items() if v[0:4] == ' '}
                 cleaner = TextCleaning(text_dict=raw_output)
                 cleaned_data = cleaner.clean()
-                self.number_of_requirements[str(corpus_no)] = len(cleaned_data)
+                self.output_num[str(corpus_no)] = len(cleaned_data)
                 self.clean_data[str(corpus_no)] = cleaned_data
         
         # Get validation case:
+        # If a validation case is not given, use the first value in the 
         if self.validation_case_fp is None:
             validation_data = self.clean_data['0']
         else:
@@ -54,6 +57,15 @@ class LLMRepeatabilityAnalysis:
             analysis = CorpusSimilarityAnalysis(validation_data, list(corpus.values()[str(corpus_no)]))
             analysis.run()
             self.similarities[str(corpus_no)] = analysis.output()
+            
+    def stat_analysis(self, plot=True):
+        # Looking at the number of outputs
+        
+        fig, ax = plt.subplots()
+        if plot:
+            sns.displot(list(self.output_num.values()))
+        
+        
             
         
             

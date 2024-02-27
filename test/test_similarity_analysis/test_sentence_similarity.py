@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from llm_similarity_analysis.similarity_analysis.sentence_similarity import (
+from llm_similarity_analysis.similarity.sentence_similarity import (
     SentenceSimilarityAnalysis,
 )
 
