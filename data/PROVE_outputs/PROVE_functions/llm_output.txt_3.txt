@@ -1,0 +1,22 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of views alignment within 12 degrees
+- Achieve specified spatial sampling distances for IR and VIS images
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Perform radiometric calibration of the IR camera before each target capture
+- Provide geolocation accuracy within one spatial sampling distance over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Store sufficient data onboard for image sets and telemetry
+- Interface with various payload components for power, health monitoring, and data transfers
+- Implement CDH subsystem functionalities for interfacing with cameras, monitoring health, storing data, and operation modes
+- Ensure spacecraft position and attitude data accuracy for image capture
+- Operate within specified temperature ranges under vacuum conditions
+- Meet power consumption requirements for electronics subsystem and CDH
+- Comply with structural requirements for payload support and structural integrity
+- Ensure all payload components meet thermal rating requirements

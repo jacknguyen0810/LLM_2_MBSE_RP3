@@ -1,0 +1,23 @@
+System Functions:
+- Provide multiple IR and VIS images of a primary target in a single primary observation pass
+- Provide IR images of secondary targets in a single secondary observation pass
+- Provide multiple VIS images of a tertiary target in a single tertiary observation pass
+- Distribute images over the observation window in MIS-001 and MIS-003 to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule and accommodate priority observation scenarios
+- Ensure minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain imager field of views alignment to within 12 degrees in the payload structure
+- Achieve spatial sampling distances at nadir for IR and VIS images as specified in MIS-012 and MIS-013
+- Provide a minimum number of science images per observation pass as outlined in MIS-014 and MIS-015
+- Meet temporal resolution requirements for primary target observations in MIS-018
+- Perform radiometric calibration periodically as specified in MIS-021
+- Provide geolocation of targets within specified SSD over land in MIS-022
+- Achieve pointing accuracy of 1 degree in observations
+- Downlink image data within specified timeframes in MIS-025
+- Size onboard storage for adequate image sets storage as per MIS-026
+- Transfer data to the bus for downlink or storage as needed in MIS-027
+- Ensure total payload mass, power usage, and volume are within specified limits (MIS-028, MIS-029, MIS-030)
+- Implement various operation modes including imaging, standby, and safe mode as per MIS-031
+- Ensure hardware qualification meets GSFC-STD-7000B standards
+
+These functions cover the overarching requirements of the system, ensuring the successful operation and achievement of the outlined mission objectives.

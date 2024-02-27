@@ -1,0 +1,24 @@
+- Capture multiple IR and VIS images of a primary target in a single observation pass
+- Capture IR images of secondary targets in a single observation pass
+- Capture multiple VIS images of a tertiary target in a single observation pass
+- Distribute images over the observation window for varied viewing angles
+- Perform observations automatically based on a preset schedule with provision for priority uplinks
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance (SSD) of 300m (threshold) and 90m (goal) at nadir
+- Provide narrow-angle VIS images with SSD of 50m (threshold) and 15m (goal) at nadir
+- Provide a minimum of 10 science images, with a goal of 50, per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Ensure temporal resolution of primary target observations to be 16 days (minimum) and 5 days (goal)
+- Maintain NedT of IR camera at 0.5K (minimum) and 0.05K (goal) without active cooling
+- Perform radiometric calibration of the IR camera, ideally before target capture
+- Provide geolocation accuracy of the target within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within 1 month (threshold) and 7 days (goal)
+- Size onboard storage for one primary target image set with a goal of storing 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Include operation modes: imaging, standby, safe, and additional non-nominal modes as needed

@@ -1,0 +1,32 @@
+- Capture multiple infrared (IR) and visible spectrum (VIS) images of primary targets in a single observation pass
+- Capture IR images of secondary targets during a single observation pass
+- Capture multiple VIS images of tertiary targets in a single observation pass
+- Distribute images over the observation window to provide various viewing angles
+- Maintain alignment of imager fields of view within 12 degrees
+- Provide narrow-angle IR and VIS images for scientific observations
+- Achieve a minimum swath width of 80km at nadir for scientific images
+- Provide IR images with a spatial sampling distance at nadir of 300m (threshold) and 90m (goal)
+- Provide narrow-angle VIS images with a spatial sampling distance at nadir of 50m (threshold) and 15m (goal)
+- Capture a minimum of 10 science images per primary or tertiary observation pass
+- Capture a minimum of 1 science image per target per secondary observation pass
+- Perform radiometric calibration of the IR camera at least once per target, ideally before capture
+- Provide geolocation of the target within one spatial sampling distance over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month (threshold) and 7 days (goal) after observation pass
+- Onboard storage for at least one primary target image set (MIS-012), with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Support various modes: imaging, standby, safe, and other non-nominal modes
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Monitor health of payload components, including temperature and power consumption
+- Switch power to cameras triggered by payload computer or autonomously via health monitoring sensors
+- Interface with CubeSat bus and tolerate bus system overrides
+- Provide sufficient storage for imaging data, position data, and health telemetry
+- Operate in different modes with automatic switching and safe mode for fault handling
+- Operate in temperature range of -30 to +50 degrees C under vacuum conditions
+- Be tolerant of on-orbit radiation exposure and protection against single event upsets
+- Operate with total power consumption of less than 4W
+- Support payload components in random vibration frequency spectrum
+- Withstand specified vibration and launch conditions
+- Maintain alignment of imager swaths
+- Fit the entire payload within a 200X110X100mm volume
+- Ensure all components are rated to withstand expected temperature ranges

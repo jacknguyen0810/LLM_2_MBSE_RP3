@@ -1,0 +1,22 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform automated observations based on a predetermined schedule with the ability for priority uplink scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distances at nadir for IR (300m) and VIS (50m) images
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Ensure temporal resolution meets specified requirements for primary target observations
+- Perform radiometric calibration of the IR camera ideally before each target capture
+- Provide geolocation accuracy of targets to within one spatial sampling distance over land
+- Achieve a pointing accuracy of 1 degree for observations
+- Downlink image data within specified timeframes
+- Size onboard storage for multiple primary target image sets
+- Transfer data to the bus for downlink or extra storage
+- Ensure the total payload mass, power usage, and volume meet specified limits
+- Include imaging, standby, safe, and additional modes as needed for the mission
+- Qualify mission hardware to specified GSFC-STD-7000B levels and durations
+
+*(Please note that the functions provided are summarized from the text you provided and may need further clarification or refinement.)*

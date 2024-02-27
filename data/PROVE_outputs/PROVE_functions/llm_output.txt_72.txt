@@ -1,0 +1,25 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass.
+- Provide IR images of given secondary targets during a single secondary observation pass.
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass.
+- Distribute IR and VIS images in MIS-001 and MIS-003 over the observation window, offering a range of viewing angles.
+- Perform MIS-001 for a duration of 1 month (threshold) with a goal of 12 months.
+- Automate observations based on a pre-determined schedule of standard targets and allow uplink of priority scenarios.
+- Maintain a minimum observation elevation angle of 30 degrees for targets.
+- Provide narrow-angle IR and VIS images for science observations.
+- Ensure a minimum swath width of 80km at nadir for scientific images.
+- Maintain an alignment of imager field of views to within 12 degrees.
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m.
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m.
+- Deliver a minimum of 10 science images, with a goal of 50, per primary or tertiary observation pass.
+- Provide a minimum of 1 science image per target for each secondary observation pass.
+- Achieve a temporal resolution of 16 days (minimum) with a goal of 5 days for primary target observations.
+- Ensure the NedT of the IR camera is at least 0.5K with a goal of 0.05 K, while being uncooled.
+- Perform radiometric calibration of the IR camera at least once per target ideally before capture begins.
+- Provide geolocation accuracy of the target to within one SSD over land.
+- Achieve pointing accuracy of 1 degree.
+- Downlink image data within 1 month (threshold), with a goal of 7 days.
+- Size onboard storage for at least one primary target image set (MIS-012), with a goal of 10 sets.
+- Transfer data to the bus for downlink or additional storage.
+- Ensure total payload mass does not exceed 2.66kg, power usage remains under 14W, and volume does not exceed 2U.
+- Include imaging, standby, safe, and other TBD non-nominal modes as mission modes.
+- Qualify mission hardware to levels and durations specified in GSFC-STD-7000B.

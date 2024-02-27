@@ -1,0 +1,31 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations automatically based on a pre-determined schedule with the ability to prioritize certain scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain an alignment of imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance (SSD) of 300m at nadir
+- Provide narrow-angle VIS images with SSD of 50m at nadir
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve a temporal resolution of 16 days for primary target observations
+- Perform radiometric calibration of the IR camera at least once per target capture
+- Provide geolocation of the target within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month of observation pass
+- Size onboard storage for at least one primary target image set with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Have operational modes including imaging, standby, safe, and other non-nominal modes as needed
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera for imaging
+- Determine spacecraft position and attitude at the moment of image capture
+- Monitor health of payload components, temperature, and power consumption
+- Store imaging data and telemetry for operational requirements
+- Operate in different modes and accommodate various imaging sequences
+- Operate within specified temperature ranges and environmental conditions
+- Maintain structural integrity to support payload components and align imager swaths
+- Ensure all payload components are rated to withstand expected temperature ranges

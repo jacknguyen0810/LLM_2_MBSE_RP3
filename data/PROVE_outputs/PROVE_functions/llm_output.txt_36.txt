@@ -1,0 +1,37 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform primary target observations for a lifetime of 1 month, with a goal of 12 months
+- Automate observations based on a pre-determined schedule, with priority observation scenario uplink capability
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Ensure a minimum swath width of 80km at nadir for scientific images
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (goal: 90m)
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (goal: 15m)
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve a minimum temporal resolution of 16 days for primary target observations
+- Maintain a minimum NedT of the IR camera of 0.5K (goal: 0.05 K) with uncooled IR camera
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation of the target within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month (goal: 7 days) of observation
+- Size onboard storage for at least one primary target image set, with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Support different operation modes: imaging, standby, safe, and other required modes
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera for imaging operations
+- Determine spacecraft position and attitude at the moment of image capture
+- Monitor health of payload components, including cameras and computer
+- Provide electrical connections to support data interfaces between components
+- Store image data, position data, and health telemetry as needed
+- Accommodate different imaging modes and sequences for IR and VIS cameras
+- Operate in specified temperature range and environmental conditions
+- Have fail-safes in place for critical failures and radiation exposure
+- Test structural integrity to meet specified vibrations and other environmental conditions
+- Maintain alignment of imager swaths and fit within specified volume constraints
+- Ensure all payload components meet temperature operating and storage requirements

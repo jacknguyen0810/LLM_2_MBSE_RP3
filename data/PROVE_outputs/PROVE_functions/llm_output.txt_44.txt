@@ -1,0 +1,21 @@
+- Capture multiple IR and VIS images of primary target in single observation pass
+- Capture IR images of secondary targets in single observation pass
+- Capture multiple VIS images of tertiary target in single observation pass
+- Distribute IR and VIS images during observation window to cover range of viewing angles
+- Perform observation for a minimum of 1 month for primary target with 12-month goal
+- Automate observations based on pre-determined schedule with ability to uplink priority scenarios
+- Ensure minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distances for IR and VIS images at nadir
+- Provide minimum number of science images per observation pass
+- Perform radiometric calibration of IR camera before target capture
+- Provide geolocation accuracy within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within specified timeframe
+- Enable onboard storage for image sets with specified thresholds and goals
+- Transfer data to bus for downlink or storage
+- Ensure total payload mass, power usage, and volume constraints are met
+- Implement various CDH subsystem functions related to cameras, health monitoring, interfaces, memory management, operations, environmental conditions, and power consumption
+- Ensure structural integrity to support payload components and maintain alignment
+- Meet thermal requirements for all payload components during mission.

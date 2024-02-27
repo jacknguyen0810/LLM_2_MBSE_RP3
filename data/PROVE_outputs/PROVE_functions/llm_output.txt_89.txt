@@ -1,0 +1,31 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window, providing a range of viewing angles for MIS-001 and MIS-003
+- Perform observations according to a predetermined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) of 300m at nadir, with a goal of 90m
+- Provide narrow-angle VIS images with a SSD of 50m at nadir, with a goal of 15m
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Perform radiometric calibration of the IR camera at least once per target observation
+- Provide geolocation accuracy of the target within one SSD over land
+- Achieve a pointing accuracy of 1 degree during observations
+- Downlink image data within 1 month, with a goal of 7 days
+- Size onboard storage for at least one primary target image set, with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Limit total payload power usage to 14W
+- Restrict total payload volume to 2U
+- Operate in imaging, standby, safe modes, and other non-nominal modes as needed
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera for imaging
+- Determine spacecraft position and attitude at the moment of image capture
+- Monitor health of payload components, including cameras and computer
+- Store imaging data and health telemetry according to specified requirements
+- Operate in temperature range of -30 to +50 degrees C under vacuum conditions
+- Ensure structural stability to support payload components under specified vibration and launch conditions
+- Maintain alignment of imager swaths within specified parameters
+- Fit all payload components within a 200X110X100mm volume
+- Ensure all payload components are rated to withstand mission temperature range

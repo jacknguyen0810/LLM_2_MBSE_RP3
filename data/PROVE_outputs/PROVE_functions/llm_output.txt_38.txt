@@ -1,0 +1,44 @@
+- Provide IR and VIS images of primary target in a single primary observation pass
+- Provide IR images of secondary targets in a single secondary observation pass
+- Provide VIS images of tertiary target in a single tertiary observation pass
+- Distribute images over observation window for range of viewing angles
+- Perform primary target observations for 1-12 months
+- Automate observations based on pre-determined schedule with priority uplink capability
+- Maintain minimum elevation angle of 30 degrees for observations
+- Provide narrow-angle IR and VIS images for science observations
+- Ensure minimum swath width of 80km at nadir for scientific images
+- Maintain imager field of view alignment within 12 degrees
+- Provide IR images with spatial sampling distance of 300m to 90m at nadir
+- Provide VIS images with spatial sampling distance of 50m to 15m at nadir
+- Capture minimum 10 science images per primary or tertiary observation pass
+- Capture minimum 1 science image per target per secondary observation pass
+- Maintain temporal resolution for primary target observations at 16-5 days
+- Ensure IR camera NedT of 0.5K to 0.05K
+- Perform radiometric calibration of IR camera at least once per target, ideally before capture
+- Provide geolocation of target within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within 1-7 days of observation pass
+- Size onboard storage for 1-10 primary target image sets
+- Transfer data to bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Include imaging, standby, safe, and other TBD non-nominal operation modes
+- Qualify mission hardware to specified levels and durations
+- Provide sufficient power for all modes via 12V, 5V, and 3V buses
+- Monitor health of payload components including temperature and power consumption
+- Cut power to cameras triggered by payload computer or autonomously
+- Provide electrical connections for data interfaces between components and subsystems
+- Interface CDH subsystem with specified IR and VIS cameras
+- Stream images from cameras per observation pass
+- Determine spacecraft position and attitude at image capture moment
+- Store imaging and telemetry data, position data, and health telemetry
+- Operate in imaging modes, standby mode, and safe mode as required
+- Operate within specified thermal range and under vacuum conditions
+- Be tolerant of radiation exposure and incorporate protection against SEUs and SELs
+- Operate with total power consumption less than 4W
+- Support payload components in random vibration spectrum
+- Withstand specified structural test levels and durations
+- Maintain alignment of imager swaths
+- Fit payload components within specified volume
+- Ensure all components can withstand expected temperature range and operating/storage conditions.

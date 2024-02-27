@@ -1,0 +1,37 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images provided in MIS-001 and MIS-003 over the observation window, providing a range of viewing angles
+- Perform MIS-001 for a threshold lifetime of 1 month, with a goal of 12 months
+- Automate observations based on a pre-determined schedule with the ability to prioritize scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Ensure a minimum swath width of 80 km at nadir for scientific images
+- Maintain alignment of the imager field of views to within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m
+- Provide a minimum of 10 science images, with a goal of 50, per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a threshold of 1 month, with a goal of 7 days
+- Size onboard storage for at least one primary target image set, with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure the total payload mass does not exceed 2.66kg
+- Ensure the total payload power usage does not exceed 14W
+- Ensure the total payload volume does not exceed 2U
+- Include imaging, standby, safe modes, and other TBD non-nominal modes as needed
+- Qualify mission hardware to levels and durations specified in GSFC-STD-7000B
+- Provide sufficient power for every system mode
+- Monitor health of payload components including temperature and power consumption
+- Interface with IR camera, Basler camera, payload computer, and bus for data transfer
+- Determine spacecraft position and attitude at image capture moment
+- Store imaging data, position data, and health telemetry
+- Operate in different modes including imaging sequences and safe mode
+- Operate in a temperature range of -30 to +50 degrees C under vacuum conditions
+- Be tolerant to at least 7 months of on-orbit radiation exposure
+- Cut power to camera modules if operating unsafely or triggered by health monitoring
+- Prioritize data overwriting when memory is full
+- Ensure structural integrity to meet vibration and launch stress requirements
+- Maintain alignment of imager swaths to specified km
+- Support payload components within defined volume limits
+- Ensure all payload components can withstand mission temperature ranges

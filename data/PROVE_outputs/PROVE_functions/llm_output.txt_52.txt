@@ -1,0 +1,32 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window, providing a range of viewing angles
+- Perform observations for a threshold lifetime of 1 month, with a goal of 12 months
+- Automate observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Achieve a minimum temporal resolution for primary target observations
+- Provide spatial sampling distances for both IR and VIS images at a threshold level with respective goals
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Perform radiometric calibration of the IR camera at least once per target, ideally before captures
+- Provide accurate geolocation of the target
+- Achieve a pointing accuracy of 1 degree during observations
+- Downlink image data within specified timeframes
+- Size onboard storage for a threshold and goal number of primary target image sets
+- Transfer data between payload components and the bus for downlink or storage
+- Ensure total payload mass, power usage, and volume are within specified limits
+- Implement various modes of operation for the mission including imaging, standby, and safe modes
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera through the CDH subsystem 
+- Monitor health and power consumption of payload components
+- Switch power to cameras based on command or autonomous health monitoring
+- Provide data interfaces between various payload components and the payload computer
+- Retrieve and store imaging data, position data, and health telemetry with specific requirements
+- Accommodate different imaging modes and sequences for cameras
+- Switch between operation modes as required, including safe and standby modes
+- Operate in specified temperature ranges and environmental conditions
+- Be tolerant to radiation exposure and incorporate protection against SEUs and SELs
+- Operate with specified power consumption levels
+- Support payload components during random vibration and specific structural tests
+- Maintain alignment of imager swaths and fit within a specific volume
+- Ensure all payload components meet specified thermal ratings and operating/storage temperature ranges

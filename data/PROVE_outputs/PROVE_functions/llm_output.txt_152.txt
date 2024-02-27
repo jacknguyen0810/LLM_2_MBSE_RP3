@@ -1,0 +1,28 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles in MIS-001 and MIS-003
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain an alignment of the imager field of views within 12 degrees
+- Achieve spatial sampling distances (SSD) at nadir of 300m for IR images and 50m for VIS images
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation of the target within one SSD over land
+- Achieve a pointing accuracy of 1 degree for observations
+- Downlink image data within a specified timeframe
+- Size onboard storage for imaging data sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure the total payload mass, power usage, and volume do not exceed specified limits
+- Provide modes of operation including imaging, standby, safe, and other non-nominal modes
+- Interface with the IR and VIS cameras for data transfer
+- Monitor health of payload components, including temperature and power consumption
+- Switch power to cameras as needed for safety
+- Provide data interfaces with the payload components and the main satellite bus
+- Provide sufficient storage for imaging data and telemetry
+- Operate in different modes and switch between them as required
+- Operate within specified temperature ranges and environmental conditions
+- Ensure structural integrity to support payload components during launch and operation
+- Maintain alignment of imager swaths and fit within specified volume requirements
+- Ensure all payload components meet thermal requirements for operation and storage temperatures

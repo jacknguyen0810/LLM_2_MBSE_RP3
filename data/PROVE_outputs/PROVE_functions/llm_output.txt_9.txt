@@ -1,0 +1,44 @@
+- Provide multiple IR and VIS images of primary target during a single observation pass
+- Provide IR images of secondary targets during a single observation pass
+- Provide multiple VIS images of tertiary target during a single observation pass
+- Distribute images over observation window for range of viewing angles
+- Perform primary target observations for a lifetime of 1 month (goal: 12 months)
+- Automate observations based on pre-determined schedule with ability to prioritize scenarios
+- Maintain minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain imager field of views alignment within 12 degrees
+- Provide IR images with SSD of 300m (goal: 90m) at nadir
+- Provide narrow-angle VIS images with SSD of 50m (goal: 15m) at nadir
+- Provide minimum of 10 science images (goal: 50) per primary/tertiary observation pass
+- Provide minimum of 1 science image per target per secondary observation pass
+- Perform radiometric calibration of IR camera minimum once per target
+- Provide geolocation of target to within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within 1 month (goal: 7 days)
+- Onboard storage for at least one primary target image set (10 sets goal)
+- Transfer data for downlink/storage on the bus
+- Limit total payload mass to 2.66kg
+- Limit total payload power usage to 14W
+- Limit total payload volume to 2U
+- Provide imaging, standby, safe, and other TBD modes
+- Qualify mission hardware to GSFC-STD-7000B levels and durations
+- Provide power for components operating on 12V, 5V, and 3V buses
+- Monitor health of payload components, including temperature and power consumption
+- Cut power to cameras triggered by payload computer or autonomously
+- Provide electrical connections for data interfaces between payload components
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Stream images from cameras per observation pass
+- Determine spacecraft position and attitude at image capture moment
+- Monitor health of camera modules and switch power automatically if unsafe
+- Interface with CubeSat bus and CDH subsystem
+- Retrieve/send commands/data to main satellite bus
+- Store imaging data, position data, and health telemetry
+- Prioritize data overwrite if memory is full
+- Operate in various modes with automatic switching
+- Operate within specified temperature range under vacuum conditions
+- Be tolerant of on-orbit radiation exposure and single event upsets
+- Operate with total power consumption less than 4W
+- Support payload components during vibrations and withstand specified stress levels
+- Maintain alignment of imager swaths to specified width
+- Support payload components within specified volume
+- Ensure all components can withstand expected temperature ranges and operating/storage limits.

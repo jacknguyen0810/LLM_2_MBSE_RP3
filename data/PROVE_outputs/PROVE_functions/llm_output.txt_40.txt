@@ -1,0 +1,45 @@
+- Provide multiple IR and VIS images of primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for range of viewing angles in primary and tertiary passes
+- Perform observations automatically based on a predetermined schedule with priority uplink capability
+- Ensure minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance (SSD) at nadir of 300m (threshold) with goal of 90m
+- Provide narrow-angle VIS images with SSD at nadir of 50m (threshold) with goal of 15m
+- Provide minimum of 10 science images per primary or tertiary observation pass
+- Provide minimum of 1 science image per target per secondary observation pass
+- Achieve temporal resolution for primary target observations of 16 days (threshold) with goal of 5 days
+- Ensure radiometric calibration of IR camera performed at least once per target
+- Provide geolocation of target within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within 1 month threshold, with a goal of 7 days
+- Size onboard storage for one primary target image set, with a goal of 10 sets
+- Transfer data to the bus for downlink or storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Provide imaging, standby, safe modes, and other non-nominal modes as needed
+- Qualify mission hardware to GSFC-STD-7000B levels and durations
+- Provide sufficient power for every system mode
+- Provide power via 12V, 5V, and 3V buses for respective components
+- Monitor health of payload components, including temperature and power consumption
+- Cut power to cameras, triggered by computer or autonomously
+- Provide electrical connections for data interfaces between components
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Stream images from cameras as specified
+- Determine position and attitude of spacecraft at image capture moment
+- Monitor health of camera modules, switch power if operating unsafely
+- Be tolerant to bus system overrides, fail gracefully if necessary
+- Have sufficient storage for imaging and health telemetry data
+- Prioritize data overwriting when memory is full
+- Accommodate different imaging modes and sequences
+- Operate in temperature range of -30 to +50 degrees C under vacuum conditions
+- Be tolerant to on-orbit radiation exposure and single event upsets/latch-ups
+- Operate with total power consumption less than 4W
+- Support payload components in random vibration frequency spectrum
+- Withstand specified test levels and durations
+- Maintain alignment of imager swaths to specified measurement 
+- Ensure whole payload fits within specified volume
+- Ensure all components rated for expected temperature range and have appropriate operating/storage temperature limits.

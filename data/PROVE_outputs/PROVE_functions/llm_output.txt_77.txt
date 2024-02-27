@@ -1,0 +1,38 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to prioritize certain scenarios
+- Ensure minimum elevation angle for observations of targets is 30 degrees
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance of 300m at nadir
+- Provide VIS images with a spatial sampling distance of 50m at nadir
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve a temporal resolution of a minimum of 16 days for primary target observations
+- Ensure NedT of the IR camera is a minimum of 0.5K
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation accuracy of target within one spatial sampling distance over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month, with a goal of 7 days
+- Size onboard storage for one primary target image set, with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Have operation modes for imaging, standby, safe, and other non-nominal modes as needed
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Stream images from both cameras during primary observation passes
+- Determine spacecraft position and attitude at the moment of image capture with high accuracy
+- Monitor health of payload components, including cameras and computer
+- Provide sufficient power via 12V, 5V, and 3V buses for components
+- Store imaging data, position data, health telemetry, and imaging commands efficiently
+- Prioritize data storage to accommodate new data
+- Operate in various modes and switch automatically as required
+- Operate within specified temperature range and environmental conditions
+- Be qualified to withstand mechanical testing levels specified in GSFC-STD-7000B
+- Ensure payload structure supports components in random vibration frequency spectrum and other mechanical stress tests
+- Maintain alignment of imager swaths
+- Fit the whole payload within a specific volume
+- Ensure all components can withstand expected temperature ranges and have suitable operating/storage ranges

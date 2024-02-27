@@ -1,0 +1,27 @@
+- Provide multiple Infrared (IR) and Visible (VIS) images of a primary target during a single primary observation pass.
+- Provide IR images of secondary targets during a single secondary observation pass.
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass.
+- Distribute images over the observation window in MIS-001 and MIS-003 to offer a range of viewing angles.
+- Perform MIS-001 observations for a minimum threshold lifetime of 1 month, with a target goal of 12 months.
+- Automate observations based on a pre-determined schedule of standard targets, with the ability to prioritize observation scenarios.
+- Maintain a minimum elevation angle of 30 degrees for target observations.
+- Provide narrow-angle IR and VIS images for scientific observations.
+- Ensure a minimum swath width of 80km at nadir for scientific images.
+- Maintain a structural alignment of the imager field of views within 12 degrees.
+- Provide IR images at a spatial sampling distance (SSD) of 300m at nadir (threshold), with a goal of 90m.
+- Provide narrow-angle VIS images at a SSD of 50m at nadir (threshold), with a goal of 15m.
+- Deliver a minimum of 10 science images, with a goal of 50, per primary or tertiary observation pass.
+- Provide a minimum of 1 science image per target during secondary observation passes.
+- Ensure a temporal resolution for primary target observations of a minimum 16 days, with a goal of 5 days.
+- Maintain a minimum Noise Equivalent Temperature Difference (NedT) of the IR camera at 0.5K, with a target goal of 0.05 K.
+- Perform radiometric calibration of the IR camera at least once per target, ideally before capture begins.
+- Provide geolocation accuracy of the target within one SSD over land.
+- Achieve a pointing accuracy of 1 degree for the mission.
+- Downlink image data within a threshold of 1 month, with a target goal of 7 days.
+- Allocate onboard storage for one primary target image set (MIS-012) at a minimum, with a goal of 10 primary target image sets.
+- Transfer data to the bus for downlinking or additional storage.
+- Ensure the total payload mass does not exceed 2.66kg.
+- Ensure the total payload power usage does not exceed 14W.
+- Ensure the total payload volume does not exceed 2U.
+- Implement different operational modes like imaging, standby, safe, and other non-nominal modes as required.
+- Qualify the mission hardware to the levels and durations specified in GSFC-STD-7000B.
