@@ -1,0 +1,29 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform automated observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of views alignment within 12 degrees
+- Achieve spatial sampling distances at nadir of 300m for IR images and 50m for VIS images
+- Provide a minimum of 10 science images per primary or tertiary observation pass and 1 science image per target per secondary observation pass
+- Perform radiometric calibration of the IR camera at least once per target
+- Geolocate the target to within one spatial sampling distance over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month with a goal of 7 days
+- Provide onboard storage for imaging data with specified thresholds and goals
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass, power usage, and volume do not exceed specified limits
+- Have operational modes including imaging, standby, safe, and other non-nominal modes as needed
+- Interface with components operating on 12V, 5V, and 3V buses
+- Monitor health of payload components and cut power to cameras if necessary
+- Provide electrical connections for data interfaces between components and the payload computer
+- Interface with specified cameras and sensors for monitoring and control
+- Store imaging and telemetry data, position data, and health telemetry
+- Operate in different modes and accommodate imaging sequences for different cameras
+- Be tolerant to overrides from the satellite bus systems
+- Operate within specified temperature ranges and environmental conditions
+- Qualify hardware to specified levels and durations
+- Support payload components in terms of structural requirements and alignment
+- Ensure all components meet thermal requirements for operating and storage temperatures.

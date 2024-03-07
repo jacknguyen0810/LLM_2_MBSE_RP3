@@ -1,0 +1,32 @@
+- Provide multiple IR and VIS images of a primary target during a single observation pass
+- Provide IR images of secondary targets during a single observation pass
+- Provide multiple VIS images of a tertiary target during a single observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to prioritize observation scenarios
+- Ensure minimum elevation angle for target observations is 30 degrees
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance (SSD) of 300m at nadir
+- Provide narrow-angle VIS images with SSD of 50m at nadir
+- Provide minimum number of science images per observation pass
+- Achieve temporal resolution for primary target observations
+- Ensure NedT of IR camera meets specified thresholds
+- Perform radiometric calibration of IR camera before target capture
+- Provide geolocation of target to within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Size onboard storage for storing imaging data
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass, power usage, and volume do not exceed specified limits
+- Include imaging, standby, safe, and other required modes in the mission
+- Qualify mission hardware to specified standards.
+- Provide sufficient power for all system modes
+- Monitor health of payload components including temperature and power consumption
+- Provide electrical connections for data interfaces between components
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Determine spacecraft position and attitude at image capture
+- Store imaging data, position data, and health telemetry
+- Operate in different modes and switch between them as required
+- Operate within specified temperature ranges and environmental conditions
+- Ensure structural integrity to support payload components and withstand required tests
+- Ensure thermal requirements are met for all payload components.

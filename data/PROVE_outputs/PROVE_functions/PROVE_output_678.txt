@@ -1,0 +1,33 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to prioritize certain scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain an alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m
+- Provide a minimum of 10 science images, with a goal of 50, per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Maintain a temporal resolution for primary target observations of a minimum of 16 days, with a goal of 5 days
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation of the target to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a threshold of 1 month, with a goal of 7 days
+- Size onboard storage for at least one primary target image set, with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Implement different operational modes including imaging, standby, safe, and other non-nominal modes
+- Interface with the FLIR Tau2 IR camera and send commands to it
+- Stream images from both IR and VIS cameras during observation passes
+- Determine spacecraft position and attitude accurately during image capture
+- Monitor health of payload components, including cameras and computer
+- Store imaging data, position data, and health telemetry as required
+- Prioritize data storage to overwrite oldest data first if memory is full
+- Operate in different modes and switch automatically between them as needed
+- Operate within specified temperature range under vacuum conditions
+- Be tolerant to on-orbit radiation exposure and protect against single event upsets
+- Interface with CubeSat bus and communicate effectively with it

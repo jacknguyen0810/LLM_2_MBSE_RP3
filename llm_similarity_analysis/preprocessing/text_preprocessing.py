@@ -33,9 +33,16 @@ class RawData2Python:
         """
         # Empty dictionary to hold text data
         data = {}
+        # Open the file
         with open(filepath, encoding="utf-8") as fh:
+            # Loop through the lines in the .txt file
             for number, line in enumerate(fh):
-                data[str(number + 1)] = line.strip()
+                # Check for empty lines of code
+                if line in ['\n', '\r\n']:
+                    continue
+                # Add the line of text to data
+                else:
+                    data[str(number + 1)] = line.strip()
 
         # Output to .json if requested.
         if output_to_json:

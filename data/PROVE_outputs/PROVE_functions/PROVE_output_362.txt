@@ -1,0 +1,27 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform automated observations based on a pre-determined schedule with the ability to prioritize scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of views alignment within 12 degrees
+- Achieve specific spatial sampling distances (SSD) for IR and VIS images at nadir
+- Ensure a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation accuracy within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Size onboard storage for storing image sets and other data
+- Transfer data to the bus for downlink or additional storage
+- Limit total payload mass, power usage, and volume
+- Implement system modes including imaging, standby, and safe modes
+- Interface with various components for electrical connections and data transfer
+- Monitor health of payload components and trigger actions based on sensor data
+- Interface with specific cameras and sensors for image capture and health monitoring
+- Store imaging data, position data, and health telemetry within specified parameters
+- Operate in different modes and imaging sequences
+- Operate within specified temperature ranges and environmental conditions
+- Ensure structural integrity to withstand vibration and launch forces
+- Maintain alignment of imager swaths and fit within designated volume
+- Ensure all payload components meet temperature requirements

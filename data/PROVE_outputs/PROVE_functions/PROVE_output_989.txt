@@ -1,0 +1,28 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations automatically based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distances at nadir of 300m for IR images and 50m for VIS images
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Conduct radiometric calibration of the IR camera at least once per target capture
+- Provide geolocation of the target within one spatial sampling distance over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Store image sets onboard for downlinking
+- Transfer data to the bus for downlinking or storage
+- Limit total payload mass, power usage, and volume
+- Have operational modes including imaging, standby, and safe, among others
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera for data streaming and commands
+- Determine spacecraft position and attitude at the moment of image capture
+- Monitor health of payload components, including cameras and computer
+- Provide sufficient power for all system modes and components
+- Provide electrical connections for data interfaces between components and the bus
+- Store imaging data, position data, and health telemetry
+- Operate in various modes and imaging sequences
+- Be tolerant to bus system overrides and fail gracefully if required
+- Maintain operation in specified temperature ranges and environmental conditions
+- Be qualified to withstand structural and thermal requirements as per standards

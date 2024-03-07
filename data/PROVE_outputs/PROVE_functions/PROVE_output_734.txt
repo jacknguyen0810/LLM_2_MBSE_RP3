@@ -1,0 +1,30 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations automatically based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Achieve a spatial sampling distance (SSD) of 300m (threshold) for IR images, with a goal of 90m
+- Achieve a SSD of 50m (threshold) for narrow-angle VIS images, with a goal of 15m
+- Provide a minimum of 10 science images per primary or tertiary observation pass, with a goal of 50
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation of the target within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a threshold of 1 month, with a goal of 7 days
+- Size onboard storage for a threshold of one primary target image set, with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Support operation in different modes including imaging, standby, and safe modes
+- Interface with the FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Monitor health and power consumption of payload components
+- Provide electrical connections for data interfaces between components and payload computer
+- Store imaging data and position information for each image
+- Operate within a temperature range of -30 to +50 degrees C under vacuum conditions
+- Be tolerant to radiation exposure and single event upsets
+- Maintain alignment of imager field of views and swaths
+- Support payload components within a defined volume
+- Ensure all components meet thermal requirements for temperature ranges and operating/storage conditions.

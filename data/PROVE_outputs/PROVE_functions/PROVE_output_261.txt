@@ -1,0 +1,29 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Ensure a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), goal of 15m
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation accuracy of the target within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month threshold, goal of 7 days
+- Size onboard storage for one primary target image set, goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Provide operation modes: imaging, standby, safe, and other as needed
+- Design electronics subsystem for power distribution, health monitoring, and data interfaces
+- Interface CDH subsystem with IR and VIS cameras, Buss, GNC, MEM, OPS, TEM, ENV, POW modules
+- Incorporate CubeSat bus connections and functionality in CDH subsystem
+- Ensure CDH subsystem can operate in different imaging modes and handle imaging data storage
+- Ensure CDH subsystem can operate within specified temperature and environmental conditions
+- Design payload structure to support payload components, maintain alignment, and fit within specified volume
+- Ensure all payload components meet thermal requirements for temperature range, storage, and operation.

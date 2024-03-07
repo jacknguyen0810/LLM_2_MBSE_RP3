@@ -1,0 +1,36 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a predetermined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of view alignment within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) of 300m at nadir
+- Provide narrow-angle VIS images with a SSD of 50m at nadir
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Maintain a temporal resolution for primary target observations of at least 16 days
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation of the target to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month, with a goal of 7 days
+- Size onboard storage for at least one primary target image set, with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Limit total payload mass to 2.66kg
+- Limit total payload power usage to 14W
+- Limit total payload volume to 2U
+- Have operational modes including imaging, standby, safe, and other non-nominal modes
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Provide power via 12V, 5V, and 3V buses for components
+- Monitor health of payload components, including cameras and computer
+- Cut power to cameras triggered by computer or autonomously
+- Provide electrical connections for data interfaces between components
+- Determine spacecraft position and attitude at image capture
+- Store imaging data and health telemetry
+- Operate in different modes and switch automatically
+- Operate in temperature range of -30 to +50 degrees C under vacuum conditions
+- Be tolerant to on-orbit radiation exposure and SEUs/SELs
+- Withstand random vibration, sine sweep, and burst tests
+- Maintain alignment of imager swaths
+- Fit within a 200x110x100mm volume

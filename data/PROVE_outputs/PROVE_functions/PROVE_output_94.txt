@@ -1,0 +1,37 @@
+- Provide multiple IR and VIS images of primary target in a single primary observation pass
+- Provide IR images of secondary targets in a single secondary observation pass
+- Provide multiple VIS images of tertiary target in a single tertiary observation pass
+- Distribute images over observation window for various viewing angles
+- Perform observations based on pre-determined schedule with ability to prioritize
+- Maintain minimum observation elevation angle of 30 degrees
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance (SSD) of 300m at nadir
+- Provide narrow-angle VIS images with SSD of 50m at nadir
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve temporal resolution of minimum 16 days for primary target observations
+- Perform radiometric calibration of IR camera at least once per target
+- Provide geolocation accuracy of target within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within 1 month threshold
+- Size onboard storage for at least one primary target image set
+- Transfer data to the bus for downlink or additional storage
+- Total payload mass not to exceed 2.66kg
+- Total payload power usage not to exceed 14W
+- Total payload volume not to exceed 2U
+- Provide imaging, standby, safe modes, and other non-nominal modes as needed
+- Interface with FLIR Tau2 IR camera for CDH subsystem
+- Interface with Basler acA640-100gm camera for CDH subsystem
+- Determine position and attitude of spacecraft at image capture moment
+- Monitor health of payload components and cameras
+- Store imaging data, position data, and health telemetry
+- Operate in different modes and switch between imaging sequences
+- Operate in temperature range of -30 to +50 degrees C under vacuum conditions
+- Tolerant to on-orbit radiation exposure and single event upsets/latch-ups
+- Operate with total power consumption less than 4W
+- Support payload components in random vibration frequency spectrum
+- Withstand specified test levels and durations for structural integrity
+- Maintain alignment of imager swaths
+- Support payload components within specified volume constraints
+- Ensure all payload components meet thermal requirements for operating and storage temperatures.

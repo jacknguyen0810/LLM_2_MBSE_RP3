@@ -1,0 +1,33 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Maintain temporal resolution for primary target observations
+- Perform radiometric calibration of the IR camera before target capture begins
+- Provide geolocation of the target within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a specified timeframe
+- Store data onboard for a specific number of primary target image sets
+- Transfer data to the bus for downlink or storage
+- Ensure total payload mass, power usage, and volume do not exceed specified limits
+- Include imaging, standby, safe, and other non-nominal modes
+- Interface with and provide power to components operating at different voltages
+- Monitor health of payload components and cut power as needed
+- Provide electrical connections for data interfaces between components
+- Interface with cameras, payload computer, and bus
+- Switch between different imaging modes based on requirements
+- Store imaging data, position data, and health telemetry
+- Operate within specified temperature and environmental conditions
+- Be tolerant to radiation exposure and single event upsets
+- Provide structural support for payload components
+- Maintain alignment of imager swaths
+- Fit within specified volume requirements
+- Ensure all components can withstand temperature ranges and have suitable operating/storage temperature limits.

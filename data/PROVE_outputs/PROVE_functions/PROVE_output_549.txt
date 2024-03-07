@@ -1,0 +1,35 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to prioritize scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Ensure minimum swath width of 80km at nadir for scientific images
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), goal of 15m
+- Provide a minimum of 10 science images per primary or tertiary observation pass, with a goal of 50
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within a threshold of 1 month, goal of 7 days
+- Store image data for one primary target image set, goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Support imaging, standby, safe modes, and other non-nominal modes as needed
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Monitor health of payload components including temperature and power consumption
+- Switch power to cameras triggered by the payload computer or health monitoring sensors
+- Provide electrical connections for data interfaces between components and payload computer
+- Retrieve and send commands and data to the main satellite bus
+- Store imaging data, position data, and health telemetry
+- Operate in different modes and switch between them as required
+- Operate in imaging modes including AISP, MISP, SIP
+- Maintain operational temperature range of -30 to +50 degrees C under vacuum conditions
+- Ensure structural support for payload components in defined vibration spectrum
+- Withstand specified test levels and durations for structural integrity
+- Maintain alignment of imager swaths
+- Fit within a 200x110x100mm volume
+- Ensure payload components are rated for expected temperature range and have specified operating and storage temperature limits.

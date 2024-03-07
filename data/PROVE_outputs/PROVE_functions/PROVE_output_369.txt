@@ -1,0 +1,27 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of views alignment within 12 degrees
+- Achieve spatial sampling distance goals for IR and VIS images at nadir
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Perform radiometric calibration of the IR camera ideally before target capture
+- Provide accurate geolocation of the target over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Size onboard storage for imaging data sets with specified thresholds and goals
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass, power usage, and volume do not exceed specified limits
+- Support different operational modes including imaging, standby, and safe modes
+- Interface with and provide power distribution for components operating at different voltage levels
+- Monitor health and status of payload components, including cameras and computers
+- Provide electrical connections for data interfaces between various payload components
+- Interface with the CubeSat bus and handle data and power connections
+- Provide sufficient storage for imaging data, position data, and health telemetry
+- Switch between operational modes as needed and accommodate imaging sequences for different cameras
+- Operate within specified temperature ranges and environmental conditions
+- Maintain structural integrity to support payload components during launch and in orbit
+- Ensure thermal requirements for all payload components are met to withstand mission conditions

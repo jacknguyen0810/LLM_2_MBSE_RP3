@@ -1,0 +1,28 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations automatically based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide specified spatial sampling distances for IR and VIS images at nadir
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation accuracy of within one spatial sampling distance over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Size onboard storage for image sets based on requirements
+- Transfer data to the bus for downlink or storage
+- Ensure total payload mass, power usage, and volume do not exceed specified limits
+- Include imaging, standby, and safe modes in the mission hardware
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera for software control
+- Monitor health and power consumption of payload components electronically
+- Provide sufficient power for all system modes and components
+- Interface with CubeSat bus for data exchange and command retrieval
+- Store imaging data, position data, and health telemetry as required
+- Operate in different modes with automatic switching capability
+- Ensure structural support for payload components during various vibration and loading conditions
+- Maintain alignment of imager swaths within specified limits
+- Ensure the structure fits within specified volume constraints
+- Ensure all payload components are rated for and can operate within specified temperature ranges.

@@ -44,7 +44,7 @@ class TestCorpusSimilarityAnalysis(unittest.TestCase):
 
         valid = 1
         self.assertEqual(type(analysis.output), np.ndarray)
-        self.assertAlmostEqual(analysis.output.tolist()[0][0], valid, 5)
+        self.assertAlmostEqual(analysis.output[0][0], valid, 5)
         
     def test_run_default_multiple_sentences(self):
         text_tokens1 = {

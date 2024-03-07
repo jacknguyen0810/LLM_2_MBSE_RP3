@@ -1,0 +1,33 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a pre-determined schedule with ability to uplink priority scenarios
+- Maintain minimum elevation angle for observations at 30 degrees
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain alignment of imager field of views within 12 degrees
+- Achieve specific spatial sampling distances for IR and VIS images at nadir
+- Provide a minimum number of science images per primary/tertiary observation pass
+- Perform radiometric calibration of the IR camera before capture begins
+- Provide geolocation of the target accurately
+- Achieve precise pointing accuracy
+- Downlink image data within specified timeframes
+- Size onboard storage for image sets and data transfer
+- Transfer data to the main bus for downlink or additional storage
+- Meet payload mass, power usage, and volume limitations
+- Support various system modes including imaging, standby, and safe modes
+- Qualify mission hardware to specified standards
+- Provide power for all system modes via designated buses
+- Monitor health of payload components including cameras and computer
+- Cut power to cameras based on triggers and health monitoring
+- Provide electrical connections for data interfaces between components
+- Interface and send commands to specified cameras
+- Stream images from cameras per observation pass
+- Determine spacecraft position and attitude accurately
+- Store imaging data, position data, and health telemetry
+- Accommodate different imaging modes and sequences
+- Operate within specified temperature ranges and environmental conditions
+- Provide structural support for payload components
+- Maintain alignment of imager swaths
+- Fit entire payload within specified volume
+- Ensure all components can withstand temperature variations and operating conditions.

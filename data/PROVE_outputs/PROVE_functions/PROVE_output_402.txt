@@ -1,0 +1,27 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles as per MIS-004
+- Perform observations for a threshold lifetime of 1 month, with a goal of 12 months as per MIS-005
+- Automate observations based on a pre-determined schedule with the ability to uplink priority scenarios as per MIS-006
+- Maintain a minimum elevation angle of 30 degrees for target observations as per MIS-007
+- Provide narrow-angle IR and VIS images for science observations as per MIS-008
+- Ensure a minimum swath width of 80km at nadir for scientific images as per MIS-009
+- Maintain an alignment of imager field of views within 12 degrees as per MIS-011
+- Provide IR images with SSD at nadir of 300m (threshold), with a goal of 90m as per MIS-012
+- Provide narrow-angle VIS images with SSD at nadir of 50m (threshold), with a goal of 15m as per MIS-013
+- Provide a minimum of 10 science images, with a goal of 50, per primary or tertiary observation pass as per MIS-014
+- Provide a minimum of 1 science image per target per secondary observation pass as per MIS-015
+- Ensure a temporal resolution of a minimum of 16 days, with a goal of 5 days for primary target observations as per MIS-018
+- Maintain a NedT of the IR camera of a minimum of 0.5K with a goal of 0.05K as per MIS-019
+- Perform radiometric calibration of the IR camera a minimum of once per target, ideally before target capture begins as per MIS-021
+- Provide geolocation of the target to within one SSD over land as per MIS-022
+- Achieve a pointing accuracy of 1 degree as per MIS-023
+- Downlink image data within a threshold of 1 month, with a goal of 7 days as per MIS-025
+- Size onboard storage for a threshold of one primary target image set, with a goal of 10 sets as per MIS-026
+- Transfer data to the bus for downlink or additional storage as per MIS-027
+- Ensure total payload mass does not exceed 2.66kg as per MIS-028
+- Ensure total payload power usage does not exceed 14W as per MIS-029
+- Ensure total payload volume does not exceed 2U as per MIS-030
+- Include imaging, standby, safe, and other TBD non-nominal modes in the mission as per MIS-031
+- Qualify mission hardware to the levels and durations specified in GSFC-STD-7000B as per MIS-032.

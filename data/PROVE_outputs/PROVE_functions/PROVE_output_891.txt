@@ -1,0 +1,36 @@
+- Provide multiple IR and VIS images of primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of tertiary target during a single tertiary observation pass
+- Distribute images over observation window for range of viewing angles in MIS-001 and MIS-003
+- Perform observations based on predetermined schedule with ability to uplink priority scenarios
+- Maintain minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance (SSD) at nadir of 300m (threshold)
+- Provide narrow-angle VIS images with SSD at nadir of 50m (threshold)
+- Provide minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Perform radiometric calibration of IR camera at least once per target, ideally before capture
+- Provide geolocation of target to within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within 1 month threshold, with a goal of 7 days
+- Onboard storage for one primary target image set (MIS-012), with a goal of 10 sets
+- Transfer data to bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Have imaging, standby, safe modes, and other non-nominal modes as needed
+- Interface CDH subsystem with FLIR Tau2 IR camera
+- Interface CDH subsystem with Basler acA640-100gm camera
+- Determine position and attitude of spacecraft at image capture moment
+- Monitor health of payload components, including cameras and computer
+- Interface CDH subsystem with CubeSat bus and own CDH subsystem
+- Store imaging data from at least one imaging pass
+- Provide electrical connections to support data interfaces between components
+- Have sufficient storage for imaging data and health telemetry
+- Operate in different modes, switching between modes when required
+- Accommodate various imaging sequences for visual spectrum and IR cameras
+- Operate in -30 to +50 degrees C temperature range under vacuum conditions
+- Be tolerant of at least 7 months of on-orbit radiation exposure
+- Be able to withstand vibration and structural requirements as per GSFC-STD-7000B
+- Ensure all payload components meet thermal requirements for operating and storage temperatures

@@ -1,0 +1,27 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute IR and VIS images over the observation window, offering a range of viewing angles
+- Perform observations based on a pre-determined schedule with the option to prioritize observations
+- Ensure a minimum elevation angle of 30 degrees for target observations
+- Deliver narrow-angle IR and VIS images for scientific observations
+- Maintain imager field of views alignment within 12 degrees
+- Achieve spatial sampling distances (SSD) for IR and VIS images at nadir according to specified thresholds and goals
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Perform radiometric calibration of the IR camera before target capture begins
+- Provide geolocation of the target within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Store image data onboard as per specified thresholds and goals
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass, power usage, and volume constraints are not exceeded
+- Incorporate modes for imaging, standby, safe, and other non-nominal modes as necessary
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Capable of sending commands to and streaming images from the cameras
+- Determine spacecraft position and attitude at the moment of image capture
+- Monitor health of payload components and switch power to cameras as needed
+- Store imaging data, position data, and health telemetry as required
+- Operate in different modes and accommodate various imaging sequences
+- Operate within specified temperature ranges and environmental conditions
+- Maintain alignment of imager swaths and fit within specified payload volume
+- Ensure all payload components meet thermal requirements and operating conditions.

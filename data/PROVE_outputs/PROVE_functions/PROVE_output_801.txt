@@ -1,0 +1,37 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance at nadir of 300m (threshold) and 90m (goal)
+- Provide narrow-angle VIS images with spatial sampling distance at nadir of 50m (threshold) and 15m (goal)
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation accuracy of within one spatial sampling distance over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month (threshold) and 7 days (goal)
+- Size onboard storage for one primary target image set (MIS-012), with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Include imaging, standby, safe, and other TBD non-nominal modes
+- Qualify mission hardware to GSFC-STD-7000B levels and durations
+- Provide sufficient power for every system mode
+- Monitor health of payload components, including temperature and power consumption
+- Cut power to cameras triggered by payload computer or autonomously
+- Provide electrical connections for data interfaces between payload components
+- Interface CDH subsystem with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Stream images from cameras per observation pass as specified
+- Determine spacecraft position and attitude at image capture
+- Monitor health of camera modules and switch power automatically if operating unsafely
+- Interface CDH subsystem with CubeSat bus and other systems
+- Store imaging data, position data, and health telemetry as required
+- Operate in different modes and switch between them automatically
+- Operate within specified temperature range and other environmental conditions
+- Meet structural requirements for payload support and alignment
+- Meet thermal requirements for all payload components temperature ratings.

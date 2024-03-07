@@ -1,0 +1,32 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of views alignment within 12 degrees
+- Provide IR images with specific spatial sampling distances at nadir
+- Provide a minimum number of science images per observation pass
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation accuracy of the target within one spatial sampling distance over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a specified timeframe
+- Size onboard storage for a specific number of primary target image sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass, power usage, and volume do not exceed specified limits
+- Support different operational modes including imaging, standby, and safe modes
+- Qualify mission hardware to specified standards and durations
+- Provide sufficient power for all system modes
+- Monitor the health of payload components, including temperature and power consumption
+- Cut power to cameras based on computer or autonomous triggers
+- Provide necessary electrical connections for data interfaces between components
+- Interface with specific cameras for command and data streaming
+- Determine spacecraft position and attitude at the moment of image capture
+- Store imaging data, position data, and health telemetry for specific durations
+- Operate in different modes and switch between them as required
+- Operate within specified temperature ranges and environmental conditions
+- Be tolerant to radiation exposure and protect against single event upsets
+- Withstand vibration and structural requirements as per standards
+- Fit within specified volume requirements
+- Ensure all components can withstand expected temperature ranges and have specific operating/storage temperature limits.

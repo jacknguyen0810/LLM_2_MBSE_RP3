@@ -1,0 +1,26 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability for priority uplink scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Ensure a minimum swath width of 80km at nadir for scientific images
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m
+- Capture a minimum of 10 science images per primary or tertiary observation pass
+- Capture a minimum of 1 science image per target per secondary observation pass
+- Achieve a temporal resolution for primary target observations of a minimum of 16 days, with a goal of 5 days
+- Ensure a minimum NedT of the IR camera of 0.5K with a goal of 0.05 K
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide target geolocation to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a threshold of 1 month, with a goal of 7 days
+- Size onboard storage for at least one primary target image set, with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Include imaging, standby, safe, and other TBD non-nominal modes as needed
+- Ensure hardware is qualified to the levels and durations specified in GSFC-STD-7000B

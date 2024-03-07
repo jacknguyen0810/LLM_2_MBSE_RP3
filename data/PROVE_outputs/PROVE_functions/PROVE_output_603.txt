@@ -1,0 +1,32 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of views alignment within 12 degrees
+- Provide IR images with spatial sampling distance (SSD) of 300m at nadir (threshold)
+- Provide VIS images with SSD of 50m at nadir (threshold)
+- Provide minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Maintain temporal resolution for primary target observations
+- Ensure NedT of IR camera meets specified thresholds
+- Perform radiometric calibration of the IR camera before target capture
+- Achieve geolocation accuracy of one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Provide onboard storage for image sets
+- Transfer data to the bus for downlink or additional storage
+- Limit total payload mass, power usage, and volume
+- Operate in imaging, standby, safe, and other modes as needed
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Monitor health of payload components and cameras
+- Determine spacecraft position and attitude at image capture
+- Store imaging data, position data, and health telemetry
+- Operate in various modes including imaging sequences and safe mode
+- Operate within specified temperature and environmental constraints
+- Qualify payload structure to withstand specified test levels
+- Maintain alignment of imager swaths
+- Support payload components within specified volume
+- Ensure all components are rated for expected temperature ranges

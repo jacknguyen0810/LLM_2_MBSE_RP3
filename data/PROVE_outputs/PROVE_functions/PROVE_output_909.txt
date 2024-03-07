@@ -1,0 +1,32 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a predetermined schedule and allow uplink of priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of views alignment within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m
+- Provide a minimum of 10 science images, with a goal of 50, per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Ensure temporal resolution for primary target observations is a minimum of 16 days, with a goal of 5 days
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation of the target to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a threshold of 1 month, with a goal of 7 days
+- Store image data onboard for at least one primary target image set
+- Interface with the CubeSat bus and its own CDH subsystem
+- Monitor the health of payload components, including temperature and power consumption
+- Provide electrical connections to support data interfaces between payload components
+- Interface with the FLIR Tau2 IR camera and the Basler acA640-100gm camera
+- Switch power to camera modules based on health monitoring and system commands
+- Store health telemetry and imaging data for analysis and retrieval
+- Operate in different modes including imaging, standby, and safe modes
+- Accommodate different imaging sequences for IR and VIS cameras
+- Operate within a temperature range of -30 to +50 degrees C under vacuum conditions
+- Ensure total power consumption for the CDH subsystem is less than 4W
+- Ensure the payload structure can support payload components in random vibration frequency spectrum
+- Maintain alignment of imager swaths to a specified range
+- Ensure the whole payload fits within a specified volume
+- Ensure all payload components are rated to withstand expected temperature ranges

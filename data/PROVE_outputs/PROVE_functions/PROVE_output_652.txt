@@ -1,0 +1,35 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to prioritize scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Ensure a minimum swath width of 80km at nadir for scientific images
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) of 300m at nadir
+- Provide narrow-angle VIS images with a SSD of 50m at nadir
+- Generate a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve a temporal resolution of 16 days for primary target observations
+- Ensure the NedT of the IR camera is at least 0.5K
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation of the target within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month of observation pass
+- Size onboard storage for at least one primary target image set
+- Transfer data to the bus for downlink or additional storage
+- Ensure the total payload mass does not exceed 2.66kg
+- Ensure the total payload power usage does not exceed 14W
+- Ensure the total payload volume does not exceed 2U
+- Support different modes of operation including imaging, standby, and safe modes
+- Interface with and provide power for components operating on 12V, 5V, and 3V
+- Monitor the health of payload components including cameras and computer
+- Provide electrical connections for data interfaces between various components
+- Interface with the CubeSat bus and CDH subsystem
+- Store imaging data, position data, and health telemetry as required
+- Operate in different imaging modes with automatic switching between modes
+- Operate within specified temperature range and environmental conditions
+- Qualify hardware to specified levels and durations
+- Support structural requirements for vibration, launch loads, and structural integrity
+- Ensure thermal requirements are met for all payload components

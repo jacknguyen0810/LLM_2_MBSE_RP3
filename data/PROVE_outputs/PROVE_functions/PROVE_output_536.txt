@@ -1,0 +1,33 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window, providing a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain an alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with an SSD at nadir of 50m (threshold), with a goal of 15m
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation accuracy of the target within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a specified timeframe
+- Size onboard storage for primary target image sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass, power usage, and volume are within specified limits
+- Have operational modes including imaging, standby, safe, and other TBD non-nominal modes
+- Interface with the FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Stream a minimum number of images per observation pass from each camera
+- Monitor health of payload components, including temperature and power consumption
+- Cut power to cameras triggered by the payload computer or autonomously
+- Provide electrical connections to support data interfaces between components and the payload computer
+- Retrieve and store imaging data, position data, and health telemetry
+- Prioritize data storage for overwriting when memory is full
+- Operate in different modes, including imaging sequence passes and safe standby mode
+- Accommodate different imaging sequences for IR and VIS cameras
+- Operate within specified temperature and environmental conditions
+- Ensure structural integrity to withstand vibration, sine sweep, and burst tests
+- Maintain alignment of imager swaths
+- Fit the entire payload within a specific volume
+- Ensure all components are rated to withstand expected temperature ranges and have specified operating/storage temperatures.

@@ -1,0 +1,27 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles in MIS-001 and MIS-003
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain an alignment of the imager field of views within 12 degrees
+- Achieve specific spatial sampling distances at nadir for IR and VIS images
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation of the target to within one spatial sampling distance over land
+- Achieve specific pointing accuracy for the mission
+- Downlink image data within specified timeframes
+- Size onboard storage for image sets based on requirements
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass, power usage, and volume are within specified limits
+- Include imaging, standby, safe, and other non-nominal modes in the mission hardware
+- Interface CDH subsystem with specific cameras and systems
+- Monitor health and manage power of payload components
+- Provide electrical connections for data interfaces between components
+- Determine spacecraft position and attitude accurately during image capture
+- Store imaging data, position data, and health telemetry adequately
+- Operate in different modes and switch between them as needed
+- Operate within specified temperature ranges and environmental conditions
+- Implement structural requirements for payload support and alignment
+- Ensure thermal requirements for all payload components are met

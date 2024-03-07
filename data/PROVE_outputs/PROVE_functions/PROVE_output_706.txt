@@ -1,0 +1,37 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations automated based on a pre-determined schedule with ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance (SSD) at nadir of 300m (threshold), goal of 90m
+- Provide narrow-angle VIS images with SSD at nadir of 50m (threshold), goal of 15m
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation of the target within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within 1 month threshold, goal of 7 days
+- Store image data onboard for at least one primary target image set, goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Support various system modes including imaging, standby, safe, and other non-nominal modes
+- Qualify mission hardware to specified levels and durations
+- Provide sufficient power for every system mode via 12V, 5V, and 3V buses
+- Monitor health of payload components, including temperature and power consumption
+- Cut power to cameras triggered by payload computer or autonomously via health monitoring
+- Provide electrical connections for data interfaces between payload components and computers
+- Interface with IR and VIS cameras for imaging and commands
+- Interface with satellite bus for data exchange and commands
+- Store imaging data, position data, and health telemetry
+- Operate in different modes, with automatic switching capabilities
+- Maintain operation in temperature range of -30 to +50 degrees C
+- Ensure operational reliability for at least 1 month with critical failure chance less than 5%
+- Withstand structural requirements for vibration and launch conditions
+- Maintain alignment of imager swaths
+- Fit within specified volume constraints
+- Ensure all components are rated for expected temperature range during the mission

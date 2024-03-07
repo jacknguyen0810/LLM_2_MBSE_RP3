@@ -1,0 +1,30 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of views alignment within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m
+- Provide minimum science images per observation pass
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation of the target to within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within a specified timeframe
+- Store image data onboard for a certain number of image sets
+- Transfer data to the bus for downlink or storage
+- Ensure total payload mass, power usage, and volume do not exceed specified limits
+- Have operational modes including imaging, standby, safe, and other non-nominal modes as needed
+- Interface with components operating on different voltage buses
+- Monitor health of payload components, including temperature and power consumption
+- Cut power to cameras based on triggers from the payload computer or health monitoring sensors
+- Provide electrical connections for data interfaces between components
+- Interface with specific cameras and payload computer for commanding and data streaming
+- Determine spacecraft position and attitude at image capture moment
+- Store imaging data, position data, and health telemetry for specified durations
+- Accommodate different imaging modes and sequences for IR and VIS cameras
+- Operate within specified temperature ranges and environmental conditions
+- Maintain structural integrity to withstand specified vibration and launch conditions
+- Ensure thermal ratings of all components for mission temperature requirements.

@@ -1,0 +1,29 @@
+- Provide multiple IR and VIS images of a primary target during a single observation pass
+- Provide IR images of secondary targets during a single observation pass
+- Provide multiple VIS images of a tertiary target during a single observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with uplink capability for priority scenarios
+- Ensure a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distances for IR and VIS images at nadir
+- Provide a minimum number of science images per observation pass
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation accuracy of targets to within one spatial sampling distance over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within a specified timeframe
+- Size onboard storage for multiple sets of primary target images
+- Transfer data to the bus for downlink or storage
+- Ensure system power supply for all operational modes and components
+- Monitor health of payload components, including temperature and power consumption
+- Provide necessary electrical connections for data interfaces between components
+- Interface with specific cameras and payload computer for data transfer and monitoring
+- Determine spacecraft position and attitude at image capture moment
+- Store imaging data, position information, and health telemetry
+- Accommodate different imaging modes and sequences
+- Operate in specified temperature range and environmental conditions
+- Operate with specific power consumption limits
+- Support payload structure under defined structural requirements
+- Maintain alignment of imager swaths
+- Fit all payload components within specified volume
+- Ensure thermal ratings and operating/storage temperatures for all components

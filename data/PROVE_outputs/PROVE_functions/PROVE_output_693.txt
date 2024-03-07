@@ -1,0 +1,28 @@
+- Capture multiple IR and VIS images of a primary target during a single primary observation pass
+- Capture IR images of secondary targets during a single secondary observation pass
+- Capture multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute IR and VIS images over the observation window to provide various viewing angles
+- Perform primary target observations for a specified lifetime
+- Automate observations based on a predetermined schedule and allow for priority uplink scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Ensure a minimum swath width of 80km at nadir for scientific images
+- Maintain alignment of the imager field of views to within 12 degrees
+- Achieve specific spatial sampling distances (SSD) for IR and VIS images at nadir
+- Provide a minimum number of science images per observation pass
+- Perform radiometric calibration of the IR camera before target capture
+- Provide accurate geolocation of the target
+- Achieve a specific pointing accuracy
+- Downlink image data within a specified timeframe
+- Size onboard storage for storing multiple image sets
+- Transfer data to the bus for downlink or storage
+- Ensure total payload mass, power usage, and volume are within specified limits
+- Implement different operating modes including imaging, standby, safe, and other non-nominal modes
+- Interface with various payload components for power and data connections
+- Monitor health of payload components and cut power if needed
+- Retrieve and store imaging data, position data, and health telemetry
+- Switch between different imaging modes
+- Operate in specified temperature ranges and environmental conditions
+- Ensure structural integrity to withstand vibration and launch conditions
+- Maintain alignment of imager swaths and fit within specified volume
+- Ensure all components are rated for expected temperature ranges

@@ -1,0 +1,35 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of views alignment within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) of 300m at nadir (goal of 90m)
+- Provide narrow-angle VIS images with a SSD of 50m at nadir (goal of 15m)
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation of the target to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a threshold of 1 month (goal of 7 days)
+- Store image data onboard for at least one primary target image set (10 sets goal)
+- Transfer data to the bus for downlink or additional storage
+- Interface with the CubeSat bus and its CDH subsystem
+- Monitor health of payload components including cameras and computer
+- Cut power to cameras triggered by the payload computer or autonomously
+- Provide power via 12V, 5V, and 3V buses for components
+- Provide electrical connections for data interfaces between components
+- Interface with the FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Stream images from cameras during observation passes
+- Determine spacecraft position and attitude at image capture moment
+- Store imaging data and position information
+- Operate in different modes including imaging, standby, and safe mode
+- Operate in temperature range of -30 to +50 degrees C under vacuum conditions
+- Maintain payload structure alignment and fit within specified volume
+- Withstand random vibration frequencies and specified test levels
+- Withstand sine sweeps and bursts as per standards
+- Withstand environmental conditions with a chance of critical failure less than 5%
+- Operate with total power consumption less than 4W
+- Be tolerant of on-orbit radiation exposure and protect against SEUs and SELs

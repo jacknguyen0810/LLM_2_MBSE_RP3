@@ -1,0 +1,34 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform automated observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain payload structure alignment of imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance of 300m at nadir (threshold), goal of 90m
+- Provide narrow-angle VIS images with spatial sampling distance of 50m at nadir (threshold), goal of 15m
+- Provide minimum of 10 science images per primary or tertiary observation pass, with a goal of 50
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation of the target to within one spatial sampling distance over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within a threshold of 1 month, with a goal of 7 days
+- Store image data for at least one primary target image set, with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Monitor health of payload components, including temperature and power consumption
+- Switch power to cameras based on payload computer commands and health monitoring
+- Interface with CubeSat bus and own CDH subsystem
+- Provide imaging and telemetry data to the main satellite bus
+- Store imaging data, position data, and health telemetry
+- Operate in different modes, including imaging modes and safe mode
+- Accommodate different imaging sequences for IR and VIS cameras
+- Operate in a temperature range of -30 to +50 degrees C under vacuum conditions
+- Tolerant of on-orbit radiation exposure and protection against SEUs and SELs
+- Operate with total power consumption of less than 4W
+- Support payload components in random vibration frequency spectrum
+- Withstand specified test levels and durations
+- Maintain alignment of imager swaths
+- Fit within a 200X110X100mm volume
+- Ensure all payload components meet thermal requirements for operating and storage temperatures

@@ -1,0 +1,27 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to prioritize scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain an alignment of the imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation of the target to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a specified timeframe
+- Store image data onboard for a certain number of image sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass, power usage, and volume do not exceed specified limits
+- Support different spacecraft modes including imaging, standby, safe, and other non-nominal modes
+- Interface with different payload components for power distribution, health monitoring, and data communication
+- Maintain spacecraft position and attitude accuracy during image capture
+- Monitor health of payload components and switch power as needed
+- Store imaging data, position data, and health telemetry for specified durations
+- Operate in various modes including imaging sequences and safe standby modes
+- Operate within specified temperature ranges and environmental conditions
+- Ensure structural integrity to withstand launch and operational conditions
+- Ensure all payload components meet thermal requirements for operation and storage temperatures.

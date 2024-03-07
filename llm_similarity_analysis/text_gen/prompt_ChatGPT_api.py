@@ -8,7 +8,7 @@ class PromptChatGPT2Text:
     functions, subsystems (if system requirements are given), or components (if subsystem
     requirements are given
     """
-    def __init__(self, input_fp: str, prompt: str = None, output_fp: str = None, filename: str = "llm_output.txt", runs: int = 1, model: str = 'gpt-3.5-turbo-0125', output_start_number = 129) -> None:
+    def __init__(self, input_fp: str, prompt: str = None, output_fp: str = None, filename: str = "llm_output", runs: int = 1, model: str = 'gpt-3.5-turbo-0125', output_start_number = 0) -> None:
         # Self variables
         self.client = OpenAI()
         self.runs = runs
@@ -88,6 +88,7 @@ class PromptChatGPT2Text:
         
 if __name__ == '__main__':
     function_prompt = "Please generate a set of system functions, in bullet points without numbering, from the following set of equations:"
-    llm = PromptChatGPT2Text(prompt=function_prompt, input_fp=r"data\validation_data\PROVE_requirements.txt", output_fp=r"data\PROVE_outputs\PROVE_functions", runs=128)
-        
-    
+    name = "PROVE_output"
+    output = r"data\PROVE_outputs\PROVE_functions"
+    input = r"data\validation_data\PROVE_requirements.txt"
+    llm = PromptChatGPT2Text(prompt=function_prompt, input_fp=input, output_fp=output, runs=128, filename=name, output_start_number=896)

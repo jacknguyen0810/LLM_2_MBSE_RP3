@@ -1,0 +1,29 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a predetermined schedule with the ability to uplink priority scenarios
+- Ensure a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain an alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distances at nadir for IR (300m threshold, 90m goal) and VIS (50m threshold, 15m goal) images
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Ensure temporal resolution for primary target observations
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation accuracy within one spatial sampling distance over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Size onboard storage for image sets and accommodate data transfer to the bus
+- Limit payload mass, power usage, and volume within specified constraints
+- Include operational modes such as imaging, standby, safe, and others as needed
+- Interface with the FLIR Tau2 IR camera and Basler acA640-100gm camera for data acquisition and control
+- Monitor health of payload components, temperatures, and power consumption
+- Support data interfaces between components and the payload computer
+- Determine spacecraft position and attitude accurately at the moment of image capture
+- Store imaging data, position data, and health telemetry as required
+- Accommodate different imaging modes and sequences for IR and VIS cameras
+- Operate in specified environmental conditions and handle potential failures
+- Operate within power consumption limits
+- Ensure structural integrity to withstand vibrations, sine sweeps, and other structural tests
+- Maintain alignment of imager swaths and fit within specified volume constraints
+- Ensure all components can withstand temperature variations throughout the mission

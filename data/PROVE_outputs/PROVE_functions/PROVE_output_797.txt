@@ -1,0 +1,29 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distances at nadir for IR (threshold: 300m, goal: 90m) and VIS (threshold: 50m, goal: 15m) images
+- Provide a minimum number of science images per observation pass (primary/tertiary: min 10, goal 50; secondary: min 1)
+- Perform radiometric calibration of the IR camera at least once per target capture
+- Provide geolocation accuracy of target to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within specified timelines (threshold: 1 month, goal: 7 days)
+- Store image data onboard for a defined number of primary target image sets (threshold: 1 set, goal: 10 sets)
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Support different operational modes including imaging, standby, safe, and other TBD non-nominal modes
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Monitor health of payload components, including temperature and power consumption
+- Determine spacecraft position and attitude at image capture moment
+- Store imaging data, position data, and health telemetry appropriately
+- Operate in various modes with automatic switching
+- Operate within specified temperature ranges and environmental conditions
+- Ensure structural integrity to withstand vibrations and launch conditions
+- Maintain alignment of imager swaths to designated distance
+- Ensure payload components are rated for expected temperature ranges and storage conditions.

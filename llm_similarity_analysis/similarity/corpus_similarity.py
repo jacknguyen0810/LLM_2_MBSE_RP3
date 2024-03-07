@@ -23,7 +23,7 @@ class CorpusSimilarityAnalysis:
         else:
             self.metric = metric
         if vector_model is None:
-            self.vector_model = "all-mpnet-base-V2"
+            self.vector_model = "allenai-specter"
         else:
             self.vector_model = vector_model
 
@@ -44,8 +44,8 @@ class CorpusSimilarityAnalysis:
         self.text_tokens2 = combine_into_corpus(self.text_tokens2)
 
         # Turn the text token datasets into vectors
-        self.vectors1 = vectorise_dataset(self.text_tokens1)
-        self.vectors2 = vectorise_dataset(self.text_tokens2)
+        self.vectors1 = vectorise_dataset(self.text_tokens1, self.vector_model)
+        self.vectors2 = vectorise_dataset(self.text_tokens2, self.vector_model)
 
         # Extract the similarity
         comp_metric = self.similarity_metric_functions.get(
@@ -56,6 +56,7 @@ class CorpusSimilarityAnalysis:
         self.output = comp_metric(
             list(self.vectors1.values()), list(self.vectors2.values())
         )
+        
     @staticmethod
     def metric_error() -> None:
         raise ValueError("Invalid Similarity Metric")

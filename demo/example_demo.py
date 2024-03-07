@@ -1,13 +1,11 @@
-from llm_similarity_analysis.similarity.sentence_similarity import (
-    SentenceSimilarityAnalysis,
-)
+from llm_similarity_analysis.similarity.sentence_similarity import SentenceSimilarityAnalysis
 from llm_similarity_analysis.preprocessing.text_preprocessing import RawData2Python
 from llm_similarity_analysis.preprocessing.text_cleaning import TextCleaning
 
 
 def main():
     # Get the filepath to the .txt file containing the raw text data
-    corpus_fp = r"data\imaging_functions_test.txt"
+    corpus_fp = r"data\demo_sets\imaging_functions_test.txt"
 
     # Create preprocessor object
     preprocessor = RawData2Python()

@@ -1,0 +1,35 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute IR and VIS images over the observation window for a range of viewing angles
+- Perform observations based on a predetermined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain an alignment of imager field of views to within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), goal of 15m
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve a temporal resolution of 16 days for primary target observations, goal of 5 days
+- Perform radiometric calibration of the IR camera at least once per target capture
+- Provide geolocation of targets to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month, goal of 7 days
+- Store image data onboard for at least one primary target image set, goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Support various system modes: imaging, standby, safe, and other non-nominal modes as needed
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera for imaging operations
+- Monitor health of payload components, including cameras and computer
+- Provide electrical connections for data interfaces between components and payload computer
+- Switch power to cameras as needed, triggered by computer or autonomously
+- Retrieve and send commands and data to the main satellite bus as required
+- Store imaging data, position data, and health telemetry as specified
+- Operate in different modes, switching automatically as needed
+- Accommodate various imaging sequences for IR and VIS cameras
+- Operate within specified temperature range and environmental conditions
+- Maintain structural integrity to withstand vibration, shock, and environmental loads
+- Support payload components within specified volume and alignment requirements
+- Ensure all payload components can withstand expected temperature ranges and operate within specified temperature limits
