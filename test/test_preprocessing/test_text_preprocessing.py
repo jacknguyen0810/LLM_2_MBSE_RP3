@@ -7,9 +7,9 @@ class TestRawData2Python(unittest.TestCase):
     def test_txt_to_dict(self):
         txt2json = RawData2Python()
         fp = r"test\test_data\test_txt.txt"
-        filename = r"test_data_json"
+        filename = r"test_data"
         output_path = r"test\test_data"
-        text_dict = txt2json.txt_to_dict(fp, filename, output_path)
+        text_dict = txt2json.txt_to_dict(fp, False, filename, output_path)
         test_dict = {
             "1": "This is the first line.",
             "2": "This is the second line.",
