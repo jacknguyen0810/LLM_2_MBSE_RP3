@@ -1,5 +1,6 @@
 import json
 import os
+import textwrap
 
 
 class RawData2Python:
@@ -40,9 +41,12 @@ class RawData2Python:
                 # Check for empty lines of code
                 if line in ['\n', '\r\n']:
                     continue
-                # Add the line of text to data
+                # If the line has text
                 else:
-                    data[str(number + 1)] = line.strip()
+                    # Unindent the string
+                    unindent = textwrap.dedent(line)
+                    # Add the line to the dictionary
+                    data[str(number + 1)] = unindent.strip()
 
         # Output to .json if requested.
         if output_to_json:
