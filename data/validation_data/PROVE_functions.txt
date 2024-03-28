@@ -1,17 +1,10 @@
-   - Power Cycle Tau (camera)
-   - Ping tau (send command and wait for the correct response)
-   - Send configuration commands and verify their response
-   - Request 10 tau images
-   - Power Cycle Basler (camera)
-   - Ping Basler camera
-   - Send some command
-   - Request more than 1 Basler camera images
-   - Read in current sensor values and check if they are within reasonable limits for each sensor
-   - Intentionally set sensor value to above error threshold for each sensor
-   - Simulate and full imaging pass capture sequence
-   - Check SD appears in /dev and as a mounted drive
-   - Try to write data (a file) to a SD address
-   - Execute telemetry service for 3 minutes time duration
-   - Intentionally set latch up variable high and set telemetry sensor readings high, then see if safe mode flag is set to true
-   - Set safe mode flag to true, try to start a task, show in logs the scheduler refused to start
-   - Set image start and stop to future time (or past) and verify telemetry is being collected
+- Power Cycle Tau (infrared camera)
+- Initialize infrared camera interface and configure camera for use
+- Capture images from infrared camera
+- Power Visual camera
+- Initialize visual camera interface and configure camera for use
+- Capture images from visual camera
+- Collect telemetry from current sensors and temperature sensors
+- Enter safe mode
+- Write payload image data to SD card
+- Write telemetry data to SD card
