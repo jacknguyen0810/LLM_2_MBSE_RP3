@@ -1,0 +1,24 @@
+- Spacecraft Element: Provides the platform that supports all other elements of the observatory, including power, communication, and data handling.
+- Optical Telescope Element (OTE) Subsystem: Comprises the primary, secondary, and tertiary mirrors, along with the fine steering mirror responsible for collecting and focusing light.
+- Integrated Science Instrument Module (ISIM) Subsystem: Houses the scientific instruments of the JWST, including cameras and spectrometers for capturing and analyzing light from astronomical objects.
+- Command and Data Handling (C&DH) Subsystem: Manages the processing and storage of scientific data, as well as the execution of commands and software operations.
+- Electrical Power Subsystem (EPS): Generates, stores, and distributes electrical power to all components of the observatory.
+- Thermal Control Subsystem: Maintains the temperature of the observatory's components within operational limits, crucial for sensitive astronomical instruments.
+- Communication Subsystem: Facilitates two-way data exchange between the observatory and Earth, including the downlink of scientific data and the uplink of commands.
+- Attitude Control Subsystem: Controls the orientation of the observatory in space, enabling precise pointing towards astronomical targets.
+- Propulsion Subsystem: Provides the capability for orbit maintenance maneuvers, ensuring the observatory remains in its operational orbit around the L2 point.
+- Fine Guidance Sensor (FGS): Enables high-precision pointing by locking onto guide stars, essential for the accurate observation of distant astronomical objects.
+- Sunshield: Protects the observatory from solar radiation, ensuring the instruments are kept at cryogenic temperatures necessary for infrared observations.
+- Launch Vehicle Interface: Includes mechanisms and systems for securing the observatory during launch and ensuring successful deployment into space.
+- Observatory Event Logs Component: Records the status and events related to the observatory's subsystems for monitoring and troubleshooting purposes.
+- Command Authentication Component: Ensures that only authorized commands are executed by the observatory, enhancing operational security.
+- On-Board Storage Component: Provides capacity for the temporary storage of scientific data until it can be downlinked to Earth.
+- Processor Utilization Component: Manages the computational resources of the observatory, optimizing the performance of onboard processing tasks.
+- Timing System: Synchronizes the operations of the observatory with Universal Coordinated Time (UTC), critical for time-stamped astronomical observations.
+- Real-Time Commanding Capability: Allows for the immediate execution of commands from the ground, enabling responsive adjustments to the observatory's operations.
+- Data Playback System: Supports the retrieval and downlink of stored scientific data, ensuring the efficient transmission of observations to Earth.
+- Observatory Software: Includes the operating system and application software that controls the observatory's functions and scientific observations.
+- Wavefront Sensing and Control: Provides the capability for optical system adjustments to optimize image quality across the observatory's instruments.
+- Guide Star Acquisition System: Identifies and locks onto guide stars for precise pointing and tracking of astronomical targets.
+- Sun Damage Protection: Implements measures to prevent damage to the observatory from unintended exposure to sunlight.
+- Moving Target Tracking: Enables the observatory to follow moving objects, such as planets and asteroids, for detailed observation.
