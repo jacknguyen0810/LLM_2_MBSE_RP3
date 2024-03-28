@@ -61,4 +61,6 @@ class CorpusSimilarityAnalysis:
     def metric_error() -> None:
         raise ValueError("Invalid Similarity Metric")
 
-    
+    @property
+    def output_value(self):
+        return self.output[0][0]

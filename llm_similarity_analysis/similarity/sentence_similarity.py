@@ -57,18 +57,23 @@ class SentenceSimilarityAnalysis:
         title: str,
         xlabel: str = "Dataset 1 Sentence IDs",
         ylabel: str = "Dataset 2 Sentence IDs",
+        xticks: list = None,
+        yticks: list = None,
     ) -> None:
         # Plotting pairwise comparison of each of the requirements
-        plt.imshow(self.output, "Greens")
+        plt.imshow(np.transpose(self.output), "Greens")
         plt.title(title)
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
         plt.colorbar()
-        for (j, i), label in np.ndenumerate(self.output):
-            plt.text(i, j, round(label, 4), ha="center", va="center")
-        # plt.xticks(list(self.text_tokens1.keys()))
-        # plt.yticks(list(self.text_tokens2.keys()))
+        for (i, j), label in np.ndenumerate(self.output):
+            plt.text(i, j, round(label, 2), ha="center", va="center", fontsize=6)
 
+        if xticks is not None:
+            plt.xticks(np.arange(0, len(xticks), 1), xticks, rotation='vertical', fontsize=6)
+            plt.yticks(np.arange(0, len(yticks), 1), yticks, fontsize=6)
+            
+        plt.tight_layout()
         plt.show()
 
     @staticmethod
@@ -79,3 +84,7 @@ class SentenceSimilarityAnalysis:
             ValueError: Generic error for incorrect similarity metric
         """
         raise ValueError("Invalid Similarity Metric")
+    
+    @property
+    def average_sentence_sim(self) -> float:
+        return np.average(self.output)
