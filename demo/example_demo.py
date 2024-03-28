@@ -1,3 +1,4 @@
+from textwrap import wrap
 from llm_similarity_analysis.similarity.sentence_similarity import SentenceSimilarityAnalysis
 from llm_similarity_analysis.preprocessing.text_preprocessing import RawData2Python
 from llm_similarity_analysis.preprocessing.text_cleaning import TextCleaning
@@ -14,6 +15,8 @@ def main():
     text_dict = preprocessor.txt_to_dict(corpus_fp)
 
     print(text_dict.values())
+    label_1 = list(text_dict.values())
+    label_1 = ['\n'.join(wrap(l, 50)) for l in label_1]
 
     # Clean the raw text data
     cleaner = TextCleaning(text_dict)
@@ -24,13 +27,7 @@ def main():
     # Perform similarity analysis
     analysis = SentenceSimilarityAnalysis(clean_data, clean_data)
     analysis.run()
-    analysis.plot("Cosine Similarity")
-
-    analysis_euclidean = SentenceSimilarityAnalysis(
-        clean_data, clean_data, metric="euclidean"
-    )
-    analysis_euclidean.run()
-    analysis_euclidean.plot("Euclidean Distance")
+    analysis.plot(title="Cosine Similarity", xticks=label_1, yticks=label_1)
 
 
 if __name__ == "__main__":
