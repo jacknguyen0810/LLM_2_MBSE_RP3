@@ -1,7 +1,7 @@
 from sentence_transformers import SentenceTransformer
 
 
-def vectorise_dataset(tokens: dict, model: str = "all-mpnet-base-v2") -> dict:
+def vectorise_dataset(tokens: dict, model: str = "allenai-specter") -> dict:
     """_summary_
 
     Args:

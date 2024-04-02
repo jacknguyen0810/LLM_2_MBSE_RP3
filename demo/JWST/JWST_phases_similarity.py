@@ -6,7 +6,7 @@ from llm_similarity_analysis.preprocessing.text_cleaning import TextCleaning
 
 def main():
     # Process the validation dataset
-    valid_fp = r'data\validation_data\PROVE_functions.txt'
+    valid_fp = r'data\validation_data\JWST_modes.txt'
     # Create preprocessor object and turn txt file to dict
     preprocessor = RawData2Python()
     valid_dict = preprocessor.txt_to_dict(valid_fp)
@@ -17,7 +17,7 @@ def main():
     clean_valid = cleaner.clean()
     
     # Process the generated dataset
-    gen_fp = r'data\PROVE_outputs\PROVE_functions\PROVE_output_0.txt'
+    gen_fp = r'data\JWST_outputs\JWST_phases\JWST_phases_0.txt'
     # Create preprocessor object and turn txt file to dict
     preprocessor = RawData2Python()
     gen_dict = preprocessor.txt_to_dict(gen_fp)
@@ -30,7 +30,7 @@ def main():
     # Sentence Similarity Analysis
     sentence = SentenceSimilarityAnalysis(clean_valid, clean_gen)
     sentence.run()
-    sentence.plot("PROVE Functions Similarity using Cosine Similarity", 'Validation Functions', 'Generated Functions', valid_ticks, gen_ticks)
+    sentence.plot("JWST Phases' Similarity using Cosine Similarity", 'Validation Phases', 'Generated Phases', valid_ticks, gen_ticks)
     print(f'\nThe average function similarity is {sentence.average_sentence_sim}')
     
     # Corpus Similarity Analysis

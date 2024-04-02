@@ -54,24 +54,26 @@ class SentenceSimilarityAnalysis:
 
     def plot(
         self,
-        title: str,
+        title: str = None,
         xlabel: str = "Dataset 1 Sentence IDs",
         ylabel: str = "Dataset 2 Sentence IDs",
         xticks: list = None,
         yticks: list = None,
+        fontsize: int = 6,
     ) -> None:
         # Plotting pairwise comparison of each of the requirements
         plt.imshow(np.transpose(self.output), "Greens")
-        plt.title(title)
+        if title is not None:
+            plt.title(title)
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
         plt.colorbar()
         for (i, j), label in np.ndenumerate(self.output):
-            plt.text(i, j, round(label, 2), ha="center", va="center", fontsize=6)
+            plt.text(i, j, round(label, 2), ha="center", va="center", fontsize=fontsize)
 
         if xticks is not None:
-            plt.xticks(np.arange(0, len(xticks), 1), xticks, rotation='vertical', fontsize=6)
-            plt.yticks(np.arange(0, len(yticks), 1), yticks, fontsize=6)
+            plt.xticks(np.arange(0, len(xticks), 1), xticks, rotation='vertical', fontsize=fontsize)
+            plt.yticks(np.arange(0, len(yticks), 1), yticks, fontsize=fontsize)
             
         plt.tight_layout()
         plt.show()

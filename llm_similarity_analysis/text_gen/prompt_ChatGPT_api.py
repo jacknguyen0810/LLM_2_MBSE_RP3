@@ -66,10 +66,11 @@ class PromptChatGPT2Text:
             model=self.model,
             messages=[
                 {"role": "system", "content": "You are a systems engineer, skilled in designing a complex system to meet a set of requirements."},
-                {"role": "user", "content": self.prompt + str(self.requirements)}
+                {"role": "user", "content": self.prompt + str(self.requirements)},
+                {"role": "user", "content": "I would like the output to be formatted in the following manner: with bullet points, no numbering, no indents, no empty lines"}
             ],
             n=self.runs,
-            temperature=0.7
+            temperature=0.3
         )
         self.input_tokens = response.usage.prompt_tokens
         self.output_tokens = response.usage.completion_tokens
@@ -82,13 +83,14 @@ class PromptChatGPT2Text:
                 print(choice.message.content, file=text_file)
             self.output_counter += 1
             
-        # Print a completion messsgae
+        # Print a completion messgae
         print("\n The functions have been generated. \n")
         
         
 if __name__ == '__main__':
-    function_prompt = "Please generate a set of system functions, in bullet points without numbering, from the following set of equations:"
-    name = "PROVE_output"
-    output = r"data\PROVE_outputs\PROVE_functions"
-    input = r"data\validation_data\PROVE_requirements.txt"
-    llm = PromptChatGPT2Text(prompt=function_prompt, input_fp=input, output_fp=output, runs=128, filename=name, output_start_number=896)
+    function_prompt = "Please generate a list of strictly only system components, where each sentence is a component, from the following set of subsystem requirements:"
+    name = "PROVE_components"
+    output = r"data\PROVE_outputs\PROVE_components"
+    input_filepath = r"data\validation_data\PROVE_requirements.txt"
+    model_name = "gpt-4-0125-preview"
+    llm = PromptChatGPT2Text(prompt=function_prompt, input_fp=input_filepath, output_fp=output, runs=1, filename=name, output_start_number=0, model=model_name)

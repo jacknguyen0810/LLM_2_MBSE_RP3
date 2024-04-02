@@ -2,6 +2,9 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+from sklearn.model_selection import GridSearchCV
+from sklearn.neighbors import KernelDensity
 from llm_similarity_analysis.preprocessing.text_preprocessing import RawData2Python
 from llm_similarity_analysis.preprocessing.text_cleaning import TextCleaning
 from llm_similarity_analysis.similarity.corpus_similarity import CorpusSimilarityAnalysis
@@ -57,14 +60,36 @@ class LLMRepeatabilityAnalysis:
         for corpus_no, corpus in self.clean_data.items():
             analysis = CorpusSimilarityAnalysis(validation_data, corpus, metric='cosine', vector_model='allenai-specter')
             analysis.run()
-            self.similarities[str(corpus_no)] = analysis.output
+            self.similarities[str(corpus_no)] = analysis.output_value
             
     def stat_analysis(self, plot=True):
-        # Looking at the number of outputs
+        # # Looking at the number of outputs
+        # self.cross_validation(self.output_num)
+        # # Looking at similarity analysis
+        # self.cross_validation(self.similarities)
         if plot:
-            fig, ax = plt.subplots()
-            sns.histplot(self.output_num.values(), stat='density', kde=True,)
-            ax.set_ylabel('Number of Outputs')
+            # Plot Number of Outputs
+            _, ax = plt.subplots(ncols=2, nrows=1)
+            # ax[0].hist(self.output_num.values())
+            sns.histplot(self.output_num.values(), kde=True, stat='density', ax=ax[0], kde_kws={'bw_adjust': 0.5})
+            ax[0].set_xlabel('Number of Outputs')
+            ax[0].set_ylabel('Probability Density')
+            ax[0].legend('Number of Outputs', 'KDE')
+            ax[0].set_title('Output Number Distribution')
+            
+            # ax[1].hist(self.similarities.values())
+            sns.histplot(self.similarities.values(), kde=True, stat='density', ax=ax[1], kde_kws={'bw_adjust': 0.5})
+            ax[1].set_xlabel('Cosine Similarity to Validation')
+            ax[1].set_ylabel('Probability Density')
+            ax[1].legend('Similarity', 'KDE')
+            ax[1].set_title('Corpus Similarity Distribution')
+            plt.show()
+            
+    def cross_validation(self, data: dict) -> float:
+        grid = GridSearchCV(KernelDensity(), {'bandwidth', np.linspace(0.1, 5, 30)}, cv=5)
+        grid.fit(list(data.values()))
+        bandwidth = grid.best_estimator_.bandwidth_
+        return bandwidth
             
     @property
     def mean_output_num(self):
