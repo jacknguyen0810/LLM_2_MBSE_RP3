@@ -60,6 +60,7 @@ class SentenceSimilarityAnalysis:
         xticks: list = None,
         yticks: list = None,
         fontsize: int = 6,
+        text: bool = True
     ) -> None:
         # Plotting pairwise comparison of each of the requirements
         plt.imshow(np.transpose(self.output), "Greens")
@@ -68,8 +69,9 @@ class SentenceSimilarityAnalysis:
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
         plt.colorbar()
-        for (i, j), label in np.ndenumerate(self.output):
-            plt.text(i, j, round(label, 2), ha="center", va="center", fontsize=fontsize)
+        if text:
+            for (i, j), label in np.ndenumerate(self.output):
+                plt.text(i, j, round(label, 2), ha="center", va="center", fontsize=fontsize)
 
         if xticks is not None:
             plt.xticks(np.arange(0, len(xticks), 1), xticks, rotation='vertical', fontsize=fontsize)
