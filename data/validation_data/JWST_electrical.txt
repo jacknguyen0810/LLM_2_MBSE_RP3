@@ -1,0 +1,5 @@
+- Electrical Power Subsystem
+- Solar Arrays and Regulators
+- Batteries
+- Power Control and distribution units
+- Telemetry Acquisition Units

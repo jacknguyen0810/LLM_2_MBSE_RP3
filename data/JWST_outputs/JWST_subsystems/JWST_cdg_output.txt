@@ -1,0 +1,4 @@
+- Command and Data Handling System
+- Flight computers for processing and executing commands
+- Solid-state recorders for data storage
+- High-speed data buses for internal communication

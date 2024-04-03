@@ -1,0 +1,9 @@
+- Attitude Control Subsystem (ACS)
+- Reaction Wheels and Wheel Drive Electronics
+- Star trackers
+- Inertial Reference Unit
+- Fine Sun Sensors
+- Coarse Sun Sensors
+- Solar Array Actuators
+- High Gain antenna Actuators
+- Orientation Drive Electronics with Resolver

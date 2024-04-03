@@ -35,7 +35,7 @@
 - Mirror Actuators
 - Tower Actuators
 - Cold Junction Box
-- Wing Deployment Actuators and Latch Actuators#
+- Wing Deployment Actuators and Latch Actuators
 
 - Sunshield
 - Sunshield Actuators
