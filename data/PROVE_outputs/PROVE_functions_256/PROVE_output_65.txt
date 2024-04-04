@@ -1,0 +1,28 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute IR and VIS images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Ensure minimum elevation angle for target observations is 30 degrees
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with SSD at nadir of 50m (threshold), with a goal of 15m
+- Provide minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Perform radiometric calibration of IR camera at least once per target
+- Provide geolocation of the target to within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Size onboard storage for image sets and data transfer
+- Transfer data to the bus for downlink or storage
+- Ensure total payload mass, power usage, and volume are within specified limits
+- Provide modes for imaging, standby, safe, and other non-nominal modes as needed
+- Interface CDH subsystem with specified cameras and bus
+- Monitor health of payload components and provide necessary power
+- Store imaging data, position data, and health telemetry appropriately
+- Accommodate various imaging modes and sequences
+- Operate within specified temperature range and environmental conditions
+- Ensure structural integrity to withstand vibration, sine sweep, and launch conditions
+- Maintain alignment of imager swaths within specified limits
+- Fit entire payload within specified volume requirements
+- Ensure all payload components meet thermal operating and storage temperature requirements.

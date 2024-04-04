@@ -1,6 +1,5 @@
 - Integrated Science Instrument Module (ISIM)
 - Near Infrared Camera (NIRCam)
-- Near Infrared Camera (NIRCam)
 - MIRI: Mid Infrared Instrument
 - Cryogenic Temperature Sensors for Mid Infrared Instrument
 - Cryogenic Cooling Environment for Mid Infrared Instrument
@@ -13,4 +12,4 @@
 - Cooling Lines
 - Radiator Heat Switches
 - Control Heaters
-- Command and Data Handling
+- Command and Data Handling Unit

@@ -1,0 +1,28 @@
+- The system shall provide multiple IR and VIS images of a given primary target during a single primary observation pass.
+- The system shall provide IR images of given secondary targets during a single secondary observation pass.
+- The system shall provide multiple VIS images of a given tertiary target during a single tertiary observation pass.
+- The images provided in primary and tertiary observation passes shall be distributed over the observation window, providing a range of viewing angles.
+- The system shall perform primary observations for a threshold lifetime of 1 month, with a goal of 12 months.
+- Observations shall be automated based upon a pre-determined observation schedule of standard targets, with the ability to uplink priority observation scenarios.
+- The minimum elevation angle for observations of targets shall be 30 degrees.
+- The system shall provide narrow-angle IR and VIS images for science observations.
+- The minimum swath width for scientific images shall be 80km at nadir.
+- The payload structure shall maintain an alignment of the imager field of views to within 12 degrees.
+- The system shall provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m.
+- The system shall provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m.
+- The system shall provide a minimum of 10 science images, with a goal of 50, per primary or tertiary observation pass.
+- The system shall provide a minimum of 1 science image per target per secondary observation pass.
+- The temporal resolution for primary target observations shall be a minimum of 16 days, with a goal of 5 days.
+- The NedT of the IR camera shall be a minimum of 0.5K with a goal of 0.05 K.
+- The IR camera shall be uncooled.
+- Radiometric calibration of the IR camera shall be performed a minimum of once per target, ideally before the target capture begins.
+- The system shall provide the geolocation of the target to within one SSD over land.
+- The system shall achieve a pointing accuracy of 1 degree.
+- The image data from an observation pass shall be downlinked within a threshold of 1 month, with a goal of 7 days.
+- Onboard storage shall be sized for a threshold of one primary target image set, with a goal of 10 primary target image sets.
+- Data shall be transferred to the bus for downlink or for additional storage.
+- The total payload mass shall not exceed 2.66kg.
+- The total payload power usage shall not exceed 14W.
+- The total payload volume shall not exceed 2U.
+- The system shall have as a minimum the following modes: imaging, standby, and safe and other TBD non-nominal modes as needed.
+- The mission hardware shall be qualified to the levels and durations specified in GSFC-STD-7000B.

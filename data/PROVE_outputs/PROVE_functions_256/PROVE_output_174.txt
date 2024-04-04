@@ -1,0 +1,28 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distances at nadir for IR and VIS images
+- Provide minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Perform radiometric calibration of the IR camera for each target capture
+- Provide geolocation accuracy of targets to within one spatial sampling distance over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Size onboard storage for storing image sets
+- Transfer data to the bus for downlink or additional storage
+- Meet specified payload mass, power usage, and volume limits
+- Support various system modes including imaging, standby, safe, and others as needed
+- Interface with and monitor health of payload components
+- Provide power distribution for components operating at different voltages
+- Interface with specific cameras and payload computer for data exchange
+- Determine spacecraft position and attitude at the moment of image capture
+- Store imaging data, position data, and health telemetry as required
+- Operate in different modes with automatic switching between modes
+- Accommodate different imaging sequences for visual spectrum and IR cameras
+- Operate within specified temperature ranges and environmental conditions
+- Withstand structural and thermal requirements for payload components
+- Incorporate protection against single event upsets and latch-ups.
