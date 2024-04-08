@@ -1,0 +1,40 @@
+- Spacecraft Element
+- Optical Telescope Element (OTE)
+- Integrated Science Instrument Module (ISIM)
+- Spacecraft Bus Subsystem
+- Attitude Control Subsystem
+- Electrical Power Subsystem
+- Communication Subsystem
+- Thermal Control Subsystem
+- Command and Data Handling Subsystem
+- Propulsion Subsystem
+- Sunshield Subsystem
+- Fine Guidance Sensor (FGS)
+- Near Infrared Camera (NIRCam)
+- Near Infrared Spectrograph (NIRSpec)
+- Mid-Infrared Instrument (MIRI)
+- Focal Plane Electronics (FPE)
+- Observatory Flight Software
+- Science Data Storage
+- Real-Time Telemetry System
+- Science and Operations Center Communication Interface
+- Observatory Health Monitoring System
+- Wavefront Sensing and Control System
+- Observatory Thermal Management System
+- Observatory Power Distribution System
+- Observatory Structural System
+- Observatory Propellant Management System
+- Observatory Safe Mode Management System
+- Observatory Fault Management System
+- Observatory Command Verification System
+- Observatory Event Log System
+- Observatory Time Management System
+- Observatory Guide Star Acquisition System
+- Observatory Pointing and Tracking System
+- Observatory Image Quality Management System
+- Observatory Contamination Control System
+- Observatory Data Compression System
+- Observatory Data Downlink System
+- Observatory Command Uplink System
+- Observatory Autonomous Operation System
+- Observatory Event-Driven Operation System

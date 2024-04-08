@@ -1,0 +1,29 @@
+- The JWST Observatory is composed of the Spacecraft, Optical Telescope Element (OTE), and the Integrated Science Instrument Module (ISIM).
+
+- The Spacecraft provides continuous two-way communication from separation from the upper stage of the launch vehicle until the completion of Observatory Primary Mirror Phasing activities.
+- The Spacecraft shall be available to receive commands via the low data rate channels during initial deployment and in events requiring emergency communications.
+- The Spacecraft data storage capacity shall be at least 471 Gigabits of science and engineering data.
+- The Spacecraft shall prevent permanent damage to itself due to exposure to the Sun during all phases of the mission.
+- The Spacecraft shall use stars to stabilize the image on the detectors.
+- The Electrical Power Subsystem (EPS) shall provide conditioned power to the Observatory during all mission phases.
+- The EPS shall distribute direct current power to the loads at 28 V +7/-6 at the interface connectors.
+- All primary power returns shall be via hardwires to the EPS single prime power ground point.
+- Propellant shall be sized for 10 years of operation after launch.
+- The Spacecraft shall be responsible for the health and safety of the Observatory.
+- The Observatory shall enter safe modes and reconfigure its onboard systems in response to anomalies when configured for safe mode entry.
+
+**Optical Telescope Element (OTE)**
+
+- The OTE shall not vignette the SI FOVs including all alignment tolerances.
+- The unobscured primary mirror area shall be greater than or equal to 25 square meters.
+- The OTE WFE shall be less than or equal to 131 nm RMS over the field of views of NIRCam, NIRSpec, and MIRI.
+
+**Integrated Science Instrument Module (ISIM)**
+
+- The ISIM mass allocation shall be 1,505 kilograms (kg).
+- The ISIM average power allocation shall be 740 watts.
+- The ISIM shall compress science data using at least a 2:1 lossless science data compression averaged over one day.
+- The ISIM shall bypass data compression on command.
+- The ISIM shall manage the event-driven execution of the planned mission timeline.
+- The ISIM shall place the instruments into a safe state without ground command upon detection or notification of anomalies.
+- After commissioning, the ISIM shall use no more than 3,652 hours over 5 years for overhead activities which detract from prime exposure time on scientific targets.

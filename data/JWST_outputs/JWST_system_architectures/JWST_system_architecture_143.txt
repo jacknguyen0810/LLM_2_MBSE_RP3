@@ -1,0 +1,55 @@
+- Spacecraft Element
+- Optical Telescope Element (OTE)
+- Integrated Science Instrument Module (ISIM)
+- Spacecraft Bus Subsystem
+- Attitude Control Subsystem
+- Electrical Power Subsystem
+- Communication Subsystem
+- Thermal Control Subsystem
+- Propulsion Subsystem
+- Command and Data Handling Subsystem
+- Fine Guidance Sensor (FGS)
+- Near-Infrared Camera (NIRCam)
+- Near-Infrared Spectrograph (NIRSpec)
+- Mid-Infrared Instrument (MIRI)
+- Focal Plane Electronics (FPE)
+- Sunshield Assembly
+- Deployable Tower Assembly
+- Solar Array
+- High Gain Antenna
+- Observatory Flight Software
+- Science Data Storage
+- Real-Time Data Handling
+- Command Uplink Interface
+- Telemetry Downlink Interface
+- Observatory Health Monitoring
+- Observatory Safety Mechanisms
+- Anomaly Detection and Response
+- Observatory Thermal Management
+- Power Distribution Network
+- Observatory Structural Integrity
+- Optical Alignment Mechanisms
+- Wavefront Sensing and Control
+- Image Stabilization System
+- Guide Star Acquisition System
+- Observatory Command Sequencer
+- Data Compression and Encryption
+- Science Observation Planning
+- Observatory Calibration System
+- Mission Timeline Execution
+- Observatory Event Logging
+- Command Authentication Protocol
+- On-Board Data Management
+- Observatory Software Maintenance
+- Memory Margin Management
+- Nominal Data Loss Management
+- Sun Damage Prevention
+- Moving Target Tracking Capability
+- Coarse Pointing Accuracy Control
+- Fine Guidance Pointing Accuracy
+- Relative Offset Pointing Repeatability
+- SI FOV Pointing Knowledge Data Collection
+- Field Orientation Control
+- FOV Orientation Maintenance
+- Slew Rate Management
+- FOV Offset Accuracy Control

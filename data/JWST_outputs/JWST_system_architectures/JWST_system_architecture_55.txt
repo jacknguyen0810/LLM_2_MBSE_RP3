@@ -1,0 +1,39 @@
+**Spacecraft Subsystem**
+
+- The Spacecraft shall be available to receive commands via the low data rate channels during initial deployment and in events requiring emergency communications.
+- The Spacecraft shall transmit telemetry via S-Band at a minimum rate of 200 bps during safe mode.
+- The Spacecraft shall receive commands via S-Band at a minimum rate of 250 bps.
+- The Spacecraft data storage capacity shall be at least 471 Gigabits of science and engineering data.
+- The Spacecraft shall simultaneously store onboard science and housekeeping data during data playback.
+- The Spacecraft shall prevent permanent damage to itself due to exposure to the Sun during all phases of the mission.
+- The Spacecraft shall use stars to stabilize the image on the detectors.
+- The Spacecraft shall have greater than 95% probability of acquiring a guide star and maintaining pointing stability on any fixed target for any valid attitude within the FOR.
+- The Spacecraft shall track targets which exhibit any angular velocity in the range of (TBD) milli-arseconds per second over a total motion (TBD) arcsec with respect to the guide star.
+- The Spacecraft shall point the OTE boresight to an accuracy of better than or equal to 7 arcsec without using the FGS or SIs.
+- After entering fine guidance mode, the Spacecraft shall position a target within any SI FOV to an accuracy of 1 arcsec without using the SIs.
+- During a 24 hour period of fine guidance, the Spacecraft shall, when commanded, remove or repeat a previous offset within a SI FOV with a repeatability of 5 milli-arcseconds, per axis, regardless of the location of the guide star.
+- The Spacecraft shall collect and deliver the science and engineering data to the Ground Segment required to determine the SI FOVs a posteriori pointing knowledge.
+- The Spacecraft shall control the field of view orientation to less than or equal to 7 arcsec RMS.
+- The Spacecraft shall be sized to point the same orientation of its FOV for 10 days for any available fixed target.
+- The Spacecraft shall complete a 90-degree slew in 60 minutes or less.
+- The Spacecraft shall complete a 20 arc-second offset in 60 seconds or less.
+- The Spacecraft shall complete a 280 arcsecond slew in 480 seconds or less.
+- When commanded, the Spacecraft shall offset a science instrument FOV by 0.0 to 0.5 arcsec with an accuracy of 0.005 arcsec, per axis, regardless of the location of the guide star.
+- When commanded, the Spacecraft shall offset a SI FOV by 0.5 - 2.0 arcsec with an accuracy of 1 percent, per axis, regardless of the location of the guide star.
+- When commanded, the Spacecraft shall offset a SI FOV by 2.0 - 20 arcsec with an accuracy of 0.02 arcsec, per axis, regardless of the location of the guide star.
+- When commanded, the Spacecraft shall offset the MIRI FOV by 20 - 45 arcsec with an accuracy of 0.09 arcsec, per axis in its focal plane, regardless of the location of the guide star.
+- The Electrical Power Subsystem shall provide conditioned power to the Observatory during all mission phases.
+- The EPS shall distribute direct current power to the loads at 28 V +7/-6 at the interface connectors.
+- Circuit protection devices shall be sized to protect primary power cable wiring harnesses.
+- All primary power returns shall be via hardwires to the EPS single prime power ground point.
+- Propellant shall be sized for 10 years of operation after launch.
+- The Spacecraft shall be responsible for the health and safety of the Observatory.
+- The Observatory shall be autonomously single fault tolerant against all credible failures that may result in loss of the mission.
+- The design of the Observatory shall preclude propagation of the effects of part failures beyond the component containing the part that fails.
+- Redundant Observatory functionality shall be cross-strapped.
+- The Observatory shall enter safe modes and reconfigure its onboard systems in response to anomalies when configured for safe mode entry.
+- All safe modes shall be designed to conserve consumables.
+- The Observatory shall sustain an autonomous safe mode for 4 weeks without Ground Segment intervention.
+- The Observatory shall exit safe modes via Ground Segment commands.
+- While in Safe Haven mode the Observatory shall retain recorded data while simultaneously down-linking the recorded data and real-time engineering data to support anomaly investigation and recovery to normal operations.
+- The JWST Observatory shall meet the interface requirements to the Launch Segment defined in the Application to Use Ariane (DUA) IRD.

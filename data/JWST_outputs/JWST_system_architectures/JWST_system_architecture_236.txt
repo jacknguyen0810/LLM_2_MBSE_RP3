@@ -1,0 +1,23 @@
+- Spacecraft Element
+- Optical Telescope Element (OTE)
+- Integrated Science Instrument Module (ISIM)
+- Spacecraft Bus Subsystem
+- Attitude Control Subsystem
+- Communication Subsystem
+- Electrical Power Subsystem
+- Thermal Control Subsystem
+- Propulsion Subsystem
+- Command and Data Handling Subsystem
+- Fine Guidance Sensor (FGS)
+- Near-Infrared Camera (NIRCam)
+- Near-Infrared Spectrograph (NIRSpec)
+- Mid-Infrared Instrument (MIRI)
+- Focal Plane Electronics (FPE)
+- Sunshield Assembly
+- Observatory Flight Software
+- High Gain Antenna (HGA)
+- Low Gain Antenna (LGA)
+- Ka-Band Transponder
+- S-Band Transponder
+- Solar Array Assembly
+- Cryocooler for MIRI

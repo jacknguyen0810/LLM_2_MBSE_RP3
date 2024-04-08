@@ -12,8 +12,7 @@
 - Command Telemetry Processor
 - Solid State Recorder
 
-- Electrical Power Subsystem
-- Solar Arrays and Regulators
+- Solid State Recorder
 - Batteries
 - Power Control and distribution units
 - Telemetry Acquisition Units
@@ -41,7 +40,6 @@
 - Sunshield Actuators
 
 - Integrated Science Instrument Module (ISIM)
-- Near Infrared Camera (NIRCam)
 - Near Infrared Camera (NIRCam)
 - MIRI: Mid Infrared Instrument
 - Cryogenic Temperature Sensors for Mid Infrared Instrument

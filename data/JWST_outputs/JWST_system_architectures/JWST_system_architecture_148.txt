@@ -1,0 +1,49 @@
+- Spacecraft Element
+- Optical Telescope Element (OTE)
+- Integrated Science Instrument Module (ISIM)
+- Spacecraft Bus Subsystem
+- Attitude Control System Subsystem
+- Electrical Power System Subsystem
+- Communication System Subsystem
+- Thermal Control System Subsystem
+- Command and Data Handling System Subsystem
+- Propulsion System Subsystem
+- Sunshield Subsystem
+- Fine Guidance Sensor (FGS) Component of ISIM
+- Near Infrared Camera (NIRCam) Component of ISIM
+- Near Infrared Spectrograph (NIRSpec) Component of ISIM
+- Mid-Infrared Instrument (MIRI) Component of ISIM
+- Focal Plane Electronics (FPE) Component of ISIM
+- Optical Telescope Element Primary Mirror Component
+- Optical Telescope Element Secondary Mirror Component
+- Optical Telescope Element Tertiary Mirror Component
+- Optical Telescope Element Fine Steering Mirror Component
+- Observatory Event Logs Component of Command and Data Handling System
+- Command Authentication Component of Command and Data Handling System
+- On-Board Storage Component of Command and Data Handling System
+- Common Data Bus Interface Component of Command and Data Handling System
+- Processor Utilization Component of Command and Data Handling System
+- Local and External Data Bus Utilization Component of Command and Data Handling System
+- Coordinated Universal Time Correlation Accuracy Component of Command and Data Handling System
+- Coordinated Universal Time Clock Maintenance Component of Command and Data Handling System
+- Capability for Real-Time Commanding Component of Command and Data Handling System
+- Prevention of Mutual Interference Component of Command and Data Handling System
+- Command Safety Component of Command and Data Handling System
+- Command Verification Component of Command and Data Handling System
+- Report Verified Commands Component of Command and Data Handling System
+- Command Validation Component of Command and Data Handling System
+- Report Validated Commands Component of Command and Data Handling System
+- Report Executed Commands Component of Command and Data Handling System
+- Command Rejection Component of Command and Data Handling System
+- Parallel Operations Component of Command and Data Handling System
+- Autonomous Operation Component of Command and Data Handling System
+- Observatory Replan Accommodation Component of Command and Data Handling System
+- Data Playback Component of Command and Data Handling System
+- Interleave Real-time with Recorded Data Component of Command and Data Handling System
+- Event-Driven Observatory Operations Component of Command and Data Handling System
+- Common Command and Data Handling Operating System Component of Command and Data Handling System
+- Flight Software Common Programming Language Component of Command and Data Handling System
+- In-Flight Updates Component of Command and Data Handling System
+- Volatile Memory Reloading Component of Command and Data Handling System
+- Memory Margin Component of Command and Data Handling System
+- Nominal Observatory Data Loss Component of Command and Data Handling System

@@ -1,0 +1,12 @@
+- Spacecraft Element
+- Optical Telescope Element (OTE)
+- Integrated Science Instrument Module (ISIM)
+- Spacecraft Bus Subsystem
+- Communication Subsystem
+- Electrical Power Subsystem
+- Structural and Mechanical Subsystem
+- Observatory Thermal Subsystem
+- Command And Data Handling Subsystem
+- Pointing and Tracking Subsystem
+- Integrated Science Instrument Module (ISIM) Subsystem
+- Optical Telescope Element (OTE) Subsystem

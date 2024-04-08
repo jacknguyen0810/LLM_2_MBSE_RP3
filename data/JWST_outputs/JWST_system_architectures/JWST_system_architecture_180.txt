@@ -1,0 +1,48 @@
+- Spacecraft Element
+- Optical Telescope Element (OTE)
+- Integrated Science Instrument Module (ISIM)
+- Spacecraft Bus Subsystem
+- Attitude Control Subsystem
+- Communication Subsystem
+- Electrical Power Subsystem
+- Thermal Control Subsystem
+- Command and Data Handling Subsystem
+- Propulsion Subsystem
+- Sunshield Subsystem
+- Fine Guidance Sensor (FGS)
+- Near Infrared Camera (NIRCam)
+- Near Infrared Spectrograph (NIRSpec)
+- Mid-Infrared Instrument (MIRI)
+- FGS/NIRISS (Near InfraRed Imager and Slitless Spectrograph)
+- Observatory Event Logs Component
+- Command Authentication Component
+- On-Board Storage Component
+- Science Exposure Identification Component
+- Science Observation Identification Component
+- Simultaneous Onboard Storage Component
+- Common Data Bus Interface
+- Processor Utilization Component
+- Local and External Data Bus Utilization Component
+- Coordinated Universal Time Correlation Accuracy Component
+- Coordinated Universal Time Clock Maintenance Component
+- Capability for Real-Time Commanding Component
+- Prevention of Mutual Interference Component
+- Command Safety Component
+- Command Verification Component
+- Report Verified Commands Component
+- Command Validation Component
+- Report Validated Commands Component
+- Report Executed Commands Component
+- Command Rejection Component
+- Parallel Operations Component
+- Autonomous Operation Component
+- Observatory Replan Accommodation Component
+- Data Playback Component
+- Interleave Real-time with Recorded Data Component
+- Event-Driven Observatory Operations Component
+- Common Command and Data Handling Operating System Component
+- Flight Software Common Programming Language Component
+- In-Flight Updates Component
+- Volatile Memory Reloading Component
+- Memory Margin Component
+- Nominal Observatory Data Loss Component

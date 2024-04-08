@@ -1,0 +1,40 @@
+- The JWST Observatory is composed of the Spacecraft, Optical Telescope Element (OTE), and the Integrated Science Instrument Module (ISIM).
+  
+**Spacecraft**
+
+- The Spacecraft shall not exceed a wet mass of 6,159 kilograms.
+- The Spacecraft shall provide continuous two-way communication from separation from the upper stage of the launch vehicle until the completion of Observatory Primary Mirror Phasing activities.
+- The Spacecraft shall receive commands via S-Band at a minimum rate of 250 bps.
+- The Spacecraft shall transmit telemetry via S-Band at a minimum rate of 200 bps during safe mode.
+- The Spacecraft shall be responsible for the health and safety of the Observatory.
+- The Spacecraft shall be autonomously single fault tolerant against all credible failures that may result in loss of the mission.
+- The Spacecraft shall preclude propagation of the effects of part failures beyond the component containing the part that fails.
+- Redundant Spacecraft functionality shall be cross-strapped.
+- The Spacecraft shall enter safe modes and reconfigure its onboard systems in response to anomalies when configured for safe mode entry.
+- The Spacecraft shall exit safe modes via Ground Segment commands.
+- While in Safe Haven mode the Spacecraft shall retain recorded data while simultaneously down-linking the recorded data and real-time engineering data to support anomaly investigation and recovery to normal operations.
+- The Spacecraft shall meet the interface requirements to the Launch Segment defined in the Application to Use Ariane (DUA) IRD.
+
+**Optical Telescope Element (OTE)**
+
+- The OTE shall not vignette the Science Instruments (SIs) and guiders Field of Views (FOVs) including all alignment tolerances.
+- The OTE shall have an unobscured primary mirror area greater than or equal to 25 square meters.
+- The OTE optics, mounts, and baffles shall not obstruct properly focused light from reaching the science focal planes.
+- The OTE Wave Front Error (WFE) shall be less than or equal to 131 nm RMS over the field of views of NIRCam, NIRSpec, and MIRI.
+- The OTE WFE shall be less than or equal to 150nm RMS over the field of view of the Fine Guidance Sensor (FGS).
+
+**Integrated Science Instrument Module (ISIM)**
+
+- The ISIM mass allocation shall be 1,505 kilograms.
+- The ISIM average power allocation shall be 740 watts.
+- The ISIM shall contain a camera that provides the imagery required to support wavefront sensing.
+- Pupil Imaging shall be performed in the wavefront sensor.
+- When commanded, the ISIM shall compress science data using at least a 2:1 lossless science data compression averaged over one day.
+- The ISIM shall bypass data compression on command.
+- The ISIM shall manage the event-driven execution of the planned mission timeline.
+- Excluding mechanical transients and the use of internal lamps, SI operations shall be independent of and not interfere with one another.
+- The FGS shall perform fine guidance independently and without interference to any SI operations.
+- All science instruments and the guider shall meet their respective image quality and spectral resolution requirements after the OTE has been adjusted to an optimal focus position.
+- SIs shall not require OTE adjustment for any mode of instrument operation.
+- The ISIM shall continuously monitor SI subsystems for anomalies.
+- The ISIM shall place the instruments into a safe state without ground command upon detection or notification of anomalies.

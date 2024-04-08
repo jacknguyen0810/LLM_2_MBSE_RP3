@@ -1,0 +1,84 @@
+- Spacecraft Element
+- Optical Telescope Element (OTE)
+- Integrated Science Instrument Module (ISIM)
+- Command and Data Handling Subsystem
+- Observatory Event Logs Component
+- Command Authentication Component
+- On-Board Storage Component
+- Storage Capacity Component
+- Science Exposure Identification Component
+- Science Observation Identification Component
+- Simultaneous Onboard Storage Component
+- Common Data Bus, Point to Point, and Power Interfaces Component
+- Processor Utilization Component
+- Local and External Data Bus Utilization Component
+- Coordinated Universal Time Correlation Accuracy Component
+- Coordinated Universal Time Clock Maintenance Component
+- Capability for Real-Time Commanding Component
+- Prevention of Mutual Interference Component
+- Command Safety Component
+- Command Verification Component
+- Report Verified Commands Component
+- Command Validation Component
+- Report Validated Commands Component
+- Report Executed Commands Component
+- Command Rejection Component
+- Parallel Operations Component
+- Autonomous Operation Component
+- Observatory Replan Accommodation Component
+- Data Playback Component
+- Interleave Real-time with Recorded Data Component
+- Observatory Software Component
+- Event-Driven Observatory Operations Component
+- Common Command and Data Handling Operating System Component
+- Flight Software Common Programming Language Component
+- In-Flight Updates Component
+- Volatile Memory Reloading Component
+- Memory Margin Component
+- Nominal Observatory Data Loss Component
+- Communication Subsystem
+- Communication Operations Component
+- Continuous Two-way Communication Component
+- Launch Phase Communications Component
+- Deep Space Network Compatibility Component
+- Low Rate Commanding Component
+- Link Margins Component
+- Downlink of Uncompressed Recorded Engineering Data Component
+- Stored Data Downlink Component
+- Downlink of Compressed Science Data Volume Component
+- Real-Time Data Downlink Component
+- Ranging Component
+- Command Uplink Component
+- Command Uplink Frequency Component
+- Low Rate Command Uplink Component
+- Medium Rate Command Uplink Component
+- High Rate Command Uplink Component
+- Downlink Data Encoding Component
+- Pseudo-Randomization of Data Component
+- Low Rate Downlink Component
+- High Rate Downlink Component
+- High Rate Downlink Data Rates Component
+- Backup Communication Mode Commanding Component
+- Telemetry Component
+- Real-Time Data Efficiency Component
+- Recorded Data Efficiency Component
+- Electrical Power Subsystem
+- Voltage Component
+- Circuit Protection Component
+- Power Return Component
+- Structural and Mechanical Mechanisms Component
+- Observatory Thermal Subsystem
+- Architecture Component
+- Near-Infrared Detector Cooling Component
+- Propellant Lifetime Component
+- Health and Safety Responsibility Component
+- Fault Tolerance Component
+- Fault Propagation Component
+- Cross Strapping Component
+- Safe Modes Component
+- Safe Mode Hierarchy Component
+- Safe Mode Consumables Component
+- Autonomous Safe Mode Duration Component
+- Safe Mode Commanding Component
+- Safe Haven Mode Data Handling Component
+- Launch Vehicle Interface Component

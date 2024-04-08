@@ -1,0 +1,20 @@
+- Spacecraft Element
+- Optical Telescope Element (OTE)
+- Integrated Science Instrument Module (ISIM)
+- Spacecraft Bus Subsystem
+- Attitude Control System Subsystem
+- Electrical Power System Subsystem
+- Communication System Subsystem
+- Thermal Control System Subsystem
+- Command and Data Handling (C&DH) Subsystem
+- Propulsion System Subsystem
+- Sunshield Subsystem
+- Fine Guidance Sensor (FGS) Component of ISIM
+- Near Infrared Camera (NIRCam) Component of ISIM
+- Near Infrared Spectrograph (NIRSpec) Component of ISIM
+- Mid-Infrared Instrument (MIRI) Component of ISIM
+- Focal Plane Electronics (FPE) Component of ISIM
+- Observatory Flight Software Component of C&DH Subsystem
+- High Gain Antenna Component of Communication System Subsystem
+- Solar Array Component of Electrical Power System Subsystem
+- Cryocooler Component of Thermal Control System Subsystem

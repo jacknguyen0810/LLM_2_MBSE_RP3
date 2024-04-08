@@ -1,0 +1,45 @@
+- Spacecraft Element
+- Optical Telescope Element (OTE)
+- Integrated Science Instrument Module (ISIM)
+- Spacecraft Bus Subsystem
+- Solar Array Component
+- Attitude Control System Component
+- Communication Subsystem Component
+- Electrical Power Subsystem Component
+- Thermal Control Subsystem Component
+- Propulsion Subsystem Component
+- Command and Data Handling Subsystem Component
+- Fine Guidance Sensor Component
+- Near-Infrared Camera (NIRCam) Component
+- Near-Infrared Spectrograph (NIRSpec) Component
+- Mid-Infrared Instrument (MIRI) Component
+- Focal Plane Electronics Component
+- Observatory Flight Software Component
+- High Gain Antenna Component
+- Sunshield Deployment Mechanism Component
+- Cryocooler Component for MIRI
+- Observatory Thermal System Component
+- Observatory Power Distribution Unit Component
+- Observatory Data Handling Unit Component
+- Observatory Telemetry and Command Interface Component
+- Observatory Fault Management Unit Component
+- Observatory Event Logs Component
+- Observatory On-Board Storage Component
+- Observatory Real-Time Data Handling Component
+- Observatory Stored Data Handling Component
+- Observatory Command Authentication Component
+- Observatory Command Execution Verification Component
+- Observatory Fine Guidance Control Component
+- Observatory Guide Star Acquisition Component
+- Observatory Pointing Accuracy Control Component
+- Observatory Wavefront Sensing and Control Component
+- Observatory Image Quality Control Component
+- Observatory Stray Light Control Component
+- Observatory Thermal Emission Control Component
+- Observatory Sun Damage Prevention Component
+- Observatory Safe Mode Management Component
+- Observatory Emergency Management Component
+- Observatory Autonomy and Fault Management Component
+- Observatory Power Management Component
+- Observatory Thermal Management Component
+- Observatory Communication Management Component
