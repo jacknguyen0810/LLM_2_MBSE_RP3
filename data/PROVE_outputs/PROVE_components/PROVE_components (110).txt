@@ -1,0 +1,18 @@
+- IR Camera Subsystem
+- VIS Camera Subsystem
+- Payload Computer Subsystem
+- CubeSat Bus Subsystem
+- Power Distribution Subsystem
+- Health Monitoring Subsystem
+- Data Interface Subsystem
+- Electrical Power Subsystem
+- Electrical Health Monitoring Subsystem
+- Electrical Data Interface Subsystem
+- Command and Data Handling Subsystem
+- Imaging Subsystem
+- Ground Navigation and Control Subsystem
+- Memory Subsystem
+- Operations Subsystem
+- Temperature Control Subsystem
+- Environmental Control Subsystem
+- Structural Support Subsystem

@@ -1,0 +1,31 @@
+- IR and VIS Imaging System
+- Automated Observation Scheduler
+- Imaging Window Angle Distribution Mechanism
+- Payload Lifetime Management System
+- Minimum Elevation Angle Control
+- Narrow-Angle Imaging Capability
+- Spatial Sampling Distance Control
+- Science Image Capture System
+- Radiometric Calibration Unit
+- Geolocation System
+- Pointing Accuracy Control
+- Data Downlink System
+- Onboard Storage Management
+- Data Transfer Mechanism
+- Payload Mass Control
+- Payload Power Management
+- Payload Volume Limitation System
+- Operational Modes Management System
+- Hardware Qualification System
+- Power Distribution System
+- Health Monitoring System
+- Electrical Interface System
+- Command and Data Handling System
+- Imaging Interface System
+- Position and Attitude Determination System
+- Memory Storage System
+- Operational Mode Switching System
+- Temperature Operation Range System
+- Environmental Protection System
+- Structural Support System
+- Thermal Regulation System

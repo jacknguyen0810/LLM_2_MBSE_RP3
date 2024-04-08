@@ -1,0 +1,24 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Electronics Subsystem
+- CDH Subsystem
+- FLIR Tau2 IR Camera
+- Basler acA640-100gm Camera
+- Harwin Gecko Connector
+- Payload Structure
+- Payload Components
+- Imager Field of Views Alignment
+- Payload Mass
+- Payload Power Usage
+- Payload Volume
+- Imaging Mode
+- Standby Mode
+- Safe Mode
+- Automatic Imaging Sequence Pass (AISP)
+- Manual Imaging Sequence Pass (MISP)
+- Single Image Pass (SIP)
+- Structural Testing Levels
+- Alignment Maintenance
+- Thermal Rating Compliance

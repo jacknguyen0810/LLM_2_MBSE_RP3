@@ -1,0 +1,54 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Harwin Gecko Connector
+- FLIR Tau2 IR Camera
+- Basler acA640-100gm Camera
+- Electrical Power System
+- Health Monitoring System
+- Data Interfaces
+- Ground Station Interface
+- CubeSat Bus Interface
+- Electrical Power Monitoring
+- Electrical Health Monitoring
+- Electrical Data Interfaces
+- Command and Data Handling (CDH) Subsystem
+- CDH-IRC-00
+- CDH-IRC-01
+- CDH-IRC-02
+- CDH-VSC-00
+- CDH-VSC-01
+- CDH-VSC-02
+- CDH-VSC-03
+- CDH-GNC-00
+- CDH-GNC-01
+- CDH-GNC-02
+- CDH-HMS-00
+- CDH-HMS-01
+- CDH-HMS-02
+- CDH-BUS-00
+- CDH-BUS-01
+- CDH-BUS-02
+- CDH-BUS-03
+- CDH-BUS-04
+- CDH-MEM-00
+- CDH-MEM-01
+- CDH-MEM-02
+- CDH-MEM-03
+- CDH-MEM-04
+- CDH-OPS-00
+- CDH-OPS-01
+- CDH-OPS-02
+- CDH-OPS-03
+- CDH-OPS-04
+- CDH-TEM-00
+- CDH-TEM-01
+- CDH-ENV-00
+- CDH-ENV-01
+- CDH-ENV-02
+- CDH-POW-00
+- Structural Components
+- Payload Structure
+- Thermal Components
+- Thermal Protection System

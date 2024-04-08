@@ -1,0 +1,48 @@
+- IR and VIS Imaging System
+- Primary Observation Pass Subsystem
+- Secondary Observation Pass Subsystem
+- Tertiary Observation Pass Subsystem
+- Observation Window Control System
+- Lifetime Management System
+- Automated Observation Scheduler
+- Minimum Elevation Angle Control
+- Narrow-Angle Imaging System
+- Swath Width Control System
+- Imager Field of View Alignment System
+- Spatial Sampling Distance Control System
+- Science Image Capture System
+- Temporal Resolution Control System
+- IR Camera Thermal Control System
+- Radiometric Calibration System
+- Geolocation System
+- Pointing Accuracy System
+- Data Downlink System
+- Onboard Storage System
+- Data Transfer System
+- Payload Mass Management System
+- Payload Power Management System
+- Payload Volume Management System
+- Operational Modes Control System
+- Hardware Qualification System
+- Power Distribution System
+- Health Monitoring System
+- Temperature Monitoring System
+- Power Management System
+- Electrical Data Interface System
+- Grounding System
+- Command and Data Handling (CDH) System
+- Imaging System Interface
+- Position and Attitude Determination System
+- Memory Storage System
+- Operational Modes Management System
+- Temperature Operation System
+- Environmental Protection System
+- Power Consumption Control System
+- Structural Support System
+- Random Vibration Support System
+- Sine Sweep Support System
+- Sine Burst Support System
+- Launcher Compatibility System
+- Imager Swath Alignment System
+- Payload Volume Support
+- Thermal Rating System

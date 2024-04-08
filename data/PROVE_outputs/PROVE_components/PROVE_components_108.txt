@@ -1,0 +1,64 @@
+- IR and VIS imaging system
+- IR imaging system for secondary targets
+- VIS imaging system for tertiary targets
+- Distribution system for images over observation window
+- Automated observation scheduling system
+- Minimum elevation angle control system
+- Narrow-angle IR and VIS imaging system
+- Payload structure alignment maintenance system
+- Spatial sampling distance control system for IR images
+- Spatial sampling distance control system for VIS images
+- Science image provision system
+- Temporal resolution control system
+- IR camera NedT control system
+- Radiometric calibration system for IR camera
+- Geolocation system for target
+- Pointing accuracy control system
+- Image data downlink system
+- Onboard storage system
+- Data transfer system
+- Payload mass control system
+- Payload power usage control system
+- Payload volume control system
+- Mission mode control system
+- Hardware qualification system
+- Power provision system for electronics
+- Health monitoring system for electronics
+- Power monitoring and control system for electronics
+- Electrical connections system for data interfaces
+- Grounding system for payload
+- CDH interface system with IR camera
+- Command sending system for IR camera
+- Image streaming system for IR camera
+- CDH interface system with VIS camera
+- Command sending system for VIS camera
+- Image streaming system for VIS camera
+- Visual image streaming system for secondary pass
+- Position and attitude determination system
+- Position data accuracy control system
+- Attitude data accuracy control system
+- Health monitoring system for CDH
+- Bus interface system for CDH
+- Power and data connection routing system
+- Command retrieval system for CDH
+- Data transfer system for CDH
+- Memory storage system for CDH
+- Position data linking system for CDH
+- Health telemetry storage system for CDH
+- Data prioritization system for memory
+- Operation mode switching system for CDH
+- Imaging mode support system for CDH
+- Safe mode system for CDH
+- Standby mode system for CDH
+- Temperature operation range system for CDH
+- Environmental operation system for CDH
+- Power consumption control system for CDH
+- Payload structure support system
+- Random vibration frequency support system
+- Vibration withstand system
+- Sine sweep withstand system
+- Sine burst withstand system
+- Test level identification system
+- Imager swath alignment maintenance system
+- Payload volume support system
+- Thermal rating system for components

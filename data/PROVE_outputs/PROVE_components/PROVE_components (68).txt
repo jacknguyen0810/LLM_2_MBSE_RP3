@@ -1,0 +1,22 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Harwin Gecko Connector
+- FLIR Tau2 IR Camera
+- Basler acA640-100gm Camera
+- Electrical Power System
+- Health Monitoring System
+- Data Interfaces
+- CubeSat Bus Interface
+- CDH Subsystem
+- Imaging Modes
+- Memory Storage
+- Operational Modes
+- Temperature Operation
+- Environmental Protection
+- Power Consumption
+- Payload Structure
+- Alignment Maintenance
+- Volume Constraint
+- Thermal Rating Compliance

@@ -1,0 +1,28 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Harwin Gecko Connector
+- Tau2 IR Camera
+- Basler acA640-100gm Camera
+- CDH Subsystem
+- FLIR Tau2 IR Camera
+- Basler Camera
+- CubeSat Bus
+- Structural Components
+- Payload Structure
+- Imager Field of Views Alignment
+- Payload Components
+- Electronics Subsystem
+- Power Supply
+- Health Monitoring System
+- Data Interfaces
+- Electrical Connections
+- Data Interfaces
+- Ground Connection
+- Software Subsystem
+- Command and Data Handling (CDH) Subsystem
+- Electrical Requirements
+- Mission Requirements
+- Structural Requirements
+- Thermal Requirements

@@ -1,0 +1,22 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Harwin Gecko Connector
+- FLIR Tau2 IR Camera
+- Basler acA640-100gm Camera
+- CDH Subsystem
+- Electronics Subsystem
+- Payload Structure
+- Imager Field of Views Alignment
+- Geolocation System
+- Pointing System
+- Power Distribution System
+- Health Monitoring Sensors
+- Data Interface System
+- Electrical Connections System
+- Imaging Modes System
+- Memory Storage System
+- Operation Modes System
+- Temperature Monitoring System
+- Environmental Protection System

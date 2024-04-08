@@ -1,0 +1,20 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- CDH Subsystem
+- Electronics Subsystem
+- Imager Field of Views Alignment Mechanism
+- Payload Structure
+- Power Distribution System
+- Data Interface System
+- Health Monitoring System
+- Geolocation System
+- Pointing Accuracy System
+- Onboard Storage System
+- Data Downlink System
+- Grounding System
+- Mission Modes System
+- Radiometric Calibration System
+- Imaging Sequencing System
+- Thermal Control System

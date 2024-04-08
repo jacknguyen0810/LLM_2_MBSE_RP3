@@ -1,0 +1,49 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Power Distribution System
+- Health Monitoring System
+- Data Interface System
+- CDH Subsystem
+- FLIR Tau2 IR Camera
+- Basler acA640-100gm Camera
+- CubeSat Bus Interface
+- Harwin Gecko Connector
+- Electrical Power System
+- Electrical Health Monitoring System
+- Electrical Interfaces
+- Electrical Grounding System
+- Electrical Power Monitoring System
+- Electrical Power Distribution System
+- Electrical Power Bus (12V, 5V, 3V)
+- Electrical Power Management System
+- Electrical Power Cut-off System
+- Electrical Data Interfaces
+- Electrical Power Storage System
+- Electrical Power Storage Management System
+- Electrical Power Storage Overwrite System
+- Electrical Power Storage Prioritization System
+- Electrical Power Storage Health Monitoring System
+- Electrical Power Storage Retrieval System
+- Electrical Power Storage Linking System
+- Electrical Power Storage Telemetry System
+- Electrical Power Storage Command System
+- Electrical Power Storage Switching System
+- Electrical Power Storage Operation Modes System
+- Electrical Power Storage Temperature Management System
+- Electrical Power Storage Environmental Protection System
+- Electrical Power Storage Critical Failure Management System
+- Electrical Power Storage Radiation Tolerance System
+- Electrical Power Storage Protection System
+- Electrical Power Storage Power Consumption System
+- Payload Structure
+- Payload Structure Vibration Support
+- Payload Structure Vibration Durability
+- Payload Structure Vibration Resistance
+- Payload Structure Vibration Tolerance
+- Payload Structure Alignment Maintenance
+- Payload Structure Volume Support
+- Payload Structure Thermal Resistance
+- Payload Structure Thermal Operating Range
+- Payload Structure Thermal Storage Range

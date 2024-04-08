@@ -1,0 +1,13 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Electronics Subsystem
+- CDH Subsystem
+- Power Distribution System
+- Health Monitoring System
+- Data Interface System
+- Imaging Mode Control System
+- Memory Storage System
+- Thermal Control System
+- Payload Structure

@@ -1,0 +1,79 @@
+- IR and VIS imaging system
+- Secondary target IR imaging system
+- Tertiary target VIS imaging system
+- Image distribution system for varying viewing angles
+- Observation scheduling and priority uplink system
+- Minimum elevation angle control system
+- Narrow-angle IR and VIS imaging system
+- Scientific image swath width control system
+- Imager field of view alignment system
+- IR imaging system with spatial sampling distance control
+- VIS imaging system with spatial sampling distance control
+- Science image capture system
+- Geolocation system for target tracking
+- Pointing accuracy system
+- Image data downlink system
+- Onboard storage system for image sets
+- Data transfer system to the bus
+- Payload mass management system
+- Payload power usage management system
+- Payload volume management system
+- Mission mode control system
+- Hardware qualification system
+- Power provision system for all modes
+- Power provision system for 12V components
+- Power provision system for 5V components
+- Power provision system for 3V components
+- Payload component health monitoring system
+- Temperature and power monitoring system for cameras and computer
+- Power control system for cameras by payload computer
+- Autonomous power control system for cameras
+- Data interface support system for payload components
+- Data interface support system for IR camera and computer
+- Data interface support system for VIS camera and computer
+- Data interface support system for BUS and computer
+- Grounding system for the payload
+- CDH system interfacing with IR camera
+- CDH system commanding the IR camera
+- CDH system streaming IR images
+- CDH system interfacing with VIS camera
+- CDH system commanding the VIS camera
+- CDH system streaming VIS images
+- CDH system streaming visual images on command
+- CDH system determining spacecraft position and attitude
+- Position data accuracy system
+- Attitude data accuracy system
+- CDH system health monitoring for payload
+- CDH system health monitoring for cameras
+- CDH system power control for cameras
+- CDH system automatic fault resolution
+- CDH system interfacing with CubeSat bus
+- CDH system tolerance to bus system overrides
+- Power and data connection system through Harwin Gecko connector
+- Command retrieval system from the main bus
+- Imaging and telemetry data transfer system to the main bus
+- Memory storage system for imaging data
+- Position data linking system for each image
+- Health telemetry storage system
+- Imaging and data command storage system
+- Data overwrite prioritization system
+- Operation mode switching system
+- Imaging mode support system
+- Imaging sequence accommodation system
+- Safe mode operation system
+- Standby mode operation system
+- Temperature range operation system
+- Active cooling avoidance system
+- Operation reliability system
+- Radiation exposure tolerance system
+- Single event upset and latch-up protection system
+- Power consumption control system
+- Payload structure support system for random vibrations
+- Payload structure withstand capability for specified levels
+- Payload structure withstand capability for sine sweep
+- Payload structure withstand capability for sine burst
+- Payload structure withstand capability for launcher and deployer levels
+- Imager swath alignment maintenance system
+- Payload volume support system
+- Thermal rating compliance for all components
+- Operating temperature range compliance for all components

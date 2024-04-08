@@ -1,0 +1,68 @@
+- IR and VIS Imaging System
+- Secondary Target Imaging System
+- Tertiary Target Imaging System
+- Image Distribution System
+- Mission Lifetime Management System
+- Automated Observation System
+- Minimum Elevation Angle Control System
+- Narrow-Angle Imaging System
+- Swath Width Control System
+- Imager Field of View Alignment System
+- IR Spatial Sampling Distance System
+- VIS Spatial Sampling Distance System
+- Science Image Acquisition System
+- Temporal Resolution Control System
+- IR Camera NedT Control System
+- IR Camera Calibration System
+- Geolocation System
+- Pointing Accuracy System
+- Image Data Downlink System
+- Onboard Storage System
+- Data Transfer System
+- Payload Mass Management System
+- Payload Power Management System
+- Payload Volume Management System
+- Operational Modes System
+- Hardware Qualification System
+- Power Distribution System
+- Health Monitoring System
+- Temperature Monitoring System
+- Power Management System
+- Data Interface System
+- Grounding System
+- CDH Interface with IR Camera System
+- CDH Command System for IR Camera
+- CDH Image Streaming System for IR Camera
+- CDH Interface with VIS Camera System
+- CDH Command System for VIS Camera
+- CDH Image Streaming System for VIS Camera
+- CDH Image Streaming System for Visual Images
+- Attitude Determination System
+- Position Data Accuracy System
+- Attitude Data Accuracy System
+- CDH Health Monitoring System
+- CDH Power Control System
+- CDH Interface with CubeSat Bus System
+- CDH Tolerance System
+- CDH Memory Storage System
+- CDH Data Linking System
+- CDH Telemetry Storage System
+- CDH Data Prioritization System
+- CDH Operational Modes System
+- CDH Imaging Modes System
+- CDH Safe Mode System
+- CDH Standby Mode System
+- CDH Temperature Operation System
+- CDH Environmental Tolerance System
+- CDH Power Consumption System
+- Payload Structural Support System
+- Payload Vibration Tolerance System
+- Payload Structural Endurance System
+- Payload Structural Strength System
+- Payload Structural Alignment System
+- Payload Volume Constraints System
+- Thermal Rating System
+- Maximum Operating Temperature System
+- Minimum Operating Temperature System
+- Maximum Storage Temperature System
+- Minimum Storage Temperature System

@@ -1,0 +1,31 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Health Monitoring Sensors
+- Data Interfaces
+- Power Distribution System
+- Electrical Grounding System
+- Power Monitoring System
+- Temperature Monitoring System
+- Power Management System
+- Data Storage System
+- Command and Data Handling (CDH) Subsystem
+- Flight Software
+- Imaging Modes Control
+- Health Monitoring and Safety
+- Data Interfaces
+- Position and Attitude Determination
+- Memory Management
+- Operational Modes Control
+- Temperature Management
+- Environmental Monitoring
+- Power Management
+- Payload Structure
+- Vibration Frequency Spectrum Support
+- Structural Endurance
+- Sine Sweep Resilience
+- Sine Burst Tolerance
+- Imager Swath Alignment
+- Volume Constraints
+- Thermal Protection System

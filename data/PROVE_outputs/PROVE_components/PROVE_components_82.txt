@@ -1,0 +1,32 @@
+- IR and VIS imaging system
+- Secondary target IR imaging system
+- Tertiary target VIS imaging system
+- Distributed imaging system for primary and tertiary targets
+- Automated observation scheduling system
+- Minimum elevation angle control system
+- Narrow-angle IR and VIS imaging system
+- Scientific imaging swath width control system
+- Imager field of view alignment system
+- IR imaging spatial sampling distance control system
+- VIS imaging spatial sampling distance control system
+- Science image capture system
+- Data downlink system
+- Onboard storage system
+- Power distribution system
+- Health monitoring system
+- Electrical connections system
+- Software interface with IR camera
+- Software interface with VIS camera
+- Position and attitude determination system
+- Memory storage system
+- Operational mode control system
+- Temperature operating range system
+- Environmental tolerance system
+- Power consumption monitoring system
+- Payload structure for vibration resistance
+- Payload structure for launcher compatibility
+- Payload structure for sine sweep resistance
+- Payload structure for sine burst resistance
+- Imager swath alignment maintenance system
+- Payload volume management system
+- Thermal rating compliance system

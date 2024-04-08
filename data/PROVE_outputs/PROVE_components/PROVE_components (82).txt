@@ -1,0 +1,19 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- 12V Power Bus
+- 5V Power Bus
+- 3V Power Bus
+- Health Monitoring System
+- Electrical Interfaces
+- Grounding System
+- CDH Subsystem
+- FLIR Tau2 IR Camera
+- Basler acA640-100gm Camera
+- Position and Attitude Determination System
+- Memory Storage System
+- Operations Modes System
+- Temperature Control System
+- Environmental Protection System
+- Structural Support System

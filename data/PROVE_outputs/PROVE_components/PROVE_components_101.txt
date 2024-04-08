@@ -1,0 +1,73 @@
+- IR and VIS Imaging System
+- IR Imaging of Secondary Targets
+- VIS Imaging of Tertiary Targets
+- Distribution of Images over Observation Window
+- Mission Lifetime Management
+- Automated Observation Scheduling
+- Minimum Elevation Angle Requirement
+- Narrow-Angle Imaging Capability
+- Minimum Swath Width for Scientific Images
+- Payload Structure Alignment Maintenance
+- IR Image Spatial Sampling Distance
+- VIS Image Spatial Sampling Distance
+- Science Image Quantity Requirement
+- Temporal Resolution for Primary Targets
+- IR Camera Noise Equivalent Temperature Difference
+- Uncooled IR Camera Requirement
+- Radiometric Calibration of IR Camera
+- Geolocation Accuracy Requirement
+- Pointing Accuracy Requirement
+- Image Data Downlink Timeline
+- Onboard Storage Capacity
+- Data Transfer to Bus
+- Payload Mass Limitation
+- Payload Power Limitation
+- Payload Volume Limitation
+- Mission Modes Requirement
+- Hardware Qualification Requirement
+- Electrical Power Provision
+- Power Distribution for Different Voltage Components
+- Health Monitoring System Capability
+- Monitoring of Temperature and Power Consumption
+- Power Control for Cameras
+- Electrical Data Interface Support
+- Grounding System
+- Software-Hardware Interface for IR Camera
+- Command Capability for IR Camera
+- Image Streaming Capability for IR Camera
+- Software-Hardware Interface for VIS Camera
+- Command Capability for VIS Camera
+- Image Streaming Capability for VIS Camera
+- Visual Image Streaming for Secondary Pass
+- Spacecraft Position and Attitude Determination
+- Position Data Accuracy Requirement
+- Attitude Data Accuracy Requirement
+- Health Monitoring for Cameras
+- Bus Interface for Communication
+- Tolerance to Bus System Overrides
+- Connector for Main Bus Connections
+- Command Retrieval from Main Bus
+- Data Transmission to Main Bus
+- Memory Storage Capacity
+- Position Data Linking to Images
+- Health Telemetry Storage Requirement
+- Imaging and Telemetry Data Storage
+- Memory Management for Data Overwrite
+- Operational Mode Capability
+- Imaging Mode Support
+- Safe Mode Operation
+- Standby Mode Operation
+- Temperature Operating Range
+- Cooling Technique Restriction
+- Environmental Durability Requirement
+- Radiation Exposure Tolerance
+- Protection Against SEUs and SELs
+- Power Consumption Limitation
+- Payload Structural Support
+- Vibration Spectrum Compliance
+- Structural Endurance Levels
+- Sine Sweep and Burst Endurance
+- Test Level Identification
+- Imager Swath Alignment Maintenance
+- Payload Volume Constraint
+- Thermal Rating Compliance

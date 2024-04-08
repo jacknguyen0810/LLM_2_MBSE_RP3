@@ -1,0 +1,31 @@
+- IR and VIS Imaging System
+- Observation Scheduler
+- Image Distribution System
+- Payload Structure Alignment Mechanism
+- Automated Observation System
+- Minimum Elevation Angle Control
+- Narrow-Angle Imaging System
+- Swath Width Control System
+- Spatial Sampling Distance Control System
+- Geolocation System
+- Pointing Accuracy System
+- Temporal Resolution Control System
+- IR Camera with NedT Control
+- Radiometric Calibration System
+- Data Downlink System
+- Onboard Storage System
+- Data Transfer System
+- Payload Mass Management System
+- Payload Power Management System
+- Payload Volume Management System
+- Operational Modes Control System
+- Electrical Power Supply System
+- Health Monitoring System
+- Data Interface System
+- Software Interface System
+- Position and Attitude Determination System
+- Memory Storage System
+- Operational Mode Switching System
+- Temperature Management System
+- Environmental Protection System
+- Structural Support System

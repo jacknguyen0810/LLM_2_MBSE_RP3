@@ -1,0 +1,23 @@
+- IR and VIS Imaging System
+- Automated Observation Scheduler
+- Minimum Elevation Angle Control
+- Narrow-Angle Imaging Capability
+- Payload Structure Alignment System
+- Spatial Sampling Distance Management
+- Temporal Resolution Control
+- Radiometric Calibration System
+- Geolocation Accuracy System
+- Pointing Accuracy System
+- Data Downlink System
+- Onboard Storage Management
+- Data Transfer System
+- Power Supply System
+- Health Monitoring System
+- Electrical Interface System
+- Command and Data Handling System
+- Position and Attitude Determination System
+- Memory Management System
+- Operational Mode Control
+- Temperature Management System
+- Environmental Protection System
+- Structural Support System
