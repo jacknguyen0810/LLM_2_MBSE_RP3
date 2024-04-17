@@ -1,65 +1,45 @@
-- Spacecraft Element
-- Optical Telescope Element (OTE)
-- Integrated Science Instrument Module (ISIM)
-- Spacecraft Bus Subsystem
-- Attitude Control Subsystem
-- Electrical Power Subsystem
-- Communication Subsystem
-- Thermal Control Subsystem
-- Propulsion Subsystem
-- Command and Data Handling Subsystem
-- Fine Guidance Sensor (FGS)
-- Near-Infrared Camera (NIRCam)
-- Near-Infrared Spectrograph (NIRSpec)
-- Mid-Infrared Instrument (MIRI)
-- FGS-Tunable Filter (FGS-TF)
-- Observatory Event Logs Component
-- Command Authentication Component
-- On-Board Storage Component
-- Storage Capacity Component
-- Science Exposure Identification Component
-- Science Observation Identification Component
-- Simultaneous Onboard Storage Component
-- Common Data Bus Interface
-- Point to Point Interface
-- Power Interfaces Component
-- Processor Utilization Component
-- Local and External Data Bus Utilization Component
-- Coordinated Universal Time Correlation Accuracy Component
-- Coordinated Universal Time Clock Maintenance Component
-- Capability for Real-Time Commanding Component
-- Prevention of Mutual Interference Component
-- Command Safety Component
-- Command Verification Component
-- Report Verified Commands Component
-- Command Validation Component
-- Report Validated Commands Component
-- Report Executed Commands Component
-- Command Rejection Component
-- Parallel Operations Component
-- Autonomous Operation Component
-- Observatory Replan Accommodation Component
-- Data Playback Component
-- Interleave Real-time with Recorded Data Component
-- Event-Driven Observatory Operations Component
-- Common Command and Data Handling Operating System Component
-- Flight Software Common Programming Language Component
-- In-Flight Updates Component
-- Volatile Memory Reloading Component
-- Memory Margin Component
-- Nominal Observatory Data Loss Component
-- Sun Damage Protection Component
-- Guiding Capability Component
-- Guide Star Availability Component
-- Single Point Failure Protection for FGS
-- Moving Target Tracking Capability
-- OTE Boresight Coarse Pointing Accuracy Component
-- Fine Guidance Pointing Accuracy Component
-- Relative Offset Pointing Repeatability Component
-- Science Instrument FOV Pointing Knowledge Data Component
-- Field Orientation Control Component
-- Field of View Orientation Component
-- Re-Pointing Capability Component
-- Small Maneuver Slew Rate Component
-- Medium Maneuver Slew Rate Component
-- Field of View Offsets Accuracy for Various Ranges
+- Attitude Control Subsystem: Reaction Wheels
+- Attitude Control Subsystem: Wheel Drive Electronics
+- Attitude Control Subsystem: Star trackers
+- Attitude Control Subsystem: Inertial Reference Unit
+- Attitude Control Subsystem: Fine Sun Sensors
+- Attitude Control Subsystem: Coarse Sun Sensors
+- Attitude Control Subsystem: Solar Array Actuators
+- Attitude Control Subsystem: High Gain antenna Actuators
+- Attitude Control Subsystem: Orientation Drive Electronics with Resolver
+- Command and Data Handling Subsystem: Command Telemetry Processor
+- Command and Data Handling Subsystem: Solid State Recorder
+- Power Subsystem: Batteries
+- Power Subsystem: Power Control and distribution units
+- Power Subsystem: Telemetry Acquisition Units
+- Communication Subsystem: High Gain antenna
+- Communication Subsystem: Ka-band Travelling-wave tube amplifier
+- Communication Subsystem: Ka-band modulator
+- Communication Subsystem: S-band Transponders
+- Communication Subsystem: Switches
+- Communication Subsystem: Omni antenna
+- Optical Telescope Element: Primary Mirror and Hexapod
+- Optical Telescope Element: Secondary Mirror and Hexapod
+- Optical Telescope Element: Secondary Mirror Structure Deployment Actuator
+- Optical Telescope Element: Tertiary Mirror
+- Optical Telescope Element: Fine Steering Mirror
+- Optical Telescope Element: Mirror Actuators
+- Optical Telescope Element: Tower Actuators
+- Optical Telescope Element: Cold Junction Box
+- Optical Telescope Element: Wing Deployment Actuators and Latch Actuators
+- Sunshield: Sunshield Actuators
+- Integrated Science Instrument Module: Near Infrared Camera (NIRCam)
+- Integrated Science Instrument Module: MIRI: Mid Infrared Instrument
+- Integrated Science Instrument Module: Cryogenic Temperature Sensors for Mid Infrared Instrument
+- Integrated Science Instrument Module: Cryogenic Cooling Environment for Mid Infrared Instrument
+- Integrated Science Instrument Module: Focal Plane Electronics
+- Integrated Science Instrument Module: Instrument Control Electronics
+- Integrated Science Instrument Module: NIR Spec: Near Infrared Spectograph
+- Integrated Science Instrument Module: Micro-shutter Control Electronics for Near Infrared Spectograph
+- Integrated Science Instrument Module: FGS: Fine Guidance System
+- Integrated Science Instrument Module: Compressor Assembly for Cryogenic Cooling
+- Integrated Science Instrument Module: Cooling Lines
+- Integrated Science Instrument Module: Radiator Heat Switches
+- Integrated Science Instrument Module: Control Heaters
+- Integrated Science Instrument Module: Command and Data Handling
+- Propulsion Subsystem: Thrusters

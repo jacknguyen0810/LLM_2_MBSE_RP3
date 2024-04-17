@@ -1,0 +1,54 @@
+**Spacecraft**
+
+- The Spacecraft shall not exceed a wet mass of 6,159 kilograms.
+- Any launch vehicle performance changes due to unique hardware shall adjust the Observatory mass allocation accordingly.
+- The Spacecraft and Optical Telescope Element combined shall aim for a reliability goal of 0.920.
+- The Spacecraft shall utilize the Deep Space Network for communication.
+- The Spacecraft shall be capable of receiving commands via low data rate channels during deployment and emergencies.
+- RF link margins for all communication links shall be at least +3dB.
+- The Spacecraft shall downlink uncompressed recorded engineering data during normal operations.
+- The onboard data processing system shall use the CCSDS File Data Protocol for downlinking stored science data.
+- The high rate downlink shall have selectable rates of 7, 14, 28 Mbps.
+- The Spacecraft shall receive commands via S-Band at a minimum rate of 250 bps in backup mode.
+- The Spacecraft shall transmit telemetry via S-Band at a minimum rate of 200 bps during safe mode.
+- The Electrical Power Subsystem shall provide conditioned power to the Observatory at all times.
+- The EPS shall distribute power at 28 V +7/-6 at the interface connectors.
+- All primary power returns shall be hardwired to the EPS single prime power ground point.
+- Observatory mechanisms shall have functional redundancy or be designed to high reliability standards.
+- The thermal control system shall regulate temperatures within safe and operational limits for all mission phases.
+- The Observatory shall passively cool the NIR Science Detectors to less than or equal to 37K.
+- Propellant shall be sized for 10 years of operation post-launch.
+- The Spacecraft shall autonomously enter safe modes in response to anomalies.
+- Safe modes shall be designed to conserve consumables and sustain autonomous operation for 4 weeks.
+- The Observatory shall exit safe modes via Ground Segment commands.
+- The Observatory shall retain recorded data while in Safe Haven mode and downlink real-time engineering data.
+- The JWST Observatory shall meet the interface requirements with the Launch Segment as defined in the DUA IRD.
+
+**Optical Telescope Element (OTE)**
+
+- The unobscured primary mirror area shall be greater than or equal to 25 square meters.
+- The OTE shall not vignette the Science Instrument Fields of View.
+- The End of Life area transmission product of the OTE shall meet specified values for wavelengths between 0.8 micrometers and 27 micrometers.
+- The OTE optics, mounts, and baffles shall not obstruct focused light from reaching the science focal planes.
+- The OTE Wavefront Error shall be less than or equal to 131 nm RMS over the FOVs of NIRCam, NIRSpec, and MIRI.
+- The OTE WFE for the FGS shall be less than or equal to 150nm RMS.
+
+**Integrated Science Instrument Module (ISIM)**
+
+- The ISIM mass allocation shall be 1,505 kilograms.
+- The ISIM average power allocation shall be 740 watts.
+- The SIs and guiders allocated FOVs shall meet specified minimum values.
+- The SIs and guiders FOVs shall be arranged in a non-overlapping fashion within the OTE FOV.
+- The Observatory shall provide imagery with spectral resolution in the range of 3 < R < 200 over a wavelength range of 0.6 - 27 µm.
+- The Observatory shall provide spectroscopy with spectral resolution in the range of 50 < R < 5000 over a wavelength range of 0.6 - 27 µm.
+- The ISIM shall contain a camera for imagery required to support wavefront sensing.
+- Pupil Imaging shall be performed in the wavefront sensor.
+- The ISIM shall compress science data using at least a 2:1 lossless compression ratio on command.
+- The ISIM shall bypass data compression on command.
+- The ISIM shall manage the event-driven execution of the planned mission timeline.
+- SI operations shall be independent of and not interfere with one another.
+- The FGS shall perform fine guidance independently and without interference to any SI operations.
+- All science instruments and the guider shall meet their image quality and spectral resolution requirements after OTE focus adjustment.
+- SIs shall not require OTE adjustment for any mode of operation.
+- The ISIM shall continuously monitor SI subsystems for anomalies.
+- The ISIM shall place instruments into a safe state upon detection or notification of anomalies without ground command.

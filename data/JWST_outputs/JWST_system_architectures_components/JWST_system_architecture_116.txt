@@ -1,0 +1,57 @@
+**Spacecraft Subsystem**
+
+- The Spacecraft shall not exceed a wet mass of 6,159 kilograms.
+- Any launch vehicle performance enhancement or reduction shall be added or subtracted from the Spacecraft mass allocation.
+- The Spacecraft shall be responsible for the health and safety of the Observatory.
+- The Spacecraft shall be autonomously single fault tolerant against all credible failures.
+- The design shall preclude propagation of the effects of part failures beyond the component containing the part that fails.
+- Redundant functionality shall be cross-strapped, excluding primary power.
+- The Spacecraft shall enter safe modes and reconfigure its onboard systems in response to anomalies.
+- Safe modes shall have a least-to-greatest hierarchical impact on the mission timeline.
+- All safe modes shall be designed to conserve consumables.
+- The Spacecraft shall sustain an autonomous safe mode for 4 weeks without Ground Segment intervention.
+- The Spacecraft shall exit safe modes via Ground Segment commands.
+- While in Safe Haven mode, the Observatory shall retain recorded data while simultaneously down-linking the recorded data and real-time engineering data.
+- The Spacecraft shall meet the interface requirements to the Launch Segment.
+
+**Communication Subsystem**
+
+- Commanding shall be available on a continuous basis for 90% of 4-Pi steradian coverage.
+- The Observatory shall be in continuous two-way communication from separation from the upper stage of the launch vehicle until the completion of Observatory Primary Mirror Phasing activities.
+- The Observatory shall provide telemetry from launch vehicle payload fairing separation until separation from the upper stage.
+- The Observatory shall utilize the Deep Space Network for communication with the Ground Segment.
+- The Spacecraft shall receive commands via low data rate channels during initial deployment and in emergency communications.
+- RF link margins for all links shall be at least +3dB in all operating and contingency modes.
+- During normal operations contact, the Observatory shall downlink uncompressed recorded engineering data.
+- The onboard data processing system shall utilize the Consultative Committee on Space Data Systems protocol for downlink of stored science data and engineering telemetry.
+- During a normal operations contact, the Observatory shall be capable of downlinking 229 Gigabits of science data, compressed from 458 Gigabits.
+- The onboard data processing system shall utilize the CCSDS protocol for real-time downlink of engineering telemetry.
+- The S-band link shall be used for ranging the Observatory.
+- Command uplink shall utilize COP-1 and CFDP as specified.
+- The command uplink frequency shall be S-Band.
+- The command uplink shall have rates of 250 bps, 2 Kbps, and 16 Kbps.
+- The downlink shall be Reed-Solomon encoded and include CCSDS randomization encoding.
+- The low rate downlink shall be S-Band, and the high rate downlink shall be Ka-Band with selectable rates of 7, 14, 28 Mbps.
+- In backup communication mode, the Spacecraft shall receive commands via S-Band at a minimum rate of 250 bps and transmit telemetry via S-Band at a minimum rate of 200 bps during safe mode.
+- The Observatory shall transmit a minimum of 99.5% of all real-time telemetry and recorded data to the Ground Segment.
+
+**Electrical Power Subsystem**
+
+- The Electrical Power Subsystem shall provide conditioned power to the Observatory during all mission phases.
+- The EPS shall distribute direct current power at 28 V +7/-6 at the interface connectors.
+- Circuit protection devices shall be sized to protect primary power cable wiring harnesses.
+- All primary power returns shall be via hardwires to the EPS single prime power ground point.
+
+**Structural and Mechanical Subsystem**
+
+- Observatory mechanisms shall have functional redundancy or be designed to meet JWST Mechanisms Control Requirements.
+
+**Thermal Subsystem**
+
+- The thermal control system shall regulate temperatures within safe and operational limits for all mission phases.
+- The Observatory architecture shall allow for passive cooling of ISIM-related components to their safe and operational limits.
+- The Observatory shall passively cool the Near-Infrared Science Detectors to less than or equal to 37K during commissioning and until the end of the science mission lifetime.
+
+**Propellant Lifetime**
+
+- Propellant shall be sized for 10 years of operation after launch.

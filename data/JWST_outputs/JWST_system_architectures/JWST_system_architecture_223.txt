@@ -1,133 +1,45 @@
-- Spacecraft Element
-- Optical Telescope Element (OTE) Element
-- Integrated Science Instrument Module (ISIM) Element
-- Command and Data Handling Subsystem
-- Observatory Event Logs Component
-- Command Authentication Component
-- On-Board Storage Component
-- Storage Capacity Component
-- Science Exposure Identification Component
-- Science Observation Identification Component
-- Simultaneous Onboard Storage Component
-- Common Data Bus, Point to Point, and Power Interfaces Component
-- Processor Utilization Component
-- Local and External Data Bus Utilization Component
-- Coordinated Universal Time Correlation Accuracy Component
-- Coordinated Universal Time Clock Maintenance Component
-- Capability for Real-Time Commanding Component
-- Prevention of Mutual Interference Component
-- Command Safety Component
-- Command Verification Component
-- Report Verified Commands Component
-- Command Validation Component
-- Report Validated Commands Component
-- Report Executed Commands Component
-- Command Rejection Component
-- Parallel Operations Component
-- Autonomous Operation Component
-- Observatory Replan Accommodation Component
-- Data Playback Component
-- Interleave Real-time with Recorded Data Component
-- Observatory Software Component
-- Event-Driven Observatory Operations Component
-- Common Command and Data Handling Operating System Component
-- Flight Software Common Programming Language Component
-- In-Flight Updates Component
-- Volatile Memory Reloading Component
-- Memory Margin Component
-- Nominal Observatory Data Loss Component
-- Pointing and Tracking Subsystem
-- Sun Damage Component
-- Guiding Capability Component
-- Guide Star Availability Component
-- Single Point Failure Component
-- Moving Target Tracking Component
-- Observatory Optical Telescope Element Boresight Coarse Pointing Accuracy Component
-- Fine Guidance Pointing Accuracy Component
-- Relative Offset Pointing Repeatability Component
-- Science Instrument FOV Pointing Knowledge Data Component
-- Field Orientation Control Component
-- Field of View Orientation Component
-- Re-Pointing Component
-- Small Maneuver Slew Rate Component
-- Medium Maneuver Slew Rate Component
-- Field of View Offsets, 0.0 - 0.5 Arcsec Component
-- Field of View Offsets, 0.5 - 2.0 Arcsec Component
-- Field of View Offsets, 2.0 - 20 Arcsec Component
-- Field of View Offsets, 20 - 45 Arcsec Component
-- Integrated Science Instrument Module (ISIM) Subsystem
-- Integrated Science Instrument Module Mass Component
-- Integrated Science Instrument Module Average Power Allocation Component
-- Science Instruments and Guiders Allocated Field of View Component
-- Science Instruments and Guiders Field of View Component
-- Imagery Spectral Resolution Component
-- Spectroscopy Spectral Resolution Component
-- Wavefront Sensing Component
-- Pupil Imaging Component
-- Data Compression Component
-- Data Compression Bypass Component
-- Event Driven Execution Component
-- Science Instrument Operations Component
-- Fine Guidance Sensor Operations Component
-- Common Focus Component
-- Restrictions on Optical Telescope Element Adjustment Component
-- Science Instrument System Monitoring Component
-- Integrated Science Instrument Module Safe Mode Component
-- ISIM Overhead Component
-- Optical Telescope Element (OTE) Subsystem
-- Primary Mirror Area Component
-- Optical Telescope Element Field of View Component
-- Optical Area Transmission Product Component
-- Vignetting Component
-- Optical Telescope Element Wave Front Error Allocations Component
-- Optical Telescope Element Unvignetted Field of View Wavefront Error Component
-- Optical Telescope Element Unvignetted Field of View Wavefront Error for FGS Component
-- Spacecraft Subsystem
-- Communication Subsystem
-- Communication Operations Component
-- Continuous Two-way Communication Component
-- Launch Phase Communications Component
-- Deep Space Network Compatibility Component
-- Low Rate Commanding Component
-- Link Margins Component
-- Downlink of Uncompressed Recorded Engineering Data Component
-- Stored Data Downlink Component
-- Downlink of Compressed Science Data Volume Component
-- Real-Time Data Downlink Component
-- Ranging Component
-- Command Uplink Component
-- Command Uplink Frequency Component
-- Low Rate Command Uplink Component
-- Medium Rate Command Uplink Component
-- High Rate Command Uplink Component
-- Downlink Data Encoding Component
-- Pseudo-Randomization of Data Component
-- Low Rate Downlink Component
-- High Rate Downlink Component
-- High Rate Downlink Data Rates Component
-- Backup Communication Mode Component
-- Commanding Component
-- Telemetry Component
-- Real-Time Data Efficiency Component
-- Recorded Data Efficiency Component
-- Electrical Power Subsystem
-- Voltage Component
-- Circuit Protection Component
-- Power Return Component
-- Structural and Mechanical Subsystem
-- Mechanisms Component
-- Observatory Thermal Subsystem
-- Architecture Component
-- Near-Infrared Detector Cooling Component
-- Propellant Lifetime Component
-- Health and Safety Responsibility Component
-- Fault Tolerance Component
-- Fault Propagation Component
-- Cross Strapping Component
-- Safe Modes Component
-- Safe Mode Hierarchy Component
-- Safe Mode Consumables Component
-- Autonomous Safe Mode Duration Component
-- Safe Mode Commanding Component
-- Safe Haven Mode Data Handling Component
-- Launch Vehicle Interface Component
+- Attitude Control Subsystem: Reaction Wheels
+- Attitude Control Subsystem: Wheel Drive Electronics
+- Attitude Control Subsystem: Star trackers
+- Attitude Control Subsystem: Inertial Reference Unit
+- Attitude Control Subsystem: Fine Sun Sensors
+- Attitude Control Subsystem: Coarse Sun Sensors
+- Attitude Control Subsystem: Solar Array Actuators
+- Attitude Control Subsystem: High Gain Antenna Actuators
+- Attitude Control Subsystem: Orientation Drive Electronics with Resolver
+- Command and Data Handling Subsystem: Command Telemetry Processor
+- Command and Data Handling Subsystem: Solid State Recorder
+- Power Subsystem: Batteries
+- Power Subsystem: Power Control and Distribution Units
+- Power Subsystem: Telemetry Acquisition Units
+- Communication Subsystem: High Gain Antenna
+- Communication Subsystem: Ka-band Travelling-wave Tube Amplifier
+- Communication Subsystem: Ka-band Modulator
+- Communication Subsystem: S-band Transponders
+- Communication Subsystem: Switches
+- Communication Subsystem: Omni Antenna
+- Optical Telescope Element: Primary Mirror and Hexapod
+- Optical Telescope Element: Secondary Mirror and Hexapod
+- Optical Telescope Element: Secondary Mirror Structure Deployment Actuator
+- Optical Telescope Element: Tertiary Mirror
+- Optical Telescope Element: Fine Steering Mirror
+- Optical Telescope Element: Mirror Actuators
+- Optical Telescope Element: Tower Actuators
+- Optical Telescope Element: Cold Junction Box
+- Optical Telescope Element: Wing Deployment Actuators and Latch Actuators
+- Sunshield: Sunshield Actuators
+- Integrated Science Instrument Module: Near Infrared Camera (NIRCam)
+- Integrated Science Instrument Module: MIRI: Mid Infrared Instrument
+- Integrated Science Instrument Module: Cryogenic Temperature Sensors for Mid Infrared Instrument
+- Integrated Science Instrument Module: Cryogenic Cooling Environment for Mid Infrared Instrument
+- Integrated Science Instrument Module: Focal Plane Electronics
+- Integrated Science Instrument Module: Instrument Control Electronics
+- Integrated Science Instrument Module: NIR Spec: Near Infrared Spectograph
+- Integrated Science Instrument Module: Micro-shutter Control Electronics for Near Infrared Spectograph
+- Integrated Science Instrument Module: FGS: Fine Guidance System
+- Integrated Science Instrument Module: Compressor Assembly for Cryogenic Cooling
+- Integrated Science Instrument Module: Cooling Lines
+- Integrated Science Instrument Module: Radiator Heat Switches
+- Integrated Science Instrument Module: Control Heaters
+- Integrated Science Instrument Module: Command and Data Handling
+- Propulsion Subsystem: Thrusters

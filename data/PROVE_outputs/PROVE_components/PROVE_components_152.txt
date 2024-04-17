@@ -1,0 +1,16 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Harwin Gecko Connector
+- FLIR Tau2 IR Camera
+- Basler acA640-100gm Camera
+- Electrical Power System
+- Health Monitoring System
+- Data Interfaces
+- CDH Subsystem
+- Imaging Modes
+- Temperature Monitoring
+- Environmental Protection
+- Structural Support
+- Payload Structure

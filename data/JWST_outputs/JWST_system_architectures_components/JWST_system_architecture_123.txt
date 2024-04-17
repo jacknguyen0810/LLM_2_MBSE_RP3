@@ -1,0 +1,42 @@
+**Spacecraft Subsystem**
+
+- The Spacecraft shall not exceed a wet mass of 6,159 kilograms.
+- Any non-standard launch vehicle hardware or capability adjustments shall be accounted for in the Observatory mass allocation.
+- The Spacecraft shall autonomously enter safe modes in response to anomalies.
+- Safe modes shall be designed to conserve consumables.
+- The Spacecraft shall sustain an autonomous safe mode for 4 weeks without ground intervention.
+- Exiting safe modes shall require ground commands.
+- The Spacecraft shall retain recorded data while simultaneously down-linking recorded and real-time engineering data during Safe Haven mode.
+- The Spacecraft shall meet the interface requirements to the Launch Segment as defined in the Application to Use Ariane IRD.
+- The Spacecraft shall provide continuous two-way communication with the Ground Segment from separation from the upper stage of the launch vehicle until the completion of Primary Mirror Phasing activities.
+- The Spacecraft shall transmit telemetry to the Ground Segment from launch vehicle payload fairing separation until separation from the upper stage of the launch vehicle.
+
+**Optical Telescope Element (OTE) Subsystem**
+
+- The unobscured primary mirror area shall be greater than or equal to 25 square meters.
+- The OTE shall not vignette the Science Instruments' Fields of View including all alignment tolerances.
+- The End of Life area transmission product of the OTE shall meet specified values for wavelengths between .8 micrometers and 27 micrometers.
+- The OTE optics, mounts, and baffles shall not obstruct properly focused light from reaching the science focal planes.
+- The OTE Wavefront Error shall be less than or equal to 131 nm RMS over the field of views of NIRCam, NIRSpec, and MIRI.
+- The OTE Wavefront Error for the Fine Guidance Sensor shall be less than or equal to 150nm RMS.
+
+**Integrated Science Instrument Module (ISIM) Subsystem**
+
+- The ISIM mass allocation shall be 1,505 kilograms.
+- The ISIM average power allocation shall be 740 watts.
+- The SIs and guiders allocated field of views shall meet specified minimum values.
+- The SIs and guiders FOVs shall be arranged in a non-overlapping fashion within the OTE FOV.
+- The Observatory shall provide imagery with spectral resolution in the range of 3 < R < 200 over a wavelength range of 0.6 - 27 µm.
+- The Observatory shall provide spectroscopy with spectral resolution in the range of 50 < R < 5000 over a wavelength range of 0.6 - 27 µm.
+- The ISIM shall contain a camera that provides the imagery required to support wavefront sensing.
+- Pupil Imaging shall be performed in the wavefront sensor.
+- The ISIM shall compress science data using at least a 2:1 lossless science data compression averaged over one day.
+- The ISIM shall bypass data compression on command.
+- The ISIM shall manage the event-driven execution of the planned mission timeline.
+- SI operations shall be independent of and not interfere with one another.
+- The FGS shall perform fine guidance independently and without interference to any SI operations.
+- All science instruments and the guider shall meet their respective image quality and spectral resolution requirements after the OTE has been adjusted to an optimal focus position.
+- SIs shall not require OTE adjustment for any mode of instrument operation.
+- The ISIM shall continuously monitor SI subsystems for anomalies.
+- The ISIM shall place the instruments into a safe state without ground command upon detection or notification of anomalies.
+- After commissioning, the ISIM shall use no more than 3,652 hours over 5 years for overhead activities which detract from prime exposure time on scientific targets.

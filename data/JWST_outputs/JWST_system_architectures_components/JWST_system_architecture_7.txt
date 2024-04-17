@@ -1,0 +1,15 @@
+- The JWST Observatory segment includes the Spacecraft, Optical Telescope Element (OTE), and Integrated Science Instrument Module (ISIM) subsystems.
+- The Spacecraft subsystem is responsible for communication operations, ensuring continuous two-way communication with the Ground Segment.
+- The Spacecraft subsystem includes an Electrical Power Subsystem (EPS) that provides conditioned power to the Observatory during all mission phases.
+- The Spacecraft subsystem's Structural and Mechanical component includes mechanisms designed for reliability to support all JWST mission requirements.
+- The Observatory Thermal Subsystem within the Spacecraft subsystem regulates temperatures and rates of temperature changes within safe and operational limits.
+- The Propellant Lifetime component of the Spacecraft subsystem is sized for 10 years of operation after launch.
+- The Spacecraft subsystem includes a Communication Subsystem that ensures compatibility with the Deep Space Network for command and data transfer.
+- The Optical Telescope Element (OTE) subsystem includes a Primary Mirror Area component with an unobscured area greater than or equal to 25 square meters.
+- The OTE subsystem's Field of View component ensures no vignetting of the Science Instruments (SIs) FOVs including all alignment tolerances.
+- The OTE subsystem includes an Optical Area Transmission Product component that meets specific area transmission product requirements across various wavelengths.
+- The Integrated Science Instrument Module (ISIM) subsystem contains multiple Science Instruments and Guiders with allocated and non-overlapping fields of view.
+- The ISIM subsystem's Mass component has an allocation of 1,505 kilograms.
+- The ISIM subsystem includes a Data Compression component capable of compressing science data using at least a 2:1 lossless science data compression averaged over one day.
+- The ISIM subsystem's Average Power Allocation component is set to 740 watts.
+- The ISIM subsystem includes a Wavefront Sensing component that supports image-based wavefront sensing when commanded.

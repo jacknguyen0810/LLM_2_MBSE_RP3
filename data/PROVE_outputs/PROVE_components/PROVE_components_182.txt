@@ -1,0 +1,23 @@
+- IR and VIS Imaging System
+- Automated Observation Scheduler
+- Minimum Elevation Angle Control
+- Narrow-Angle Imaging Capability
+- Payload Alignment Maintenance System
+- Spatial Sampling Distance Control
+- Science Image Capture System
+- Radiometric Calibration Module
+- Geolocation Tracking System
+- Pointing Accuracy Control
+- Data Downlink System
+- Onboard Storage Management
+- Data Transfer Interface
+- Power Management Subsystem
+- Health Monitoring System
+- Electrical Connection Interface
+- Command and Data Handling (CDH) System
+- Position and Attitude Determination System
+- Memory Storage Unit
+- Operational Mode Controller
+- Temperature Control System
+- Environmental Protection Module
+- Structural Support System

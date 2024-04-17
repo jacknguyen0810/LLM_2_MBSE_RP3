@@ -1,48 +1,45 @@
-- Spacecraft Element
-- Optical Telescope Element (OTE)
-- Integrated Science Instrument Module (ISIM)
-- Spacecraft Bus Subsystem
-- Attitude Control Subsystem
-- Communication Subsystem
-- Electrical Power Subsystem
-- Thermal Control Subsystem
-- Command and Data Handling Subsystem
-- Propulsion Subsystem
-- Sunshield Subsystem
-- Fine Guidance Sensor (FGS)
-- Near Infrared Camera (NIRCam)
-- Near Infrared Spectrograph (NIRSpec)
-- Mid-Infrared Instrument (MIRI)
-- FGS/NIRISS (Near InfraRed Imager and Slitless Spectrograph)
-- Observatory Event Logs Component
-- Command Authentication Component
-- On-Board Storage Component
-- Science Exposure Identification Component
-- Science Observation Identification Component
-- Simultaneous Onboard Storage Component
-- Common Data Bus Interface
-- Processor Utilization Component
-- Local and External Data Bus Utilization Component
-- Coordinated Universal Time Correlation Accuracy Component
-- Coordinated Universal Time Clock Maintenance Component
-- Capability for Real-Time Commanding Component
-- Prevention of Mutual Interference Component
-- Command Safety Component
-- Command Verification Component
-- Report Verified Commands Component
-- Command Validation Component
-- Report Validated Commands Component
-- Report Executed Commands Component
-- Command Rejection Component
-- Parallel Operations Component
-- Autonomous Operation Component
-- Observatory Replan Accommodation Component
-- Data Playback Component
-- Interleave Real-time with Recorded Data Component
-- Event-Driven Observatory Operations Component
-- Common Command and Data Handling Operating System Component
-- Flight Software Common Programming Language Component
-- In-Flight Updates Component
-- Volatile Memory Reloading Component
-- Memory Margin Component
-- Nominal Observatory Data Loss Component
+- Attitude Control Subsystem: Reaction Wheels
+- Attitude Control Subsystem: Wheel Drive Electronics
+- Attitude Control Subsystem: Star trackers
+- Attitude Control Subsystem: Inertial Reference Unit
+- Attitude Control Subsystem: Fine Sun Sensors
+- Attitude Control Subsystem: Coarse Sun Sensors
+- Attitude Control Subsystem: Solar Array Actuators
+- Attitude Control Subsystem: High Gain Antenna Actuators
+- Attitude Control Subsystem: Orientation Drive Electronics with Resolver
+- Command and Data Handling Subsystem: Command Telemetry Processor
+- Command and Data Handling Subsystem: Solid State Recorder
+- Power Subsystem: Batteries
+- Power Subsystem: Power Control and Distribution Units
+- Power Subsystem: Telemetry Acquisition Units
+- Communication Subsystem: High Gain Antenna
+- Communication Subsystem: Ka-band Travelling-wave Tube Amplifier
+- Communication Subsystem: Ka-band Modulator
+- Communication Subsystem: S-band Transponders
+- Communication Subsystem: Switches
+- Communication Subsystem: Omni Antenna
+- Optical Telescope Element: Primary Mirror and Hexapod
+- Optical Telescope Element: Secondary Mirror and Hexapod
+- Optical Telescope Element: Secondary Mirror Structure Deployment Actuator
+- Optical Telescope Element: Tertiary Mirror
+- Optical Telescope Element: Fine Steering Mirror
+- Optical Telescope Element: Mirror Actuators
+- Optical Telescope Element: Tower Actuators
+- Optical Telescope Element: Cold Junction Box
+- Optical Telescope Element: Wing Deployment Actuators and Latch Actuators
+- Sunshield: Sunshield Actuators
+- Integrated Science Instrument Module: Near Infrared Camera (NIRCam)
+- Integrated Science Instrument Module: MIRI: Mid Infrared Instrument
+- Integrated Science Instrument Module: Cryogenic Temperature Sensors for Mid Infrared Instrument
+- Integrated Science Instrument Module: Cryogenic Cooling Environment for Mid Infrared Instrument
+- Integrated Science Instrument Module: Focal Plane Electronics
+- Integrated Science Instrument Module: Instrument Control Electronics
+- Integrated Science Instrument Module: NIR Spec: Near Infrared Spectograph
+- Integrated Science Instrument Module: Micro-shutter Control Electronics for Near Infrared Spectograph
+- Integrated Science Instrument Module: FGS: Fine Guidance System
+- Integrated Science Instrument Module: Compressor Assembly for Cryogenic Cooling
+- Integrated Science Instrument Module: Cooling Lines
+- Integrated Science Instrument Module: Radiator Heat Switches
+- Integrated Science Instrument Module: Control Heaters
+- Integrated Science Instrument Module: Command and Data Handling
+- Propulsion Subsystem: Thrusters

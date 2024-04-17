@@ -1,0 +1,32 @@
+- Spacecraft Element: Provides the platform that supports the observatory's mission operations and houses subsystems for power, communication, and data handling.
+  - Communication Subsystem: Ensures continuous two-way communication with the Ground Segment, including emergency and normal operations modes.
+  - Electrical Power Subsystem: Supplies and manages power to all observatory components, with circuit protection and voltage regulation.
+  - Structural and Mechanical Subsystem: Includes mechanisms with functional redundancy to prevent single-point failures from impacting the mission.
+  - Thermal Subsystem: Manages temperatures across the observatory through passive cooling and other thermal control strategies.
+  - Propulsion Subsystem: Provides delta velocity for orbit maintenance and adjustments, ensuring compliance with orbit excursion limits.
+  - Command and Data Handling (C&DH) Subsystem: Manages onboard data storage, event logging, command authentication, and data playback.
+  - Fault Management Subsystem: Implements fault detection, isolation, and recovery strategies to maintain observatory health and safety.
+
+- Optical Telescope Element (OTE): Captures and focuses celestial light for science observations.
+  - Primary Mirror: Large, segmented mirror that collects light from celestial objects.
+  - Secondary Mirror: Reflects the light focused by the primary mirror towards the instruments.
+  - Wavefront Sensing and Control: Performs image-based wavefront sensing and correction to ensure optimal image quality.
+  - Thermal Control: Maintains the optical components within operational temperature ranges to prevent image distortion.
+
+- Integrated Science Instrument Module (ISIM): Houses the observatory's scientific instruments for data collection.
+  - Near-Infrared Camera (NIRCam): Captures high-resolution images in the near-infrared spectrum.
+  - Near-Infrared Spectrograph (NIRSpec): Provides spectroscopic analysis of celestial objects in the near-infrared.
+  - Mid-Infrared Instrument (MIRI): Observes the universe in the mid-infrared spectrum for imaging and spectroscopy.
+  - Fine Guidance Sensor (FGS): Ensures the observatory maintains precise pointing during observations.
+  - Instrument Control Electronics: Manages instrument operations, data acquisition, and processing.
+  - Data Compression: Implements algorithms for efficient compression of science data for downlink.
+  - Pupil Imaging: Supports wavefront sensing by imaging the telescope's pupil.
+
+- Observatory Support Subsystems: Additional systems that support the overall functionality and mission objectives of the observatory.
+  - Sunshield: Protects the observatory from solar radiation, aiding in thermal control.
+  - High Gain Antenna: Facilitates high-bandwidth communication with Earth.
+  - Solar Panels: Generate electrical power for the observatory's operations.
+  - Star Trackers and Gyroscopes: Provide attitude determination and control for precise pointing and tracking.
+  - Cryocoolers: Specifically for MIRI, to maintain its detectors at operational cryogenic temperatures.
+  - Momentum Wheels: Control the observatory's orientation and stabilize it during observations.
+  - Launch Vehicle Interface: Ensures compatibility with the launch vehicle for successful deployment into space.

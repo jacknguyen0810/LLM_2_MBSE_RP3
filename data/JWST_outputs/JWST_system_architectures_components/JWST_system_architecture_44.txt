@@ -1,0 +1,45 @@
+**Spacecraft Subsystem**
+
+- The Spacecraft shall be available to receive commands via the low data rate channels during initial deployment and in events requiring emergency communications.
+- The Spacecraft shall transmit telemetry via S-Band at a minimum rate of 200 bps during safe mode.
+- The Electrical Power Subsystem shall provide conditioned power to the Observatory during all mission phases.
+- The EPS shall distribute direct current power to the loads at 28 V +7/-6 at the interface connectors.
+- Circuit protection devices shall be sized to protect primary power cable wiring harnesses.
+- All primary power returns shall be via hardwires to the EPS single prime power ground point.
+- Observatory mechanisms shall have functional redundancy such that no single failure prevents the Observatory from meeting mission requirements.
+- The thermal control system shall regulate the temperatures and rates of temperature changes of the JWST Observatory within safe and operational limits.
+- The Observatory architecture shall allow for the passive cooling of ISIM-related components and electronics to their safe and operational limits.
+- The Observatory shall passively cool the Near-Infrared Science Detectors to a temperature of less than or equal to 37K.
+- Propellant shall be sized for 10 years of operation after launch.
+- The Spacecraft shall be responsible for the health and safety of the Observatory.
+- The Observatory shall be autonomously single fault tolerant against all credible failures that may result in loss of the mission.
+- The design of the Observatory shall preclude propagation of the effects of part failures beyond the component containing the part that fails.
+- Redundant Observatory functionality shall be cross-strapped.
+- The Observatory shall enter safe modes and reconfigure its onboard systems in response to anomalies when configured for safe mode entry.
+- Safe modes shall have a least-to-greatest hierarchical impact on the mission timeline.
+- All safe modes shall be designed to conserve consumables.
+- The Observatory shall sustain an autonomous safe mode for 4 weeks without Ground Segment intervention.
+- The Observatory shall exit safe modes via Ground Segment commands.
+- While in Safe Haven mode the Observatory shall retain recorded data while simultaneously down-linking the recorded data and real-time engineering data.
+- The JWST Observatory shall meet the interface requirements to the Launch Segment.
+
+**Integrated Science Instrument Module**
+
+- The ISIM mass allocation shall be 1,505 kilograms.
+- The ISIM average power allocation shall be 740 watts.
+- The SIs and guiders allocated field of views shall be greater than or equal to the values shown in the table.
+- The SIs and guiders FOVs shall be arranged in a non-overlapping fashion within the OTE FOV.
+- The Observatory shall provide imagery with spectral resolution in the range of 3 < R < 200 over a wavelength range of 0.6 - 27 µm.
+- The Observatory shall provide spectroscopy with spectral resolution in the range of 50 < R < 5000 over a wavelength range of 0.6 - 27 µm.
+- The ISIM shall contain a camera that provides the imagery required to support wavefront sensing.
+- Pupil Imaging shall be performed in the wavefront sensor.
+- When commanded, the ISIM shall compress science data using at least a 2:1 lossless science data compression.
+- The ISIM shall bypass data compression on command.
+- The ISIM shall manage the event-driven execution of the planned mission timeline.
+- Excluding mechanical transients and the use of internal lamps, SI operations shall be independent of and not interfere with one another.
+- The FGS shall perform fine guidance independently and without interference to any SI operations.
+- All science instruments and the guider shall meet their respective image quality and spectral resolution requirements after the OTE has been adjusted to an optimal focus position.
+- SIs shall not require OTE adjustment for any mode of instrument operation.
+- The ISIM shall continuously monitor SI subsystems for anomalies.
+- The ISIM shall place the instruments into a safe state without ground command upon detection or notification of anomalies.
+- After commissioning, the ISIM shall use no more than 3,652 hours over 5 years for overhead activities.

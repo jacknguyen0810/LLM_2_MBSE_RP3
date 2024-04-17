@@ -1,0 +1,21 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Power Distribution System
+- Health Monitoring System
+- Electrical Connections
+- CDH Subsystem
+- FLIR Tau2 IR Camera
+- Basler acA640-100gm Camera
+- CubeSat Bus Interface
+- Data Interfaces
+- Power Management System
+- Memory Storage System
+- Imaging Modes
+- Temperature Monitoring System
+- Environmental Monitoring System
+- Structural Support System
+- Payload Structure
+- Alignment Maintenance System
+- Thermal Protection System

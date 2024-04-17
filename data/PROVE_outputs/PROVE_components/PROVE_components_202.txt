@@ -1,0 +1,13 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Power Distribution System
+- Health Monitoring Sensors
+- Data Interfaces
+- Onboard Storage
+- Electrical Power System
+- Temperature Monitoring System
+- Imaging Mode Control System
+- Structural Support System
+- Thermal Protection System

@@ -1,0 +1,25 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Power Distribution System
+- Health Monitoring System
+- Data Interface System
+- Electrical Power System
+- Electrical Health Monitoring System
+- Electrical Data Interfaces
+- Electrical Grounding System
+- Command and Data Handling (CDH) Subsystem
+- CDH-IR Camera Interface
+- CDH-VIS Camera Interface
+- CDH-GNC Interface
+- CDH-Bus Interface
+- CDH-Memory System
+- CDH-Operations System
+- CDH-Temperature Control System
+- CDH-Environmental Protection System
+- CDH-Power Management System
+- Payload Structure
+- Payload Structural Health Monitoring System
+- Payload Volume Constraints
+- Thermal Protection System

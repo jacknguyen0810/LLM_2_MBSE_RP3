@@ -1,0 +1,35 @@
+**Spacecraft**
+
+- The JWST Observatory wet mass shall not exceed 6,159 kilograms.
+- Any launch vehicle performance enhancement or reduction due to mission-unique, non-standard launch vehicle hardware or capability shall be added or subtracted, respectively, from the Observatory mass allocation.
+- After commissioning, the JWST observatory shall use no more than 10,206 hours over 5 years for overhead activities which detract from prime exposure time on scientific targets.
+
+**Optical Telescope Element (OTE)**
+
+- The unobscured primary mirror area shall be greater than or equal to 25 square meters.
+- The OTE shall not vignette the SI FOVs including all alignment tolerances.
+- Accounting for all effects on mirror transmission including: coatings, particulate, molecular, water ice, photochemical decomposition, and meteoroid damage, the End of Life (EOL) area transmission product of the OTE shall be greater than the values shown for wavelengths between .8 micrometers and 2.0 micrometers, and greater than 22 m2 for wavelengths from 2.0 micrometers to 27 micrometers.
+- The OTE optics, mounts, and baffles shall not obstruct properly focused light from reaching the science focal planes.
+- The OTE WFE shall be less than or equal to 131 nm RMS over the field of views of NIRCam, NIRSpec, and MIRI.
+- The OTE WFE shall be less than or equal to 150nm RMS over the field of view of the FGS.
+
+**Integrated Science Instrument Module (ISIM)**
+
+- The ISIM mass allocation shall be 1,505 kilograms.
+- The ISIM average power allocation shall be 740 watts.
+- The SIs and guiders allocated field of views shall be greater than or equal to the values shown in the table.
+- The SIs and guiders FOVs shall be arranged in a non-overlapping fashion within the OTE FOV.
+- The Observatory shall provide imagery with spectral resolution in the range of 3 < R < 200 over a wavelength range of 0.6 - 27 µm.
+- The Observatory shall provide spectroscopy with spectral resolution in the range of 50 < R < 5000 over a wavelength range of 0.6 - 27 µm.
+- The ISIM shall contain a camera that provides the imagery required to support wavefront sensing.
+- Pupil Imaging shall be performed in the wavefront sensor.
+- When commanded, the ISIM shall compress science data using at least a 2:1 lossless science data compression averaged over one day.
+- The ISIM shall bypass data compression on command.
+- The ISIM shall manage the event-driven execution of the planned mission timeline.
+- Excluding mechanical transients and the use of internal lamps, SI operations shall be independent of and not interfere with one another.
+- The FGS shall perform fine guidance independently and without interference to any SI operations.
+- All science instruments and the guider shall meet their respective image quality and spectral resolution requirements after the OTE has been adjusted to an optimal focus position.
+- SIs shall not require OTE adjustment for any mode of instrument operation.
+- The ISIM shall continuously monitor SI subsystems for anomalies.
+- The ISIM shall place the instruments into a safe state without ground command upon detection or notification of anomalies.
+- After commissioning, the ISIM shall use no more than 3,652 hours over 5 years for overhead activities which detract from prime exposure time on scientific targets.

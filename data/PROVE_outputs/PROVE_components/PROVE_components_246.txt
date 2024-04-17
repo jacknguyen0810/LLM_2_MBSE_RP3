@@ -1,0 +1,12 @@
+- IR and VIS cameras
+- Payload computer
+- Payload power system
+- Payload health monitoring system
+- Payload data interfaces
+- Payload bus interface
+- Payload memory storage
+- Payload imaging modes
+- Payload temperature control system
+- Payload environmental protection
+- Payload structural support
+- Payload alignment system

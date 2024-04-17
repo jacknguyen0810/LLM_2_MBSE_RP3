@@ -1,0 +1,45 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Power Distribution System
+- Health Monitoring Sensors
+- Data Interfaces
+- Onboard Storage
+- CDH Subsystem
+- FLIR Tau2 IR Camera
+- Basler acA640-100gm Camera
+- CubeSat Bus Interface
+- Structural Support System
+- Payload Structure
+- Payload Components
+- Imager Field of Views Alignment
+- Payload Volume Constraints
+- Power Supply System
+- Power Distribution to Components
+- Health Monitoring of Payload Components
+- Electrical Connections for Data Interfaces
+- Electrical Connections for Cameras
+- Electrical Connections for Payload Computer
+- Electrical Connections for CubeSat Bus
+- Software Interface with IR Camera
+- Software Interface with VIS Camera
+- Software Interface with CubeSat Bus
+- Software Interface for Health Monitoring
+- Software Interface for Imaging Modes
+- Software Interface for Memory Management
+- Software Interface for Operations Modes
+- Software Interface for Temperature Management
+- Software Interface for Environmental Conditions
+- Structural Support for Payload Components
+- Payload Structure Vibration Resilience
+- Payload Structure Load Capacity
+- Payload Structure Sine Sweep Resilience
+- Payload Structure Sine Burst Resilience
+- Payload Structure Envelope Identification
+- Payload Structure Alignment Maintenance
+- Payload Volume Constraints
+- Thermal Resilience of Payload Components
+- Temperature Range Tolerance of Components
+- Operating Temperature Limits of Components
+- Storage Temperature Limits of Components

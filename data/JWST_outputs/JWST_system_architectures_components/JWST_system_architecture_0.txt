@@ -1,0 +1,59 @@
+- Attitude Control System (ACS)
+- Reaction wheels for fine pointing adjustments
+- Star trackers for absolute attitude determination
+- Gyroscopes for rate sensing
+- Sun sensors for coarse sun pointing
+
+- Command and Data Handling System
+- Flight computers for processing and executing commands
+- Solid-state recorders for data storage
+- High-speed data buses for internal communication
+
+- Electrical Power System
+- Solar arrays for power generation
+- Batteries for energy storage
+- Power distribution units
+
+- Thermal Control System
+- Multi-layer insulation blankets
+- Radiators for passive cooling
+- Heaters for temperature regulation
+
+- Communication System
+- High-gain antenna for communication with Earth
+- Low-gain antennas for emergency communication
+- Transponders for data transmission and reception
+- Deep Space Network compatibility for ground communication
+
+- Optical Telescope Element (OTE)
+- Primary Mirror: Segmented primary mirror assembly
+- Primary Mirror: Actuators for mirror segment alignment
+- Secondary Mirror Deployable secondary mirror
+- Fine steering mirror for image stabilization
+
+- Sunshield
+- Deployment mechanisms for sunshield layers
+- Wavefront Sensing and Control
+- Sensors for wavefront error measurement
+- Algorithms for mirror shape correction
+
+- Integrated Science Instrument Module (ISIM)
+- Near Infrared Camera (NIRCam)
+- Near Infrared Camera (NIRCam): Detectors for near-infrared observations
+- Near Infrared Camera (NIRCam): Filters for wavelength selection
+- Near Infrared Camera (NIRCam): Coronagraph for exoplanet imaging
+- Near Infrared Spectrograph (NIRSpec)
+- Near Infrared Spectrograph (NIRSpec): Micro-shutter array for target selection
+- Near Infrared Spectrograph (NIRSpec): Gratings for spectral dispersion
+- Near Infrared Spectrograph (NIRSpec): Detectors for spectroscopic data acquisition
+- Mid-Infrared Instrument (MIRI)
+- Mid-Infrared Instrument (MIRI): Combined camera and spectrograph for mid-infrared
+- Mid-Infrared Instrument (MIRI): Cryocooler for detector cooling
+- Mid-Infrared Instrument (MIRI): Filters and coronagraph for diverse observations
+- Fine Guidance Sensor (FGS)
+- Fine Guidance Sensor (FGS): Sensors for guide star acquisition and tracking
+- Fine Guidance Sensor (FGS): Interface with spacecraft for pointing control
+- Data Handling
+- Onboard software for instrument control
+- Data compression algorithms for efficient storage
+- Interfaces for data transfer to spacecraft bus

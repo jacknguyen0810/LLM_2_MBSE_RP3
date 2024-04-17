@@ -1,0 +1,23 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Power Distribution System
+- Health Monitoring Sensors
+- Electrical Interfaces
+- Data Interfaces
+- CDH Subsystem
+- FLIR Tau2 IR Camera
+- Basler acA640-100gm Camera
+- CubeSat Bus Interface
+- Memory Storage
+- Imaging Modes
+- Temperature Monitoring
+- Environmental Protection
+- Power Management
+- Payload Structure
+- Random Vibration Frequency Spectrum
+- Structural Testing Levels
+- Imager Swath Alignment
+- Payload Volume Constraints
+- Thermal Rating Compliance

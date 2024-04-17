@@ -1,0 +1,63 @@
+**Spacecraft Subsystem**
+
+- The Spacecraft shall not exceed a wet mass of 6,159 kilograms.
+- The Spacecraft and OTE shall have a combined reliability goal of 0.920.
+- The Spacecraft shall be responsible for the health and safety of the Observatory.
+- The Observatory shall be autonomously single fault tolerant against all credible failures that may result in loss of the mission.
+- The design of the Observatory shall preclude propagation of the effects of part failures beyond the component containing the part that fails.
+- Redundant Observatory functionality shall be cross-strapped.
+- The Observatory shall enter safe modes and reconfigure its onboard systems in response to anomalies when configured for safe mode entry.
+- All safe modes shall be designed to conserve consumables.
+- The Observatory shall sustain an autonomous safe mode for 4 weeks without Ground Segment intervention.
+- The Observatory shall exit safe modes via Ground Segment commands.
+- While in Safe Haven mode the Observatory shall retain recorded data while simultaneously down-linking the recorded data and real-time engineering data to support anomaly investigation and recovery to normal operations.
+- The JWST Observatory shall meet the interface requirements to the Launch Segment defined in the Application to Use Ariane (DUA) IRD (JWST-IRD-003674).
+
+**Communication Subsystem**
+
+- The Observatory shall be designed to ensure that commanding is available on a continuous basis for 90% of 4-Pi steradian coverage as defined in the JWST Flight Observatory to Ground Segment IRCD (JWST-IRCD-000696).
+- The Observatory shall be in continuous two-way communication with the Ground Segment from separation from the upper stage of the launch vehicle until the completion of Observatory Primary Mirror Phasing activities.
+- The Observatory shall provide telemetry to the Ground Segment from launch vehicle payload fairing separation until separation from the upper stage of the launch vehicle.
+- The Observatory shall utilize the Deep Space Network to communicate with the Ground Segment.
+- The Spacecraft shall be available to receive commands via the low data rate channels (250 bits per second [bps] and 2 kilobits per second [Kbps]) during initial deployment and in events requiring emergency communications.
+- Radio frequency (RF) link margins for all links shall be at least +3dB in all operating and contingency modes, including a combination of root-sum-square (RSS) and worst case adverse equipment tolerance variation.
+- During a normal operations contact, the Observatory shall downlink the uncompressed recorded engineering data.
+- The onboard data processing system shall utilize the Consultative Committee on Space Data Systems (CCSDS) File Data Protocol (CFDP) for downlink of stored science data and engineering telemetry.
+- During a normal operations contact, the Observatory shall be capable of downlinking to the Ground Segment 229 Gigabits of science data, which was compressed from 458 Gigabits.
+- The onboard data processing system shall utilize the CCSDS protocol for real-time downlink of engineering telemetry.
+- The S-band link shall be used for ranging the Observatory.
+- COP-1 and CFDP shall be utilized for command uplink as specified in the JWST Flight Observatory to Ground Segment IRCD (JWST-IRCD-000696).
+- The command uplink shall be S-Band.
+- The command uplink shall be at 250 bps.
+- The medium rate command uplink shall be 2 Kbps.
+- The high rate command uplink shall be 16 Kbps.
+- The downlink shall be Reed-Solomon encoded.
+- JWST data encoding on the Observatory shall include CCSDS randomization encoding for transmission to the ground.
+- The low rate downlink shall be S-Band with characteristics as specified in the JWST Flight Observatory to Ground Segment IRCD (JWST-IRCD-000696).
+- The high rate downlink shall be Ka-Band with characteristics as specified in the JWST Flight Observatory to Ground Segment IRCD (JWST-IRCD-000696).
+- The high rate downlink shall have selectable rates of 7, 14, 28 Megabits per second (Mbps) as specified in the JWST Flight Observatory to Ground Segment IRCD (JWST-IRCD-000696).
+- The Spacecraft shall receive commands via S-Band at a minimum rate of 250 bps.
+- The Spacecraft shall transmit telemetry via S-Band at a minimum rate of 200 bps during safe mode.
+- The Observatory shall transmit a minimum of 99.5% of all real-time telemetry to the Ground Segment.
+- The Observatory shall transmit a minimum of 99.5% of all recorded data to the Ground Segment.
+
+**Electrical Power Subsystem**
+
+- The Electrical Power Subsystem (EPS) shall provide conditioned power to the Observatory during all mission phases.
+- The EPS shall distribute direct current power to the loads at 28 V +7/-6 at the interface connectors.
+- Circuit protection devices shall be sized to protect primary power cable wiring harnesses.
+- All primary power returns shall be via hardwires to the EPS single prime power ground point.
+
+**Structural and Mechanical**
+
+- In order to assure their capability and reliability to support all JWST mission requirements, Observatory mechanisms shall have functional redundancy such that no single failure prevents the Observatory from meeting mission requirements or be designed, manufactured, integrated and tested to the requirements of the JWST Mechanisms Control Requirements (JWST-RQMT-004058).
+
+**Observatory Thermal Subsystem**
+
+- The thermal control system shall regulate the temperatures and rates of temperature changes of the JWST Observatory within safe and operational limits as appropriate for all mission phases and during all thermal environmental extremes that the Observatory may encounter.
+- The Observatory architecture shall allow for the passive cooling of ISIM-related components and electronics to their safe and operational limits.
+- The Observatory shall passively cool the Near-Infrared (NIR) Science Detectors to a temperature of less than or equal to 37K beginning at a time during commissioning that supports NIRCam and NIRSpec commissioning and continuing until the end of the science mission lifetime.
+
+**Propellant Lifetime**
+
+- Propellant shall be sized for 10 years of operation after launch.

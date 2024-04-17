@@ -1,0 +1,30 @@
+- IR and VIS Imaging Subsystem
+- IR Imaging Subsystem
+- VIS Imaging Subsystem
+- Observation Scheduling Subsystem
+- Image Distribution Subsystem
+- Payload Structure Alignment Subsystem
+- Science Imaging Subsystem
+- Radiometric Calibration Subsystem
+- Geolocation Subsystem
+- Pointing Accuracy Subsystem
+- Data Downlink Subsystem
+- Onboard Storage Subsystem
+- Data Transfer Subsystem
+- Power Subsystem
+- Health Monitoring Subsystem
+- Electrical Connections Subsystem
+- CDH Interface with IR Camera
+- CDH Interface with VIS Camera
+- CDH Position and Attitude Determination Subsystem
+- CDH Health Monitoring Subsystem
+- CDH Interface with CubeSat Bus
+- CDH Memory Subsystem
+- CDH Operations Subsystem
+- CDH Temperature Subsystem
+- CDH Environmental Subsystem
+- CDH Power Consumption Subsystem
+- Payload Structural Support Subsystem
+- Payload Structural Alignment Subsystem
+- Payload Volume Support Subsystem
+- Thermal Rating Subsystem

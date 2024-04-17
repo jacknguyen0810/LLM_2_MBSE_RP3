@@ -1,0 +1,60 @@
+**Spacecraft Subsystem**
+
+- The Spacecraft shall not exceed a wet mass of 6,159 kilograms.
+- Any non-standard launch vehicle hardware or capability shall be accounted for in the Observatory mass allocation.
+- The Spacecraft and OTE combined reliability goal is 0.920.
+- The Spacecraft shall be designed to ensure continuous commanding availability for 90% of 4-Pi steradian coverage.
+- The Spacecraft shall be in continuous two-way communication from separation from the launch vehicle until the completion of Primary Mirror Phasing activities.
+- The Spacecraft shall provide telemetry from launch vehicle payload fairing separation until separation from the upper stage of the launch vehicle.
+- The Spacecraft shall receive commands via S-Band at a minimum rate of 250 bps.
+- The Spacecraft shall transmit telemetry via S-Band at a minimum rate of 200 bps during safe mode.
+- The Spacecraft shall transmit a minimum of 99.5% of all real-time telemetry to the Ground Segment.
+- The Spacecraft shall transmit a minimum of 99.5% of all recorded data to the Ground Segment.
+- The Electrical Power Subsystem shall provide conditioned power to the Observatory during all mission phases.
+- The EPS shall distribute direct current power at 28 V +7/-6 at the interface connectors.
+- Circuit protection devices shall protect primary power cable wiring harnesses.
+- All primary power returns shall be via hardwires to the EPS single prime power ground point.
+- The thermal control system shall regulate temperatures within safe and operational limits for all mission phases.
+- The Observatory architecture shall allow for passive cooling of ISIM-related components to their operational limits.
+- The NIR Science Detectors shall be passively cooled to less than or equal to 37K during commissioning and until the end of the mission.
+- Propellant shall be sized for 10 years of operation after launch.
+- The Spacecraft is responsible for the health and safety of the Observatory.
+- The Observatory shall be autonomously single fault tolerant against all credible failures.
+- The design shall preclude fault propagation beyond the component containing the part that fails.
+- Redundant Observatory functionality shall be cross-strapped, excluding primary power.
+- The Observatory shall enter safe modes and reconfigure onboard systems in response to anomalies.
+- Safe modes shall have a hierarchical impact on the mission timeline, conserving consumables.
+- The Observatory shall sustain an autonomous safe mode for 4 weeks without Ground Segment intervention.
+- Safe modes shall be exited via Ground Segment commands.
+- While in Safe Haven mode, the Observatory shall retain and down-link recorded data and real-time engineering data.
+- The JWST Observatory shall meet the interface requirements to the Launch Segment as defined in the DUA IRD.
+
+**Optical Telescope Element (OTE) Subsystem**
+
+- The unobscured primary mirror area shall be greater than or equal to 25 square meters.
+- The OTE shall not vignette the SI FOVs, including all alignment tolerances.
+- The End of Life area transmission product of the OTE shall meet specified values for wavelengths between .8 micrometers and 27 micrometers.
+- The OTE optics, mounts, and baffles shall not obstruct focused light from reaching the science focal planes.
+- The OTE WFE shall be less than or equal to 131 nm RMS over the FOVs of NIRCam, NIRSpec, and MIRI.
+- The OTE WFE for the FGS shall be less than or equal to 150nm RMS over its FOV.
+
+**Integrated Science Instrument Module (ISIM) Subsystem**
+
+- The ISIM mass allocation shall be 1,505 kilograms.
+- The ISIM average power allocation shall be 740 watts.
+- The SIs and guiders allocated FOVs shall meet specified values.
+- The SIs and guiders FOVs shall be arranged in a non-overlapping fashion within the OTE FOV.
+- The Observatory shall provide imagery with spectral resolution in the specified range over a wavelength range of 0.6 - 27 µm.
+- The Observatory shall provide spectroscopy with spectral resolution in the specified range over a wavelength range of 0.6 - 27 µm.
+- The ISIM shall contain a camera for wavefront sensing imagery.
+- Pupil Imaging shall be performed in the wavefront sensor.
+- The ISIM shall compress science data using at least a 2:1 lossless compression ratio on command.
+- The ISIM shall bypass data compression on command.
+- The ISIM shall manage the event-driven execution of the mission timeline.
+- SI operations shall be independent and not interfere with one another.
+- The FGS shall perform fine guidance independently and without interference to any SI operations.
+- All science instruments and the guider shall meet their requirements after OTE adjustment to an optimal focus position.
+- SIs shall not require OTE adjustment for any mode of instrument operation.
+- The ISIM shall continuously monitor SI subsystems for anomalies.
+- The ISIM shall place instruments into a safe state upon detection or notification of anomalies.
+- After commissioning, the ISIM shall use no more than 3,652 hours over 5 years for overhead activities.

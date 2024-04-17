@@ -1,42 +1,45 @@
-- Spacecraft Bus (Subsystem of Spacecraft)
-- Optical Telescope Element (OTE) (Subsystem of Spacecraft)
-- Integrated Science Instrument Module (ISIM) (Subsystem of Spacecraft)
-- Command and Data Handling (Subsystem of Spacecraft)
-- Electrical Power Subsystem (Subsystem of Spacecraft)
-- Communication Subsystem (Subsystem of Spacecraft)
-- Structural and Mechanical Subsystem (Subsystem of Spacecraft)
-- Thermal Control Subsystem (Subsystem of Spacecraft)
-- Propulsion Subsystem (Subsystem of Spacecraft)
-- Fine Guidance Sensor (Subsystem of ISIM)
-- Near-Infrared Camera (NIRCam) (Subsystem of ISIM)
-- Near-Infrared Spectrograph (NIRSpec) (Subsystem of ISIM)
-- Mid-Infrared Instrument (MIRI) (Subsystem of ISIM)
-- Focal Plane Electronics (Subsystem of ISIM)
-- Observatory Event Logs (Component of Command and Data Handling)
-- Command Authentication (Component of Command and Data Handling)
-- On-Board Storage (Component of Command and Data Handling)
-- Processor Utilization (Component of Command and Data Handling)
-- Local and External Data Bus Utilization (Component of Command and Data Handling)
-- Coordinated Universal Time Correlation Accuracy (Component of Command and Data Handling)
-- Real-Time Commanding Capability (Component of Command and Data Handling)
-- Command Safety (Component of Command and Data Handling)
-- Command Verification (Component of Command and Data Handling)
-- Operations Parallel Execution (Component of Command and Data Handling)
-- Autonomous Operation (Component of Command and Data Handling)
-- Data Playback (Component of Command and Data Handling)
-- Observatory Software Event-Driven Operations (Component of Command and Data Handling)
-- Flight Software Common Programming Language (Component of Command and Data Handling)
-- Memory Margin (Component of Command and Data Handling)
-- Nominal Observatory Data Loss (Component of Command and Data Handling)
-- Sun Damage Prevention (Component of Pointing and Tracking)
-- Guiding Capability (Component of Pointing and Tracking)
-- Moving Target Tracking (Component of Pointing and Tracking)
-- Coarse Pointing Accuracy (Component of Pointing and Tracking)
-- Fine Guidance Pointing Accuracy (Component of Pointing and Tracking)
-- Relative Offset Pointing Repeatability (Component of Pointing and Tracking)
-- Science Instrument FOV Pointing Knowledge Data (Component of Pointing and Tracking)
-- Field Orientation Control (Component of Pointing and Tracking)
-- Re-Pointing Slew Rate (Component of Pointing and Tracking)
-- Small Maneuver Slew Rate (Component of Pointing and Tracking)
-- Medium Maneuver Slew Rate (Component of Pointing and Tracking)
-- Field of View Offsets Accuracy (Component of Pointing and Tracking)
+- Attitude Control Subsystem: Reaction Wheels
+- Attitude Control Subsystem: Wheel Drive Electronics
+- Attitude Control Subsystem: Star trackers
+- Attitude Control Subsystem: Inertial Reference Unit
+- Attitude Control Subsystem: Fine Sun Sensors
+- Attitude Control Subsystem: Coarse Sun Sensors
+- Attitude Control Subsystem: Solar Array Actuators
+- Attitude Control Subsystem: High Gain Antenna Actuators
+- Attitude Control Subsystem: Orientation Drive Electronics with Resolver
+- Command and Data Handling Subsystem: Command Telemetry Processor
+- Command and Data Handling Subsystem: Solid State Recorder
+- Power Subsystem: Batteries
+- Power Subsystem: Power Control and Distribution Units
+- Power Subsystem: Telemetry Acquisition Units
+- Communication Subsystem: High Gain Antenna
+- Communication Subsystem: Ka-band Travelling-wave Tube Amplifier
+- Communication Subsystem: Ka-band Modulator
+- Communication Subsystem: S-band Transponders
+- Communication Subsystem: Switches
+- Communication Subsystem: Omni Antenna
+- Optical Telescope Element: Primary Mirror and Hexapod
+- Optical Telescope Element: Secondary Mirror and Hexapod
+- Optical Telescope Element: Secondary Mirror Structure Deployment Actuator
+- Optical Telescope Element: Tertiary Mirror
+- Optical Telescope Element: Fine Steering Mirror
+- Optical Telescope Element: Mirror Actuators
+- Optical Telescope Element: Tower Actuators
+- Optical Telescope Element: Cold Junction Box
+- Optical Telescope Element: Wing Deployment Actuators and Latch Actuators
+- Sunshield: Sunshield Actuators
+- Integrated Science Instrument Module: Near Infrared Camera (NIRCam)
+- Integrated Science Instrument Module: MIRI: Mid Infrared Instrument
+- Integrated Science Instrument Module: Cryogenic Temperature Sensors for Mid Infrared Instrument
+- Integrated Science Instrument Module: Cryogenic Cooling Environment for Mid Infrared Instrument
+- Integrated Science Instrument Module: Focal Plane Electronics
+- Integrated Science Instrument Module: Instrument Control Electronics
+- Integrated Science Instrument Module: NIR Spec: Near Infrared Spectograph
+- Integrated Science Instrument Module: Micro-shutter Control Electronics for Near Infrared Spectograph
+- Integrated Science Instrument Module: FGS: Fine Guidance System
+- Integrated Science Instrument Module: Compressor Assembly for Cryogenic Cooling
+- Integrated Science Instrument Module: Cooling Lines
+- Integrated Science Instrument Module: Radiator Heat Switches
+- Integrated Science Instrument Module: Control Heaters
+- Integrated Science Instrument Module: Command and Data Handling
+- Propulsion Subsystem: Thrusters

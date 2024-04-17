@@ -1,20 +1,45 @@
-- Spacecraft Element
-- Optical Telescope Element (OTE)
-- Integrated Science Instrument Module (ISIM)
-- Spacecraft Bus Subsystem
-- Attitude Control System Subsystem
-- Electrical Power System Subsystem
-- Communication System Subsystem
-- Thermal Control System Subsystem
-- Command and Data Handling (C&DH) Subsystem
-- Propulsion System Subsystem
-- Sunshield Subsystem
-- Fine Guidance Sensor (FGS) Component of ISIM
-- Near Infrared Camera (NIRCam) Component of ISIM
-- Near Infrared Spectrograph (NIRSpec) Component of ISIM
-- Mid-Infrared Instrument (MIRI) Component of ISIM
-- Focal Plane Electronics (FPE) Component of ISIM
-- Observatory Flight Software Component of C&DH Subsystem
-- High Gain Antenna Component of Communication System Subsystem
-- Solar Array Component of Electrical Power System Subsystem
-- Cryocooler Component of Thermal Control System Subsystem
+- Attitude Control Subsystem: Reaction Wheels
+- Attitude Control Subsystem: Wheel Drive Electronics
+- Attitude Control Subsystem: Star trackers
+- Attitude Control Subsystem: Inertial Reference Unit
+- Attitude Control Subsystem: Fine Sun Sensors
+- Attitude Control Subsystem: Coarse Sun Sensors
+- Attitude Control Subsystem: Solar Array Actuators
+- Attitude Control Subsystem: High Gain antenna Actuators
+- Attitude Control Subsystem: Orientation Drive Electronics with Resolver
+- Command and Data Handling Subsystem: Command Telemetry Processor
+- Command and Data Handling Subsystem: Solid State Recorder
+- Power Subsystem: Batteries
+- Power Subsystem: Power Control and distribution units
+- Power Subsystem: Telemetry Acquisition Units
+- Communication Subsystem: High Gain antenna
+- Communication Subsystem: Ka-band Travelling-wave tube amplifier
+- Communication Subsystem: Ka-band modulator
+- Communication Subsystem: S-band Transponders
+- Communication Subsystem: Switches
+- Communication Subsystem: Omni antenna
+- Optical Telescope Element: Primary Mirror and Hexapod
+- Optical Telescope Element: Secondary Mirror and Hexapod
+- Optical Telescope Element: Secondary Mirror Structure Deployment Actuator
+- Optical Telescope Element: Tertiary Mirror
+- Optical Telescope Element: Fine Steering Mirror
+- Optical Telescope Element: Mirror Actuators
+- Optical Telescope Element: Tower Actuators
+- Optical Telescope Element: Cold Junction Box
+- Optical Telescope Element: Wing Deployment Actuators and Latch Actuators
+- Sunshield: Sunshield Actuators
+- Integrated Science Instrument Module: Near Infrared Camera (NIRCam)
+- Integrated Science Instrument Module: MIRI: Mid Infrared Instrument
+- Integrated Science Instrument Module: Cryogenic Temperature Sensors for Mid Infrared Instrument
+- Integrated Science Instrument Module: Cryogenic Cooling Environment for Mid Infrared Instrument
+- Integrated Science Instrument Module: Focal Plane Electronics
+- Integrated Science Instrument Module: Instrument Control Electronics
+- Integrated Science Instrument Module: NIR Spec: Near Infrared Spectograph
+- Integrated Science Instrument Module: Micro-shutter Control Electronics for Near Infrared Spectograph
+- Integrated Science Instrument Module: FGS: Fine Guidance System
+- Integrated Science Instrument Module: Compressor Assembly for Cryogenic Cooling
+- Integrated Science Instrument Module: Cooling Lines
+- Integrated Science Instrument Module: Radiator Heat Switches
+- Integrated Science Instrument Module: Control Heaters
+- Integrated Science Instrument Module: Command and Data Handling
+- Propulsion Subsystem: Thrusters

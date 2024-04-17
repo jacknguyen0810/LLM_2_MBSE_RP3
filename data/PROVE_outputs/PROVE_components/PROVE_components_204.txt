@@ -1,0 +1,72 @@
+- IR and VIS Imaging System
+- Secondary Target IR Imaging System
+- Tertiary Target VIS Imaging System
+- Image Distribution System
+- Mission Lifetime Management System
+- Automated Observation Scheduler
+- Minimum Elevation Angle Controller
+- Narrow-Angle Imaging System
+- Swath Width Controller
+- Imager Field of View Alignment System
+- IR Spatial Sampling Distance Controller
+- VIS Spatial Sampling Distance Controller
+- Science Image Acquisition System
+- Temporal Resolution Controller
+- IR Camera Noise Equivalent Temperature Controller
+- Uncooled IR Camera System
+- IR Camera Radiometric Calibration System
+- Target Geolocation System
+- Pointing Accuracy System
+- Image Data Downlink System
+- Onboard Storage System
+- Data Transfer System
+- Payload Mass Management System
+- Payload Power Management System
+- Payload Volume Management System
+- Mission Operation Modes System
+- Hardware Qualification System
+- Power Distribution System
+- Health Monitoring System
+- Temperature Monitoring System
+- Power Management System
+- Electrical Data Interface System
+- Grounding System
+- Command and Data Handling System
+- IR Camera Interface System
+- IR Camera Command System
+- IR Camera Data Streaming System
+- VIS Camera Interface System
+- VIS Camera Command System
+- VIS Camera Data Streaming System
+- VIS Camera Image Streaming System
+- Position and Attitude Determination System
+- Position Data Accuracy Controller
+- Attitude Data Accuracy Controller
+- Health Monitoring System
+- Power Management System
+- CubeSat Bus Interface System
+- Bus System Tolerance Controller
+- Connector System
+- Command Retrieval System
+- Data Transfer System
+- Memory Storage System
+- Position Data Linking System
+- Health Telemetry Storage System
+- Data Overwrite Prioritization System
+- Operation Modes System
+- Imaging Modes System
+- Safe Mode System
+- Standby Mode System
+- Temperature Operating Range System
+- Cooling System
+- Environmental Durability System
+- Radiation Tolerance System
+- Radiation Protection System
+- Power Consumption System
+- Structural Support System
+- Vibration Resistance System
+- Structural Endurance System
+- Structural Testing System
+- Imager Alignment System
+- Payload Volume Management System
+- Thermal Rating System

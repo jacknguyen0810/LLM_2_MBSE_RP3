@@ -1,0 +1,7 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- CDH Subsystem
+- Electronics Subsystem
+- Payload Structure
