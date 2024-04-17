@@ -60,10 +60,14 @@ class SentenceSimilarityAnalysis:
         xticks: list = None,
         yticks: list = None,
         fontsize: int = 6,
-        text: bool = True
+        text: bool = True,
+        axes = None
     ) -> None:
         # Plotting pairwise comparison of each of the requirements
-        plt.imshow(np.transpose(self.output), "Greens")
+        if axes is not None:
+            ax = plt.imshow(np.transpose(self.output), "Greens", ax=axes)
+        else:
+            ax = plt.imshow(np.transpose(self.output), "Greens")
         if title is not None:
             plt.title(title)
         plt.xlabel(xlabel)
@@ -75,10 +79,13 @@ class SentenceSimilarityAnalysis:
 
         if xticks is not None:
             plt.xticks(np.arange(0, len(xticks), 1), xticks, rotation='vertical', fontsize=fontsize)
+
+        if yticks is not None:
             plt.yticks(np.arange(0, len(yticks), 1), yticks, fontsize=fontsize)
-            
-        plt.tight_layout()
-        plt.show()
+
+        if axes is None:
+            plt.tight_layout()
+            plt.show()
 
     @staticmethod
     def metric_error(*args) -> None:
