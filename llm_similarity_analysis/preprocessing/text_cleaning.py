@@ -9,7 +9,7 @@ import spacy
 
 class TextCleaning:
     """
-    This class class is to be used as a tool to clean raw LLM text output to prepare transformation 
+    This class class is to be used as a tool to clean raw LLM text output to prepare transformation
     into machine readable vectors.
     """
 

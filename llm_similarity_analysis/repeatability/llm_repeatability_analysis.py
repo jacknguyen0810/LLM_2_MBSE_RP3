@@ -91,7 +91,11 @@ class LLMRepeatabilityAnalysis:
             dfit.plot(
                 chart="pdf",
                 pdf_properties={"color": "r", "linewidth": 1},
-                emp_properties={"color": "dimgray", "linewidth": 0.5, 'linestyle': '--'},
+                emp_properties={
+                    "color": "dimgray",
+                    "linewidth": 0.5,
+                    "linestyle": "--",
+                },
                 bar_properties=None,
                 cii_properties=None,
                 ax=ax[0],
@@ -118,7 +122,11 @@ class LLMRepeatabilityAnalysis:
             dfit.plot(
                 chart="pdf",
                 pdf_properties={"color": "r", "linewidth": 1},
-                emp_properties={"color": "dimgray", "linewidth": 0.5, 'linestyle': '--'},
+                emp_properties={
+                    "color": "dimgray",
+                    "linewidth": 0.5,
+                    "linestyle": "--",
+                },
                 bar_properties=None,
                 cii_properties=None,
                 ax=ax[1],
@@ -129,14 +137,16 @@ class LLMRepeatabilityAnalysis:
             ax[1].legend(["KDE", "Empirical", "Parametric", "Histogram"])
             ax[1].set_title("Corpus Similarity Distribution")
             plt.show()
-            
+
             # Plot a scatter graph to assess output number against similarity
-            combined_stats = np.column_stack(([list(self.output_num.values()), list(self.similarities.values())]))
+            combined_stats = np.column_stack(
+                ([list(self.output_num.values()), list(self.similarities.values())])
+            )
             combined_stats = combined_stats[combined_stats[:, 0].argsort()]
             _, ax = plt.subplots()
-            ax.scatter(combined_stats[:, 0], combined_stats[:, 1], marker='x')
-            ax.set_xlabel('Number of Outputs')
-            ax.set_ylabel('Corpus Similarity')
+            ax.scatter(combined_stats[:, 0], combined_stats[:, 1], marker="x")
+            ax.set_xlabel("Number of Outputs")
+            ax.set_ylabel("Corpus Similarity")
             plt.show()
 
     def cross_validation(self, data: dict) -> float:
@@ -150,19 +160,19 @@ class LLMRepeatabilityAnalysis:
     @property
     def mean_output_num(self) -> float:
         return np.mean(list(self.output_num.values()))
-    
+
     @property
     def min_output(self) -> float:
         return min(list(self.output_num.values()))
-    
+
     @property
     def max_output(self) -> float:
         return max(list(self.output_num.values()))
-    
+
     @property
     def min_similarity(self) -> float:
         return min(list(self.similarities.values()))
-    
+
     @property
     def max_similarity(self) -> float:
         return max(list(self.similarities.values()))
@@ -173,8 +183,8 @@ if __name__ == "__main__":
     valid_fp = r"data\validation_data\PROVE_functions.txt"
     repeat = LLMRepeatabilityAnalysis(input_fp, valid_fp)
     repeat.run()
-    print(f'The minimum number of outputs: {repeat.min_output}')
-    print(f'The maximum number of outputs: {repeat.max_output}')
-    print(f'The minimum similarity: {repeat.min_similarity}')
-    print(f'The maximum similarity: {repeat.max_similarity}')
+    print(f"The minimum number of outputs: {repeat.min_output}")
+    print(f"The maximum number of outputs: {repeat.max_output}")
+    print(f"The minimum similarity: {repeat.min_similarity}")
+    print(f"The maximum similarity: {repeat.max_similarity}")
     repeat.stat_analysis()

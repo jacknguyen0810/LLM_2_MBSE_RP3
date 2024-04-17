@@ -75,16 +75,16 @@ def main():
         r"data\JWST_outputs\JWST_subsystems\JWST_sun_output.txt",
         r"data\JWST_outputs\JWST_subsystems\JWST_thermal_output.txt",
     ]
-    
+
     sub_names = [
-        'Communications Subsystem',
-        'Attitude Control Subsystem',
-        'Control and Data Handling Subsystem',
-        'Electrical Power Subsystem',
-        'Integrated Science Instrument Module Subsystem',
-        'Optical Telescope Subsystem',
-        'Sunshield Subsystem',
-        'Propulsion/Thermal Subsystem'
+        "Communications Subsystem",
+        "Attitude Control Subsystem",
+        "Control and Data Handling Subsystem",
+        "Electrical Power Subsystem",
+        "Integrated Science Instrument Module Subsystem",
+        "Optical Telescope Subsystem",
+        "Sunshield Subsystem",
+        "Propulsion/Thermal Subsystem",
     ]
 
     for num, sub in enumerate(subs_valid):
@@ -109,7 +109,7 @@ def main():
         # Clean data
         cleaner = TextCleaning(text_dict=gen_dict)
         clean_gen = cleaner.clean()
-        
+
         # Sentence Similarity Analysis
         sentence_sub = SentenceSimilarityAnalysis(clean_valid, clean_gen)
         sentence_sub.run()
@@ -121,14 +121,17 @@ def main():
             yticks=None,
             fontsize=10,
             text=True,
-            axes=None
+            axes=None,
         )
-        print(f"\nThe average function similarity is {sentence_sub.average_sentence_sim}")
+        print(
+            f"\nThe average function similarity is {sentence_sub.average_sentence_sim}"
+        )
 
         # Corpus Similarity Analysis
         corpus = CorpusSimilarityAnalysis(clean_valid, clean_gen)
         corpus.run()
         print(f"\nThe overall corpus-to-corpus similarity is {corpus.output_value}")
+
 
 if __name__ == "__main__":
     main()

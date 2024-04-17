@@ -39,7 +39,7 @@ class RawData2Python:
             # Loop through the lines in the .txt file
             for number, line in enumerate(fh):
                 # Check for empty lines of code
-                if line in ['\n', '\r\n', '', ' ', '  '] or len(line) == 0:
+                if line in ["\n", "\r\n", "", " ", "  "] or len(line) == 0:
                     continue
                 # If the line has text
                 else:

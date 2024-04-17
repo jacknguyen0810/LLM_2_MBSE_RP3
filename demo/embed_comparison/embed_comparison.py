@@ -50,9 +50,15 @@ def main():
         run_time = end - start
         cosine_sim = util.cos_sim(embeddings_full, embeddings_simple)
         average = torch.mean(cosine_sim)
-        results["Cosine Similarity to Complex"].append(cosine_sim.cpu().detach().numpy()[0][0])
-        results["Cosine Similarity to Simple"].append(cosine_sim.cpu().detach().numpy()[0][1])
-        results["Cosine Similarity to Basic"].append(cosine_sim.cpu().detach().numpy()[0][2])
+        results["Cosine Similarity to Complex"].append(
+            cosine_sim.cpu().detach().numpy()[0][0]
+        )
+        results["Cosine Similarity to Simple"].append(
+            cosine_sim.cpu().detach().numpy()[0][1]
+        )
+        results["Cosine Similarity to Basic"].append(
+            cosine_sim.cpu().detach().numpy()[0][2]
+        )
         results["Average Cosine Similarity"].append(average.cpu().detach().numpy())
         results["Run Time [s]"].append(run_time)
 
@@ -79,9 +85,9 @@ def main():
     # Add some text for labels, title and custom x-axis tick labels, etc.
     ax.set_title("Model Comparison Results")
     ax.set_xticks(x + width, model_names, fontsize=12)
-    ax.set_xlabel('Model', fontsize=15)
-    ax.set_ylabel('Time [s]', fontsize=15)
-    ax.tick_params(axis='both', which='major', labelsize=15)
+    ax.set_xlabel("Model", fontsize=15)
+    ax.set_ylabel("Time [s]", fontsize=15)
+    ax.tick_params(axis="both", which="major", labelsize=15)
     ax.legend(loc="upper center", ncols=2)
 
     plt.show()

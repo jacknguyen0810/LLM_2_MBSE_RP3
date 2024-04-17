@@ -56,7 +56,7 @@ class CorpusSimilarityAnalysis:
         self.output = comp_metric(
             list(self.vectors1.values()), list(self.vectors2.values())
         )
-        
+
     @staticmethod
     def metric_error() -> None:
         raise ValueError("Invalid Similarity Metric")

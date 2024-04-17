@@ -61,7 +61,7 @@ class SentenceSimilarityAnalysis:
         yticks: list = None,
         fontsize: int = 6,
         text: bool = True,
-        axes = None
+        axes=None,
     ) -> None:
         # Plotting pairwise comparison of each of the requirements
         if axes is not None:
@@ -75,10 +75,17 @@ class SentenceSimilarityAnalysis:
         plt.colorbar()
         if text:
             for (i, j), label in np.ndenumerate(self.output):
-                plt.text(i, j, round(label, 2), ha="center", va="center", fontsize=fontsize)
+                plt.text(
+                    i, j, round(label, 2), ha="center", va="center", fontsize=fontsize
+                )
 
         if xticks is not None:
-            plt.xticks(np.arange(0, len(xticks), 1), xticks, rotation='vertical', fontsize=fontsize)
+            plt.xticks(
+                np.arange(0, len(xticks), 1),
+                xticks,
+                rotation="vertical",
+                fontsize=fontsize,
+            )
 
         if yticks is not None:
             plt.yticks(np.arange(0, len(yticks), 1), yticks, fontsize=fontsize)
@@ -95,7 +102,7 @@ class SentenceSimilarityAnalysis:
             ValueError: Generic error for incorrect similarity metric
         """
         raise ValueError("Invalid Similarity Metric")
-    
+
     @property
     def average_sentence_sim(self) -> float:
         return np.average(self.output)

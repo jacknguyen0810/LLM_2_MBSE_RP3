@@ -1,6 +1,8 @@
 import unittest
 import numpy as np
-from llm_similarity_analysis.similarity.corpus_similarity import CorpusSimilarityAnalysis
+from llm_similarity_analysis.similarity.corpus_similarity import (
+    CorpusSimilarityAnalysis,
+)
 
 
 class TestCorpusSimilarityAnalysis(unittest.TestCase):
@@ -22,7 +24,7 @@ class TestCorpusSimilarityAnalysis(unittest.TestCase):
         valid = 0.42273152
         self.assertEqual(type(analysis.output), np.ndarray)
         self.assertAlmostEqual(analysis.output.tolist()[0][0], valid)
-    
+
     def test_run_default_same_tokens(self):
         text_tokens1 = {
             "1": ["apple", "pear", "banana", "mango", "kiwi"],
@@ -45,7 +47,7 @@ class TestCorpusSimilarityAnalysis(unittest.TestCase):
         valid = 1
         self.assertEqual(type(analysis.output), np.ndarray)
         self.assertAlmostEqual(analysis.output[0][0], valid, 5)
-        
+
     def test_run_default_multiple_sentences(self):
         text_tokens1 = {
             "1": ["apple", "pear", "banana", "mango", "kiwi"],
@@ -72,7 +74,7 @@ class TestCorpusSimilarityAnalysis(unittest.TestCase):
         # Checking the dimensions are correct/
         self.assertEqual(type(analysis.output), np.ndarray)
         self.assertEqual(analysis.output.shape, (1, 1))
-        
-        
+
+
 if __name__ == "__main__":
     unittest.main()

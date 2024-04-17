@@ -1,5 +1,7 @@
 from textwrap import wrap
-from llm_similarity_analysis.similarity.sentence_similarity import SentenceSimilarityAnalysis
+from llm_similarity_analysis.similarity.sentence_similarity import (
+    SentenceSimilarityAnalysis,
+)
 from llm_similarity_analysis.preprocessing.text_preprocessing import RawData2Python
 from llm_similarity_analysis.preprocessing.text_cleaning import TextCleaning
 
@@ -16,7 +18,7 @@ def main():
 
     print(text_dict.values())
     label_1 = list(text_dict.values())
-    label_1 = ['\n'.join(wrap(l, 50)) for l in label_1]
+    label_1 = ["\n".join(wrap(l, 50)) for l in label_1]
 
     # Clean the raw text data
     cleaner = TextCleaning(text_dict)
