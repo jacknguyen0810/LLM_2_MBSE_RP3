@@ -1,0 +1,46 @@
+- IR and VIS images of a given primary target during a single primary observation pass
+- IR images of given secondary targets during a single secondary observation pass
+- Multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Images distributed over the observation window for MIS-001 and MIS-003
+- Threshold lifetime of 1 month, goal of 12 months for MIS-005
+- Automated observations based on a pre-determined schedule
+- Minimum elevation angle of 30 degrees for target observations
+- Narrow-angle IR and VIS images for science observations
+- Minimum swath width of 80km at nadir for scientific images
+- Alignment of imager field of views to within 12 degrees
+- IR images with SSD at nadir of 300m (threshold), goal of 90m
+- Narrow-angle VIS images with SSD at nadir of 50m (threshold), goal of 15m
+- Minimum of 10 science images, goal of 50, per primary or tertiary observation pass
+- Minimum of 1 science image per target per secondary observation pass
+- Temporal resolution for primary target observations: minimum of 16 days, goal of 5 days
+- NedT of IR camera: minimum of 0.5K, goal of 0.05K
+- Uncooled IR camera
+- Radiometric calibration of IR camera per target
+- Geolocation of target to within one SSD over land
+- Pointing accuracy of 1 degree
+- Downlink of image data within 1 month threshold, goal of 7 days
+- Onboard storage for one primary target image set, goal of 10 sets
+- Data transfer to the bus for downlink or additional storage
+- Total payload mass not exceeding 2.66kg
+- Total payload power usage not exceeding 14W
+- Total payload volume not exceeding 2U
+- Modes: imaging, standby, safe, and other TBD non-nominal modes
+- Hardware qualified to GSFC-STD-7000B levels and durations
+- Sufficient power provision for every system mode
+- Power provision via 12V, 5V, and 3V buses for components
+- Capability to monitor health of payload components
+- Electrical connections for data interfaces between components
+- Interface with FLIR Tau2 IR camera
+- Streaming capability for Tau2 and Basler acA640-100gm cameras
+- Position and attitude determination for spacecraft at image capture
+- Health monitoring of payload components
+- Interface with CubeSat bus and CDH subsystem
+- Memory storage for imaging data and telemetry
+- Operation in different modes with automatic switching
+- Temperature range of -30 to +50 degrees C under vacuum conditions
+- Tolerance to on-orbit radiation exposure and single event upsets
+- Total power consumption less than 4W
+- Payload structure support for payload components
+- Alignment of imager swaths
+- Payload volume support within 200X110X100mm
+- Payload components rated for expected temperature range and storage conditions

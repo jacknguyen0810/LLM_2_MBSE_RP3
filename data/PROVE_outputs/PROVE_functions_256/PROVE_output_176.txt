@@ -1,0 +1,34 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations automatically based on a pre-determined schedule with the ability to prioritize scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain an alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve a temporal resolution of 16 days minimum, with a goal of 5 days for primary target observations
+- Perform radiometric calibration of the IR camera at least once per target, ideally before target capture
+- Provide geolocation of the target to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month threshold, with a goal of 7 days
+- Size onboard storage for at least one primary target image set, with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Include operational modes such as imaging, standby, safe, and other non-nominal modes as needed
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera for software control and data handling
+- Monitor health of payload components, temperature, and power consumption
+- Provide power distribution for components operating on 12V, 5V, and 3V
+- Be able to cut power to cameras based on commands or autonomously
+- Provide electrical connections for data interfaces between components and payload computer
+- Store imaging data, position data, and health telemetry for specified durations
+- Operate in different modes and switch between them as needed
+- Operate within specified temperature ranges and environmental conditions
+- Be tolerant of failures and radiation exposure for the duration of the mission
+- Ensure structural integrity to support payload components and fit within specified volume constraints
+- Ensure thermal ratings of components meet mission requirements for temperature range, operating, and storage temperatures.

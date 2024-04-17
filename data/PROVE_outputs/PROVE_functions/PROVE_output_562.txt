@@ -1,0 +1,35 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles in primary and tertiary observation passes
+- Perform primary target observations for a minimum of 16 days, with a goal of 5 days temporal resolution
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve geolocation accuracy of target to within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within a threshold of 1 month, with a goal of 7 days
+- Size onboard storage for a threshold of one primary target image set, with a goal of 10 primary target image sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Provide a minimum of imaging, standby, and safe modes, with additional TBD non-nominal modes as needed
+- Qualify mission hardware to GSFC-STD-7000B levels and durations
+- Provide sufficient power for every system mode
+- Provide health monitoring capability for payload components
+- Provide electrical connections for data interfaces between payload components
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Stream images from cameras as per observation pass requirements
+- Monitor position and attitude of spacecraft at image capture moment
+- Store imaging data, position data, and health telemetry adequately
+- Operate in different modes, including imaging sequences and safe mode
+- Operate within specified temperature range and environmental conditions
+- Support payload components in vibration frequency spectrum
+- Withstand specified structural and launch-related stress levels
+- Maintain alignment of imager swaths
+- Fit entire payload within specified volume
+- Ensure all components are rated for thermal requirements

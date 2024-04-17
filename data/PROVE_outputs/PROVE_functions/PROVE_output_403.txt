@@ -1,0 +1,26 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window, providing a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views to within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Achieve temporal resolution for primary target observations
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation of the target to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a specified timeframe
+- Store image data onboard for a minimum number of image sets
+- Transfer data to the bus for downlink or storage
+- Limit total payload mass, power usage, and volume within specified limits
+- Have operational modes including imaging, standby, and safe modes
+- Interface with the electronics subsystem for power distribution and health monitoring
+- Interface with the CDH subsystem for camera control, data storage, and telemetry management
+- Meet structural requirements for payload support and alignment
+- Ensure all payload components are rated to withstand temperature ranges
+- Operate within specified power consumption limits
+- Provide protection against radiation exposure and single event upsets in the CDH system

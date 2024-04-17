@@ -1,0 +1,42 @@
+- IR and VIS Imaging System
+- Secondary Target Imaging System
+- Tertiary Target Imaging System
+- Image Distribution System
+- Observation Automation System
+- Minimum Elevation Angle Control System
+- Narrow-Angle Imaging System
+- Swath Width Control System
+- Imager Field of View Alignment System
+- Spatial Sampling Distance Control System
+- Geolocation System
+- Pointing Accuracy System
+- NedT Calibration System
+- Onboard Data Storage System
+- Data Transfer System
+- Payload Mass Management System
+- Payload Power Management System
+- Payload Volume Management System
+- Operational Modes System
+- Hardware Qualification System
+- Power Supply System
+- Health Monitoring System
+- Payload Component Monitoring System
+- Power Management System
+- Electrical Interfaces System
+- Data Interface System
+- Grounding System
+- Command and Data Handling (CDH) System
+- Camera Interface System
+- Position and Attitude Determination System
+- Memory Storage System
+- Operational Modes Control System
+- Temperature Management System
+- Environmental Tolerance System
+- Structural Support System
+- Vibration Resistance System
+- Sine Sweep Resilience System
+- Sine Burst Resilience System
+- Launcher Compatibility System
+- Imager Swath Alignment System
+- Payload Volume Management System
+- Thermal Rating System

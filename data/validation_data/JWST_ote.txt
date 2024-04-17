@@ -1,0 +1,10 @@
+- Optical Telescope Element
+- Primary Mirror and Hexapod
+- Secondary Mirror and Hexapod
+- Secondary Mirror Structure Deployment Actuator
+- Tertiary Mirror
+- Fine Steering Mirror
+- Mirror Actuators
+- Tower Actuators
+- Cold Junction Box
+- Wing Deployment Actuators and Latch Actuators

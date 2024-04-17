@@ -1,0 +1,29 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a predetermined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distance (SSD) thresholds for IR and VIS images
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation accuracy within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Size onboard storage for imaging data sets
+- Transfer data to the bus for downlink or additional storage
+- Meet payload mass, power usage, and volume constraints
+- Provide modes for imaging, standby, safe, and other non-nominal operations
+- Interface with components operating at different voltages for power supply
+- Monitor health of payload components, including temperature and power consumption
+- Provide electrical connections to support data interfaces between components
+- Interface with specific cameras and payload systems for software operations
+- Determine spacecraft position and attitude at image capture moment
+- Store imaging data, position data, and health telemetry as required
+- Operate in different modes with automatic switching
+- Operate within specified temperature ranges and environmental conditions
+- Ensure structural integrity to withstand vibrations and launch environments
+- Maintain alignment of imager swaths and fit within defined volume limits
+- Ensure all payload components meet thermal operating and storage requirements

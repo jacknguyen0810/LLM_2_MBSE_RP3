@@ -1,0 +1,10 @@
+- Imaging Mode: The system shall enter Imaging Mode during primary, secondary, and tertiary observation passes to capture IR and VIS images of targets as per MIS-001, MIS-002, and MIS-003.
+- Standby Mode: The system shall enter Standby Mode when not performing observations or data downlink, performing necessary housekeeping tasks as per CDH-OPS-04.
+- Safe Mode: The system shall enter Safe Mode if faults are detected that cannot be automatically resolved, ensuring minimal system functionality to protect against further damage as per CDH-OPS-03.
+- Data Downlink Mode: The system shall enter Data Downlink Mode to transfer image data and health telemetry to ground stations within the specified timeframes as per MIS-025.
+- Calibration Mode: The system shall enter Calibration Mode to perform radiometric calibration of the IR camera before target capture begins as per MIS-021.
+- Automatic Imaging Sequence Pass (AISP) Mode: The system shall perform automated observations based on a pre-determined schedule, capturing multiple images of standard targets as per CDH-OPS-01.
+- Manual Imaging Sequence Pass (MISP) Mode: The system shall allow for manual uplink of priority observation scenarios, overriding the automated observation schedule as per CDH-OPS-01.
+- Single Image Pass (SIP) Mode: The system shall have the capability to perform targeted single image captures of specific targets as needed, providing flexibility in observation operations as per CDH-OPS-01.
+- Health Monitoring Mode: The system shall continuously monitor the health of payload components, specifically the two cameras and computer, to ensure operational safety and efficiency as per ELE-HMS-00 and CDH-HMS-00.
+- Power Management Mode: The system shall manage power distribution to all components, ensuring sufficient power for each system mode and cutting power to components as necessary for safety as per ELE-POW-00, ELE-HMS-02, and ELE-HMS-03.

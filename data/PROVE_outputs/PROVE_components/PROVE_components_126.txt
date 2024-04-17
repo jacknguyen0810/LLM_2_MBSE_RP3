@@ -1,0 +1,30 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Health Monitoring Sensors
+- Data Interfaces
+- Power Distribution System
+- Electrical Power Monitoring System
+- Electrical Health Monitoring System
+- Electrical Data Interfaces
+- Electrical Grounding System
+- Command and Data Handling (CDH) Subsystem
+- Flight Software
+- Imaging Modes Software
+- Health Monitoring Software
+- Memory Management Software
+- Operations Software
+- Temperature Control Software
+- Environmental Monitoring Software
+- Power Management Software
+- Payload Structure
+- Payload Components
+- Random Vibration Frequency Spectrum Testing
+- Structural Testing Levels
+- Sine Sweep Testing
+- Sine Burst Testing
+- Launcher/CubeSat Deployer Testing
+- Imager Swath Alignment
+- Payload Volume Constraints
+- Thermal Rating Compliance

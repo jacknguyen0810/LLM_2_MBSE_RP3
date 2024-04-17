@@ -1,0 +1,30 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for varied viewing angles in MIS-001 and MIS-003
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain an alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distances (SSD) for IR and VIS images at nadir within defined thresholds and goals
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Maintain temporal resolution for primary target observations within specified thresholds and goals
+- Perform radiometric calibration of the IR camera before capturing targets
+- Provide geolocation accuracy of the target to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Size onboard storage for storing primary target image sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass, power usage, and volume are within defined limits
+- Have operational modes including imaging, standby, safe, and other non-nominal modes
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera for data streaming and commands
+- Determine spacecraft position and attitude at image capture moment with specified accuracies
+- Monitor health of payload components and switch power autonomously if needed
+- Provide electrical connections for data interfaces between components
+- Store imaging data, position data, and health telemetry as per defined requirements
+- Operate in different modes and switch between them automatically
+- Operate within specified temperature ranges and environmental conditions
+- Incorporate protection against radiation exposure and single event upsets
+- Ensure structural support for payload components in specified vibration and launch conditions
+- Maintain alignment of imager swaths and fit within specified volume constraints
+- Ensure all payload components can withstand expected temperature ranges during the mission.

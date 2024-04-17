@@ -1,0 +1,60 @@
+- IR and VIS Imaging System
+- Secondary Target IR Imaging System
+- Tertiary Target VIS Imaging System
+- Image Distribution System
+- Observation Automation System
+- Elevation Angle Control System
+- Narrow-Angle Science Imaging System
+- Swath Width Control System
+- Imager Field of View Alignment System
+- IR Spatial Sampling Distance System
+- VIS Spatial Sampling Distance System
+- Science Image Capture System
+- Temporal Resolution Control System
+- IR Camera NedT System
+- Radiometric Calibration System
+- Geolocation System
+- Pointing Accuracy System
+- Data Downlink System
+- Onboard Storage System
+- Data Transfer System
+- Payload Mass Management System
+- Payload Power Management System
+- Payload Volume Management System
+- Mission Mode Control System
+- Hardware Qualification System
+- Power Distribution System
+- Health Monitoring System
+- Temperature Monitoring System
+- Power Control System
+- Electrical Data Interface System
+- Grounding System
+- CDH-IR Camera Interface System
+- CDH-IR Camera Command System
+- CDH-IR Camera Image Streaming System
+- CDH-VIS Camera Interface System
+- CDH-VIS Camera Command System
+- CDH-VIS Camera Image Streaming System
+- CDH-VIS Camera Image Command System
+- CDH-GNC Position and Attitude Determination System
+- CDH-GNC Position Data Accuracy System
+- CDH-GNC Attitude Data Accuracy System
+- CDH-Memory Storage System
+- CDH-Memory Position Data Linking System
+- CDH-Memory Telemetry Storage System
+- CDH-Memory Data Overwrite Prioritization System
+- CDH-Operation Mode Control System
+- CDH-Imaging Mode Support System
+- CDH-Safe Mode System
+- CDH-Standby Mode System
+- CDH-Temperature Operation Range System
+- CDH-Environmental Operation System
+- CDH-Power Consumption System
+- Structural Payload Support System
+- Structural Payload Vibration Resistance System
+- Structural Payload Sine Sweep Resistance System
+- Structural Payload Sine Burst Resistance System
+- Structural Payload Launcher Compatibility System
+- Imager Swath Alignment System
+- Payload Volume Management System
+- Thermal Rating System

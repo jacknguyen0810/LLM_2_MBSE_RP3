@@ -1,0 +1,30 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform automated observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of views alignment within 12 degrees
+- Achieve specific spatial sampling distances (SSD) for IR and VIS images at nadir
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Meet temporal resolution requirements for primary target observations
+- Perform radiometric calibration of the IR camera at specified intervals
+- Provide geolocation accuracy of the target to within one SSD over land
+- Achieve specific pointing accuracy for the mission
+- Downlink image data within specified timeframes
+- Size onboard storage for a certain number of image sets
+- Transfer data to the bus for downlink or additional storage
+- Adhere to payload mass, power usage, and volume constraints
+- Implement various system modes including imaging, standby, and safe modes
+- Qualify mission hardware to specified standards and durations
+- Provide power requirements for all system modes through different bus voltages
+- Monitor health of payload components, including temperature and power consumption
+- Interface with and control the IR and VIS cameras
+- Determine spacecraft position and attitude during image capture
+- Store imaging data, position data, and health telemetry within specified requirements
+- Accommodate different imaging modes and sequences
+- Operate within specified temperature ranges and environmental conditions
+- Ensure system reliability and resilience against environmental factors and radiation
+- Maintain structural integrity to support payload components and fit within specified volume
+- Ensure thermal ratings of all payload components meet mission requirements.

@@ -1,0 +1,47 @@
+- Spacecraft Bus: Provides structural and electrical integration for the observatory components.
+  - Communication Subsystem: Ensures continuous two-way communication with the Ground Segment.
+  - Electrical Power Subsystem: Supplies and manages power distribution to all observatory components.
+  - Thermal Control System: Regulates temperatures of the observatory components within operational limits.
+  - Propulsion System: Facilitates orbit maintenance and adjustments.
+  - Command and Data Handling System: Manages the processing and storage of commands and data.
+  - Fault Management System: Detects, isolates, and corrects anomalies to protect the observatory's health and safety.
+
+- Optical Telescope Element (OTE): Collects and focuses celestial light.
+  - Primary Mirror: Large segmented mirror that collects light from celestial objects.
+  - Secondary Mirror: Reflects the light from the primary mirror to the science instruments.
+  - Tertiary Mirrors: Directs the light into the various science instruments.
+  - Fine Steering Mirror: Corrects for small pointing errors to stabilize the image.
+
+- Integrated Science Instrument Module (ISIM): Houses the observatory's science instruments.
+  - Near-Infrared Camera (NIRCam): Captures high-resolution images in the near-infrared spectrum.
+  - Near-Infrared Spectrograph (NIRSpec): Provides spectroscopic analysis of celestial objects in the near-infrared.
+  - Mid-Infrared Instrument (MIRI): Observes the universe in the mid-infrared spectrum for imaging and spectroscopy.
+  - Fine Guidance Sensor (FGS): Ensures the observatory's pointing accuracy for precise observations.
+  - Instrument Control Electronics: Manages the operation and data collection of the science instruments.
+
+- Sunshield: Protects the observatory from the Sun's heat, maintaining the instruments at cryogenic temperatures.
+  - Layers: Five specially coated layers that reflect sunlight and radiate heat away.
+  - Deployment Mechanisms: Systems to deploy the sunshield after launch.
+
+- Observatory Software: Controls observatory operations and data management.
+  - Flight Software: Manages onboard operations, including instrument control and data handling.
+  - Ground Support Software: Supports pre-launch testing, commissioning, and ongoing operations from the Ground Segment.
+
+- Observatory Thermal Systems: Maintain operational temperatures for critical components.
+  - Cryocoolers: Provide active cooling for the mid-infrared instrument detectors.
+  - Radiators: Passively cool the near-infrared detectors and instrument electronics.
+  - Heat Pipes: Transfer heat from electronics to radiators for dissipation.
+
+- Observatory Structural Components: Provide mechanical support and alignment for observatory elements.
+  - Composite Structure: Lightweight yet strong framework that supports the primary mirror and instruments.
+  - Vibration Isolation System: Minimizes vibrations from spacecraft operations that could blur scientific observations.
+
+- Observatory Power Systems: Supply and manage electrical power.
+  - Solar Arrays: Generate power from sunlight.
+  - Power Distribution Unit: Distributes electrical power to all observatory components.
+  - Batteries: Store electrical power for use during periods without direct sunlight.
+
+- Observatory Communication Systems: Handle data transmission to and from the Ground Segment.
+  - High-Gain Antenna: Enables high-rate data downlink and command uplink.
+  - Low-Gain Antennas: Provide omnidirectional communication capabilities for emergency or low-data-rate communications.
+  - Transponders: Support communication link management and health monitoring.

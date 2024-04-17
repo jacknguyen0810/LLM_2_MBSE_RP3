@@ -1,0 +1,26 @@
+- Capture multiple IR and VIS images of primary target during single primary observation pass
+- Capture IR images of secondary targets during single secondary observation pass
+- Capture multiple VIS images of tertiary target during single tertiary observation pass
+- Distribute images over observation window to provide range of viewing angles for MIS-001 and MIS-003
+- Perform MIS-001 observations for 1 month threshold lifetime, with a goal of 12 months
+- Automate observations based on predetermined schedule, with ability to uplink priority scenarios
+- Maintain minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of views alignment within 12 degrees
+- Provide IR images with spatial sampling distance (SSD) at nadir of 300m threshold, with a goal of 90m
+- Provide narrow-angle VIS images with SSD at nadir of 50m threshold, with a goal of 15m
+- Provide minimum of 10 science images per primary or tertiary observation pass, with a goal of 50
+- Provide minimum of 1 science image per target per secondary observation pass
+- Achieve temporal resolution of 16 days for primary target observations, with a goal of 5 days
+- Maintain NedT of IR camera at 0.5K minimum, with a goal of 0.05K
+- Perform radiometric calibration of IR camera at least once per target, ideally before target capture
+- Provide geolocation of target to within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within 1 month threshold, with a goal of 7 days
+- Size onboard storage for one primary target image set (MIS-012) threshold, with goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Implement imaging, standby, safe modes, and additional non-nominal modes as needed
+- Qualify mission hardware to levels and durations specified in GSFC-STD-7000B

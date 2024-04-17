@@ -1,0 +1,51 @@
+**Spacecraft**
+
+- The Spacecraft shall not exceed a wet mass of 6,159 kilograms.
+- Any launch vehicle performance enhancement or reduction shall be adjusted in the Observatory mass allocation.
+- The Spacecraft and OTE combined reliability goal is 0.920.
+- The Spacecraft shall provide conditioned power to the Observatory during all mission phases.
+- The EPS shall distribute power at 28 V +7/-6 at the interface connectors.
+- Circuit protection devices shall protect primary power cable wiring harnesses.
+- All primary power returns shall be via hardwires to the EPS single prime power ground point.
+- The Spacecraft shall be responsible for the health and safety of the Observatory.
+- The Observatory shall be autonomously single fault tolerant against all credible failures.
+- The design shall preclude propagation of the effects of part failures beyond the component containing the part.
+- Redundant Observatory functionality shall be cross-strapped, excluding primary power.
+- The Observatory shall enter safe modes and reconfigure its onboard systems in response to anomalies.
+- Safe modes shall have a hierarchical impact on the mission timeline.
+- All safe modes shall conserve consumables.
+- The Observatory shall sustain an autonomous safe mode for 4 weeks without Ground Segment intervention.
+- The Observatory shall exit safe modes via Ground Segment commands.
+- While in Safe Haven mode, the Observatory shall retain recorded data while down-linking real-time engineering data.
+- The Observatory shall meet the interface requirements to the Launch Segment as defined in the DUA IRD.
+
+**Communication Subsystem**
+
+- Commanding shall be available on a continuous basis for 90% of 4-Pi steradian coverage.
+- The Observatory shall be in continuous two-way communication from separation until Primary Mirror Phasing activities completion.
+- Telemetry shall be provided to the Ground Segment from launch vehicle payload fairing separation until separation from the upper stage.
+- The Observatory shall utilize the Deep Space Network to communicate with the Ground Segment.
+- The Spacecraft shall receive commands via low data rate channels during initial deployment and emergencies.
+- RF link margins for all links shall be at least +3dB in all operating and contingency modes.
+- During a normal operations contact, the Observatory shall downlink uncompressed recorded engineering data.
+- The onboard data processing system shall utilize CCSDS File Data Protocol for downlink of stored science data and engineering telemetry.
+- The Observatory shall be capable of downlinking 229 Gigabits of compressed science data during a normal operations contact.
+- The real-time data system shall utilize CCSDS protocol for real-time downlink of engineering telemetry.
+- The S-band link shall be used for ranging the Observatory.
+- COP-1 and CFDP shall be utilized for command uplink.
+- The command uplink shall be S-Band.
+- The command uplink rates shall be 250 bps, 2 Kbps, and 16 Kbps for low, medium, and high rates, respectively.
+- The downlink shall be Reed-Solomon encoded and include CCSDS randomization encoding.
+- The low rate downlink shall be S-Band, and the high rate downlink shall be Ka-Band.
+- The Spacecraft shall receive commands via S-Band at a minimum rate of 250 bps and transmit telemetry at a minimum rate of 200 bps during safe mode.
+- The Observatory shall transmit a minimum of 99.5% of all real-time telemetry and recorded data to the Ground Segment.
+
+**Thermal Subsystem**
+
+- The thermal control system shall regulate temperatures within safe and operational limits for all mission phases.
+- The Observatory architecture shall allow for passive cooling of ISIM-related components to their operational limits.
+- The Observatory shall passively cool the NIR Science Detectors to less than or equal to 37K during commissioning and the science mission lifetime.
+
+**Propellant Lifetime**
+
+- Propellant shall be sized for 10 years of operation after launch.

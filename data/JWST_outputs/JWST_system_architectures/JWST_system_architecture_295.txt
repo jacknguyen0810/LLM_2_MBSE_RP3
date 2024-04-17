@@ -1,0 +1,45 @@
+- Attitude Control Subsystem (ACS): Reaction Wheels
+- Attitude Control Subsystem (ACS): Wheel Drive Electronics
+- Attitude Control Subsystem (ACS): Star trackers
+- Attitude Control Subsystem (ACS): Inertial Reference Unit
+- Attitude Control Subsystem (ACS): Fine Sun Sensors
+- Attitude Control Subsystem (ACS): Coarse Sun Sensors
+- Attitude Control Subsystem (ACS): Solar Array Actuators
+- Attitude Control Subsystem (ACS): High Gain antenna Actuators
+- Attitude Control Subsystem (ACS): Orientation Drive Electronics with Resolver
+- Command and Data Handling Subsystem (CDH): Command Telemetry Processor
+- Command and Data Handling Subsystem (CDH): Solid State Recorder
+- Power Subsystem: Batteries
+- Power Subsystem: Power Control and distribution units
+- Power Subsystem: Telemetry Acquisition Units
+- Communication Subsystem: High Gain antenna
+- Communication Subsystem: Ka-band Travelling-wave tube amplifier
+- Communication Subsystem: Ka-band modulator
+- Communication Subsystem: S-band Transponders
+- Communication Subsystem: Switches
+- Communication Subsystem: Omni antenna
+- Optical Telescope Element: Primary Mirror and Hexapod
+- Optical Telescope Element: Secondary Mirror and Hexapod
+- Optical Telescope Element: Secondary Mirror Structure Deployment Actuator
+- Optical Telescope Element: Tertiary Mirror
+- Optical Telescope Element: Fine Steering Mirror
+- Optical Telescope Element: Mirror Actuators
+- Optical Telescope Element: Tower Actuators
+- Optical Telescope Element: Cold Junction Box
+- Optical Telescope Element: Wing Deployment Actuators and Latch Actuators
+- Sunshield: Sunshield Actuators
+- Integrated Science Instrument Module (ISIM): Near Infrared Camera (NIRCam)
+- Integrated Science Instrument Module (ISIM): MIRI: Mid Infrared Instrument
+- Integrated Science Instrument Module (ISIM): Cryogenic Temperature Sensors for Mid Infrared Instrument
+- Integrated Science Instrument Module (ISIM): Cryogenic Cooling Environment for Mid Infrared Instrument
+- Integrated Science Instrument Module (ISIM): Focal Plane Electronics
+- Integrated Science Instrument Module (ISIM): Instrument Control Electronics
+- Integrated Science Instrument Module (ISIM): NIR Spec: Near Infrared Spectograph
+- Integrated Science Instrument Module (ISIM): Micro-shutter Control Electronics for Near Infrared Spectograph
+- Integrated Science Instrument Module (ISIM): FGS: Fine Guidance System
+- Integrated Science Instrument Module (ISIM): Compressor Assembly for Cryogenic Cooling
+- Integrated Science Instrument Module (ISIM): Cooling Lines
+- Integrated Science Instrument Module (ISIM): Radiator Heat Switches
+- Integrated Science Instrument Module (ISIM): Control Heaters
+- Integrated Science Instrument Module (ISIM): Command and Data Handling
+- Propulsion Subsystem: Thrusters

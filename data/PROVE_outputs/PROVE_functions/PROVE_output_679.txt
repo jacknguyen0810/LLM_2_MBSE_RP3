@@ -1,0 +1,33 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide specific spatial sampling distances for IR and VIS images at nadir
+- Provide a minimum number of science images per target observation pass
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation accuracy of the target within one spatial sampling distance over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Store image data onboard for future downlink
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass, power usage, and volume are within specified limits
+- Provide modes for imaging, standby, safe, and other required non-nominal modes
+- Interface with and provide power for components operating on different voltage buses
+- Monitor health of payload components and cut power if necessary
+- Provide electrical connections for data interfaces between components
+- Interface with specific cameras and payload computer for data transfer
+- Determine spacecraft position and attitude at the moment of image capture
+- Monitor health of camera modules and switch power automatically if unsafe
+- Interface with CubeSat bus and CDH subsystem
+- Store imaging data, position data, and health telemetry
+- Operate in different modes and switch between them automatically
+- Operate within specified temperature ranges under vacuum conditions
+- Operate with a total power consumption of less than 4W
+- Ensure structural integrity to withstand vibration and launch conditions
+- Maintain alignment of imager swaths
+- Fit entire payload within specified volume
+- Ensure all components can withstand expected temperature ranges

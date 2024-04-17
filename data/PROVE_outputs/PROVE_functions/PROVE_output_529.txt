@@ -1,0 +1,30 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to prioritize scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of views alignment within 12 degrees
+- Provide specific spatial sampling distances for IR and VIS images
+- Ensure a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Achieve specific temporal resolutions for primary target observations
+- Perform radiometric calibration of the IR camera before target capture
+- Provide accurate geolocation of the target
+- Achieve a specific pointing accuracy
+- Downlink image data within specified timeframes
+- Size onboard storage for image sets based on requirements
+- Transfer data to the bus for downlink or storage
+- Limit payload mass, power usage, and volume within defined constraints
+- Support various system modes including imaging, standby, and safe modes
+- Ensure sufficient power for all system modes through the electronics subsystem
+- Monitor health of payload components, including temperature and power consumption
+- Provide necessary electrical connections for data interfaces between components
+- Interface with specific cameras for data streaming and command capabilities
+- Determine spacecraft position and attitude accurately during image capture
+- Store imaging data, position data, and health telemetry as specified
+- Operate in different modes with automatic switching capabilities
+- Accommodate specific imaging sequences for different cameras
+- Operate within defined temperature and environmental conditions
+- Ensure structural support and alignment of payload components
+- Meet thermal requirements for all payload components

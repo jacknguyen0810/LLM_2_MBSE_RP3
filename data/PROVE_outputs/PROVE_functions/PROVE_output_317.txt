@@ -1,0 +1,32 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations automatically based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain an alignment of the imager field of views to within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m
+- Provide a minimum of 10 science images, with a goal of 50, per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve a pointing accuracy of 1 degree
+- Provide geolocation of the target to within one SSD over land
+- Downlink image data within 1 month threshold, with a goal of 7 days
+- Size onboard storage for one primary target image set with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Maintain total payload mass below 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Include imaging, standby, safe modes, and other non-nominal modes as needed
+- Qualify mission hardware to specified levels and durations
+- Provide sufficient power for all system modes
+- Monitor health of payload components including temperature and power consumption
+- Provide electrical connections for data interfaces between components
+- Interface with specified cameras and payload computer for command and data transfer
+- Determine spacecraft position and attitude at image capture moment
+- Store imaging data, position data, and health telemetry as specified
+- Be capable of operation in different modes and imaging sequences
+- Operate within specified temperature range and environmental conditions
+- Withstand vibration, shock, and structural requirements as per standards
+- Ensure all payload components can withstand expected temperature ranges and operating conditions.

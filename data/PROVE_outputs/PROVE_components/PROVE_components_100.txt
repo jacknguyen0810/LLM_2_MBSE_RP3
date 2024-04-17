@@ -1,0 +1,59 @@
+- IR and VIS imaging system
+- Secondary target IR imaging system
+- Tertiary target VIS imaging system
+- Distribution system for images
+- Observation scheduling system
+- Automated observation system
+- Minimum elevation angle system
+- Narrow-angle IR and VIS imaging system
+- Scientific imaging system
+- Payload structure alignment system
+- IR imaging spatial sampling system
+- VIS imaging spatial sampling system
+- Science image provision system
+- Temporal resolution system
+- IR camera NedT system
+- Radiometric calibration system
+- Geolocation system
+- Pointing accuracy system
+- Data downlink system
+- Onboard storage system
+- Data transfer system
+- Payload mass management system
+- Payload power management system
+- Payload volume management system
+- Mission mode system
+- Hardware qualification system
+- Power provision system
+- Power distribution system
+- Health monitoring system
+- Temperature and power monitoring system
+- Power control system
+- Data interface system
+- Grounding system
+- CDH-IR camera interface system
+- CDH-Basler camera interface system
+- CDH-visual image streaming system
+- Spacecraft position and attitude determination system
+- Position data accuracy system
+- Attitude data accuracy system
+- CDH health monitoring system
+- CDH power control system
+- CDH data interface system
+- CDH memory storage system
+- CDH data management system
+- CDH operation modes system
+- CDH imaging modes system
+- CDH safe mode system
+- CDH standby mode system
+- CDH temperature operation system
+- CDH environmental tolerance system
+- CDH power consumption system
+- Structural support system
+- Vibration resistance system
+- Sine sweep resistance system
+- Sine burst resistance system
+- Launcher and deployer compatibility system
+- Imager swath alignment system
+- Payload volume management system
+- Thermal rating system

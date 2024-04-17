@@ -1,0 +1,29 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to prioritize scenarios
+- Maintain a minimum elevation angle of 30 degrees for observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain an alignment of the imager field of views within 12 degrees
+- Achieve spatial sampling distances at nadir for IR and VIS images
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Ensure temporal resolution for primary target observations
+- Perform radiometric calibration of the IR camera before target capture
+- Provide accurate geolocation of the target
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Size onboard storage for image sets and data transfer to the bus
+- Ensure total payload mass, power usage, and volume do not exceed specified limits
+- Support various system modes and non-nominal modes as needed
+- Interface with different payload components for power provision and monitoring health
+- Provide electrical connections for data interfaces between components
+- Interface with specific cameras for commanding and data streaming
+- Determine spacecraft position and attitude at image capture moment
+- Monitor health of payload components and switch power as necessary
+- Interface with CubeSat bus for data exchange and commands
+- Provide sufficient memory storage for imaging data, position data, and health telemetry
+- Prioritize data storage and operate in different modes with automatic switching
+- Operate within specified temperature ranges and environmental conditions
+- Withstand random vibration frequencies and structural requirements
+- Ensure all payload components are rated for expected temperature ranges and storage conditions.

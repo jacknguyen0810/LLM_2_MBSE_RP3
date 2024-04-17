@@ -1,0 +1,20 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Health Monitoring Sensors
+- Power Management System
+- Data Interface Module
+- Electrical Power Distribution System
+- Thermal Control System
+- Command and Data Handling (CDH) Subsystem
+- Ground Station Communication System
+- Onboard Data Storage Module
+- Payload Structure
+- Alignment Control System
+- Pointing Accuracy System
+- Geolocation System
+- Imaging Mode Control System
+- Standby Mode Control System
+- Safe Mode Control System
+- Structural Health Monitoring System

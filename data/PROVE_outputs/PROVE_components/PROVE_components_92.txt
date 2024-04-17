@@ -1,0 +1,66 @@
+- IR and VIS imaging system
+- Secondary target imaging system
+- Tertiary target imaging system
+- Observation angle distribution mechanism
+- Mission duration management system
+- Automated observation scheduling system
+- Minimum elevation angle control system
+- Narrow-angle imaging system
+- Scientific image swath width control system
+- Imager field of view alignment system
+- IR spatial sampling distance control system
+- VIS spatial sampling distance control system
+- Science image capture system
+- Geolocation system
+- Pointing accuracy system
+- Image data downlink system
+- Onboard storage system
+- Data transfer system
+- Payload mass management system
+- Payload power management system
+- Payload volume management system
+- Mission mode control system
+- Hardware qualification system
+- Power provision system
+- Health monitoring system
+- Power monitoring and control system
+- Electrical connections system
+- Grounding system
+- CDH-IR camera interface system
+- CDH-IR camera command system
+- CDH-IR camera image streaming system
+- CDH-VIS camera interface system
+- CDH-VIS camera command system
+- CDH-VIS camera image streaming system
+- CDH-Visual image streaming system
+- Position and attitude determination system
+- Position data accuracy system
+- Attitude data accuracy system
+- CDH health monitoring system
+- CDH power control system
+- CDH data interface with bus system
+- CDH bus tolerance system
+- CDH data and power connection system
+- CDH command retrieval system
+- CDH data transfer system
+- CDH memory storage system
+- CDH data linking system
+- CDH health telemetry storage system
+- CDH data prioritization system
+- CDH operational mode system
+- CDH imaging mode system
+- CDH safe mode system
+- CDH standby mode system
+- CDH temperature operation system
+- CDH environmental operation system
+- CDH power consumption system
+- Payload structural support system
+- Payload structural endurance system
+- Payload structural vibration resistance system
+- Payload structural sine sweep resistance system
+- Payload structural sine burst resistance system
+- Payload structural launcher compatibility system
+- Imager swath alignment maintenance system
+- Payload volume management system
+- Thermal rating system
+- Operating temperature range system

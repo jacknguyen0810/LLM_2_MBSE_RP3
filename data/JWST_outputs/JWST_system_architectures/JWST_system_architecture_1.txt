@@ -1,0 +1,20 @@
+- The JWST Observatory is composed of the Spacecraft, Optical Telescope Element (OTE), and the Integrated Science Instrument Module (ISIM).
+- The Spacecraft provides support structures and systems such as power, thermal control, and communications.
+- The Optical Telescope Element (OTE) includes the primary mirror, secondary mirror, and other optical components necessary for capturing and focusing light.
+- The Integrated Science Instrument Module (ISIM) houses the scientific instruments and sensors for data collection.
+- The Spacecraft's communication subsystem ensures continuous two-way communication with the Ground Segment.
+- The Electrical Power Subsystem (EPS) supplies power to all observatory components.
+- The Observatory's thermal control system maintains operational temperatures for all components.
+- The ISIM contains cameras and spectrometers for capturing images and spectra.
+- The ISIM's data compression system efficiently processes and stores scientific data.
+- The OTE's primary mirror area is designed to be greater than 25 square meters to capture sufficient light for observations.
+- The Observatory utilizes the Deep Space Network for communication with the Ground Segment.
+- The Spacecraft's propulsion system provides the capability for orbit maintenance and adjustments.
+- The Observatory's software supports event-driven operations and real-time data handling.
+- The Observatory's pointing and tracking system enables precise alignment with celestial targets.
+- The Fine Guidance Sensor (FGS) within the ISIM assists in stabilizing the observatory's view for accurate data collection.
+- The Observatory's sunshield protects sensitive instruments from solar radiation and helps maintain thermal stability.
+- The Observatory's onboard storage capacity is designed to hold at least 471 Gigabits of science and engineering data.
+- The Observatory's contamination control measures ensure the integrity of scientific data and instrument functionality.
+- The Observatory's design includes redundancy and fault tolerance to mitigate the impact of component failures.
+- The Observatory's operational orbit around the Second Lagrange Point (L2) optimizes the scientific observation conditions.

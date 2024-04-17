@@ -1,0 +1,32 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform automated observations based on a pre-determined schedule with the ability to prioritize scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with SSD at nadir of 300m (threshold) with a goal of 90m
+- Provide narrow-angle VIS images with SSD at nadir of 50m (threshold) with a goal of 15m
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve a pointing accuracy of 1 degree
+- Provide geolocation of the target to within one SSD over land
+- Downlink image data within a threshold of 1 month with a goal of 7 days
+- Size onboard storage for at least one primary target image set with a goal of 10 sets
+- Transfer data to the bus for downlink or storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Provide various operational modes including imaging, standby, safe, and other non-nominal modes as needed
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Monitor health of payload components including cameras and computer
+- Determine spacecraft position and attitude at the moment of image capture
+- Store imaging data, position data, and health telemetry
+- Operate in different modes and switch between modes automatically
+- Operate in a temperature range of -30 to +50 degrees C
+- Withstand on-orbit radiation exposure and protect against SEUs and SELs
+- Support payload components in the random vibration frequency spectrum
+- Maintain alignment of imager swaths
+- Ensure payload components are rated for expected temperature range
+- Ensure maximum and minimum operating and storage temperatures for all components are within specified limits

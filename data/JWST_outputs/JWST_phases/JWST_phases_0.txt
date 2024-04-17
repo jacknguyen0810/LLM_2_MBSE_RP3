@@ -1,0 +1,14 @@
+- The JWST Observatory, including the Spacecraft, Optical Telescope Element (OTE), and Integrated Science Instrument Module (ISIM), is assembled and undergoes initial testing to ensure all components are functioning as per design specifications.
+- The Ground Segment, comprising the Science and Operations Center (S&OC), Institutional Systems, and Common Systems, is developed and tested for operational readiness to support the mission.
+- The Launch Segment, including the Launch Vehicle, Payload Adapter, and Launch Site Services, is prepared, ensuring compatibility and readiness for the JWST Observatory's deployment into space.
+- The JWST Observatory is integrated with the Launch Vehicle, followed by a series of pre-launch checks and rehearsals to confirm all systems are go for launch.
+- The JWST is launched, and the Launch Segment executes the mission to place the Observatory on a trajectory towards its operational orbit around the Second Lagrange Point (L2).
+- Following launch, the JWST Observatory separates from the Launch Vehicle, and the operational orbit transfer is initiated to navigate the Observatory to its designated orbit around L2.
+- The commissioning phase begins, involving the activation and calibration of the JWST Observatory systems, including the Spacecraft, OTE, and ISIM, ensuring all elements perform according to mission requirements.
+- The Ground Segment establishes and maintains continuous two-way communication with the JWST Observatory, facilitating real-time data exchange and command operations.
+- The Observatory performs Guide Star Acquisition and enters fine guidance mode, stabilizing the platform for scientific observations.
+- The science mission officially commences, with the JWST Observatory conducting observations and collecting data, while the Ground Segment ensures efficient data processing, archiving, and distribution to the scientific community.
+- Routine operations are conducted, including monitoring Observatory health, performing necessary adjustments or corrections, and planning observation schedules to maximize scientific return.
+- The JWST Observatory executes Event Driven Operations, systematically conducting scientific observations, data collection, and transmission based on the planned mission timeline.
+- Anomaly responses and emergency procedures are implemented as needed, ensuring the safety and operational integrity of the JWST Observatory throughout the mission.
+- The mission enters its final phase, with a comprehensive review of the scientific data collected, followed by a formal mission conclusion process, including the deactivation of the JWST Observatory systems and securing the Ground Segment infrastructure.

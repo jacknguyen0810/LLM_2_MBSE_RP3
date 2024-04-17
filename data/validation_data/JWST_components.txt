@@ -1,0 +1,62 @@
+- Attitude Control Subsystem (ACS)
+- Reaction Wheels and Wheel Drive Electronics
+- Star trackers
+- Inertial Reference Unit
+- Fine Sun Sensors
+- Coarse Sun Sensors
+- Solar Array Actuators
+- High Gain antenna Actuators
+- Orientation Drive Electronics with Resolver
+
+- Command and Data Handling Subsystem (CDH)
+- Command Telemetry Processor
+- Solid State Recorder
+
+- Solid State Recorder
+- Batteries
+- Power Control and distribution units
+- Telemetry Acquisition Units
+
+- Communication Subsystem
+- High Gain antenna
+- Ka-band Travelling-wave tube amplifier
+- Ka-band modulator
+- S-band Transponders
+- Switches
+- Omni antenna
+
+- Optical Telescope Element
+- Primary Mirror and Hexapod
+- Secondary Mirror and Hexapod
+- Secondary Mirror Structure Deployment Actuator
+- Tertiary Mirror
+- Fine Steering Mirror
+- Mirror Actuators
+- Tower Actuators
+- Cold Junction Box
+- Wing Deployment Actuators and Latch Actuators
+
+- Sunshield
+- Sunshield Actuators
+
+- Integrated Science Instrument Module (ISIM)
+- Near Infrared Camera (NIRCam)
+- MIRI: Mid Infrared Instrument
+- Cryogenic Temperature Sensors for Mid Infrared Instrument
+- Cryogenic Cooling Environment for Mid Infrared Instrument
+- Focal Plane Electronics
+- Instrument Control Electronics
+- NIR Spec: Near Infrared Spectograph
+- Micro-shutter Control Electronics for Near Infrared Spectograph
+- FGS: Fine Guidance System
+- Compressor Assembly for Cryogenic Cooling
+- Cooling Lines
+- Radiator Heat Switches
+- Control Heaters
+- Command and Data Handling
+
+- Propulsion Subsystem
+- Thrusters
+
+
+

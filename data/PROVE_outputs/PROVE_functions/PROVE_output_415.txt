@@ -1,0 +1,36 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Achieve a minimum swath width of 80km at nadir for scientific images
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) of 300m at nadir
+- Provide narrow-angle VIS images with a SSD of 50m at nadir
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation of the target to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month of observation pass
+- Size onboard storage for at least one primary target image set
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Implement imaging, standby, safe modes, and other non-nominal modes as needed
+- Interface with the FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Capable of sending commands to and streaming images from the cameras
+- Determine spacecraft position and attitude at the moment of image capture
+- Monitor health of payload components, including the cameras and computer
+- Provide electrical connections for data interfaces between components
+- Store imaging data, position data, and health telemetry
+- Operate in different modes and switch between modes automatically
+- Operate within specified temperature ranges and environmental conditions
+- Qualify hardware to specified levels and durations
+- Ensure structural support for payload components
+- Maintain alignment of imager swaths
+- Fit all payload components within specified volume
+- Ensure all components can withstand expected temperature ranges

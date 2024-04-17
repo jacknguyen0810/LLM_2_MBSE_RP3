@@ -1,0 +1,20 @@
+- FLIR Tau2 IR camera
+- Basler acA640-100gm camera
+- Payload structure
+- Payload computer
+- Onboard storage system
+- Data downlink system
+- Power supply system with 12V, 5V, and 3V buses
+- Health monitoring sensors for payload components
+- Electrical connections for data interfaces between payload components
+- Harwin Gecko connector for power and data connections to the main satellite bus
+- Command and Data Handling (CDH) subsystem
+- Temperature and power consumption monitoring system for payload components
+- Automatic power cut system for cameras
+- Position and attitude determination system for spacecraft
+- Radiation protection system for CDH
+- Single Event Upset (SEU) and Single Event Latch-up (SEL) protection system
+- Random vibration frequency spectrum support structure
+- Sine sweep and sine burst withstand structure
+- Launch vehicle compatibility structure
+- Thermal protection for payload components

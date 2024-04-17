@@ -1,0 +1,29 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window in MIS-001 and MIS-003 to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to prioritize scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distances at nadir for IR (300m threshold, 90m goal) and VIS (50m threshold, 15m goal) images
+- Provide a minimum number of science images per observation pass (10 for primary/tertiary and 1 per target for secondary)
+- Ensure temporal resolution for primary target observations (16 days threshold, 5 days goal)
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation accuracy of target within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within specified timelines
+- Size onboard storage for imaging data sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass, power usage, and volume do not exceed specified limits
+- Implement specific modes of operation: imaging, standby, safe, and other modes as needed
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera for imaging operations
+- Monitor health of payload components, including temperature, power consumption, and health telemetry
+- Provide power distribution via 12V, 5V, and 3V buses for components
+- Interface with CubeSat bus for data exchange and command retrieval
+- Store imaging data, position data, and health telemetry as per requirements
+- Operate in different modes with automatic switching
+- Ensure environmental and thermal requirements are met for operation
+- Provide protection against single event upsets and latch-ups
+- Ensure structural integrity to support payload components and withstand specified vibrations and launch conditions
+- Ensure all payload components meet thermal operating and storage temperature requirements.

@@ -1,0 +1,7 @@
+- Communication Subsystem
+- High Gain antenna
+- Ka-band Travelling-wave tube amplifier
+- Ka-band modulator
+- S-band Transponders
+- Switches
+- Omni antenna

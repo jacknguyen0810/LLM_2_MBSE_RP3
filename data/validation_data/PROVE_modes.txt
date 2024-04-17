@@ -1,0 +1,5 @@
+- Pre-imaging mode
+- Imaging mode
+- Post-imaging mode
+- Transfer to bus mode
+- Safe mode

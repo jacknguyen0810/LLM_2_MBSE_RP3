@@ -1,0 +1,60 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Tau2 IR Camera
+- Basler acA640-100gm Camera
+- Harwin Gecko Connector
+- FLIR Tau2 IR Camera
+- Basler Camera
+- CubeSat Bus
+- Random Vibration Frequency Spectrum
+- Sine Sweep Test
+- Sine Burst Test
+- Payload Structure
+- Alignment Monitoring System
+- Imager Swaths Alignment
+- Payload Components
+- Temperature and Power Monitoring System
+- Health Monitoring Sensors
+- Electrical Connections
+- Data Interfaces
+- Power Monitoring System
+- Power Distribution System
+- Power Buses (12V, 5V, 3V)
+- Electrical Grounding System
+- Imaging Modes (AISP, MISP, SIP)
+- Imaging Sequences
+- Data Storage System
+- Position Data Storage
+- Health Telemetry Storage
+- Imaging Command Storage
+- Data Downlink Command Storage
+- Memory Management System
+- Power Management System
+- Thermal Management System
+- Operation Modes (Imaging, Standby, Safe)
+- Pointing Accuracy System
+- Geolocation System
+- Mission Modes
+- Observation Schedule
+- Observation Automation System
+- Viewing Angle Range System
+- Swath Width System
+- Spatial Sampling Distance (SSD) System
+- Temporal Resolution System
+- NedT Calibration System
+- Radiometric Calibration System
+- Data Downlink System
+- Onboard Storage System
+- Payload Mass Limitation System
+- Payload Power Limitation System
+- Payload Volume Limitation System
+- Structural Testing Levels
+- Structural Durations
+- Structural Endurance Levels
+- Structural Alignment System
+- Structural Volume Limitation
+- Thermal Rating System
+- Operating Temperature Range
+- Storage Temperature Range

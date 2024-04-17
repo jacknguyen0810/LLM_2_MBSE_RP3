@@ -1,0 +1,65 @@
+- IR and VIS imaging system
+- Secondary target IR imaging system
+- Tertiary target VIS imaging system
+- Distribution system for images
+- Observation scheduling system
+- Automated observation system
+- Minimum elevation angle monitoring system
+- Narrow-angle imaging system
+- Swath width control system
+- Imager field of view alignment system
+- Spatial sampling distance control system
+- Geolocation system
+- Pointing accuracy system
+- Data downlink system
+- Onboard storage system
+- Data transfer system
+- Payload mass monitoring system
+- Payload power monitoring system
+- Payload volume monitoring system
+- Imaging mode control system
+- System qualification monitoring system
+- Power distribution system
+- Health monitoring system
+- Temperature and power monitoring system
+- Power control system
+- Data interface system
+- Electrical grounding system
+- Software interface with IR camera
+- Command system for IR camera
+- Image streaming system for IR camera
+- Software interface with VIS camera
+- Command system for VIS camera
+- Image streaming system for VIS camera
+- Visual image streaming system
+- Position and attitude determination system
+- Position data accuracy system
+- Attitude data accuracy system
+- Health monitoring system
+- Bus interface system
+- Bus system tolerance monitoring
+- Harwin Gecko connector system
+- Command retrieval system
+- Data transfer system
+- Storage capacity system
+- Position data linking system
+- Telemetry storage system
+- Data prioritization system
+- Operational mode switching system
+- Imaging mode support system
+- Safe mode system
+- Standby mode system
+- Temperature range operation system
+- Cooling system
+- System reliability monitoring
+- Radiation exposure tolerance system
+- Single event protection system
+- Power consumption monitoring system
+- Structural support system
+- Vibration resistance system
+- Sine sweep resistance system
+- Sine burst resistance system
+- Launcher compatibility system
+- Imager swath alignment system
+- Payload volume support system
+- Thermal rating system

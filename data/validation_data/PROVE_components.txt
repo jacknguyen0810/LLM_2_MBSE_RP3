@@ -1,0 +1,5 @@
+- Basler Visual camera
+- Tau Infrared camera
+- Enhanced Industrial On board computer
+- Power Supply
+- Bus On-board computer

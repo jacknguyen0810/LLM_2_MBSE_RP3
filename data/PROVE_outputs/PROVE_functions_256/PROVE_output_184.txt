@@ -1,0 +1,25 @@
+- Provide multiple IR and VIS images of primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of tertiary target during a single tertiary observation pass
+- Distribute images over observation window for range of viewing angles
+- Perform primary target observations for at least 16 days, with a goal of 5 days
+- Perform automated observations based on pre-determined schedule with ability to uplink priority scenarios
+- Maintain minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views to within 12 degrees
+- Geolocate target to within one spatial sampling distance over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within 1 month threshold, with a goal of 7 days
+- Store at least one primary target image set with a goal of 10 sets onboard
+- Transfer data to bus for downlink or additional storage
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Stream at least 10 images per primary observation pass from each camera
+- Determine spacecraft position and attitude at image capture moment
+- Monitor health of payload components, temperature, and power consumption
+- Switch power to cameras based on payload computer or autonomous health monitoring
+- Accommodate different imaging modes and sequences for visual and IR cameras
+- Operate in temperature range of -30 to +50 degrees C under vacuum conditions
+- Support payload components in random vibration frequency spectrum
+- Withstand specified structural test levels and durations
+- Fit within 200x110x100mm volume
+- Ensure all components meet thermal operating and storage temperature requirements

@@ -1,0 +1,27 @@
+- Spacecraft Element: Provides the structural, power, thermal, and data handling infrastructure for the observatory.
+  - Communication Subsystem: Ensures continuous two-way communication with the Ground Segment.
+  - Electrical Power Subsystem: Supplies and manages power distribution to all observatory components.
+  - Structural and Mechanical Subsystem: Provides the physical integrity and mechanical support for observatory components.
+  - Thermal Subsystem: Manages the thermal environment to maintain component temperatures within operational limits.
+- Optical Telescope Element (OTE): Captures and focuses celestial light.
+  - Primary Mirror: Large, segmented mirror that collects light from celestial objects.
+  - Secondary Mirror: Reflects light from the primary mirror to the instruments.
+  - Tertiary Mirrors: Further direct and refine the light path for optimal instrument performance.
+  - Fine Steering Mirror: Corrects for minute pointing errors to stabilize the image.
+- Integrated Science Instrument Module (ISIM): Houses the scientific instruments for data collection.
+  - Near-Infrared Camera (NIRCam): Captures high-resolution images in the near-infrared spectrum.
+  - Near-Infrared Spectrograph (NIRSpec): Provides spectroscopic analysis across a wide range of wavelengths.
+  - Mid-Infrared Instrument (MIRI): Observes the universe in the mid-infrared spectrum for both imaging and spectroscopy.
+  - Fine Guidance Sensor (FGS): Ensures the telescope's precise pointing by locking onto guide stars.
+- Command and Data Handling Subsystem: Manages the collection, storage, and downlink of scientific data.
+  - On-Board Storage: Stores scientific and engineering data for later downlink to Earth.
+  - Data Compression: Reduces the size of the data for efficient storage and transmission.
+  - Event Logs: Records the status and events related to observatory subsystems for monitoring and troubleshooting.
+- Pointing and Tracking Subsystem: Controls the observatory's orientation and tracking of celestial targets.
+  - Guide Star Acquisition: Identifies and locks onto guide stars for precise pointing and tracking.
+  - Fine Guidance Control: Maintains the observatory's focus on the target with high precision.
+  - Slew Maneuvering: Executes movements to reposition the observatory for observing different targets.
+- Observatory Software: Governs the operation and interaction of all observatory subsystems.
+  - Flight Software: Operates the spacecraft, managing tasks from basic system checks to complex scientific observations.
+  - Wavefront Sensing and Control Software: Analyzes and corrects optical performance in real-time to ensure optimal image quality.
+  - Autonomous Operation Software: Enables the observatory to perform scientific observations and routine operations without immediate ground intervention.

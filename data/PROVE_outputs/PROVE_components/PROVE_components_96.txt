@@ -1,0 +1,42 @@
+- IR and VIS Imaging Subsystem
+- IR Imaging of Secondary Targets
+- VIS Imaging of Tertiary Targets
+- Distribution of Images over Observation Window
+- Lifetime Observation for Primary Target
+- Automated Observation Scheduling
+- Minimum Elevation Angle Requirement
+- Narrow-Angle IR and VIS Imaging
+- Minimum Swath Width for Scientific Images
+- Imager Field of View Alignment
+- Spatial Sampling Distance for IR Images
+- Spatial Sampling Distance for VIS Images
+- Science Image Requirements
+- Temporal Resolution for Primary Target Observations
+- NedT Requirement for IR Camera
+- Uncooled IR Camera
+- Radiometric Calibration of IR Camera
+- Geolocation Accuracy Requirement
+- Pointing Accuracy Requirement
+- Data Downlink Timeframe
+- Onboard Storage Capacity
+- Data Transfer to the Bus
+- Payload Mass Limit
+- Payload Power Limit
+- Payload Volume Limit
+- Mission Operation Modes
+- Hardware Qualification Standards
+- Electronics Subsystem Power Provision
+- Electronics Subsystem Health Monitoring
+- Electronics Subsystem Data Interfaces
+- CDH Subsystem Interface with IR Camera
+- CDH Subsystem Interface with VIS Camera
+- CDH Subsystem Interface with Bus
+- CDH Subsystem Memory Requirements
+- CDH Subsystem Operations Modes
+- CDH Subsystem Temperature Range
+- CDH Subsystem Environmental Tolerance
+- CDH Subsystem Power Consumption
+- Structural Support for Payload Components
+- Payload Structure Alignment Requirement
+- Payload Structure Volume Constraint
+- Thermal Rating for Payload Components

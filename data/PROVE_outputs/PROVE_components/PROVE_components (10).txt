@@ -1,0 +1,13 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Power Distribution System
+- Health Monitoring System
+- Data Interface System
+- Ground Station Interface
+- Onboard Storage System
+- Command and Data Handling (CDH) Subsystem
+- Electrical Power Subsystem
+- Structural Support System
+- Thermal Control System

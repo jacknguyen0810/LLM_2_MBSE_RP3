@@ -1,0 +1,40 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Electronics Subsystem
+- CDH Subsystem
+- FLIR Tau2 IR Camera
+- Basler acA640-100gm Camera
+- Harwin Gecko Connector
+- Payload Structure
+- Payload Components
+- Imager Field of Views
+- Payload Alignment
+- Payload Mass
+- Payload Power Usage
+- Payload Volume
+- Payload Health Monitoring System
+- Payload Data Interfaces
+- Imaging Mode
+- Standby Mode
+- Safe Mode
+- Electrical Connections
+- Power Monitoring System
+- Power Distribution System
+- Power Bus (12V, 5V, 3V)
+- Data Interfaces
+- Grounding System
+- Data Storage System
+- Imaging Data Storage
+- Position Data Storage
+- Health Telemetry Storage
+- Imaging Commands Storage
+- Data Downlink Commands Storage
+- Imaging Sequences
+- Imaging Modes
+- Temperature Monitoring System
+- Environmental Monitoring System
+- Power Consumption Monitoring System
+- Structural Support System
+- Thermal Protection System

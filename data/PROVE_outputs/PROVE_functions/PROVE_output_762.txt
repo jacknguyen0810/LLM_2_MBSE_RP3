@@ -1,0 +1,26 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on pre-determined schedule with ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Ensure minimum swath width of 80km at nadir for scientific images
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance of 300m (threshold) and 90m (goal) at nadir
+- Provide narrow-angle VIS images with spatial sampling distance of 50m (threshold) and 15m (goal) at nadir
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve temporal resolution of 16 days (minimum) and 5 days (goal) for primary target observations
+- Ensure NedT of IR camera is at least 0.5K (threshold) and 0.05K (goal)
+- Perform radiometric calibration of IR camera at least once per target, ideally before capture
+- Provide geolocation of target to within one spatial sampling distance over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within 1 month (threshold) and 7 days (goal) of observation pass
+- Size onboard storage for at least one primary target image set (MIS-012), with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Support different operational modes including imaging, standby, safe, and other TBD non-nominal modes
+- Qualify mission hardware to levels and durations specified in GSFC-STD-7000B

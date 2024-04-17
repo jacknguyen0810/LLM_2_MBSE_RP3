@@ -1,0 +1,6 @@
+- Pre Launch Phase (manufacture, assembly, testing, launch-vehicle integration, and launch preparation)
+- Launch Phase (the payload is launched into orbit)
+- Deployment and Trajectory Correction Phase (Observatory separates, deploy sunshield, OTE, smss, antennae, )
+- Cruise and Commissioning Phase (Align OTE, initialise and calibrate instruments, insert into L2 orbit, target Acquisition, )
+- Normal Science Operations Phase (perform science operations, transmit data to ground for processing)
+- Decommissioning Phase

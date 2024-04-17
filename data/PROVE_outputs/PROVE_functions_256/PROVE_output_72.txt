@@ -1,0 +1,29 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window in MIS-001 and MIS-003 to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distances at nadir of 300m for IR images and 50m for VIS images
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Ensure a temporal resolution for primary target observations
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation accuracy of within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within specified timeframes
+- Size onboard storage for imaging data based on mission requirements
+- Transfer data to the bus for downlink or storage
+- Ensure total payload mass, power usage, and volume are within specified limits
+- Qualify mission hardware to the specified standards
+- Provide power for system modes via different voltage buses
+- Monitor health of payload components, including cameras and computer
+- Interface with and provide electrical connections for data transfer between various payload components
+- Interface with specific cameras and the payload computer
+- Determine spacecraft position and attitude at the moment of image capture
+- Store imaging data, position data, and health telemetry as required
+- Accommodate different operational modes for the CDH subsystem
+- Operate within specified temperature and environmental conditions
+- Ensure structural requirements related to payload support and alignment are met
+- Ensure all payload components meet thermal requirements for expected temperature ranges.

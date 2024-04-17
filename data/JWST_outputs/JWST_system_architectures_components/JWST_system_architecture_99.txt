@@ -1,0 +1,62 @@
+**Spacecraft Subsystem**
+
+- The Spacecraft shall not exceed a wet mass of 6,159 kilograms.
+- Any launch vehicle performance enhancement or reduction shall be adjusted in the Observatory mass allocation.
+- The Spacecraft and OTE shall have a combined reliability goal of 0.920.
+- The Spacecraft shall be responsible for the health and safety of the Observatory.
+- The Observatory shall be autonomously single fault tolerant against all credible failures.
+- The design shall preclude propagation of part failures beyond the component containing the part.
+- Redundant functionality shall be cross-strapped, excluding primary power.
+- Safe modes shall be entered and reconfigured autonomously in response to anomalies.
+- Safe modes shall have a hierarchical impact on the mission timeline based on the anomaly's severity.
+- All safe modes shall conserve consumables.
+- The Observatory shall sustain an autonomous safe mode for 4 weeks without ground intervention.
+- Exiting safe modes shall require ground segment commands.
+- In Safe Haven mode, the Observatory shall retain and downlink recorded and real-time data.
+- The Observatory shall meet the interface requirements to the Launch Segment as defined in the DUA IRD.
+
+**Optical Telescope Element (OTE) Subsystem**
+
+- The unobscured primary mirror area shall be greater than or equal to 25 square meters.
+- The OTE shall not vignette the SI FOVs including all alignment tolerances.
+- The EOL area transmission product of the OTE shall meet specified values for wavelengths between 0.8 micrometers and 27 micrometers.
+- OTE optics, mounts, and baffles shall not obstruct focused light from reaching the science focal planes.
+- The OTE WFE shall be less than or equal to 131 nm RMS over the FOVs of NIRCam, NIRSpec, and MIRI.
+- The OTE WFE for the FGS shall be less than or equal to 150nm RMS.
+
+**Integrated Science Instrument Module (ISIM) Subsystem**
+
+- The ISIM mass allocation shall be 1,505 kilograms.
+- The ISIM average power allocation shall be 740 watts.
+- The SIs and guiders allocated FOVs shall meet specified minimum values.
+- The SIs and guiders FOVs shall be arranged in a non-overlapping fashion within the OTE FOV.
+- The Observatory shall provide imagery and spectroscopy with specified spectral resolutions over a wavelength range of 0.6 - 27 µm.
+- The ISIM shall contain a camera for wavefront sensing and perform pupil imaging.
+- Science data shall be compressed at least 2:1 losslessly on command.
+- The ISIM shall manage event-driven execution of the mission timeline.
+- SI operations shall be independent and not interfere with one another.
+- The FGS shall perform fine guidance independently of SI operations.
+- All science instruments and the guider shall meet image quality and spectral resolution requirements after OTE focus adjustment.
+- The ISIM shall continuously monitor SI subsystems for anomalies.
+- The ISIM shall enter a safe state without ground command upon detection of anomalies.
+- The ISIM shall use no more than 3,652 hours over 5 years for overhead activities.
+
+**Communication Subsystem**
+
+- The Observatory shall ensure continuous commanding availability for 90% of 4-Pi steradian coverage.
+- Continuous two-way communication with the Ground Segment shall be maintained from launch vehicle separation until Primary Mirror Phasing completion.
+- Telemetry shall be provided to the Ground Segment from launch vehicle payload fairing separation until upper stage separation.
+- The Observatory shall utilize the Deep Space Network for communication with the Ground Segment.
+- Commands shall be received via low data rate channels during initial deployment and emergencies.
+- RF link margins for all links shall be at least +3dB in all operating modes.
+- The Observatory shall downlink uncompressed recorded engineering data during normal operations contacts.
+- The onboard data processing system shall utilize CFDP for downlink of stored science data and engineering telemetry.
+- The Observatory shall be capable of downlinking 229 Gigabits of compressed science data during a normal operations contact.
+- Real-time data downlink shall utilize the CCSDS protocol.
+- The S-band link shall be used for ranging.
+- Command uplink shall utilize COP-1 and CFDP as specified in the JWST-IRCD-000696.
+- The command uplink frequency shall be S-Band.
+- Downlink data encoding shall be Reed-Solomon encoded, and include CCSDS randomization encoding for transmission to the ground.
+- The high rate downlink shall be Ka-Band with selectable rates of 7, 14, 28 Mbps.
+- In backup communication mode, the Spacecraft shall receive commands via S-Band at a minimum rate of 250 bps and transmit telemetry at a minimum rate of 200 bps during safe mode.
+- The Observatory shall transmit at least 99.5% of all real-time telemetry and recorded data to the Ground Segment.

@@ -1,0 +1,31 @@
+- Provide multiple IR and VIS images of a primary target during a single observation pass
+- Provide IR images of secondary targets during a single observation pass
+- Provide multiple VIS images of a tertiary target during a single observation pass
+- Distribute images over the observation window for various viewing angles
+- Perform observations based on a pre-determined schedule with the ability to prioritize scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain an alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distances at nadir for IR and VIS images
+- Provide a minimum number of science images per observation pass
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation accuracy within one spatial sampling distance over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a specified timeframe
+- Store image data onboard for a specified number of primary target image sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure payload mass, power usage, and volume do not exceed specified limits
+- Have operational modes including imaging, standby, and safe modes
+- Interface with the FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Stream images from the cameras per observation pass
+- Determine spacecraft position and attitude accurately
+- Monitor health of payload components and cameras
+- Store imaging data, position data, and health telemetry data
+- Prioritize data storage for overwriting when memory is full
+- Operate in various modes and switch between them as required
+- Operate within specified temperature ranges and environmental conditions
+- Be tolerant to radiation exposure and protect against single event upsets
+- Operate with specified power consumption levels
+- Support payload components structurally in various vibration scenarios
+- Maintain alignment of imager swaths and fit within specified volume requirements
+- Ensure all components can withstand expected temperature ranges

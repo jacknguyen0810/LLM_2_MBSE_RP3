@@ -1,0 +1,12 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Power Distribution System
+- Health Monitoring System
+- Data Interface System
+- Electrical Power System
+- Command and Data Handling (CDH) Subsystem
+- Flight Software
+- Structural Support System
+- Thermal Control System

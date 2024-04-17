@@ -1,0 +1,38 @@
+- **Observation Functionality**:
+  - Provide multiple IR and VIS images of a primary target during a single observation pass.
+  - Provide IR images of secondary targets during a single observation pass.
+  - Provide multiple VIS images of a tertiary target during a single observation pass.
+  - Distribute images over the observation window for varying viewing angles.
+  - Perform automated observations based on a pre-determined schedule with the ability to prioritize scenarios.
+  - Ensure a minimum elevation angle of 30 degrees for target observations.
+
+- **Imaging Specifications**:
+  - Provide narrow-angle IR and VIS images for science observations.
+  - Maintain alignment of imager field of views to within 12 degrees.
+  - Achieve spatial sampling distances at nadir for IR (300m threshold, 90m goal) and VIS (50m threshold, 15m goal) images.
+  - Provide a minimum number of science images per observation pass.
+
+- **Mission Timing and Data Handling**:
+  - Perform primary target observations for a specified lifetime with defined temporal resolutions.
+  - Downlink image data within specified timeframes.
+  - Ensure onboard storage capacity for image sets and transfer data to the bus for downlink or storage.
+
+- **Payload and System Limitations**:
+  - Maintain payload mass, power, and volume within specified limits.
+  - Include necessary modes for operational flexibility and system safety.
+  - Ensure hardware qualification to specified standards.
+
+- **Electrical System Functions**:
+  - Provide sufficient power for all system modes and components.
+  - Monitor health of payload components and cut power when necessary.
+  - Manage electrical connections for data interfaces and grounding.
+
+- **Software System Functions**:
+  - Interface with specific cameras for command and data handling.
+  - Monitor health of payload components and switch power accordingly.
+  - Manage imaging modes, storage, and operational sequences.
+
+- **Structural and Thermal Functions**:
+  - Support payload components structurally and ensure alignment of imager swaths.
+  - Fit within specified volume constraints and withstand environmental conditions.
+  - Ensure thermal ratings and operational parameters of payload components.

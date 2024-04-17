@@ -1,0 +1,21 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Power Distribution System
+- Health Monitoring System
+- Data Interface System
+- CDH Subsystem
+- Electrical Power Subsystem
+- Electrical Health Monitoring Subsystem
+- Electrical Interface Subsystem
+- Electrical Grounding System
+- CDH Software Interface with FLIR Tau2 IR Camera
+- CDH Software Interface with Basler acA640-100gm Camera
+- CDH Software Interface with CubeSat Bus
+- CDH Software Interface with Payload Computer
+- CDH Software Interface with Imaging and Telemetry Data
+- CDH Software Interface with Ground Station Commands
+- Structural Payload Components
+- Payload Structure
+- Thermal Control System

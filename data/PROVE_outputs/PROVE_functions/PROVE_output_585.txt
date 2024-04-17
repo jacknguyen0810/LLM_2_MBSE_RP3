@@ -1,0 +1,35 @@
+SYSTEM FUNCTIONS:
+
+- Provide multiple IR and VIS images of a primary target during a single observation pass
+- Provide IR images of secondary targets during a single observation pass
+- Provide multiple VIS images of a tertiary target during a single observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to prioritize scenarios
+- Ensure a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of the imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance at nadir of 300m (threshold)
+- Provide narrow-angle VIS images with spatial sampling distance at nadir of 50m (threshold)
+- Provide a minimum number of science images per observation pass for primary, secondary, and tertiary targets
+- Achieve a temporal resolution for primary target observations
+- Perform radiometric calibration of the IR camera before target capture
+- Provide geolocation accuracy of the target within one spatial sampling distance over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a specified timeframe
+- Size onboard storage for a specific number of primary target image sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure the total payload mass, power usage, and volume do not exceed specified limits
+- Have operational modes including imaging, standby, safe, and other TBD non-nominal modes
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera for commanding and streaming images
+- Determine spacecraft position and attitude at the moment of image capture
+- Monitor health of payload components, temperature, and power consumption
+- Provide electrical connections for data interfaces between components
+- Provide sufficient storage for imaging data and health telemetry
+- Operate in different imaging modes and automatically switch between modes
+- Operate in specified temperature ranges without active cooling techniques
+- Be tolerant to on-orbit radiation exposure and protect against single event upsets/latch-ups
+- Operate with a total power consumption within a specified limit
+- Support payload components in the random vibration frequency spectrum
+- Withstand specified structural test levels and durations
+- Maintain alignment of imager swaths and fit components within a specified volume
+- Ensure all payload components meet thermal requirements for expected temperature ranges.

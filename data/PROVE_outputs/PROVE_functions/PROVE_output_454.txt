@@ -1,0 +1,15 @@
+- The system shall provide multiple IR and VIS images of a given primary target during a single primary observation pass.
+- The system shall provide IR images of given secondary targets during a single secondary observation pass.
+- The system shall provide multiple VIS images of a given tertiary target during a single tertiary observation pass.
+- The images provided in primary and tertiary observation passes shall be distributed over the observation window, providing a range of viewing angles.
+- The system shall perform observations based on a pre-determined schedule of standard targets, with the ability to uplink priority observation scenarios.
+- Observations shall have a minimum elevation angle of 30 degrees.
+- The system shall provide narrow-angle IR and VIS images for science observations.
+- The minimum swath width for scientific images shall be 80km at nadir.
+- The payload structure shall maintain an alignment of the imager field of views to within 12 degrees.
+- The system shall provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m.
+- The system shall provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m.
+- The system shall provide a minimum of 10 science images, with a goal of 50, per primary or tertiary observation pass.
+- The system shall provide a minimum of 1 science image per target per secondary observation pass.
+- The temporal resolution for primary target observations shall be a minimum of 16 days, with a goal of 5 days.
+- The NedT of the IR camera shall be a minimum of 0.5K with a goal of 0.05 K.

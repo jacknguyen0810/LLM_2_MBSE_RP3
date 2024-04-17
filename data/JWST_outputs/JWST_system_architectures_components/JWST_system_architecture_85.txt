@@ -1,0 +1,26 @@
+- The JWST Observatory is composed of the Spacecraft, Optical Telescope Element (OTE), and the Integrated Science Instrument Module (ISIM).
+- The Observatory shall orbit the Second LaGrange Point (L2) of the Sun-Earth system.
+- The operational JWST System shall maintain the excursion of the orbit about L2 in the Z direction to less than or equal to 500,000 Km.
+- The operational JWST System shall maintain the excursion of the orbit about L2 in the Y direction to less than or equal to 800,000 Km.
+- The operational JWST System shall maintain the orbit about L2 such that the Observatory does not enter an eclipse.
+- After separation from the Launch Vehicle, the Observatory shall obtain its operational orbit about L2.
+- The science mission lifetime, after commissioning, shall be a minimum of 5 years.
+- The planned commissioning phase shall end no later than six months after launch.
+- The operational JWST system shall deliver to the S&OC a minimum of 92.5% of all real-time telemetry.
+- The operational JWST system shall archive a minimum of 97% of all data recorded on the Observatory.
+- The observatory system shall reach the sensitivity performance levels shown in the JWST Project Science Requirements Document.
+- The contamination control of all Observatory components during fabrication, assembly, integration, and test shall be in accordance with the JWST Observatory Contamination Control Plan.
+- The JWST System shall image the OTE primary mirror to establish the optical alignment of the OTE to the NIRCam when commanded.
+- During a normal operations contact, the Observatory shall be capable of downlinking, and the Ground Segment capable of receiving 229 Gigabits of science data, which was compressed from 458 Gigabits.
+- The operational JWST System shall have at least one two-way communication contact between the Observatory and Ground Segment in a 24-hour period.
+- The operational JWST System shall be in continuous two-way communication from separation from the upper stage of the launch vehicle until the completion of Observatory Primary Mirror Phasing activities.
+- The operational JWST System shall be in downlink communication from launch vehicle payload fairing separation until separation from the upper stage of the launch vehicle.
+- The Observatory and Ground Segment combined command bit error rate (BER) shall be less than 1E-7 after applying physical layer decoding, not including retransmission by higher layers.
+- The Observatory and Ground Segment combined telemetry BER for Ka-band and S-band downlink shall be less than 1E-7, after Reed-Solomon decoding corrections on the ground.
+- The Observatory Data Loss shall be no more than 0.1% due to bit errors from each Science Instrument to transmission at the output of the spacecraft communication system.
+- The JWST System shall perform image-based wavefront sensing and control to meet all image quality requirements.
+- The operational JWST System shall determine the a posteriori pointing knowledge for the SI FOVs to within 1 arcsec (1-sigma, radial) of their true positions in the celestial coordinate frame.
+- After commissioning, the JWST system shall provide at least 30,556 hours of prime exposure time on scientific targets over 5 years.
+- After calibration, the field distortion uncertainty within any SI and the guider shall not exceed 0.005 arcsec, 1 sigma per axis.
+- The operational JWST system shall utilize the Deep Space Network (DSN).
+- No single part failure shall cause total loss of a function, or prevent access to extant redundant functionality.

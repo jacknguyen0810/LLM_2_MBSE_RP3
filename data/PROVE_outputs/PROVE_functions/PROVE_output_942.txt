@@ -1,0 +1,38 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform primary target observation for a lifetime of 1 month (goal of 12 months)
+- Automate observations based on a pre-determined schedule with the ability for priority uplink
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Ensure a minimum swath width of 80km at nadir for scientific images
+- Maintain alignment of imager field of views to within 12 degrees
+- Provide IR images with spatial sampling distance (SSD) of 300m (goal of 90m) at nadir
+- Provide narrow-angle VIS images with SSD of 50m (goal of 15m) at nadir
+- Capture a minimum of 10 science images (goal of 50) per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve a temporal resolution of 16 days (goal of 5 days) for primary target observations
+- Ensure IR camera NedT of 0.5K (goal of 0.05 K) with uncooled camera
+- Perform radiometric calibration of the IR camera at least once per target capture
+- Provide geolocation of the target within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month (goal of 7 days) of observation pass
+- Size onboard storage for at least one primary target image set (goal of 10 sets)
+- Transfer data to the bus for downlink or additional storage
+- Limit total payload mass to 2.66kg, power usage to 14W, and volume to 2U
+- Include imaging, standby, safe, and other TBD non-nominal modes
+- Qualify mission hardware to GSFC-STD-7000B levels and durations
+- Provide sufficient power for all system modes via 12V, 5V, and 3V buses
+- Monitor health of payload components, including temperature and power consumption
+- Cut power to cameras triggered by computer or autonomously via health sensors
+- Provide electrical connections for data interfaces between components
+- Interface CDH subsystem with IR and VIS cameras for command and data handling
+- Determine spacecraft position and attitude at image capture moment with high accuracy
+- Monitor health of cameras, switch power automatically for safety
+- Interface CDH subsystem with CubeSat bus, retrieve and send data as needed
+- Store imaging data, position data, and health telemetry based on specified requirements
+- Operate in different modes, switch between imaging modes as required
+- Operate within specified temperature range and environmental conditions
+- Maintain structural integrity and alignment of payload components
+- Ensure all components are rated for expected temperature range and have specified operating/storage temperatures.

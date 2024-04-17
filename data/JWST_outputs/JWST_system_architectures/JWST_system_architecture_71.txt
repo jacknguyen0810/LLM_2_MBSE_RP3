@@ -1,0 +1,36 @@
+**Spacecraft Subsystem**
+
+- The Spacecraft shall be available to receive commands via the low data rate channels during initial deployment and in events requiring emergency communications.
+- The Spacecraft shall transmit telemetry via S-Band at a minimum rate of 200 bps during safe mode.
+- The Spacecraft shall receive commands via S-Band at a minimum rate of 250 bps.
+- The Spacecraft data storage capacity shall be at least 471 Gigabits of science and engineering data.
+- The Spacecraft shall simultaneously store onboard science and housekeeping data during data playback.
+- The Spacecraft shall be responsible for the health and safety of the Observatory.
+- The Observatory shall be autonomously single fault tolerant against all credible failures that may result in loss of the mission.
+- Redundant Observatory functionality shall be cross-strapped.
+- The Observatory shall enter safe modes and reconfigure its onboard systems in response to anomalies when configured for safe mode entry.
+- The Observatory shall exit safe modes via Ground Segment commands.
+- While in Safe Haven mode the Observatory shall retain recorded data while simultaneously down-linking the recorded data and real-time engineering data to support anomaly investigation and recovery to normal operations.
+- The Observatory shall meet the interface requirements to the Launch Segment defined in the Application to Use Ariane IRD.
+
+**Optical Telescope Element (OTE) Subsystem**
+
+- The unobscured primary mirror area shall be greater than or equal to 25 square meters.
+- The OTE shall not vignette the SI FOVs including all alignment tolerances.
+- The OTE WFE shall be less than or equal to 131 nm RMS over the field of views of NIRCam, NIRSpec, and MIRI.
+- The OTE WFE shall be less than or equal to 150nm RMS over the field of view of the FGS.
+
+**Integrated Science Instrument Module (ISIM) Subsystem**
+
+- The ISIM mass allocation shall be 1,505 kilograms.
+- The ISIM average power allocation shall be 740 watts.
+- The ISIM shall compress science data using at least a 2:1 lossless science data compression averaged over one day.
+- The ISIM shall bypass data compression on command.
+- The ISIM shall manage the event-driven execution of the planned mission timeline.
+- Excluding mechanical transients and the use of internal lamps, SI operations shall be independent of and not interfere with one another.
+- The FGS shall perform fine guidance independently and without interference to any SI operations.
+- All science instruments and the guider shall meet their respective image quality and spectral resolution requirements after the OTE has been adjusted to an optimal focus position.
+- SIs shall not require OTE adjustment for any mode of instrument operation.
+- The ISIM shall continuously monitor SI subsystems for anomalies.
+- The ISIM shall place the instruments into a safe state without ground command upon detection or notification of anomalies.
+- After commissioning, the ISIM shall use no more than 3,652 hours over 5 years for overhead activities which detract from prime exposure time on scientific targets.

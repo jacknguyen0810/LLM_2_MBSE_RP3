@@ -1,0 +1,33 @@
+- Capture multiple IR and VIS images of a primary target during a single observation pass
+- Capture IR images of secondary targets during a single observation pass
+- Capture multiple VIS images of a tertiary target during a single observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to prioritize scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance at nadir of 300m (threshold)
+- Provide narrow-angle VIS images with a spatial sampling distance at nadir of 50m (threshold)
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve a temporal resolution of at least 16 days for primary target observations
+- Perform radiometric calibration of the IR camera before target capture begins
+- Provide geolocation accuracy of within one spatial sampling distance over land
+- Achieve a pointing accuracy of 1 degree for imaging
+- Downlink image data within 1 month of observation pass
+- Size onboard storage for at least one primary target image set
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Provide different operational modes including imaging, standby, safe, and other non-nominal modes
+- Interface with the FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Monitor health of payload components including temperature and power consumption
+- Determine spacecraft position and attitude at the moment of image capture
+- Store imaging data, position data, and health telemetry as per requirements
+- Operate in different temperatures and environmental conditions
+- Provide sufficient power for all system modes and components
+- Interface with the CubeSat bus and other subsystems
+- Ensure structural integrity to withstand launch and operational conditions
+- Maintain alignment of imager swaths and fit within specified volume
+- Ensure all components are rated for expected temperature ranges and operating conditions

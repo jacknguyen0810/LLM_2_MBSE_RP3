@@ -1,0 +1,37 @@
+- Provide multiple IR and VIS images of a primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute IR and VIS images over the observation window for a range of viewing angles
+- Perform automated observations based on a pre-determined schedule with the ability to prioritize scenarios
+- Ensure minimum elevation angle for target observations is 30 degrees
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance (SSD) at nadir of 300m (threshold) with a goal of 90m
+- Provide narrow-angle VIS images with SSD at nadir of 50m (threshold) with a goal of 15m
+- Capture a minimum of 10 science images per primary or tertiary observation pass
+- Capture a minimum of 1 science image per target per secondary observation pass
+- Achieve a temporal resolution of 16 days for primary target observations with a goal of 5 days
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation of the target within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within 1 month threshold with a goal of 7 days
+- Size onboard storage for one primary target image set with a goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Maintain total payload mass below 2.66kg
+- Limit total payload power usage to 14W
+- Restrict total payload volume to 2U
+- Include imaging, standby, safe, and other TBD non-nominal operational modes
+- Qualify mission hardware to GSFC-STD-7000B levels and durations
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Stream at least 10 images from each camera per primary observation pass
+- Determine spacecraft position and attitude at image capture moment
+- Store imaging data, position data, and health telemetry as specified
+- Operate in different modes and switch between them as needed
+- Operate in temperature range of -30 to +50 degrees C under vacuum conditions
+- Ensure reliability under specified environmental conditions and radiation exposure
+- Incorporate protection against single event upsets and latch-ups
+- Support payload components in specified vibration frequency spectrum
+- Withstand specified mechanical stress and launcher deployer environments
+- Maintain alignment of imager swaths
+- Support payload components within specified volume
+- Ensure thermal ratings of all payload components for mission conditions.

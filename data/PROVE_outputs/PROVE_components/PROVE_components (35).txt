@@ -1,0 +1,20 @@
+- IR and VIS Imaging System
+- Automated Observation Scheduler
+- Image Distribution Mechanism
+- Payload Structure Alignment System
+- Narrow-Angle Imaging System
+- Geolocation System
+- Pointing Accuracy System
+- Radiometric Calibration System
+- Data Downlink System
+- Onboard Data Storage System
+- Power Distribution System
+- Health Monitoring System
+- Electrical Interface System
+- Command and Data Handling System
+- Imaging Modes Management System
+- Memory Management System
+- Operational Modes Control System
+- Temperature Management System
+- Environmental Protection System
+- Structural Support System

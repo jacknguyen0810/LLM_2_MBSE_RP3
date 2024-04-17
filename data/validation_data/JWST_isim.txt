@@ -1,0 +1,15 @@
+- Integrated Science Instrument Module (ISIM)
+- Near Infrared Camera (NIRCam)
+- MIRI: Mid Infrared Instrument
+- Cryogenic Temperature Sensors for Mid Infrared Instrument
+- Cryogenic Cooling Environment for Mid Infrared Instrument
+- Focal Plane Electronics
+- Instrument Control Electronics
+- NIR Spec: Near Infrared Spectograph
+- Micro-shutter Control Electronics for Near Infrared Spectograph
+- FGS: Fine Guidance System
+- Compressor Assembly for Cryogenic Cooling
+- Cooling Lines
+- Radiator Heat Switches
+- Control Heaters
+- Command and Data Handling Unit

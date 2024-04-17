@@ -1,0 +1,10 @@
+- Power Cycle Tau (infrared camera)
+- Initialize infrared camera interface and configure camera for use
+- Capture images from infrared camera
+- Power Visual camera
+- Initialize visual camera interface and configure camera for use
+- Capture images from visual camera
+- Collect telemetry from current sensors and temperature sensors
+- Enter safe mode
+- Write payload image data to SD card
+- Write telemetry data to SD card

@@ -1,0 +1,45 @@
+- IR and VIS imaging system
+- Secondary target imaging system
+- Tertiary target imaging system
+- Image distribution system
+- Observation scheduling system
+- Automated observation system
+- Minimum elevation angle control system
+- Narrow-angle imaging system
+- Scientific imaging system
+- Imager field of view alignment system
+- IR spatial sampling distance system
+- VIS spatial sampling distance system
+- Science image capture system
+- Geolocation system
+- Pointing accuracy system
+- Image data downlink system
+- Onboard storage system
+- Data transfer system
+- Payload mass management system
+- Payload power management system
+- Payload volume management system
+- Mission mode control system
+- Hardware qualification system
+- Power provision system
+- Power distribution system
+- Health monitoring system
+- Temperature and power monitoring system
+- Power control system
+- Data interface system
+- Grounding system
+- Command and Data Handling (CDH) system
+- Camera interfacing system
+- Position and attitude determination system
+- Health monitoring and power control system
+- Bus interface system
+- Memory storage system
+- Operational mode control system
+- Temperature operating range system
+- Environmental tolerance system
+- Power consumption system
+- Structural support system
+- Vibration and shock resistance system
+- Imager swath alignment system
+- Volume management system
+- Thermal rating system

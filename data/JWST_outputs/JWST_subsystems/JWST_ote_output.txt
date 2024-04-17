@@ -1,0 +1,5 @@
+- Optical Telescope Element (OTE)
+- Primary Mirror: Segmented primary mirror assembly
+- Primary Mirror: Actuators for mirror segment alignment
+- Secondary Mirror Deployable secondary mirror
+- Fine steering mirror for image stabilization

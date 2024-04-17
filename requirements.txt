@@ -1,0 +1,12 @@
+contractions
+numpy
+matplotlib
+pandas
+scipy
+nltk
+black
+flake8
+gensim
+unittest
+spacy
+sentence-transformers

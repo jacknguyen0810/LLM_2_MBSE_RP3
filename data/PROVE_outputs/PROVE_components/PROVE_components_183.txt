@@ -1,0 +1,37 @@
+- IR Camera
+- VIS Camera
+- Payload Computer
+- CubeSat Bus
+- Electronics Subsystem
+- CDH Subsystem
+- FLIR Tau2 IR Camera
+- Basler acA640-100gm Camera
+- Harwin Gecko Connector
+- CubeSat Bus Interface
+- Payload Health Monitoring System
+- Payload Power Management System
+- Electrical Connections for Data Interfaces
+- Power Distribution System
+- Health Monitoring Sensors
+- Imaging Mode
+- Standby Mode
+- Safe Mode
+- Automatic Imaging Sequence Pass (AISP)
+- Manual Imaging Sequence Pass (MISP)
+- Single Image Pass (SIP)
+- Structural Support System
+- Payload Structure
+- Payload Components
+- Imager Field of Views Alignment
+- Payload Volume Constraints
+- Payload Mass Constraints
+- Payload Power Usage Constraints
+- Imaging Data Storage
+- Position Data Storage
+- Health Telemetry Storage
+- Data Downlink System
+- Imaging Sequences Management
+- Temperature Range Operation
+- Radiation Exposure Tolerance
+- Protection against SEUs and SELs
+- Power Consumption Management

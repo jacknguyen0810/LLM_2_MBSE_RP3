@@ -1,0 +1,14 @@
+- Mission Control Subsystem
+- Observation Scheduling Subsystem
+- Imaging Subsystem
+- Payload Structure Subsystem
+- Electrical Power Subsystem
+- Health Monitoring Subsystem
+- Data Interface Subsystem
+- Software Interface Subsystem
+- Command and Data Handling Subsystem
+- Ground Navigation and Control Subsystem
+- Memory Storage Subsystem
+- Operational Modes Subsystem
+- Temperature Control Subsystem
+- Environmental Protection Subsystem

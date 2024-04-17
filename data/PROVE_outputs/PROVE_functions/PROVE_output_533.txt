@@ -1,0 +1,35 @@
+- Provide IR and VIS images of primary target during a single primary observation pass
+- Provide IR images of secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a tertiary target during a single tertiary observation pass
+- Distribute images over observation window for different viewing angles
+- Perform observations based on predetermined schedule with ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain imager field of views alignment within 12 degrees
+- Provide IR images with spatial sampling distance (SSD) of 300m at nadir
+- Provide narrow-angle VIS images with SSD of 50m at nadir
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Maintain temporal resolution for primary target observations
+- Perform radiometric calibration of IR camera at least once per target
+- Provide geolocation of target to within one SSD over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within specific timeframes
+- Size onboard storage for imaging data sets
+- Transfer data to bus for downlink or additional storage
+- Ensure total payload mass, power usage, and volume are within specified limits
+- Implement standby, safe, and other required operational modes
+- Interface with various payload components for data connections
+- Monitor health of payload components and cut power if necessary
+- Interface with specific cameras and payload computer for imaging operations
+- Determine spacecraft position and attitude at image capture moment
+- Store imaging data, position data, and health telemetry effectively
+- Operate in different modes and switch between them as needed
+- Ensure operation within specified temperature range under vacuum conditions
+- Be tolerant to on-orbit radiation exposure and single event effects
+- Operate with total power consumption below specified limit
+- Support payload components structurally in various vibration scenarios
+- Withstand specified launch environment levels
+- Maintain alignment of imager swaths within defined parameters
+- Fit entire payload within specified volume constraints
+- Ensure all components can withstand expected temperature ranges

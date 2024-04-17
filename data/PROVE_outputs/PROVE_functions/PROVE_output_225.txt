@@ -1,0 +1,31 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Ensure a minimum swath width of 80km at nadir for scientific images
+- Maintain alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distances at nadir for IR (300m threshold, 90m goal) and VIS (50m threshold, 15m goal) images
+- Provide a minimum number of science images per observation pass for primary/tertiary (10 threshold, 50 goal) and secondary (1 minimum)
+- Perform radiometric calibration of the IR camera at least once per target capture
+- Provide geolocation accuracy of within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a specified timeframe (1 month threshold, 7 days goal)
+- Size onboard storage for a minimum of one primary target image set (MIS-012, 10 sets goal)
+- Transfer data to the bus for downlink or additional storage
+- Limit total payload mass to 2.66kg, power usage to 14W, and volume to 2U
+- Ensure the mission operates in imaging, standby, safe, and other non-nominal modes as needed
+- Qualify hardware to GSFC-STD-7000B levels and durations
+- Provide sufficient power for all system modes via 12V, 5V, and 3V buses
+- Monitor health of payload components including temperature and power consumption
+- Cut power to cameras as needed, triggered by the computer or autonomously
+- Provide electrical connections for data interfaces between components
+- Interface with specific cameras for commanding and streaming images
+- Determine spacecraft position and attitude at image capture moment with specified accuracies
+- Provide storage for imaging data, position data, and health telemetry
+- Operate in various modes with automatic switching and safe standby capabilities
+- Operate within specified temperature ranges and environmental conditions
+- Meet structural requirements for payload support and fit within specified volume
+- Ensure thermal ratings of all components meet mission temperature requirements

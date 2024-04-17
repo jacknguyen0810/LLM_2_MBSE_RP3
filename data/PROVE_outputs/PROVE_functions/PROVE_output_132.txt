@@ -1,0 +1,34 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for scientific observations
+- Maintain imager field of views alignment within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m
+- Provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m
+- Provide a minimum of 10 science images, with a goal of 50, per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Perform radiometric calibration of the IR camera at least once per target, ideally before target capture begins
+- Provide geolocation of the target to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within a threshold of 1 month, with a goal of 7 days
+- Size onboard storage for at least one primary target image set, with a goal of 10 primary target image sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Provide modes for imaging, standby, safe, and other non-nominal modes as needed
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera for imaging
+- Determine spacecraft position and attitude at the moment of image capture with accuracy requirements
+- Monitor health of payload components, including cameras and computer
+- Provide electrical connections to support data interfaces between payload components, cameras, and bus
+- Store imaging data, position data, and health telemetry for specified durations
+- Operate in different modes and imaging sequences as required
+- Operate within specified temperature ranges and environmental conditions
+- Be tolerant of radiation exposure and incorporate protection against single event upsets
+- Interface with the CubeSat bus and CDH subsystem
+- Prioritize data storage and retrieval based on specific criteria
+- Ensure structural integrity to withstand vibration, launch loads, and alignment requirements
+- Ensure thermal ratings and operating/storage temperature limits for all payload components.

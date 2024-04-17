@@ -1,0 +1,5 @@
+- Communication System
+- High-gain antenna for communication with Earth
+- Low-gain antennas for emergency communication
+- Transponders for data transmission and reception
+- Deep Space Network compatibility for ground communication

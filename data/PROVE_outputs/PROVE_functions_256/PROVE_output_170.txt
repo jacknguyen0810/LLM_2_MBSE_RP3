@@ -1,0 +1,27 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window to provide a range of viewing angles
+- Perform observations based on a pre-determined schedule with the ability to uplink priority scenarios
+- Ensure minimum elevation angle for target observations is 30 degrees
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide specific spatial sampling distances for IR and VIS images
+- Provide a minimum number of science images per observation pass
+- Perform radiometric calibration of IR camera before target capture
+- Provide accurate geolocation of the target
+- Achieve specific pointing accuracy
+- Downlink image data within specified timeframes
+- Size onboard storage for imaging data
+- Transfer data to the bus for downlink or storage
+- Ensure total payload mass, power usage, and volume within specified limits
+- Support different operational modes including imaging, standby, and safe modes
+- Interface with various payload components for power, data, and health monitoring
+- Store imaging data, position data, and health telemetry
+- Prioritize data storage and overwrite mechanisms
+- Operate in different imaging modes with automatic switching
+- Operate within specified temperature ranges and environmental conditions
+- Be tolerant of on-orbit radiation exposure and single event upsets
+- Maintain structural integrity to support payload components
+- Ensure alignment of imager swaths and fit within specified volume
+- Ensure all payload components meet thermal requirements for operation and storage temperatures.

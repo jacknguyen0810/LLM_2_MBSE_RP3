@@ -1,0 +1,61 @@
+**Spacecraft Subsystem**
+
+- The Spacecraft shall not exceed a wet mass of 6,159 kilograms.
+- Any launch vehicle performance enhancement or reduction shall be adjusted in the Observatory mass allocation.
+- The Spacecraft and OTE shall have a combined reliability goal of 0.920.
+- The Spacecraft shall be responsible for the health and safety of the Observatory.
+- The Observatory shall be autonomously single fault tolerant against all credible failures.
+- The design shall preclude propagation of part failures beyond the component containing the part.
+- Redundant functionality shall be cross-strapped, excluding primary power.
+- Safe modes shall be hierarchical and designed to conserve consumables.
+- The Observatory shall sustain an autonomous safe mode for 4 weeks without Ground Segment intervention.
+- Safe modes shall be exited via Ground Segment commands.
+- In Safe Haven mode, the Observatory shall retain and down-link recorded data and real-time engineering data.
+- The Observatory shall meet the interface requirements to the Launch Segment as defined in the DUA IRD.
+
+**Communication Subsystem**
+
+- Commanding shall be available continuously for 90% of 4-Pi steradian coverage.
+- Continuous two-way communication with the Ground Segment shall be maintained from separation until Primary Mirror Phasing completion.
+- Telemetry shall be provided to the Ground Segment from launch vehicle payload fairing separation until upper stage separation.
+- The Deep Space Network shall be utilized for communication with the Ground Segment.
+- Commands shall be received via low data rate channels during initial deployment and emergencies.
+- RF link margins shall be at least +3dB in all modes, including equipment tolerance variation.
+- Uncompressed recorded engineering data shall be downlinked during normal operations contacts.
+- Stored data downlink shall utilize the CCSDS File Data Protocol.
+- 229 Gigabits of compressed science data shall be downlinkable during a normal operations contact.
+- Real-time data downlink shall utilize the CCSDS protocol.
+- The S-band link shall be used for ranging.
+- Command uplink shall utilize COP-1 and CFDP as specified in the JWST-IRCD-000696.
+- The command uplink frequency shall be S-Band.
+- Command uplink rates shall include 250 bps, 2 Kbps, and 16 Kbps options.
+- Downlink data shall be Reed-Solomon encoded and include CCSDS randomization encoding.
+- The low rate downlink shall be S-Band, and the high rate downlink shall be Ka-Band.
+- High rate downlink data rates shall include 7, 14, 28 Mbps options.
+- In backup communication mode, commanding shall be at a minimum of 250 bps and telemetry at 200 bps during safe mode.
+- A minimum of 99.5% of all real-time and recorded data shall be transmitted to the Ground Segment.
+
+**Electrical Power Subsystem**
+
+- Conditioned power shall be provided to the Observatory during all mission phases.
+- Power shall be distributed at 28 V +7/-6 at interface connectors.
+- Circuit protection devices shall protect primary power cable wiring harnesses.
+- All primary power returns shall be via hardwires to the EPS single prime power ground point.
+
+**Structural and Mechanical**
+
+- Observatory mechanisms shall have functional redundancy or be designed to meet JWST Mechanisms Control Requirements.
+
+**Thermal Subsystem**
+
+- The thermal control system shall regulate temperatures within safe and operational limits for all mission phases.
+- The architecture shall allow for passive cooling of ISIM-related components to their safe and operational limits.
+- NIR Science Detectors shall be passively cooled to less than or equal to 37K during commissioning and until the end of the science mission lifetime.
+
+**Propellant Lifetime**
+
+- Propellant shall be sized for 10 years of operation after launch.
+
+**Launch Vehicle Interface**
+
+- The JWST Observatory shall comply with the interface requirements to the Launch Segment as defined in the DUA IRD.

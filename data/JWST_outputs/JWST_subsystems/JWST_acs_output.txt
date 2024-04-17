@@ -1,0 +1,5 @@
+- Attitude Control System (ACS)
+- Reaction wheels for fine pointing adjustments
+- Star trackers for absolute attitude determination
+- Gyroscopes for rate sensing
+- Sun sensors for coarse sun pointing

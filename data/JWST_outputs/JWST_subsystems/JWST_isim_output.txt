@@ -1,0 +1,20 @@
+- Integrated Science Instrument Module (ISIM)
+- Near Infrared Camera (NIRCam)
+- Near Infrared Camera (NIRCam): Detectors for near-infrared observations
+- Near Infrared Camera (NIRCam): Filters for wavelength selection
+- Near Infrared Camera (NIRCam): Coronagraph for exoplanet imaging
+- Near Infrared Spectrograph (NIRSpec)
+- Near Infrared Spectrograph (NIRSpec): Micro-shutter array for target selection
+- Near Infrared Spectrograph (NIRSpec): Gratings for spectral dispersion
+- Near Infrared Spectrograph (NIRSpec): Detectors for spectroscopic data acquisition
+- Mid-Infrared Instrument (MIRI)
+- Mid-Infrared Instrument (MIRI): Combined camera and spectrograph for mid-infrared
+- Mid-Infrared Instrument (MIRI): Cryocooler for detector cooling
+- Mid-Infrared Instrument (MIRI): Filters and coronagraph for diverse observations
+- Fine Guidance Sensor (FGS)
+- Fine Guidance Sensor (FGS): Sensors for guide star acquisition and tracking
+- Fine Guidance Sensor (FGS): Interface with spacecraft for pointing control
+- Data Handling
+- Onboard software for instrument control
+- Data compression algorithms for efficient storage
+- Interfaces for data transfer to spacecraft bus

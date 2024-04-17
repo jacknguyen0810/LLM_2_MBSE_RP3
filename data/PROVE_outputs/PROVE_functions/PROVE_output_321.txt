@@ -1,0 +1,34 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute IR and VIS images over the observation window to provide a range of viewing angles
+- Perform observations automatically based on a pre-determined schedule with the ability to uplink priority scenarios
+- Ensure a minimum elevation angle of 30 degrees for observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Achieve spatial sampling distances at nadir for IR (300m threshold, 90m goal) and VIS (50m threshold, 15m goal) images
+- Provide a minimum number of science images per observation pass for primary/tertiary (10 minimum, 50 goal) and secondary (1 minimum) targets
+- Ensure a temporal resolution for primary target observations (16 days minimum, 5 days goal)
+- Perform radiometric calibration of the IR camera at least once per target
+- Provide geolocation accuracy of the target to within one SSD over land
+- Achieve a pointing accuracy of 1 degree
+- Downlink image data within specified timeframes (1 month threshold, 7 days goal)
+- Size onboard storage for image sets per primary target observation pass (1 threshold, 10 goal)
+- Transfer data to the bus for downlink or additional storage
+- Maintain total payload mass below 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Limit total payload volume to 2U
+- Include operational modes such as imaging, standby, safe, and other non-nominal modes as required
+- Qualify mission hardware to specified levels and durations
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera for imaging
+- Monitor health of payload components, including temperature and power consumption
+- Provide electrical connections for data interfaces between components and the payload computer
+- Determine spacecraft position and attitude accurately during image capture
+- Store imaging data, position data, and health telemetry for specified durations
+- Accommodate various imaging modes and automatic mode switching
+- Operate within specified temperature ranges and environmental conditions
+- Be tolerant to radiation exposure and single event upsets/latch-ups
+- Manage power consumption within defined limits
+- Support payload components structurally under specified vibration and load conditions
+- Maintain alignment of imager swaths and fit within designated volume
+- Ensure all components meet temperature rating requirements.

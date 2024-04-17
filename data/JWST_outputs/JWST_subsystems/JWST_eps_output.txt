@@ -1,0 +1,4 @@
+- Electrical Power System
+- Solar arrays for power generation
+- Batteries for energy storage
+- Power distribution units

@@ -1,0 +1,37 @@
+- Provide multiple IR and VIS images of a given primary target during a single primary observation pass
+- Provide IR images of given secondary targets during a single secondary observation pass
+- Provide multiple VIS images of a given tertiary target during a single tertiary observation pass
+- Distribute images over the observation window for a range of viewing angles in MIS-001 and MIS-003
+- Perform observations based on a pre-determined schedule with the ability to prioritize uplink scenarios
+- Maintain a minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with a spatial sampling distance (SSD) of 300m at nadir, goal of 90m
+- Provide narrow-angle VIS images with a SSD of 50m at nadir, goal of 15m
+- Provide a minimum of 10 science images per primary or tertiary observation pass
+- Provide a minimum of 1 science image per target per secondary observation pass
+- Achieve a pointing accuracy of 1 degree
+- Perform radiometric calibration of the IR camera once per target, ideally before target capture
+- Provide geolocation of the target within one SSD over land
+- Downlink image data within 1 month threshold, goal of 7 days
+- Size onboard storage for at least one primary target image set, goal of 10 sets
+- Transfer data to the bus for downlink or additional storage
+- Ensure total payload mass does not exceed 2.66kg
+- Ensure total payload power usage does not exceed 14W
+- Ensure total payload volume does not exceed 2U
+- Provide modes for imaging, standby, safe, and other TBD non-nominal modes
+- Interface with FLIR Tau2 IR camera and Basler acA640-100gm camera
+- Monitor health of payload components including two cameras and computer
+- Provide electrical connections for data interfaces between components
+- Interface with CubeSat bus and own CDH subsystem
+- Retrieve commands from the main satellite bus and send imaging and telemetry data
+- Store imaging data, position data, and health telemetry
+- Prioritize data for storage overwrite
+- Operate in different modes and switch between modes automatically
+- Accommodate different imaging sequences for visual spectrum and IR cameras
+- Operate in a temperature range of -30 to +50 degrees C
+- Be tolerant of at least 7 months of on-orbit radiation exposure
+- Incorporate protection against single event upsets and latch-ups
+- Maintain alignment of imager swaths
+- Support payload components within specified volume
+- Ensure payload components withstand expected temperature range and have specified operating and storage temperature limits

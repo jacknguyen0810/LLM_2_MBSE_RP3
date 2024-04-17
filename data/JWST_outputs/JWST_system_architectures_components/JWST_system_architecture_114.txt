@@ -1,0 +1,41 @@
+**Spacecraft Subsystem**
+
+- The Spacecraft shall prevent permanent damage to itself due to exposure to the Sun during all phases of the mission.
+- The Spacecraft shall use stars to stabilize the image on the detectors.
+- The Observatory shall have greater than 95% probability of acquiring a guide star and maintaining pointing stability on any fixed target for any valid attitude within the FOR.
+- No single point failure in the Fine Guidance Sensor (FGS) shall reduce the probability of acquiring a guide star below 90%.
+- When commanded the Observatory shall track targets which exhibit any angular velocity in the range of (TBD) milli-arseconds per second over a total motion (TBD) arcsec with respect to the guide star.
+- When commanded, the Observatory shall point the OTE boresight to an accuracy of better than or equal to 7 arcsec (1-sigma, per axis) without using the FGS or SIs.
+- After entering fine guidance mode, the Observatory shall position a target within any SI FOV to an accuracy of 1 arcsec (1-sigma, radial) without using the SIs.
+- During a 24 hour period of fine guidance, the Observatory shall, when commanded, remove or repeat a previous offset within a SI FOV with a repeatability of 5 milli- arcseconds, 1 sigma, per axis, regardless of the location of the guide star.
+- The Observatory shall collect and deliver the science and engineering data to the Ground Segment required to determine the SI FOVs a posteriori pointing knowledge.
+- The Observatory shall control the field of view orientation to less than or equal to 7 arcsec RMS.
+- The Observatory shall be sized to point the same orientation of its FOV for 10 days for any available fixed target.
+- The Observatory shall complete a 90-degree slew in 60 minutes or less.
+- The Observatory shall complete a 20 arc-second offset in 60 seconds or less.
+- The Observatory shall complete a 280 arcsecond slew in 480 seconds or less.
+- When commanded, the Observatory shall offset a science instrument FOV by 0.0 to 0.5 arcsec with an accuracy of 0.005 arcsec, 1 sigma, per axis, regardless of the location of the guide star.
+- When commanded, the Observatory shall offset a SI FOV by 0.5 - 2.0 arcsec with an accuracy of 1 percent, 1 sigma, per axis, regardless of the location of the guide star.
+- When commanded, the Observatory shall offset a SI FOV by 2.0 - 20 arcsec with an accuracy of 0.02 arcsec, 1 sigma, per axis, regardless of the location of the guide star.
+- When commanded, the Observatory shall offset the MIRI FOV by 20 - 45 arcsec with an accuracy of 0.09 arcsec, 1 sigma, per axis in its focal plane, regardless of the location of the guide star.
+
+**Integrated Science Instrument Module (ISIM) Subsystem**
+
+- The ISIM mass allocation shall be 1,505 kilograms (kg).
+- The ISIM average power allocation shall be 740 watts.
+- The SIs and guiders allocated field of views shall be greater than or equal to the values shown in the table below.
+- The SIs and guiders FOVs shall be arranged in a non-overlapping fashion within the OTE FOV as defined in the ISIM to OTE and Spacecraft IRCD (JWST-IRCD- 000640).
+- The Observatory shall provide imagery with spectral resolution (R) in the range of 3 < R < 200 over a wavelength range of 0.6 - 27 µm.
+- The Observatory shall provide spectroscopy with spectral resolution (R) in the range of 50 < R < 5000 over a wavelength range of 0.6 - 27 µm.
+- The ISIM shall contain a camera that provides the imagery required to support wavefront sensing.
+- Pupil Imaging shall be performed in the wavefront sensor.
+- When commanded, the ISIM shall compress science data using at least a 2:1 lossless science data compression averaged over one day.
+- The ISIM shall bypass data compression on command.
+- The ISIM shall manage the event-driven execution of the planned mission timeline.
+- Excluding mechanical transients and the use of internal lamps, SI operations shall be independent of and not interfere with one another.
+- The FGS shall perform fine guidance independently and without interference to any SI operations.
+- All science instruments and the guider shall meet their respective image quality and spectral resolution requirements after the OTE has been adjusted to an optimal focus position.
+- SIs shall not require OTE adjustment for any mode of instrument operation.
+- The ISIM shall continuously monitor SI subsystems for anomalies.
+- The ISIM shall place the instruments into a safe state without ground command upon detection or notification of anomalies.
+- After commissioning, the ISIM shall use no more than 3,652 hours over 5 years for overhead activities which detract from prime exposure time on scientific targets.

@@ -1,0 +1,35 @@
+- Provide IR and VIS images of primary target during single primary observation pass
+- Provide IR images of secondary targets during single secondary observation pass
+- Provide VIS images of tertiary target during single tertiary observation pass
+- Distribute images over observation window for range of viewing angles
+- Perform observations based on pre-determined schedule with ability to uplink priority scenarios
+- Maintain minimum elevation angle of 30 degrees for target observations
+- Provide narrow-angle IR and VIS images for science observations
+- Maintain alignment of imager field of views within 12 degrees
+- Provide IR images with spatial sampling distance of 300m at nadir
+- Provide VIS images with spatial sampling distance of 50m at nadir
+- Provide minimum of 10 science images per primary or tertiary observation pass
+- Provide minimum of 1 science image per target per secondary observation pass
+- Maintain temporal resolution of primary target observations
+- Perform radiometric calibration of IR camera at least once per target capture
+- Provide geolocation of target within one spatial sampling distance over land
+- Achieve pointing accuracy of 1 degree
+- Downlink image data within specified timeframe
+- Size onboard storage for imaging data sets
+- Transfer data to bus for downlink or additional storage
+- Ensure total payload mass, power usage, and volume within specified limits
+- Include imaging, standby, safe, and other operational modes
+- Interface with various payload components for data connections
+- Monitor health of payload components, including temperature and power consumption
+- Interface with specific IR and VIS cameras for data transmission and commands
+- Determine spacecraft position and attitude at image capture moment
+- Store imaging data, position data, and health telemetry
+- Accommodate different imaging modes for IR and VIS cameras
+- Operate in specified temperature range without active cooling
+- Tolerate on-orbit radiation exposure and protect against SEUs and SELs
+- Operate with total power consumption below specified limit
+- Support payload components in random vibration frequency spectrum
+- Withstand specified test levels and durations for structural integrity
+- Maintain alignment of imager swaths
+- Fit within specified volume constraints
+- Ensure all payload components meet thermal requirements for temperature range, operating conditions, and storage.

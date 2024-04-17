@@ -1,0 +1,271 @@
+MISSION REQUIREMENTS
+MIS-001: The mission shall provide multiple IR and VIS images of a given primary target during a single primary observation pass.
+MIS-002: The mission shall provide IR images of given secondary targets during a single secondary observation pass.
+MIS-003: The mission shall provide multiple VIS images of a given tertiary target during a single tertiary observation pass.
+MIS-004: The images provided in MIS-001 and MIS-003 shall be distributed over the observation window, providing a range of viewing angles.
+MIS-005: The mission shall perform MIS-001 for a threshold lifetime of 1 month, with a goal of 12 months.
+MIS-006: Observations shall be automated based upon a pre-determined observation schedule of standard targets, with the ability to uplink priority observation scenarios.
+MIS-007: The minimum elevation angle for observations of targets shall be 30 degrees.
+MIS-008: The mission shall provide narrow-angle IR and VIS images for science observations.
+MIS-009: The minimum swath width for scientific images shall be 80km at nadir.
+MIS-011: The payload structure shall maintain an alignment of the imager field of views to within 12 degrees.
+MIS-012: The mission shall provide IR images with a spatial sampling distance (SSD) at nadir of 300m (threshold), with a goal of 90m.
+MIS-013: The mission shall provide narrow-angle VIS images with a SSD at nadir of 50m (threshold), with a goal of 15m.
+MIS-014: The mission shall provide a minimum of 10 science images, with a goal of 50, per primary or tertiary observation pass.
+MIS-015: The mission shall provide a minimum of 1 science image per target per secondary observation pass.
+MIS-018: The temporal resolution for primary target observations shall be a minimum of 16 days, with a goal of 5 days.
+MIS-019: The NedT of the IR camera shall be a minimum of 0.5K with a goal of 0.05 K.
+MIS-020: The IR camera shall be uncooled.
+MIS-021: Radiometric calibration of the IR camera shall be performed a minimum of once per target, ideally before the target capture begins
+MIS-022: The mission shall provide the geolocation of the target to within one SSD over land
+MIS-023: The mission shall achieve a pointing accuracy of 1 degree
+MIS-025: The image data from an observation pass shall be downlinked within a threshold of 1 month, with a goal of 7 days
+MIS-026: Onboard storage shall be sized for a threshold of one primary target image set (MIS-012), with a goal of 10 primary target image sets
+MIS-027: Data shall be transferred to the bus for downlink or for additional storage 
+MIS-028: The total payload mass shall not exceed 2.66kg
+MIS-029: The total payload power usage shall not exceed 14W
+MIS-030: The total payload volume shall not exceed 2U
+MIS-031: The mission shall have as a minimum the following modes: imaging, standby, and safe and other TBD non-nominal modes as needed
+MIS-032: The mission hardware shall be qualified to the levels and durations specified in GSFC-STD-7000B
+
+ELECTRICAL REQUIREMENTS:
+ELE-POW-00 
+
+The electronics subsystem shall provide sufficient power for every system mode 
+
+ELE-POW-01 
+
+The electronics subsystem shall provide sufficient power via a 12V bus for components operating on 12V 
+
+ELE-POW-02 
+
+The electronics subsystem shall provide sufficient power via a 5V bus for components operating on 5V 
+
+ELE-POW-03 
+
+The electronics subsystem shall provide sufficient power via a 3V bus for components operating on 3V 
+
+ELE-HMS-00 
+
+The electronics subsystem shall provide the capability to monitor the health of payload components 
+
+ELE-HMS-01 
+
+The electronics subsystem shall provide the capability to monitor the temperature and power consumption of payload components, specifically the two cameras and computer 
+
+ELE-HMS-02 
+
+The electronics subsystem shall be able to cut power to each camera, triggered by the payload computer 
+
+ELE-HMS-03 
+
+The electronics subsystem shall be able to cut power to each camera, triggered autonomously via health monitoring sensors 
+
+ELE-INT-00 
+
+The electronics subsystem must provide electrical connections to support the data interfaces between the various payload components 
+
+ELE-INT-01 
+
+The electronics subsystem must provide electrical connections to support the data interfaces between the IR camera and payload computer 
+
+ELE-INT-02 
+
+The electronics subsystem must provide electrical connections to support the data interfaces between the VIS camera and payload computer 
+
+ELE-INT-03 
+
+The electronics subsystem must provide electrical connections to support the data interfaces between the BUS and payload computer 
+
+ELE-INT-03 
+
+The electronics subsystem will provide a sufficient ground for the payload 
+
+SOFTWARE REQUIREMENTS:
+
+CDH-IRC-00
+
+The CDH subsystem must interface with the FLIR Tau2 IR camera
+
+CDH-IRC-01
+
+The CDH subsystem must be capable of sending commands to the Tau2
+
+CDH-IRC-02
+
+The CDH subsystem must be capable of streaming at least 10 images from the Tau2 per primary observation pass
+
+CDH-VSC-00
+
+The CDH subsystem must interface with the Basler acA640-100gm camera
+
+CDH-VSC-01
+
+The CDH subsystem must be capable of sending commands to the Basler camera
+
+CDH-VSC-02
+
+The CDH subsystem must be capable of streaming at least 10 images from the Basler camera per primary observation pass
+
+CDH-VSC-03 
+
+The CDH subsystem must be capable of streaming a set of visual images off the Basler camera as commanded during a secondary observation pass
+
+CDH-GNC-00
+
+The CDH subsystem shall be able to determine the position and attitude of the spacecraft at the moment of image capture
+
+CDH-GNC-01
+
+The spacecraft position data should be better than 0.2 x spatial sampling distance (SSD)
+
+CDH-GNC-02
+
+The spacecraft attitude data should be accurate to 0.1 deg
+
+CDH-HMS-00
+
+The CDH subsystem should be able to monitor the health of payload components
+
+CDH-HMS-01
+
+The CDH subsystem should be able to monitor the health of the camera modules, including temperature and power consumption
+
+CDH-HMS-02
+
+The CDH subsystem should be able to switch power to the camera modules, and should do so automatically if it detects they are operating unsafely
+
+CDH-BUS-00
+
+The CDH subsystem must interface with the CubeSat bus and its own CDH subsystem
+
+CDH-BUS-01
+
+The CDH subsystem must be tolerant to overrides from the satellite bus systems, and must fail gracefully if required
+
+CDH-BUS-02
+
+All power and data connections to the main satellite bus should be routed through a Harwin Gecko connector
+
+CDH-BUS-03
+
+The CDH subsystem must be able to retrieve commands from the main satellite bus when available
+
+CDH-BUS-04
+
+The CDH subsystem must be able to send imaging and telemetry data to the main satellite bus when requested
+
+CDH-MEM-00
+
+The CDH subsystem must have sufficient storage to store imaging data from at least one imaging pass (of 50 IR and 10 visual spectrum)
+
+CDH-MEM-01
+
+The CDH subsystem must be able to link and store the position data from CDH-GNC-00 to each image from the cameras
+
+CDH-MEM-02
+
+The CDH subsystem must be able to store health telemetry every 10 seconds for a minimum of 30 minutes of operation
+
+CDH-MEM-03
+
+The CDH subsystem must be able to store at least 5 imaging passes of imaging commands, along with 5 ground station passes of data downlink commands
+
+CDH-MEM-04
+
+If memory is full, the CDH should prioritise overwriting data which has already been downlinked, oldest first
+
+CDH-OPS-00
+
+The CDH subsystem must be capable of operation in different modes, with the automatic switching between modes when required
+
+CDH-OPS-01
+
+The CDH subsystem must be capable of operation in the following imaging modes: Automatic Imaging Sequence Pass (AISP), Manual Imaging Sequence Pass (MISP), Single Image Pass (SIP)
+
+CDH-OPS-02
+
+For the imaging modes, the CDH must accommodate different imaging sequences for the visual spectrum and IR cameras
+
+CDH-OPS-03
+
+The CDH subsystem must be have a safe mode which is triggered when faults cannot be automatically resolved
+
+CDH-OPS-04
+
+The CDH subsystem must be have a standby mode while awaiting commands from the main bus, in which the subsystem performs any required housekeeping tasks
+
+CDH-TEM-00
+
+The CDH subsystem must be capable of operation in a temperature range of -30 to +50 degrees C under vacuum conditions
+
+CDH-TEM-01
+
+The CDH subsystem shall not use active cooling techniques
+
+CDH-ENV-00
+
+The CDH must operate for at least 1 month with a chance of critical failure less than 5%
+
+CDH-ENV-01
+
+The CDH must be tolerant of at least 7 months of on-orbit radiation exposure
+
+CDH-ENV-02
+
+The CDH must incorporate protection against single event upsets (SEUs) and single event latch-ups (SELs)
+
+CDH-POW-00
+
+The CDH must operate with a total power consumption of less than 4W 
+
+STRUCTURAL REQUIREMENTS
+
+STC-LCH-00 
+
+The payload structure shall be able to support the payload components in the random vibration frequency spectrum defined by the test levels and durations in GSFC-STD-7000B
+
+STC-LCH-01 
+
+The payload structure shall be able to withstand the levels specified in table2.4-3 of GSFC-STD-7000B
+
+STC-LCH-02 
+
+The payload structure shall be able to withstand a sine sweep specified in 2.4.3.2.b of GSFC-STD-7000B
+
+STC-LCH-02 
+
+The payload structure shall be able to withstand a sine burst specified in Table 2.2-2 of GSFC-STD-7000B
+
+STC-LCH-03  
+
+Where GSFC-STD-7000B does not define test levels, these shall be identified as an envelope that includes the flight limit levels for the following launchers/CubeSat deployers: 
+• Vega Launcher 
+• Falcon 9 Launcher 
+• Ariane V Launcher 
+• ABL Launcher 
+• Skyrora XL Launcher 
+• ISIPOD CubeSat Deployer 
+• NanoRacks CubeSat Deployer 
+• Rocket labs satellite dispensers 
+• Small Spacecraft Mission Service VEGA-C 
+
+STC-AGN-00 
+
+The payload structure shall maintain an alignment of the imager swaths to TBD km. 
+
+STC-VOL-00 
+
+The structure shall support the payload components such that the whole payload fits within a 200X110X100mm volume 
+
+THERMAL REQUIREMENTS
+
+All payload components shall be rated to withstand the expected temperature range during the mission 
+
+All payload components shall have a maximum operating temperature at or above 37 degrees C
+
+All payload components shall have a minimum operating temperature at or below 9 degrees C
+
+All payload components shall have a maximum storage temperature at or above 37  degrees C
+
+All payload components shall have a minimum storage temperature at or below 9 degrees C
