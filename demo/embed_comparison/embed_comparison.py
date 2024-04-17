@@ -34,10 +34,10 @@ def main():
     simplified_dict = {"full": full_req, "simple": simple_req, "basic": basic_req}
 
     results = {
-        "Similarity to Complex": [],
-        "Similarity to Simple": [],
-        "Similarity to Basic": [],
-        "Average Similarity": [],
+        "Cosine Similarity to Complex": [],
+        "Cosine Similarity to Simple": [],
+        "Cosine Similarity to Basic": [],
+        "Average Cosine Similarity": [],
         "Run Time [s]": [],
     }
 
@@ -50,10 +50,10 @@ def main():
         run_time = end - start
         cosine_sim = util.cos_sim(embeddings_full, embeddings_simple)
         average = torch.mean(cosine_sim)
-        results["Similarity to Complex"].append(cosine_sim.cpu().detach().numpy()[0][0])
-        results["Similarity to Simple"].append(cosine_sim.cpu().detach().numpy()[0][1])
-        results["Similarity to Basic"].append(cosine_sim.cpu().detach().numpy()[0][2])
-        results["Average Similarity"].append(average.cpu().detach().numpy())
+        results["Cosine Similarity to Complex"].append(cosine_sim.cpu().detach().numpy()[0][0])
+        results["Cosine Similarity to Simple"].append(cosine_sim.cpu().detach().numpy()[0][1])
+        results["Cosine Similarity to Basic"].append(cosine_sim.cpu().detach().numpy()[0][2])
+        results["Average Cosine Similarity"].append(average.cpu().detach().numpy())
         results["Run Time [s]"].append(run_time)
 
     width = 0.15
@@ -73,12 +73,15 @@ def main():
         rounded = list(np.around(np.array(result), 2))
         offset = width * multiplier
         rects = ax.bar(x + offset, rounded, width, label=model_type)
-        ax.bar_label(rects, padding=3, fontsize=7)
+        ax.bar_label(rects, padding=3, fontsize=12)
         multiplier += 1
 
     # Add some text for labels, title and custom x-axis tick labels, etc.
     ax.set_title("Model Comparison Results")
-    ax.set_xticks(x + width, model_names)
+    ax.set_xticks(x + width, model_names, fontsize=12)
+    ax.set_xlabel('Model', fontsize=15)
+    ax.set_ylabel('Time [s]', fontsize=15)
+    ax.tick_params(axis='both', which='major', labelsize=15)
     ax.legend(loc="upper center", ncols=2)
 
     plt.show()
